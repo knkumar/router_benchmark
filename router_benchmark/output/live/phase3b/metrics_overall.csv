@@ -1,0 +1,3 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+NVIDIA AI Blueprint LLM Router (live),0.875,0.4616250075,0.5275714371428571,50223.34535399932,58327.70941780145,0.875,0.0,1.0,,1,True
+LLMRouter (live),0.625,0.00481093625,0.007697498,37588.99774750171,64266.00558514801,0.625,0.0,1.0,,1,True

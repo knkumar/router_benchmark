@@ -1,0 +1,17 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+LiteLLM Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00308597,26454.610379994847
+LiteLLM Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0038077300000000005,37812.775332000456
+LiteLLM Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00541751,48501.52521500422
+LiteLLM Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00467098,34907.90007299802
+LiteLLM Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00412274,34472.82448199985
+LiteLLM Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004851909999999999,41348.25055599504
+LiteLLM Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004789420000000001,41167.79115500685
+LiteLLM Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00460184,40843.73945700645
+Aurelio Semantic Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.207885,47187.4905040022
+Aurelio Semantic Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.120453,31156.459096993785
+Aurelio Semantic Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.229716,45649.60201398935
+Aurelio Semantic Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.257286,43339.107157997205
+Aurelio Semantic Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.253368,45947.551641002065
+Aurelio Semantic Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.36499499999999996,77048.58666400833
+Aurelio Semantic Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.325794,70533.04248899803
+Aurelio Semantic Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.30869100000000005,66036.05858099763

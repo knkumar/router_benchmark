@@ -1,0 +1,9 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+Aurelio Semantic Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14309,code_repair,0.3,0,mid-general,0.7,False,False,False,,0.009363,4924.069433007389
+Aurelio Semantic Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14995,code_repair,0.3,0,mid-general,0.7,False,False,False,,0.015186,13004.44182100182
+vLLM Semantic Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14309,code_repair,0.3,0,cheap-small,0.7,False,False,False,,0.0005673,2742.7593840038753
+vLLM Semantic Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14995,code_repair,0.3,0,cheap-small,0.7,False,False,False,,0.0010583500000000002,5474.866077995102
+NVIDIA AI Blueprint LLM Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14309,code_repair,0.3,0,strong-frontier,0.6,False,False,False,,0.01644,3909.4793460026267
+NVIDIA AI Blueprint LLM Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14995,code_repair,0.3,0,strong-frontier,0.6,False,False,False,,0.011170000000000001,4634.287559005315
+LLMRouter (live),SWE-bench Verified (live),swebench-astropy__astropy-14309,code_repair,0.3,0,cheap-small,0.6,False,False,False,,0.0007110500000000001,3236.035415007791
+LLMRouter (live),SWE-bench Verified (live),swebench-astropy__astropy-14995,code_repair,0.3,0,cheap-small,0.6,False,False,False,,0.0013246,7159.258055995451

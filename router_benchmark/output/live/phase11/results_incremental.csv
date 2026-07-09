@@ -1,0 +1,201 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+vLLM Semantic Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.41657500000000003,49091.68934900663,1810.757762985304
+vLLM Semantic Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.40726,55324.221176007995,2007.6519690046553
+vLLM Semantic Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,1,mid-general,0.7,False,False,True,False,0.228561,46943.86171302176,1294.5611840113997
+vLLM Semantic Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.254544,45817.43364498834,1337.4073190207127
+vLLM Semantic Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.296595,49928.4491110011,1533.9113539957907
+vLLM Semantic Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.653265,65701.37715002056,1838.1548670004122
+vLLM Semantic Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.600435,61183.76198800979,2084.5938439888414
+vLLM Semantic Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.6084299999999999,72581.36023199768,1670.8863759995438
+vLLM Semantic Router (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.610605,62900.60329501284,2390.0565689837094
+vLLM Semantic Router (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.31023,68767.9505069973,1511.5246740169823
+vLLM Semantic Router (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.183018,41086.22657100205,2553.5650980018545
+vLLM Semantic Router (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.0046575,51398.44337600516,2496.2246229988523
+vLLM Semantic Router (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.187389,44910.06756699062,1390.45213200734
+vLLM Semantic Router (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.191112,49927.97217599582,1676.8267980078235
+vLLM Semantic Router (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.216174,59187.29124599486,1801.2169899884611
+vLLM Semantic Router (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.313317,65080.13319800375,1431.0562429891434
+vLLM Semantic Router (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.291474,61087.94134602067,1205.1800720219035
+vLLM Semantic Router (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.133788,26377.33508698875,1248.33362098434
+vLLM Semantic Router (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.317673,57516.20595398708,1474.5582900068257
+vLLM Semantic Router (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.251232,56069.33534599375,1797.6282680174336
+vLLM Semantic Router (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,1,cheap-small,0.7,False,False,True,False,0.01217408,81084.46288298,1334.7245559853036
+vLLM Semantic Router (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.366831,69050.05975300446,1835.6121219985653
+vLLM Semantic Router (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.293883,59059.75791098899,4400.644303997979
+vLLM Semantic Router (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.6498120000000001,98062.19667100233,1636.593861010624
+vLLM Semantic Router (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,1,cheap-small,0.7,False,True,True,True,0.00473746,54087.60064802482,2251.0872120037675
+vLLM Semantic Router (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00412611,34121.766344993375,1021.5809720102698
+vLLM Semantic Router (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00317524,34337.11540198419,1021.4876520039979
+vLLM Semantic Router (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,1,cheap-small,0.7,False,False,True,False,0.00491139,35524.12857598392,1022.5412729778327
+vLLM Semantic Router (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.371466,62712.2430879972,2147.558983997442
+vLLM Semantic Router (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.0074093699999999,57709.23817099538,1312.804146000417
+vLLM Semantic Router (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.0078574999999999,66045.48808699474,1243.7463969981764
+vLLM Semantic Router (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.393225,66921.35642000358,2351.8937710032333
+vLLM Semantic Router (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.4714919999999999,77069.87434299663,1738.6928029882256
+vLLM Semantic Router (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.17619,40922.10662498837,1842.0521950174589
+vLLM Semantic Router (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,1,mid-general,0.7,False,False,True,False,0.148863,42958.33967899671,1533.0288709956221
+vLLM Semantic Router (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.0054301299999999,44944.19577502413,1030.3985160135198
+vLLM Semantic Router (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,1,mid-general,0.7,False,False,True,False,0.293301,66606.18588401121,1730.807271989761
+vLLM Semantic Router (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,1,strong-frontier,0.7,False,True,True,True,0.6082650000000001,70474.7775720025,2768.074207007885
+vLLM Semantic Router (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,1,mid-general,0.7,False,False,True,False,0.242706,46231.53077199822,1634.5509600068908
+vLLM Semantic Router (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.260583,67791.6078660055,1710.924888990121
+vLLM Semantic Router (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,1,cheap-small,0.7,False,True,True,True,0.00436129,42013.99034899077,1539.2699939839076
+vLLM Semantic Router (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.5680050000000001,60288.23003399884,5828.869797987863
+vLLM Semantic Router (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.6738500000000001,65267.725855024764,2251.6763060120866
+vLLM Semantic Router (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.551385,88843.69279901148,1698.9732239744626
+vLLM Semantic Router (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00307196,28617.11901301169,1059.8993379971944
+vLLM Semantic Router (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.241281,57900.2709040069,2235.4375880095176
+vLLM Semantic Router (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00538225,48934.24177801353,1341.9266130076721
+vLLM Semantic Router (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00452355,48190.515941998456,15973.306450003292
+vLLM Semantic Router (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.0045448,43068.06878600037,1232.2626980021596
+vLLM Semantic Router (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00387495,38049.48126300587,1120.1803339936305
+vLLM Semantic Router (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,1,strong-frontier,0.7,False,True,True,True,0.29124,47875.93354398268,5527.546230994631
+vLLM Semantic Router (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.2234249999999999,40604.36371798278,1580.269073980162
+vLLM Semantic Router (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00309203,32854.33106002165,1329.194039979484
+vLLM Semantic Router (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.204549,43899.33591100271,1700.644063996151
+vLLM Semantic Router (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,1,mid-general,0.7,False,False,True,False,0.299244,64463.37191297789,1776.628837978933
+vLLM Semantic Router (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.257931,68353.7804200023,1636.5192639932502
+vLLM Semantic Router (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,1,cheap-small,0.7,False,False,True,False,0.00518046,36327.5480849843,1022.2955229983199
+vLLM Semantic Router (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,1,mid-general,0.7,False,True,True,True,0.1141079999999999,31063.71213402599,1430.9075570199639
+vLLM Semantic Router (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.345375,66533.2756860007,1636.0252309823409
+vLLM Semantic Router (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.30936,56259.63353397674,2148.0013170221355
+vLLM Semantic Router (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,1,mid-general,0.7,False,True,True,True,0.137052,34565.414056996815,1698.025352001423
+vLLM Semantic Router (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.155805,36807.54495898145,1738.1375670083798
+vLLM Semantic Router (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.437335,56268.14590700087,2251.6241509874817
+vLLM Semantic Router (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,1,strong-frontier,0.7,False,True,True,True,0.8466400000000001,99781.39611199731,2409.322980995057
+vLLM Semantic Router (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,1,mid-general,0.7,False,True,True,True,0.207462,47684.97766199289,1587.3522250039969
+vLLM Semantic Router (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,1,mid-general,0.7,False,True,True,True,0.134694,30671.618319989648,1738.3703570230864
+vLLM Semantic Router (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,1,cheap-small,0.7,False,False,True,False,0.00357497,48359.207093017176,1022.3250890267082
+vLLM Semantic Router (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,1,cheap-small,0.7,False,True,True,True,0.00220163,24326.60735398531,1117.882810998708
+vLLM Semantic Router (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,1,cheap-small,0.7,False,False,True,False,0.00220636,24364.74711698247,1336.3267749955412
+vLLM Semantic Router (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,1,mid-general,0.7,False,True,True,True,0.1885679999999999,43586.98237399221,1490.3234109806363
+vLLM Semantic Router (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.00421892,38322.29649901274,963.5590529942419
+vLLM Semantic Router (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,1,strong-frontier,0.7,False,True,True,True,0.868425,85962.48535398627,2043.9842120104004
+vLLM Semantic Router (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,1,strong-frontier,0.7,False,True,True,True,0.8574400000000001,83025.45279200422,2303.4208549943287
+vLLM Semantic Router (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,1,mid-general,0.7,False,True,True,True,0.140718,28536.93691501394,2373.0424929817673
+vLLM Semantic Router (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,1,strong-frontier,0.7,False,False,True,False,0.79092,80346.13168399665,1540.7159139867872
+vLLM Semantic Router (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.0031637199999999,31741.87609902583,1564.249823015416
+vLLM Semantic Router (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,1,mid-general,0.7,False,True,True,True,0.33777,73888.13998701517,5631.084833003115
+vLLM Semantic Router (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,1,cheap-small,0.7,False,False,True,False,0.00353571,35991.96039297385,988.8903459941503
+vLLM Semantic Router (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,1,cheap-small,0.7,False,True,True,True,0.00635282,55258.77852001577,1980.907412013039
+vLLM Semantic Router (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,1,cheap-small,0.7,False,False,True,False,0.00687973,55321.96366999415,1735.2185680065304
+vLLM Semantic Router (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.0030208599999999,45613.8368640095,1020.5602080095559
+vLLM Semantic Router (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,1,cheap-small,0.7,False,True,True,True,0.00367317,32054.23655200866,1334.6576629846822
+vLLM Semantic Router (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.00493591,42704.07365600113,1023.8970959908329
+vLLM Semantic Router (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.00541343,43754.69110000995,1037.7725349972025
+vLLM Semantic Router (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.0044443,36700.921272014966,1306.831958994735
+vLLM Semantic Router (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.00658674,45200.114908016985,1021.9968010205775
+vLLM Semantic Router (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,1,cheap-small,0.7,False,True,True,True,0.00938889,68480.41250798269,854.6162350103259
+vLLM Semantic Router (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,1,strong-frontier,0.7,False,True,True,True,0.43493500000000007,62437.26114399033,2007.6158680021763
+vLLM Semantic Router (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.00471099,37634.22125400393,842.6344470062759
+vLLM Semantic Router (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.0042832799999999,35559.01829901268,757.2304150089622
+vLLM Semantic Router (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,1,cheap-small,0.7,False,True,True,True,0.0046370799999999,39966.004793997854,1082.0224999915808
+vLLM Semantic Router (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,1,mid-general,0.7,False,False,True,False,0.2877959999999999,66384.88570199115,1840.8591619809158
+vLLM Semantic Router (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,1,mid-general,0.7,False,True,True,True,0.202794,46128.840210003546,1634.765171998879
+vLLM Semantic Router (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,1,strong-frontier,0.7,False,True,True,True,0.47509999999999997,48788.67712098872,1334.5092959934846
+vLLM Semantic Router (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,1,strong-frontier,0.7,False,True,True,True,0.4766500000000001,45017.95963701443,2915.0751439738087
+vLLM Semantic Router (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,1,mid-general,0.7,False,True,True,True,0.289587,59442.93946499238,1993.1495659984648
+vLLM Semantic Router (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,1,mid-general,0.7,False,True,True,True,0.26508,59464.4612930133,2073.70174000971
+vLLM Semantic Router (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,1,mid-general,0.7,False,True,True,True,0.242151,47347.8681499837,1822.1958939975593
+vLLM Semantic Router (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,1,mid-general,0.7,False,True,True,True,0.291108,80578.67270099814,2089.3623960146215
+vLLM Semantic Router (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,1,cheap-small,0.7,False,False,True,False,0.00776334,52821.23316801153,1733.4758070064709
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.520965,60337.79246499762,1172.2509440151043
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.455615,54902.23336801864,668.8338489911985
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,1,cheap-small,0.6,False,False,True,False,0.00566922,44830.723616003525,902.020409994293
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.49225,50124.30214099004,919.6681100002024
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.569815,61774.47789598955,1085.2790669887327
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,1,cheap-small,0.6,False,False,True,False,0.00832244,59651.13571000984,781.0189409938175
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.6080099999999999,58805.302127002506,504.28853699122556
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.60641,59256.607651972445,993.4656330151483
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.5993,60754.61862201337,747.3322909791023
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.4910750000000001,50349.6042600018,887.061937013641
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.41069500000000003,42960.18453501165,847.3237819853239
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.415995,42887.108864000766,476.25064599560574
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.5198100000000001,59645.182059990475,1222.9084479913581
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.38102500000000006,45127.99039800302,664.8919809958898
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.37621,45626.51948200073,2183.1517719838303
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,1,cheap-small,0.6,False,True,True,True,0.0050294699999999,38543.09568999452,1473.8903350080363
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.5833900000000001,68354.68551897793,609.0751379961148
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.30751000000000006,32387.701094994554,864.415607007686
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,1,cheap-small,0.6,False,False,True,False,0.00412338,36794.95719898841,1195.912914001383
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.5368200000000001,55146.18250800413,614.2447329766583
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.60794,62714.26824099035,1276.4714129734784
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.623315,65280.04434600007,663.209474994801
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.563005,58036.46967100212,867.7749559865333
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.998795,81681.19964899961,943.6452439986169
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,1,cheap-small,0.6,False,True,True,True,0.00473746,54087.60064802482,850.1801270176657
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.34376500000000004,43774.269461020594,817.4117210146505
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.31312000000000006,35384.30419799988,971.9644270080607
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.4871500000000001,49866.07674599509,937.0430010021664
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.9030600000000001,107659.73452600883,744.5994810259435
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.7262799999999999,72290.5534110032,882.0446129830088
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.8921850000000002,80338.28248700593,1537.8347700170707
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.77861,69786.93966398714,1169.8189400194678
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.9656549999999999,85463.277561008,759.5137769822031
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.42082,56077.143219008576,1062.7315040037502
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.42526500000000006,62723.481301014544,548.2201580016408
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,1,cheap-small,0.6,False,True,True,True,0.0054301299999999,44944.19577502413,1785.6480439950246
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.7035699999999999,81550.49695400521,816.8619959906209
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,1,strong-frontier,0.6,False,True,True,True,0.5674100000000001,63629.63232898619,573.854256013874
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,1,strong-frontier,0.6,False,False,True,False,0.55969,52082.54744298756,880.8990899997298
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.510845,76973.78168298746,748.9378680184018
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,1,strong-frontier,0.6,False,True,True,True,0.42729,56669.89401599858,645.7614420214668
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.5680050000000001,60288.23003399884,1182.0837359991856
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.71465,69976.23812800157,838.486088992795
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.47959000000000007,96506.03976502316,867.0186639938038
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.315015,36380.05370501196,607.5322389951907
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,1,cheap-small,0.6,False,False,True,False,0.00361879,38203.11288101948,645.3831770049874
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.5598400000000001,62389.85396499629,846.2543200002983
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,1,cheap-small,0.6,False,True,True,True,0.00452355,48190.515941998456,1015.2144629973918
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.44188000000000005,46941.53310501133,888.5208319989033
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.50302,55190.661706990795,930.6012650195044
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.28602000000000005,45950.55545200012,841.9460529985372
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.448475,43462.59576801094,1053.2953749934677
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.4824800000000001,57712.307879992295,1484.2108250013553
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.34886000000000006,39184.2661559931,857.3486279929057
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.8479350000000001,80756.92806800362,748.8079180184286
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,1,cheap-small,0.6,False,True,True,True,0.00525151,50898.261400987394,956.6603940038476
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.53971,52471.38388099847,817.8549680160359
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,1,strong-frontier,0.6,False,True,True,True,0.27188,38036.53372000554,772.6081159780733
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.568295,56069.361105997814,873.4040129929781
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.35897,55153.40920101153,656.8584849883337
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,1,strong-frontier,0.6,False,True,True,True,0.35006,47595.55762002128,550.4724289930891
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.35032,55055.593977012904,734.7488719969988
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.4367400000000001,59843.54942801292,544.4153609860223
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.690715,92618.8054580125,1082.7677419874817
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.44556500000000004,52787.3772860039,767.7985839836765
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,1,cheap-small,0.6,False,True,True,True,0.00195246,24444.81265801005,457.0231809921097
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,1,strong-frontier,0.6,False,False,True,False,0.38063,44998.46386502031,612.743928009877
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,1,strong-frontier,0.6,False,True,True,True,0.46248000000000006,69172.70310601452,980.5870880081784
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,1,strong-frontier,0.6,False,True,True,True,0.34984000000000004,54635.19574399106,964.822276000632
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,1,cheap-small,0.6,False,True,True,True,0.00262973,27064.07872302225,658.441628998844
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.53602,51376.32200302323,816.9834570144303
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.66022,80357.80792898731,639.1326960001606
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.7786350000000002,84600.02094000811,1494.9609720206354
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,1,cheap-small,0.6,False,True,True,True,0.00282757,28638.63417500397,1076.607390976278
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,1,cheap-small,0.6,False,True,True,True,0.0070395599999999,56994.94329598383,807.1507799904794
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.34248500000000004,37625.07400297909,612.9055909987073
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.7378300000000001,80229.57293697982,669.6449909941293
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,1,cheap-small,0.6,False,False,True,False,0.00353571,35991.96039297385,664.5498209982179
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,1,strong-frontier,0.6,False,True,True,True,0.6375300000000002,68082.45947500109,611.893566994695
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.5154,51150.61735699419,1547.1453070058487
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,1,cheap-small,0.6,False,True,True,True,0.0030208599999999,45613.8368640095,763.3682710002176
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,1,cheap-small,0.6,False,True,True,True,0.00367317,32054.23655200866,1533.2215450180229
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,1,strong-frontier,0.6,False,False,True,False,0.47758000000000006,59446.34982800926,515.3105480130762
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.400495,43940.844725002535,654.492528992705
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,1,cheap-small,0.6,False,True,True,True,0.0044443,36700.921272014966,631.2970139842946
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,1,cheap-small,0.6,False,True,True,True,0.00658674,45200.114908016985,478.8477899855934
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.582895,62314.32906698319,919.1972480039112
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,1,strong-frontier,0.6,False,True,True,True,0.563245,55863.70898998575,864.0865019988269
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.4677,47825.96524601104,495.8309319918044
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.46020500000000003,54672.05479100812,822.5793410092592
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.6383700000000001,66081.06831400073,1284.268889023224
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.6988850000000002,77472.32180699939,680.6436280021444
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.5056750000000001,59130.54547802312,757.5468250142876
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.4728550000000001,46542.915352998534,570.9105810092296
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,1,strong-frontier,0.6,False,True,True,True,0.47774500000000003,46047.508757998,1476.106557995081
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.5662150000000001,62418.010544992285,1257.0516859996133
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,1,strong-frontier,0.6,False,False,True,False,0.5535599999999999,63030.14199700556,659.6925840131007
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,1,cheap-small,0.6,False,True,True,True,0.00335895,29985.92148700845,864.4412010035012
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,1,strong-frontier,0.6,False,True,True,True,1.18331,105759.21413701144,611.2547590164468
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,1,strong-frontier,0.6,False,True,True,True,0.65701,84741.40143400291,1143.2363310013898

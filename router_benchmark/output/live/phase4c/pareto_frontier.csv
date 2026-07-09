@@ -1,0 +1,3 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+vLLM Semantic Router (live),0.0,0.0010328250000000002,,48023.91091499885,62556.02334509458,,0.0,1.0,,1,True
+NVIDIA AI Blueprint LLM Router (live),0.5,0.01623,0.03246,46205.77131850587,61900.301449763356,,0.0,1.0,,1,True

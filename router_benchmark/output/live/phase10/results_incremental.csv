@@ -1,0 +1,601 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+LiteLLM Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00580805,49651.58231300302,2.060105005512014
+LiteLLM Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.0038625000000000005,39300.482224993175,1.1874469928443432
+LiteLLM Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00451934,37678.8163339952,1.1774380109272897
+LiteLLM Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00464599,44548.13713699696,1.9244470167905092
+LiteLLM Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00507895,41463.61889198306,1.9826279894914478
+LiteLLM Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00673251,59058.58002501191,2.1428890177048743
+LiteLLM Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00538239,45057.92788800318,1.7369989946018904
+LiteLLM Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0049705500000000015,47337.77723700041,1.8115690036211163
+LiteLLM Router (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00556679,50928.34321199916,1.912589999847114
+LiteLLM Router (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004926870000000001,43428.084581013536,1.0853300045710057
+LiteLLM Router (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00433589,42715.54988800199,1.0673010256141424
+LiteLLM Router (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0037633799999999998,32656.863999989582,1.9278019899502397
+LiteLLM Router (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00384091,36532.28430901072,1.8049520149361342
+LiteLLM Router (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00382907,42129.66016199789,1.0842009796760976
+LiteLLM Router (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00317697,31214.549565018388,1.6262520221062005
+LiteLLM Router (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0034155200000000004,32949.17257700581,1.7841720255091786
+LiteLLM Router (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00373471,36172.71663999418,1.8087619973812252
+LiteLLM Router (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00178086,18817.97189998906,1.6451120027340949
+LiteLLM Router (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00491188,38833.19816199946,1.855423004599288
+LiteLLM Router (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.01007924,85089.78693000972,1.074181986041367
+LiteLLM Router (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00774837,47983.90354402363,1.883552991785109
+LiteLLM Router (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.007631380000000001,72209.75252901553,1.1456919892225415
+LiteLLM Router (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00439883,41585.410043015145,1.8517239950597286
+LiteLLM Router (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00796968,55918.30762301106,1.4994929952081293
+LiteLLM Router (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,1.0,False,False,True,False,0.00460365,58559.465458005434,1.6540229844395071
+LiteLLM Router (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0042003399999999995,40203.95405599265,1.1431919992901385
+LiteLLM Router (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0032238600000000003,31896.434738999233,1.6548139974474907
+LiteLLM Router (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.007468829999999998,53498.15945699811,1.9769140053540468
+LiteLLM Router (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00806138,52298.20834798738,1.9090739951934665
+LiteLLM Router (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.008351289999999999,69800.35922498791,1.1894529743585736
+LiteLLM Router (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.008365820000000001,64559.238560002996,2.006015012739226
+LiteLLM Router (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.004074540000000001,33191.83124799747,1.10679300269112
+LiteLLM Router (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.006833,65251.60000700271,1.9652149931062013
+LiteLLM Router (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.005836040000000001,58178.36050799815,3.011797001818195
+LiteLLM Router (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.004499390000000001,55119.872556999326,2.0342450006864965
+LiteLLM Router (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00698188,59188.22315800935,1.8433339719194919
+LiteLLM Router (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.00438224,48885.8104099927,1.9371850066818297
+LiteLLM Router (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,0,cheap-small,1.0,False,True,True,True,0.00765325,53544.20153601677,1.1360780044924468
+LiteLLM Router (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,0,cheap-small,1.0,False,False,True,False,0.0036296000000000006,36638.55146401329,1.7475119966547936
+LiteLLM Router (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00454434,59397.573922004085,1.9372229871805757
+LiteLLM Router (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,0,cheap-small,1.0,False,True,True,True,0.0041658,49148.776997986715,1.106456998968497
+LiteLLM Router (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00630615,50769.45338601945,1.683190988842398
+LiteLLM Router (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0063917900000000005,59861.50444098166,1.8898209964390844
+LiteLLM Router (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00477803,77365.62298799981,1.8565999926067889
+LiteLLM Router (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0032934699999999997,33273.66744799656,1.8047390040010214
+LiteLLM Router (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00467384,47501.05251002242,1.144906011177227
+LiteLLM Router (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00435442,50980.82408201299,1.9572299788706005
+LiteLLM Router (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004149519999999999,47826.69466099469,1.9015789730474353
+LiteLLM Router (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00378364,52747.495366988005,1.0726749897003174
+LiteLLM Router (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.0052213500000000005,39903.570231981575,1.8828190222848207
+LiteLLM Router (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.0020843,32054.956847976428,1.8105279887095094
+LiteLLM Router (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.0022927399999999997,31755.94927300699,1.0821850155480206
+LiteLLM Router (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00540531,63553.6052279931,1.6847579972818494
+LiteLLM Router (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00451231,53053.72697900748,1.085464988136664
+LiteLLM Router (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.0064399800000000005,55318.561634019716,1.2487150088418275
+LiteLLM Router (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00644165,62130.977079999866,1.0771249944809824
+LiteLLM Router (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00535966,51278.692369000055,1.080343994544819
+LiteLLM Router (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,0,cheap-small,1.0,False,False,True,False,0.0030738500000000004,31352.19896698254,1.1495839862618595
+LiteLLM Router (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.011753920000000001,87962.42220001295,1.9450880063232034
+LiteLLM Router (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00273931,33694.22817599843,1.9833770056720823
+LiteLLM Router (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,0,cheap-small,1.0,False,True,True,True,0.0038025,40556.45121500129,1.8028859922196716
+LiteLLM Router (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0034092400000000004,34885.01619899762,1.7790469864849001
+LiteLLM Router (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004235860000000001,43239.03659300413,2.009357005590573
+LiteLLM Router (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.006617239999999999,58974.535315996036,1.943897019373253
+LiteLLM Router (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004348229999999999,38776.20310001657,1.0537039779592305
+LiteLLM Router (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,0,cheap-small,1.0,False,True,True,True,0.00258777,32166.814455005806,1.6245559963863343
+LiteLLM Router (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0034237099999999995,33896.05023499462,1.5073849936015904
+LiteLLM Router (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00223483,39323.95593399997,1.6489959962200373
+LiteLLM Router (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,0,cheap-small,1.0,False,True,True,True,0.0018943900000000001,25183.66664799396,1.7650460067670792
+LiteLLM Router (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,0,cheap-small,1.0,False,True,True,True,0.00346169,37423.958145984216,1.6627460136078298
+LiteLLM Router (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.0015895300000000002,19787.31929298374,1.106312993215397
+LiteLLM Router (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,0,cheap-small,1.0,False,False,True,False,0.00926348,82481.81611599284,1.9094669842161238
+LiteLLM Router (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.007935699999999999,72972.75187299238,1.1589539935812354
+LiteLLM Router (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.00248238,35623.44701201073,1.7970160115510225
+LiteLLM Router (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.0068999000000000005,63689.95808498585,1.8261059885844588
+LiteLLM Router (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.0034577799999999997,34088.700697000604,1.6732460062485188
+LiteLLM Router (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.011119819999999999,78981.9395870145,1.8883470038417727
+LiteLLM Router (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.00281102,27471.038285002578,1.061134011251852
+LiteLLM Router (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,0,cheap-small,1.0,False,True,True,True,0.005058450000000001,44068.18554698839,1.1126140016131103
+LiteLLM Router (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.00491748,50277.78059299453,1.9168569997418672
+LiteLLM Router (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.0044578,47195.949593995465,1.870095991762355
+LiteLLM Router (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.0038519500000000003,38407.014872005675,1.6355970001313835
+LiteLLM Router (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.006319819999999999,68637.39699398866,1.0750280052889138
+LiteLLM Router (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.00443558,45021.865717018954,1.9716380047611892
+LiteLLM Router (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.00425323,42691.281709005125,1.8703789974097162
+LiteLLM Router (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.006461390000000001,57327.977536973776,1.8325489945709705
+LiteLLM Router (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.00784307,67212.24985600566,2.045029978035018
+LiteLLM Router (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,0,cheap-small,1.0,False,True,True,True,0.0032905200000000003,32036.997255985625,1.0593299812171608
+LiteLLM Router (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.0035587400000000003,47688.20290698204,1.860271004261449
+LiteLLM Router (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.0034774600000000004,42705.638770974474,1.8127509974874556
+LiteLLM Router (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.0028791199999999998,28702.842024998972,1.935082022100687
+LiteLLM Router (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,0,cheap-small,1.0,False,False,True,False,0.00681175,56358.07593399659,1.8866219907067716
+LiteLLM Router (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.005848019999999999,64316.734487976646,1.831461995607242
+LiteLLM Router (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,0,cheap-small,1.0,False,False,True,False,0.0033132099999999996,38386.3327440049,1.8303130054846406
+LiteLLM Router (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,0,cheap-small,1.0,False,True,True,True,0.006447270000000001,56641.758712998126,1.0678019898477942
+LiteLLM Router (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.00608984,53775.39857701049,1.855893002357334
+LiteLLM Router (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.004508020000000001,41229.16149100638,1.8249329878017306
+LiteLLM Router (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,0,cheap-small,1.0,False,True,True,True,0.0055615199999999995,50706.936760019744,1.9397730065975338
+LiteLLM Router (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,0,cheap-small,1.0,False,False,True,False,0.008529640000000002,71287.73891201126,1.9257730164099485
+LiteLLM Router (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,0,cheap-small,1.0,False,False,True,False,0.008335200000000001,77110.63999700127,1.1215319973416626
+Aurelio Semantic Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.274749,61270.49975900445,406.65917299338616
+Aurelio Semantic Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.234162,48317.336620006245,523.0173990130424
+Aurelio Semantic Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.22856100000000001,46943.86171302176,422.56011700374074
+Aurelio Semantic Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.254544,45817.43364498834,362.9898719955236
+Aurelio Semantic Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.296595,49928.4491110011,465.07242700317875
+Aurelio Semantic Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.35881500000000005,75300.74788699858,448.8752119941637
+Aurelio Semantic Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.302223,62818.84331800393,474.3055229773745
+Aurelio Semantic Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.298632,70969.38200699515,461.93619500263594
+Aurelio Semantic Router (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.30373800000000006,64000.67445100285,452.7284020150546
+Aurelio Semantic Router (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.31023000000000006,68767.9505069973,561.217602022225
+Aurelio Semantic Router (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.18301800000000001,41086.226571002044,452.6947590056807
+Aurelio Semantic Router (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.238164,54532.62722000363,280.62548002344556
+Aurelio Semantic Router (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.18738900000000003,44910.06756699062,555.8733469806612
+Aurelio Semantic Router (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.191112,49927.97217599582,553.6314400087576
+Aurelio Semantic Router (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.216174,59187.29124599486,800.274248002097
+Aurelio Semantic Router (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.313317,65080.13319800375,672.5051109970082
+Aurelio Semantic Router (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.291474,61087.94134602067,658.1132059800439
+Aurelio Semantic Router (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.13378800000000002,26377.33508698875,555.4303940152749
+Aurelio Semantic Router (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.317673,57516.20595398708,447.8586300101597
+Aurelio Semantic Router (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.251232,56069.33534599375,642.9490849841386
+Aurelio Semantic Router (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.305583,58332.3330610001,246.8942230043467
+Aurelio Semantic Router (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.366831,69050.05975300446,851.5234880032949
+Aurelio Semantic Router (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.293883,59059.75791098899,988.5263280011714
+Aurelio Semantic Router (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.6498120000000001,98062.19667100231,533.3952460205182
+Aurelio Semantic Router (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,mid-general,0.0,True,True,True,True,0.152286,39376.67647699709,238.8005769753363
+Aurelio Semantic Router (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.20081400000000002,41642.00270999572,761.9461769936606
+Aurelio Semantic Router (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.15624,33531.212227011565,545.1968509878498
+Aurelio Semantic Router (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.224058,48289.104292023694,462.87132397992536
+Aurelio Semantic Router (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.371466,62712.243087997194,450.9406280121766
+Aurelio Semantic Router (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.290943,64252.26972598466,566.918122000061
+Aurelio Semantic Router (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.575049,86500.2897529921,462.29212000616826
+Aurelio Semantic Router (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.393225,66921.35642000358,741.8085589888506
+Aurelio Semantic Router (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.47149199999999997,77069.87434299663,660.5143500200938
+Aurelio Semantic Router (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.17619,40922.10662498837,547.3876199976075
+Aurelio Semantic Router (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.148863,42958.33967899671,445.55797599605285
+Aurelio Semantic Router (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.32020800000000005,78825.48360500368,456.66670400532894
+Aurelio Semantic Router (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,0,mid-general,0.0,True,False,True,False,0.29330100000000003,66606.18588401121,634.6617389936
+Aurelio Semantic Router (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.24465,51546.51958600152,361.6932939912658
+Aurelio Semantic Router (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.242706,46231.53077199822,265.8091890043579
+Aurelio Semantic Router (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.260583,67791.6078660055,495.23821199545637
+Aurelio Semantic Router (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,0,mid-general,0.0,True,True,True,True,0.21309299999999998,49495.95601999317,370.717291982146
+Aurelio Semantic Router (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,0,strong-frontier,0.31450347448263344,False,True,True,True,0.5680050000000001,60288.23003399884,473.4206249995623
+Aurelio Semantic Router (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.39040800000000003,64680.8154140017,535.3173689800315
+Aurelio Semantic Router (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.250359,74906.3495839946,647.9885349981487
+Aurelio Semantic Router (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.20872199999999996,44372.848518018145,460.24427097290754
+Aurelio Semantic Router (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.24128100000000002,57900.2709040069,473.7261730188038
+Aurelio Semantic Router (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.21912600000000002,50650.657527003204,2512.5051839859225
+Aurelio Semantic Router (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.296529,61073.273777990835,241.24693899648264
+Aurelio Semantic Router (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.21069600000000002,43558.88415101799,465.88427800452337
+Aurelio Semantic Router (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.22133400000000003,44803.134802990826,266.4037580252625
+Aurelio Semantic Router (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.09504299999999999,30552.2918550123,455.9572250000201
+Aurelio Semantic Router (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.22342499999999998,40604.36371798278,471.56142999301665
+Aurelio Semantic Router (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.241824,52584.7829169943,659.4284210004844
+Aurelio Semantic Router (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.204549,43899.33591100271,457.23135900334455
+Aurelio Semantic Router (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.299244,64463.37191297789,336.26093200291507
+Aurelio Semantic Router (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.257931,68353.7804200023,458.1538299971726
+Aurelio Semantic Router (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.22307700000000003,39607.40258099395,663.893126999028
+Aurelio Semantic Router (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,0,mid-general,0.0,True,True,True,True,0.11410799999999999,31063.71213402599,532.3101640096866
+Aurelio Semantic Router (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.34537500000000004,66533.2756860007,270.2759359963238
+Aurelio Semantic Router (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.186468,56483.42479200801,435.0762969988864
+Aurelio Semantic Router (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,0,mid-general,0.0,True,True,True,True,0.137052,34565.414056996815,654.9573810189031
+Aurelio Semantic Router (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.155805,36807.54495898145,454.9622340127826
+Aurelio Semantic Router (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.30580499999999994,67748.9838010224,260.0955840025563
+Aurelio Semantic Router (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.284031,68251.32377797854,447.35296399449
+Aurelio Semantic Router (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.207462,47684.97766199289,354.9803029745817
+Aurelio Semantic Router (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,0,mid-general,0.0,True,True,True,True,0.134694,30671.618319989648,441.4529039931949
+Aurelio Semantic Router (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.259104,53505.52140601212,251.3377490104176
+Aurelio Semantic Router (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,0,cheap-small,0.3215210815745575,False,True,True,True,0.00291168,30562.2306150035,560.3437600075267
+Aurelio Semantic Router (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,0,cheap-small,0.3215210815745575,False,True,True,True,0.0015615,24291.742788016563,565.2251529973
+Aurelio Semantic Router (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,0,mid-general,0.0,True,True,True,True,0.18856799999999999,43586.982373992214,282.8733290079981
+Aurelio Semantic Router (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.26430600000000004,46116.464288992574,647.3496269900352
+Aurelio Semantic Router (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.33409799999999995,77265.34862001427,268.15457100747153
+Aurelio Semantic Router (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.331662,71960.12972301105,456.53254800708964
+Aurelio Semantic Router (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.140718,28536.93691501394,537.0860390248708
+Aurelio Semantic Router (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.289713,65708.21994400467,240.85196101805195
+Aurelio Semantic Router (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.195213,39209.86659300979,394.7386379877571
+Aurelio Semantic Router (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.33777,73888.13998701517,457.80414997716434
+Aurelio Semantic Router (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.16050599999999998,31787.206868990324,862.1215939929243
+Aurelio Semantic Router (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,0,mid-general,0.0,True,True,True,True,0.3986370000000001,77907.81898298883,366.0891830222681
+Aurelio Semantic Router (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.25831200000000004,52372.79248499544,528.0496230116114
+Aurelio Semantic Router (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.22948500000000002,75118.8237350143,666.7709040048067
+Aurelio Semantic Router (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.22410899999999997,60684.843129012734,247.1314540016465
+Aurelio Semantic Router (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.247752,59864.554212021176,547.3441640206147
+Aurelio Semantic Router (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.20214000000000001,43794.51041400898,753.6307209811639
+Aurelio Semantic Router (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.22657200000000002,48800.51871298929,236.59662500722334
+Aurelio Semantic Router (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.23001,41115.76952401083,554.338951013051
+Aurelio Semantic Router (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.371061,67961.67651898577,454.57401100429706
+Aurelio Semantic Router (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,0,mid-general,0.0,True,True,True,True,0.28336200000000006,48589.202212984674,439.3661790236365
+Aurelio Semantic Router (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.242961,47983.51500602439,561.6182980011217
+Aurelio Semantic Router (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.293973,51577.19182400615,551.9405769882724
+Aurelio Semantic Router (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.231099,40818.64594097715,439.70570899546146
+Aurelio Semantic Router (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.28779599999999994,66384.88570199115,868.6242020048667
+Aurelio Semantic Router (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.202794,46128.840210003546,878.5299219889566
+Aurelio Semantic Router (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.254811,44812.15555599192,256.9091820041649
+Aurelio Semantic Router (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,0,mid-general,0.0,True,True,True,True,0.21947100000000003,45222.212437016424,547.3684559983667
+Aurelio Semantic Router (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.289587,59442.93946499238,445.9199339908082
+Aurelio Semantic Router (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.26508,59464.4612930133,561.8325750110671
+Aurelio Semantic Router (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.242151,47347.8681499837,356.3684960245155
+Aurelio Semantic Router (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,0,mid-general,0.0,True,True,True,True,0.291108,80578.67270099814,757.87057299749
+Aurelio Semantic Router (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,0,mid-general,0.0,True,True,True,True,0.282489,68177.55139101064,315.91761400341056
+RouteLLM (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,0.7818631963481352,False,True,True,True,0.00452422,50512.98179200967,1703.8030799885746
+RouteLLM (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,0.7819173714115706,False,True,True,True,0.005726370000000001,43917.04243601998,1396.2738580012228
+RouteLLM (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,cheap-small,0.7827791087585193,False,False,True,False,0.005669220000000001,44830.723616003525,1691.5798900008667
+RouteLLM (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,cheap-small,0.7824340991305757,False,False,True,False,0.00447331,36749.5130939933,1506.1494570109062
+RouteLLM (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,cheap-small,0.7819451595884862,False,False,True,False,0.004380889999999999,37553.94635698758,1567.7574870060198
+RouteLLM (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,cheap-small,0.7799898567106953,False,False,True,False,0.00832244,59651.13571000984,2055.1759470254183
+RouteLLM (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,cheap-small,0.7803019365362761,False,True,True,True,0.00535198,44819.37098898925,1506.7154059943277
+RouteLLM (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,cheap-small,0.78053227728584,False,True,True,True,0.0064489,58894.045913999435,1706.287915003486
+RouteLLM (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,cheap-small,0.7806851202948091,False,True,True,True,0.0060019800000000005,68157.62837399961,1670.54908600403
+RouteLLM (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,cheap-small,0.7812411174016611,False,True,True,True,0.0046761400000000005,43088.56182999443,1747.6661399996374
+RouteLLM (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,cheap-small,0.7792222377592237,False,True,True,True,0.00432904,41442.27641497855,1577.9515970207285
+RouteLLM (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,cheap-small,0.7781534319898226,False,True,True,True,0.0046575,51398.44337600516,2254.753523011459
+RouteLLM (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,cheap-small,0.7857383487765988,False,True,True,True,0.00334745,41468.11404402251,1552.3355219920631
+RouteLLM (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,cheap-small,0.7871191668158928,False,True,True,True,0.003909060000000001,47840.64314700663,1715.1325040031224
+RouteLLM (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,cheap-small,0.7838141445673539,False,True,True,True,0.0034857200000000003,33360.590789001435,1441.172548016766
+RouteLLM (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,cheap-small,0.7858402304157122,False,True,True,True,0.005029469999999999,38543.095689994516,9140.99605800584
+RouteLLM (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,cheap-small,0.7831021969573353,False,True,True,True,0.00455649,48304.957240994554,1842.6200749818236
+RouteLLM (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,cheap-small,0.7760886998259181,False,True,True,True,0.00179981,17990.45272899093,1519.1667359904386
+RouteLLM (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,cheap-small,0.7827157292398111,False,False,True,False,0.00412338,36794.95719898841,1707.1716169884894
+RouteLLM (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,cheap-small,0.7821066373507263,False,True,True,True,0.00655114,52190.22993801627,1579.413918982027
+RouteLLM (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,cheap-small,0.780045909446994,False,False,True,False,0.01217408,81084.46288298,1645.240799000021
+RouteLLM (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,cheap-small,0.776027335408663,False,True,True,True,0.005634340000000002,54671.03314999258,1671.39422200853
+RouteLLM (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,cheap-small,0.7813503254449068,False,False,True,False,0.004487950000000001,35487.71515698172,1606.4268829941284
+RouteLLM (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,cheap-small,0.7815214907153233,False,True,True,True,0.00657716,43477.84112600493,1648.5868570161983
+RouteLLM (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,0.7818665925801374,False,True,True,True,0.004737460000000001,54087.60064802482,1510.1196150062606
+RouteLLM (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,0,cheap-small,0.7816314526177213,False,True,True,True,0.00412611,34121.766344993375,1405.072118010139
+RouteLLM (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,0,cheap-small,0.779452121679133,False,True,True,True,0.0031752400000000006,34337.11540198419,1479.6678549901117
+RouteLLM (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,0,cheap-small,0.7807682336234162,False,False,True,False,0.00491139,35524.12857598392,1567.2353869886138
+RouteLLM (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,0,cheap-small,0.7806536251807973,False,False,True,False,0.00690844,38910.57817701949,1951.1503469839226
+RouteLLM (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,0,cheap-small,0.7792338808924679,False,True,True,True,0.007409369999999999,57709.23817099538,1669.9126989988144
+RouteLLM (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,0,cheap-small,0.7823326053711478,False,True,True,True,0.007857499999999998,66045.48808699474,1557.908681978006
+RouteLLM (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,0,cheap-small,0.7826168906134079,False,False,True,False,0.009583800000000002,91401.78154100431,1546.6367600020021
+RouteLLM (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,0,cheap-small,0.7824817529960221,False,True,True,True,0.00692866,60595.0360520219,1518.187203007983
+RouteLLM (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,0,cheap-small,0.7818689264591054,False,True,True,True,0.00303952,38404.169601009926,1544.4331179896835
+RouteLLM (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,0,cheap-small,0.7826009824776955,False,False,True,False,0.00331386,40679.46562700672,1321.423068002332
+RouteLLM (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,0,cheap-small,0.78224822900028,False,True,True,True,0.005430129999999999,44944.19577502413,1747.4129739857744
+RouteLLM (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,0,cheap-small,0.7800289198214155,False,False,True,False,0.009045300000000001,68384.01183398673,1372.7983190037776
+RouteLLM (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,0,cheap-small,0.7800731771229221,False,False,True,False,0.00854154,52372.48043200816,1682.2312139847782
+RouteLLM (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,0,cheap-small,0.7803828965845904,False,False,True,False,0.00353161,31921.95618301048,1658.8905169919599
+RouteLLM (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,0,cheap-small,0.7833775366579253,False,True,True,True,0.00418417,47668.50464598974,1891.3133740134072
+RouteLLM (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,0,cheap-small,0.7851498942710066,False,True,True,True,0.00436129,42013.990348990774,1601.109688024735
+RouteLLM (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,0,cheap-small,0.7750850674109809,False,False,True,False,0.00582933,38066.97942400933,1350.0442509830464
+RouteLLM (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,0,cheap-small,0.7804957392497783,False,True,True,True,0.006545510000000001,44683.69155700202,1774.2096789879724
+RouteLLM (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,0,cheap-small,0.7827840710643291,False,True,True,True,0.004668489999999999,58974.49087302084,2193.7926349928603
+RouteLLM (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,0,cheap-small,0.7819898086288687,False,True,True,True,0.00307196,28617.11901301169,1390.741495997645
+RouteLLM (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,0,cheap-small,0.7826796586349978,False,False,True,False,0.00361879,38203.11288101948,1421.5263439982664
+RouteLLM (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,0,cheap-small,0.7809863455484992,False,True,True,True,0.00538225,48934.24177801353,1841.9377509853803
+RouteLLM (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,0,cheap-small,0.7809371668980495,False,True,True,True,0.00452355,48190.515941998456,1576.4631790225394
+RouteLLM (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,0,cheap-small,0.7874209535869425,False,True,True,True,0.0045448,43068.06878600037,1451.9804949813988
+RouteLLM (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,0,cheap-small,0.7811794709827063,False,True,True,True,0.00387495,38049.48126300587,1891.1622669838835
+RouteLLM (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,0,cheap-small,0.7853719302756568,False,True,True,True,0.00225661,25220.821330003673,1608.4385750000365
+RouteLLM (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,0,cheap-small,0.7797439662387137,False,False,True,False,0.0019217400000000001,20776.881767000305,1517.8519470209721
+RouteLLM (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,0,cheap-small,0.783231877232922,False,True,True,True,0.00309203,32854.33106002165,1617.554508993635
+RouteLLM (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,0,cheap-small,0.7861401323354905,False,True,True,True,0.0038285800000000003,39092.853678012034,1402.130992995808
+RouteLLM (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,0,cheap-small,0.7820470809934357,False,False,True,False,0.00713256,60554.86223302432,1234.7761589917354
+RouteLLM (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,0,cheap-small,0.7821193413835654,False,True,True,True,0.00525151,50898.261400987394,1362.11570299929
+RouteLLM (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,0,cheap-small,0.7865836749857795,False,False,True,False,0.00518046,36327.5480849843,1996.0251119919121
+RouteLLM (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,0,cheap-small,0.7853728975523034,False,False,True,False,0.0032596900000000004,27230.574015004095,1629.3188380077481
+RouteLLM (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,0,cheap-small,0.7794044464223837,False,True,True,True,0.00651181,43097.07407199312,1523.5229430254549
+RouteLLM (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,0,cheap-small,0.7798729295087373,False,False,True,False,0.0027909000000000002,32759.335226000985,1805.3180830029305
+RouteLLM (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,0,cheap-small,0.7809226678173808,False,True,True,True,0.00354014,35310.607943014475,1550.821234995965
+RouteLLM (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,0,cheap-small,0.7804668264989649,False,True,True,True,0.0030736,28981.736871006433,1602.1687290049158
+RouteLLM (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,0,cheap-small,0.7801994809890679,False,True,True,True,0.0044159,40795.25709399604,1707.9227289941628
+RouteLLM (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,0,cheap-small,0.7803059532553069,False,False,True,False,0.0059450300000000005,52224.126251996495,1812.3805219947826
+RouteLLM (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,0,cheap-small,0.7859551810495052,False,True,True,True,0.00404955,36000.14005697449,1389.2287030175794
+RouteLLM (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,0,cheap-small,0.7824461040369178,False,True,True,True,0.0019524600000000003,24444.81265801005,1548.8480500061996
+RouteLLM (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,0,cheap-small,0.7817410337740258,False,False,True,False,0.0035749700000000007,48359.207093017176,7161.876883008517
+RouteLLM (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,0,cheap-small,0.7837489894886422,False,True,True,True,0.00220163,24326.60735398531,1791.6580719756894
+RouteLLM (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,0,cheap-small,0.7837489894886422,False,False,True,False,0.00220636,24364.74711698247,1781.7091040196829
+RouteLLM (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,0,cheap-small,0.7843460328293039,False,True,True,True,0.0026297300000000003,27064.07872302225,1765.089876978891
+RouteLLM (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,0,cheap-small,0.7839216954372613,False,True,True,True,0.00421892,38322.29649901274,1526.209622999886
+RouteLLM (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,0,cheap-small,0.779872355673699,False,False,True,False,0.00714497,56473.39953001938,1780.1278289989568
+RouteLLM (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,0,cheap-small,0.7796485302331713,False,False,True,False,0.0065947,52387.73144400329,1462.0089909876697
+RouteLLM (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,0,cheap-small,0.7848114901679161,False,True,True,True,0.00282757,28638.634175003972,1658.740027982276
+RouteLLM (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,0,cheap-small,0.7790146436300811,False,True,True,True,0.007039559999999999,56994.94329598383,1588.2922929886263
+RouteLLM (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,0,cheap-small,0.7761996900969386,False,True,True,True,0.0031637199999999996,31741.87609902583,1712.5312229909468
+RouteLLM (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,0,cheap-small,0.7795349814750169,False,False,True,False,0.008858369999999999,57666.454472986516,1561.0145019891206
+RouteLLM (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,0,cheap-small,0.7838052293432198,False,False,True,False,0.0035357100000000005,35991.96039297385,1767.7400980028324
+RouteLLM (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,0,cheap-small,0.776979104699956,False,True,True,True,0.00635282,55258.77852001577,1884.8713909974322
+RouteLLM (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,0,cheap-small,0.7822936287451925,False,False,True,False,0.006879730000000001,55321.96366999415,1795.0002459983807
+RouteLLM (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,0,cheap-small,0.7762281602374378,False,True,True,True,0.0030208599999999998,45613.8368640095,1836.572462983895
+RouteLLM (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,0,cheap-small,0.7841485934269382,False,True,True,True,0.00367317,32054.23655200866,1450.0136639981065
+RouteLLM (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,0,cheap-small,0.780202815016733,False,True,True,True,0.00493591,42704.07365600113,1880.3140330128372
+RouteLLM (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,0,cheap-small,0.7792362662814432,False,True,True,True,0.00541343,43754.69110000995,1513.938952004537
+RouteLLM (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,0,cheap-small,0.7812927048832407,False,True,True,True,0.0044443,36700.921272014966,1632.9964589967858
+RouteLLM (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,0,cheap-small,0.7812799760191478,False,True,True,True,0.00658674,45200.114908016985,1960.6610010087024
+RouteLLM (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,0,cheap-small,0.7813440020198846,False,True,True,True,0.00938889,68480.41250798269,1541.3289849821012
+RouteLLM (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,0,cheap-small,0.7825170449431648,False,True,True,True,0.00450479,40199.54766498995,1500.566382019315
+RouteLLM (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,0,cheap-small,0.7819271078429777,False,True,True,True,0.00471099,37634.22125400393,1479.208255012054
+RouteLLM (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,0,cheap-small,0.7856923378883365,False,True,True,True,0.0042832799999999996,35559.01829901268,1819.185223983368
+RouteLLM (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,0,cheap-small,0.7819786317337711,False,True,True,True,0.004637079999999999,39966.004793997854,1489.0570860006846
+RouteLLM (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,0,cheap-small,0.7821090057496802,False,False,True,False,0.00696479,67441.08603399945,1529.9536650127266
+RouteLLM (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,0,cheap-small,0.783333573728986,False,True,True,True,0.00424388,31979.60363799939,1849.6576640172862
+RouteLLM (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,0,cheap-small,0.7799114622978667,False,False,True,False,0.00500224,37148.44843701576,1779.3028269952629
+RouteLLM (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,0,cheap-small,0.7800596505474718,False,True,True,True,0.005231980000000001,39411.48973899544,1541.4483869972173
+RouteLLM (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,0,cheap-small,0.7786180665566638,False,True,True,True,0.0057763400000000005,40224.54143399955,1455.2835520007648
+RouteLLM (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,0,cheap-small,0.7811376249300218,False,True,True,True,0.005251540000000001,45589.32679699501,1595.9875150001608
+RouteLLM (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,0,cheap-small,0.7814466350099551,False,True,True,True,0.0033589500000000007,29985.921487008454,1559.0046000143047
+RouteLLM (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,0,cheap-small,0.7742385809109132,False,True,True,True,0.010255370000000001,71168.91917597968,1725.4691810230725
+RouteLLM (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,0,cheap-small,0.7738025166540493,False,False,True,False,0.00776334,52821.23316801153,1491.1456600239035
+LLMRouter (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.005338719999999999,41613.26060400461,529.5785380003508
+LLMRouter (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.0038407999999999997,43202.94463899336,409.1382639890071
+LLMRouter (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.005854739999999999,39499.522381986026,419.0891920006834
+LLMRouter (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.005560379999999999,38426.4661379857,433.6777050048113
+LLMRouter (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.005045560000000001,41072.47220800491,696.1804250022396
+LLMRouter (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0014169400000000002,20568.21310101077,291.08505800832063
+LLMRouter (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.0064208600000000005,61244.24133999855,521.8711750057992
+LLMRouter (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,cheap-small,0.6,False,True,True,True,0.006417290000000002,47062.73014799808,395.68063800106756
+LLMRouter (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,20127.78260698542,449.9264059995767
+LLMRouter (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10565.004625008442,247.1994840016123
+LLMRouter (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,15137.48929198482,603.2500519941095
+LLMRouter (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10466.255530016497,423.4892310050782
+LLMRouter (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10868.99772999459,383.1679059949238
+LLMRouter (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11666.051381995203,285.7303289929405
+LLMRouter (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,9842.136730992934,317.53697502426803
+LLMRouter (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10024.826226988807,390.88988801813684
+LLMRouter (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10091.60202901694,607.9617429932114
+LLMRouter (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11667.778022994753,570.952412992483
+LLMRouter (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10455.872766993707,212.83907900215127
+LLMRouter (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10034.255409002071,804.0885420050472
+LLMRouter (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10444.72316800966,407.41133398842067
+LLMRouter (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10277.500113996211,411.39173999545164
+LLMRouter (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,mid-general,0.6,False,False,True,False,0.0,10334.245035017375,365.55621499428526
+LLMRouter (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,mid-general,0.6,False,False,True,False,0.0,10027.596492989687,517.4837110098451
+LLMRouter (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,0.6,False,False,True,False,0.0,13199.072487012018,420.8602239959873
+LLMRouter (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10638.463620009134,515.9676290058997
+LLMRouter (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,0,mid-general,0.6,False,False,True,False,0.0,10429.55774802249,430.96339897601865
+LLMRouter (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11489.334151992807,410.4650520021096
+LLMRouter (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11173.40069898637,285.39411298697814
+LLMRouter (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11261.816173995612,394.15962001658045
+LLMRouter (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10723.79866000847,414.21004800940864
+LLMRouter (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10416.765286994632,329.1607270075474
+LLMRouter (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10642.00928399805,242.1760940051172
+LLMRouter (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10057.174140994903,222.69164698082022
+LLMRouter (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11295.71906500496,360.47298298217356
+LLMRouter (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10869.634661998134,785.7514799979981
+LLMRouter (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,11068.1274139788,597.435981995659
+LLMRouter (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,10336.274636007147,603.341289999662
+LLMRouter (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,9731.484582996927,309.49987200438045
+LLMRouter (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10346.29950800445,508.312385994941
+LLMRouter (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,12385.092826996697,209.95511999353766
+LLMRouter (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10664.480138977524,399.6976310154423
+LLMRouter (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10604.929363005795,402.31936497730203
+LLMRouter (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10089.942026999779,280.5540499975905
+LLMRouter (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10658.566817000974,310.7697859813925
+LLMRouter (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10886.192192003364,356.9977220031433
+LLMRouter (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,12060.809489019448,182.84522098838352
+LLMRouter (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10737.172193999868,255.54207697859965
+LLMRouter (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10637.85024700337,535.6679690012243
+LLMRouter (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10854.881623992696,11467.36469300231
+LLMRouter (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10533.044198004063,304.73845900269225
+LLMRouter (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10119.281649996992,421.7398970213253
+LLMRouter (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10428.508295997744,327.60841099661775
+LLMRouter (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10758.53865800309,213.19601600407623
+LLMRouter (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,9919.159668002976,198.67699602036737
+LLMRouter (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10333.22975700139,630.150587996468
+LLMRouter (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10653.058794006938,308.86265498702414
+LLMRouter (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,0,cheap-small,0.6,False,False,True,False,0.0,11232.685797993327,227.99924900755286
+LLMRouter (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10132.360268995399,410.2919410215691
+LLMRouter (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11049.162997980602,310.3137370198965
+LLMRouter (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,9742.327614017995,420.8806969982106
+LLMRouter (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10473.128042009193,495.72009599069133
+LLMRouter (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,9592.101936024847,408.22698900592513
+LLMRouter (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,9962.751467013732,517.7390580065548
+LLMRouter (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10535.145597008523,232.1180959988851
+LLMRouter (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,0,cheap-small,0.6,False,False,True,False,0.0,10827.09697500104,399.75586798391305
+LLMRouter (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10122.313519997988,286.29636502591893
+LLMRouter (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10432.47472398798,1138.4233070129994
+LLMRouter (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,10858.364115993027,216.18509202380665
+LLMRouter (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,10859.660704998532,191.1105570034124
+LLMRouter (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,9673.695136996685,410.3838440205436
+LLMRouter (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,9849.67522500665,978.3322360017337
+LLMRouter (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,11357.051725994097,388.16967100137845
+LLMRouter (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,12491.21652400936,313.51485499180853
+LLMRouter (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10240.987416007556,1222.614550992148
+LLMRouter (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10636.363834986696,412.24626600160263
+LLMRouter (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10457.202408986632,212.6451889926102
+LLMRouter (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10357.706420996692,1570.3683370084036
+LLMRouter (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,0,cheap-small,0.6,False,False,True,False,0.0,10623.06453898782,360.69525897619314
+LLMRouter (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,11279.457953001838,624.9451689946
+LLMRouter (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10327.729580021696,495.1494279957842
+LLMRouter (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10755.743373010773,417.9123459907714
+LLMRouter (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,11221.771522978088,627.0893749897368
+LLMRouter (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10645.492415991612,395.12902600108646
+LLMRouter (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10428.922377002891,238.4026730142068
+LLMRouter (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,11051.28673298168,586.6098779952154
+LLMRouter (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10232.118791987887,419.5315350079909
+LLMRouter (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,10496.281186002307,295.47554001328535
+LLMRouter (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10649.20774800703,270.01796901458874
+LLMRouter (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,11255.461215012474,408.9758190093562
+LLMRouter (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10572.115647984901,411.0625000030268
+LLMRouter (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10342.591199994786,690.3229820018169
+LLMRouter (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10743.203702004394,713.6976940091699
+LLMRouter (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10848.505177011248,318.4328360075597
+LLMRouter (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10328.72872299049,1024.3133759940974
+LLMRouter (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10028.516090998892,323.8466719922144
+LLMRouter (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,11057.793074985966,1642.869603994768
+LLMRouter (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10456.772706995253,403.8224029936828
+LLMRouter (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,0,cheap-small,0.6,False,False,True,False,0.0,10650.618380022934,599.6046560176183
+LLMRouter (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,9693.215897976188,412.35631599556655
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10464.862881985027,1166.4974209852517
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10958.729643985862,878.778467013035
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10855.23767900304,818.8987909816206
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10124.147296999581,811.2506550096441
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11015.998301008949,795.9040220011957
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11066.014360985719,1000.040729995817
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11263.647159998072,807.6960149919614
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10451.251464983216,816.9729399960488
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10629.19606998912,1021.1953899997752
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10726.738780009327,1042.1896949992515
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10670.02933099866,740.5208080017474
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11490.319045988144,791.1495910084341
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,13104.061130987247,1206.589031004114
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,13324.796525004786,821.5093819890171
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10012.950089003425,801.6959520173259
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11325.88081000722,577.9894070001319
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11700.014795002062,811.6653749893885
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10846.198762999848,789.7798930061981
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10237.206051009707,825.2729959785938
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10233.027075009886,826.0438849974889
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,9900.28517099563,751.4329260156956
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10522.140086017316,1024.392474006163
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10630.429223005194,739.8054619843606
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11262.220836011693,6770.468773000175
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,0.6,False,False,True,False,0.0,10440.782802004833,614.2066780012101
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,13685.39612099994,1844.8236430122051
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10208.511086006183,653.1698050093837
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10343.548089003889,638.9589800091926
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10300.950629985891,508.1080890086014
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,9829.038380004931,553.0648810090497
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10444.628031022148,617.892236012267
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10877.107255975716,485.2512950019445
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10449.297955987277,711.5437620086595
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10390.18812100403,439.9578219745308
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10443.615814001532,629.5490129850805
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10468.133082991699,389.0101290016901
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10628.09399998514,460.5404360045213
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,0,strong-frontier,0.6,False,False,True,False,0.0,9841.740922012832,425.76322398963384
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,0,strong-frontier,0.6,False,False,True,False,0.0,10875.81949698506,936.9050489913207
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10344.121736008674,610.8267240051646
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,0,strong-frontier,0.6,False,False,True,False,0.0,10105.601012008265,712.7177339862101
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10251.336514018476,752.1201240015216
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10141.076644998975,500.49849299830385
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10854.110157000832,606.8199219880626
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10172.0075889898,608.2243149867281
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10770.4518190003,453.4992370172404
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10421.92073300248,927.8119009977672
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,12031.572467007209,630.2377599931788
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,11061.46652699681,873.7498020054772
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11204.661744006444,476.3989759958349
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10654.312413011212,601.0860560054425
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10656.382973014843,602.8122580028139
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10445.378075994086,810.6061150028836
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11203.82202300243,887.1500290115364
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10866.49516201578,1421.696133009391
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10657.235740014585,599.3224779958837
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10444.84989301418,1224.8520020220894
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,0,strong-frontier,0.6,False,False,True,False,0.0,10659.833679004805,812.6041530049406
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11166.36116002337,807.3055239801761
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10252.189877006458,510.3547190083191
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,0,strong-frontier,0.6,False,False,True,False,0.0,10248.135239991825,1214.551298005972
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,14130.628586979583,598.6882740107831
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10290.109737979947,836.8625910079572
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,10560.206451977137,748.3577849925496
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11427.437662990997,539.032706990838
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,0,cheap-small,0.6,False,False,True,False,0.0,10661.57592899981,1636.974483000813
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,0,strong-frontier,0.6,False,False,True,False,0.0,11261.909513006685,599.5848320017103
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.0,10533.592484978726,466.4830469992012
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,0,cheap-small,0.6,False,False,True,False,0.0,10862.508373014862,1285.417642997345
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,0,strong-frontier,0.6,False,False,True,False,0.0,11483.072675997391,815.3554979944602
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,11269.433392008068,1006.9288520026021
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,10237.827035976807,810.985228017671
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,12022.415755986003,1082.658013998298
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10982.32352299965,890.0022729940247
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,10747.502910991898,617.9183709900826
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10449.829380988376,713.9607389981393
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10004.321534011979,606.838437000988
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10478.77021599561,643.3830010064412
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,0,strong-frontier,0.6,False,False,True,False,0.0,10231.219342007535,1192.9161099833436
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10193.154127016896,470.85046698339283
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10139.33999001165,603.7717149883974
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,10487.940393999452,480.9865700080991
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,11079.811094008619,600.4304870148189
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10170.126265002182,481.1279069981538
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10366.814088018145,966.127941996092
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10448.050732025877,1130.6808959925547
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10692.005110002356,1019.3387650069781
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,0,strong-frontier,0.6,False,False,True,False,0.0,10450.913194013992,564.1612810140941
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,11478.63597900141,611.9220849941485
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,11666.778865008382,602.4310759967193
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,10542.485779995332,615.5857370176818
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10303.12592102564,511.6705610125791
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,10983.855633996427,555.6006600090768
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,0,cheap-small,0.6,False,False,True,False,0.0,10610.672901006183,1091.777050984092
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,0,strong-frontier,0.6,False,False,True,False,0.0,11272.963953000726,856.2296529999003
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,13515.664298989577,806.9397359795403
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,12902.156590978848,822.8718210011721
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,0,cheap-small,0.6,False,False,True,False,0.0,10981.09137400752,1023.0963899812195
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,0,strong-frontier,0.6,False,False,True,False,0.0,11080.423847015481,684.2687999887858
+NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,0,strong-frontier,0.6,False,False,True,False,0.0,10191.190333018312,3049.6689790161327
+vLLM Semantic Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10255.574590002652,735.1228169864044
+vLLM Semantic Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11167.523827025434,488.49297701963224
+vLLM Semantic Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10031.442377017811,321.68701401678845
+vLLM Semantic Router (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10168.78468298819,349.0058179886546
+vLLM Semantic Router (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,14432.792398991296,416.3517690030858
+vLLM Semantic Router (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11081.19906799402,515.1532590098213
+vLLM Semantic Router (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11200.29105199501,363.21061599301174
+vLLM Semantic Router (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,13367.704730015248,391.1571629869286
+vLLM Semantic Router (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10982.994774996769,339.1602670017164
+vLLM Semantic Router (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10383.39041499421,450.39600899326615
+vLLM Semantic Router (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11616.142860992113,621.7426329967566
+vLLM Semantic Router (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10547.0754270209,1189.0312010073103
+vLLM Semantic Router (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10451.228096993873,395.4309600230772
+vLLM Semantic Router (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10249.4830529904,404.92808699491434
+vLLM Semantic Router (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10013.29068999621,324.8478769965004
+vLLM Semantic Router (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11823.713229008717,340.5864369997289
+vLLM Semantic Router (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10135.318281012587,420.0812990020495
+vLLM Semantic Router (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10749.788729008287,404.06907501164824
+vLLM Semantic Router (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10855.690450989641,824.1016749816481
+vLLM Semantic Router (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10548.068700998556,503.4146399993915
+vLLM Semantic Router (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10851.571075996617,1435.766994021833
+vLLM Semantic Router (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10039.165700989543,1025.5317630071659
+vLLM Semantic Router (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10075.86229898152,601.5209630131721
+vLLM Semantic Router (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10169.626034010435,469.36532398103736
+vLLM Semantic Router (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,0.7,False,False,True,False,0.0,10770.594572997652,991.0844709957018
+vLLM Semantic Router (live),tau2-bench (live),tau2-25,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,15173.673991987016,1519.9181710195262
+vLLM Semantic Router (live),tau2-bench (live),tau2-26,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,11792.497254005866,904.1600580094382
+vLLM Semantic Router (live),tau2-bench (live),tau2-27,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,12309.558835986536,1202.487870992627
+vLLM Semantic Router (live),tau2-bench (live),tau2-28,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10429.602229996817,590.6022629933432
+vLLM Semantic Router (live),tau2-bench (live),tau2-29,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,9826.319024985423,1651.6789410088677
+vLLM Semantic Router (live),tau2-bench (live),tau2-30,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,9635.053284990136,1230.167817993788
+vLLM Semantic Router (live),tau2-bench (live),tau2-31,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,9875.098560005426,1017.8467700025067
+vLLM Semantic Router (live),tau2-bench (live),tau2-32,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10613.52525500115,460.1057500112802
+vLLM Semantic Router (live),tau2-bench (live),tau2-33,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10696.239894983592,606.240794993937
+vLLM Semantic Router (live),tau2-bench (live),tau2-34,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10445.21363300737,602.8383740049321
+vLLM Semantic Router (live),tau2-bench (live),tau2-35,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,12206.735765998019,1333.0766090075485
+vLLM Semantic Router (live),tau2-bench (live),tau2-36,multi_turn_policy,0.4,0,mid-general,0.0,True,False,True,False,0.0,10070.564391004154,616.1541100009345
+vLLM Semantic Router (live),tau2-bench (live),tau2-37,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.0,10166.26129602082,659.593299991684
+vLLM Semantic Router (live),tau2-bench (live),tau2-38,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.0,10723.235629993724,578.4098480071407
+vLLM Semantic Router (live),tau2-bench (live),tau2-39,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10334.830990992486,646.5756199904718
+vLLM Semantic Router (live),tau2-bench (live),tau2-40,multi_turn_policy,0.85,0,cheap-small,0.7,False,False,True,False,0.0,10735.113616974559,1270.9844690107275
+vLLM Semantic Router (live),tau2-bench (live),tau2-41,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,13371.088601008523,586.9175069965422
+vLLM Semantic Router (live),tau2-bench (live),tau2-42,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10440.942667017225,557.7863169892225
+vLLM Semantic Router (live),tau2-bench (live),tau2-43,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10228.546169004403,423.84482399211265
+vLLM Semantic Router (live),tau2-bench (live),tau2-44,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10443.89878900256,811.0924060165416
+vLLM Semantic Router (live),tau2-bench (live),tau2-45,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11267.907276982442,618.1787909881677
+vLLM Semantic Router (live),tau2-bench (live),tau2-46,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,11469.017099007033,1223.0519559816457
+vLLM Semantic Router (live),tau2-bench (live),tau2-47,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10556.658752990188,1834.5816989894956
+vLLM Semantic Router (live),tau2-bench (live),tau2-48,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10280.669779982418,1121.296186989639
+vLLM Semantic Router (live),tau2-bench (live),tau2-49,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10845.962338993559,1390.7610870082863
+vLLM Semantic Router (live),tau2-bench (live),tau2-50,multi_turn_policy,0.4,0,mid-general,0.0,True,False,True,False,0.0,10100.200344983023,471.31213400280103
+vLLM Semantic Router (live),tau2-bench (live),tau2-51,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,12030.609640991315,491.44277500454336
+vLLM Semantic Router (live),tau2-bench (live),tau2-52,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,9780.87685900391,1120.0014459900558
+vLLM Semantic Router (live),tau2-bench (live),tau2-53,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10861.852645000909,405.88430999196135
+vLLM Semantic Router (live),tau2-bench (live),tau2-54,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,9846.519529004581,810.2907240099739
+vLLM Semantic Router (live),tau2-bench (live),tau2-55,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11005.226757988567,443.6747799918521
+vLLM Semantic Router (live),tau2-bench (live),tau2-56,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10341.369263012893,1232.8921289881691
+vLLM Semantic Router (live),tau2-bench (live),tau2-57,multi_turn_policy,0.25,0,mid-general,0.0,True,False,True,False,0.0,10973.337901988998,403.9612109772861
+vLLM Semantic Router (live),tau2-bench (live),tau2-58,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10850.091531989165,805.1318179932423
+vLLM Semantic Router (live),tau2-bench (live),tau2-59,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10226.530059007928,920.0193079886958
+vLLM Semantic Router (live),tau2-bench (live),tau2-60,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.0,11161.658164986875,417.8406979772262
+vLLM Semantic Router (live),tau2-bench (live),tau2-61,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10567.12382301339,409.2129780037794
+vLLM Semantic Router (live),tau2-bench (live),tau2-62,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10446.31384598324,798.2924520038068
+vLLM Semantic Router (live),tau2-bench (live),tau2-63,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,11133.754912996665,814.3482230079826
+vLLM Semantic Router (live),tau2-bench (live),tau2-64,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.0,10673.795119975694,333.33137500449084
+vLLM Semantic Router (live),tau2-bench (live),tau2-65,multi_turn_policy,0.7,0,mid-general,0.0,True,False,True,False,0.0,10634.087855985854,308.7987990002148
+vLLM Semantic Router (live),tau2-bench (live),tau2-66,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,14121.154799009673,1214.872908021789
+vLLM Semantic Router (live),tau2-bench (live),tau2-67,multi_turn_policy,1.0,0,cheap-small,0.7,False,False,True,False,0.0,10635.969816998113,1031.3496789894998
+vLLM Semantic Router (live),tau2-bench (live),tau2-68,multi_turn_policy,0.85,0,cheap-small,0.7,False,False,True,False,0.0,13927.03251799685,1035.9810259833466
+vLLM Semantic Router (live),tau2-bench (live),tau2-69,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.0,10656.830225983867,406.63552898331545
+vLLM Semantic Router (live),tau2-bench (live),tau2-70,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,11203.850424004486,1015.3669040009845
+vLLM Semantic Router (live),tau2-bench (live),tau2-71,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,10583.59474100871,671.7772750125732
+vLLM Semantic Router (live),tau2-bench (live),tau2-72,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,10747.35385098029,682.5013019843027
+vLLM Semantic Router (live),tau2-bench (live),tau2-73,multi_turn_policy,0.4,0,mid-general,0.0,True,False,True,False,0.0,10245.692710013827,510.1453829847742
+vLLM Semantic Router (live),tau2-bench (live),tau2-74,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,10772.467283008154,413.5599200089928
+vLLM Semantic Router (live),tau2-bench (live),tau2-75,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,14734.223662992008,1301.9434519810602
+vLLM Semantic Router (live),tau2-bench (live),tau2-76,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,11224.167088017566,482.45406002388336
+vLLM Semantic Router (live),tau2-bench (live),tau2-77,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,10407.38633699948,786.2541970098391
+vLLM Semantic Router (live),tau2-bench (live),tau2-78,multi_turn_policy,0.7,0,cheap-small,0.7,False,False,True,False,0.0,10860.852359008277,1676.3770050019957
+vLLM Semantic Router (live),tau2-bench (live),tau2-79,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,10118.579628993757,1015.6183569924906
+vLLM Semantic Router (live),tau2-bench (live),tau2-80,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,10312.574174982728,937.9658519756049
+vLLM Semantic Router (live),tau2-bench (live),tau2-81,multi_turn_policy,0.55,0,cheap-small,0.7,False,False,True,False,0.0,10659.178792993771,1157.886970002437
+vLLM Semantic Router (live),tau2-bench (live),tau2-82,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,10606.862618005835,803.5433930053841
+vLLM Semantic Router (live),tau2-bench (live),tau2-83,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,11185.401773022022,1064.5204850006849
+vLLM Semantic Router (live),tau2-bench (live),tau2-84,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,11466.372222988866,895.3215469955467
+vLLM Semantic Router (live),tau2-bench (live),tau2-85,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,10857.599724025931,1029.841892013792
+vLLM Semantic Router (live),tau2-bench (live),tau2-86,multi_turn_policy,0.55,0,cheap-small,0.7,False,False,True,False,0.0,10089.441344985971,900.173364992952
+vLLM Semantic Router (live),tau2-bench (live),tau2-87,multi_turn_policy,0.85,0,mid-general,0.0,True,False,True,False,0.0,10316.443954012357,330.9342240099795
+vLLM Semantic Router (live),tau2-bench (live),tau2-88,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,11481.200804992113,876.68204298825
+vLLM Semantic Router (live),tau2-bench (live),tau2-89,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,11668.089943006635,1219.924072996946
+vLLM Semantic Router (live),tau2-bench (live),tau2-90,multi_turn_policy,0.4,0,cheap-small,0.7,False,False,True,False,0.0,10998.583276988938,1431.7174300085753
+vLLM Semantic Router (live),tau2-bench (live),tau2-91,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,10878.334533015732,569.9886919755954
+vLLM Semantic Router (live),tau2-bench (live),tau2-92,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,13618.739794997964,384.527893998893
+vLLM Semantic Router (live),tau2-bench (live),tau2-93,multi_turn_policy,0.4,0,mid-general,0.0,True,False,True,False,0.0,10824.647506000474,1227.3095549899153
+vLLM Semantic Router (live),tau2-bench (live),tau2-94,multi_turn_policy,0.4,0,mid-general,0.0,True,False,True,False,0.0,11270.292270986829,442.31298999511637
+vLLM Semantic Router (live),tau2-bench (live),tau2-95,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,10661.998997005867,395.5772409972269
+vLLM Semantic Router (live),tau2-bench (live),tau2-96,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,11251.446706999559,396.07117799459957
+vLLM Semantic Router (live),tau2-bench (live),tau2-97,multi_turn_policy,0.55,0,mid-general,0.0,True,False,True,False,0.0,10771.882842003834,829.3747540155891
+vLLM Semantic Router (live),tau2-bench (live),tau2-98,multi_turn_policy,0.7,0,mid-general,0.0,True,False,True,False,0.0,10759.300036006607,592.7384659880772
+vLLM Semantic Router (live),tau2-bench (live),tau2-99,multi_turn_policy,0.55,0,cheap-small,0.7,False,False,True,False,0.0,10241.010424972046,2657.849793002242

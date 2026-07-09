@@ -1,0 +1,3 @@
+router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
+LiteLLM Router (live),WebArena (live),16,1,0.1875,0.0012678375000000001,0.006761800000000001,34772.13246750762,58445.92255500174,,0.0,1.0,1.0,,0.1875,,
+Aurelio Semantic Router (live),WebArena (live),16,1,0.0625,0.0288204375,0.461127,43952.97038649005,94134.21159251084,,1.0,1.0,0.0,,0.0625,,

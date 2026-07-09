@@ -1,0 +1,7 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+Aurelio Semantic Router (live),0.0625,0.028407375,0.454518,44732.626149500444,92823.69891250049,,1.0,1.0,,1,False
+LLMRouter (live),0.0625,0.0352471875,0.563955,45677.675356499545,125468.76466474988,,1.0,1.0,,1,False
+LiteLLM Router (live),0.0625,0.031401,0.502416,46173.25484899993,113469.21031650004,,0.0,1.0,,1,False
+NVIDIA AI Blueprint LLM Router (live),0.0625,0.03774825,0.603972,44786.71877400029,138991.46612950062,,1.0,1.0,,1,False
+RouteLLM (live),0.0625,0.040922625000000004,0.6547620000000001,44676.78022199971,154329.5319252495,,1.0,1.0,,1,False
+vLLM Semantic Router (live),0.0625,0.028343812500000003,0.45350100000000004,45754.44051350132,96592.19391274928,,1.0,1.0,,1,True

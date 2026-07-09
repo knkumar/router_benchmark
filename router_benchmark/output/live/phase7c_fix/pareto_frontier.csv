@@ -1,0 +1,2 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+LiteLLM Router (live),0.1875,0.0012678375000000001,0.006761800000000001,34772.13246750762,58445.92255500174,,0.0,1.0,,1,True
