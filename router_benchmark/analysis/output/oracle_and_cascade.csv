@@ -1,0 +1,141 @@
+benchmark_name,task_id,oracle_success,oracle_cost,oracle_tier,pessimal_success,pessimal_cost,pessimal_tier,cascade_success,cascade_cost,cascade_tiers_tried
+BFCL v4 (live),bfcl-0000-simple_java_51,False,0.00010105000000000002,cheap-small,False,0.007550000000000001,strong-frontier,False,0.012088,cheap-small+mid-general+strong-frontier
+BFCL v4 (live),bfcl-0001-simple_python_119,True,0.00011520000000000001,cheap-small,True,0.00011520000000000001,cheap-small,True,0.000115,cheap-small
+BFCL v4 (live),bfcl-0002-simple_python_7,True,7.085e-05,cheap-small,True,7.085e-05,cheap-small,True,0.000071,cheap-small
+BFCL v4 (live),bfcl-0003-simple_python_92,True,8.815e-05,cheap-small,True,8.815e-05,cheap-small,True,0.000088,cheap-small
+BFCL v4 (live),bfcl-0004-simple_python_35,True,8.960000000000001e-05,cheap-small,True,8.960000000000001e-05,cheap-small,True,0.000090,cheap-small
+BFCL v4 (live),bfcl-0005-simple_python_85,True,9.235000000000001e-05,cheap-small,False,0.006365000000000001,strong-frontier,True,0.000092,cheap-small
+BFCL v4 (live),bfcl-0006-simple_python_100,True,7.315e-05,cheap-small,True,7.315e-05,cheap-small,True,0.000073,cheap-small
+BFCL v4 (live),bfcl-0007-simple_python_363,True,8.995000000000002e-05,cheap-small,True,8.995000000000002e-05,cheap-small,True,0.000090,cheap-small
+BFCL v4 (live),bfcl-0008-simple_python_242,True,0.002745,mid-general,False,7.390000000000001e-05,cheap-small,True,0.002819,cheap-small+mid-general
+BFCL v4 (live),bfcl-0009-simple_python_17,True,6.635000000000001e-05,cheap-small,True,6.635000000000001e-05,cheap-small,True,0.000066,cheap-small
+BFCL v4 (live),bfcl-0010-simple_python_31,True,8.350000000000001e-05,cheap-small,True,8.350000000000001e-05,cheap-small,True,0.000084,cheap-small
+BFCL v4 (live),bfcl-0011-simple_python_16,False,8.255e-05,cheap-small,False,0.00585,strong-frontier,False,0.009746,cheap-small+mid-general+strong-frontier
+BFCL v4 (live),bfcl-0012-simple_python_354,True,8.420000000000001e-05,cheap-small,True,8.420000000000001e-05,cheap-small,True,0.000084,cheap-small
+BFCL v4 (live),bfcl-0013-simple_java_95,True,0.0001114,cheap-small,True,0.0001114,cheap-small,True,0.000111,cheap-small
+BFCL v4 (live),bfcl-0014-simple_java_74,True,9.100000000000002e-05,cheap-small,True,9.100000000000002e-05,cheap-small,True,0.000091,cheap-small
+BFCL v4 (live),bfcl-0015-simple_python_152,True,9.075000000000001e-05,cheap-small,False,0.0035610000000000004,mid-general,True,0.000091,cheap-small
+BFCL v4 (live),bfcl-0016-simple_python_93,True,8.775e-05,cheap-small,True,8.775e-05,cheap-small,True,0.000088,cheap-small
+BFCL v4 (live),bfcl-0017-simple_python_187,True,8.095e-05,cheap-small,True,8.095e-05,cheap-small,True,0.000081,cheap-small
+BFCL v4 (live),bfcl-0018-simple_python_117,True,8.67e-05,cheap-small,True,8.67e-05,cheap-small,True,0.000087,cheap-small
+BFCL v4 (live),bfcl-0019-simple_python_14,False,7.46e-05,cheap-small,False,0.00442,strong-frontier,False,0.007717,cheap-small+mid-general+strong-frontier
+BFCL v4 (live),bfcl-0020-simple_javascript_15,True,0.0001025,cheap-small,False,0.008150000000000001,strong-frontier,True,0.000102,cheap-small
+BFCL v4 (live),bfcl-0021-simple_java_98,True,8.25e-05,cheap-small,True,8.25e-05,cheap-small,True,0.000082,cheap-small
+BFCL v4 (live),bfcl-0022-simple_python_255,True,8.740000000000001e-05,cheap-small,True,8.740000000000001e-05,cheap-small,True,0.000087,cheap-small
+BFCL v4 (live),bfcl-0023-simple_python_66,True,8.010000000000001e-05,cheap-small,True,8.010000000000001e-05,cheap-small,True,0.000080,cheap-small
+BFCL v4 (live),bfcl-0024-simple_java_77,True,0.00013230000000000002,cheap-small,True,0.00013230000000000002,cheap-small,True,0.000132,cheap-small
+BFCL v4 (live),bfcl-0025-simple_python_70,True,8.6e-05,cheap-small,True,8.6e-05,cheap-small,True,0.000086,cheap-small
+BFCL v4 (live),bfcl-0026-simple_python_91,True,7.91e-05,cheap-small,True,7.91e-05,cheap-small,True,0.000079,cheap-small
+BFCL v4 (live),bfcl-0027-simple_javascript_27,True,8.785000000000001e-05,cheap-small,False,0.006370000000000001,strong-frontier,True,0.000088,cheap-small
+BFCL v4 (live),bfcl-0028-simple_python_47,True,7.540000000000002e-05,cheap-small,True,7.540000000000002e-05,cheap-small,True,0.000075,cheap-small
+BFCL v4 (live),bfcl-0029-simple_python_276,True,7.835000000000001e-05,cheap-small,True,7.835000000000001e-05,cheap-small,True,0.000078,cheap-small
+RouterBench (live),routerbench-0000,True,2.36e-05,cheap-small,False,0.000118,mid-general,True,0.000024,cheap-small
+RouterBench (live),routerbench-0001,True,0.000464,mid-general,False,9.38e-05,cheap-small,True,0.000558,cheap-small+mid-general
+RouterBench (live),routerbench-0002,True,5.0600000000000003e-05,cheap-small,False,0.00025499999999999996,mid-general,True,0.000051,cheap-small
+RouterBench (live),routerbench-0003,True,2.6000000000000002e-05,cheap-small,True,2.6000000000000002e-05,cheap-small,True,0.000026,cheap-small
+RouterBench (live),routerbench-0004,True,0.01344,strong-frontier,False,0.0007700000000000001,mid-general,True,0.014308,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0005,True,0.000117,mid-general,False,2.34e-05,cheap-small,True,0.000140,cheap-small+mid-general
+RouterBench (live),routerbench-0006,True,0.0014500000000000001,strong-frontier,False,0.000144,mid-general,True,0.001623,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0007,True,0.00074,mid-general,False,7.840000000000001e-05,cheap-small,True,0.000818,cheap-small+mid-general
+RouterBench (live),routerbench-0008,True,0.000323,mid-general,False,6.42e-05,cheap-small,True,0.000387,cheap-small+mid-general
+RouterBench (live),routerbench-0009,True,0.000234,mid-general,False,4.6800000000000006e-05,cheap-small,True,0.000281,cheap-small+mid-general
+RouterBench (live),routerbench-0010,True,0.000237,mid-general,False,4.74e-05,cheap-small,True,0.000284,cheap-small+mid-general
+RouterBench (live),routerbench-0011,True,0.00115,strong-frontier,False,0.00011300000000000001,mid-general,True,0.001285,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0012,True,1.8599999999999998e-05,cheap-small,False,0.00094,strong-frontier,True,0.000019,cheap-small
+RouterBench (live),routerbench-0013,True,0.000159,mid-general,False,3.180000000000001e-05,cheap-small,True,0.000191,cheap-small+mid-general
+RouterBench (live),routerbench-0014,True,1.7e-05,cheap-small,True,1.7e-05,cheap-small,True,0.000017,cheap-small
+RouterBench (live),routerbench-0015,True,0.00085,strong-frontier,False,8.4e-05,mid-general,True,0.000951,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0016,True,8.08e-05,cheap-small,True,8.08e-05,cheap-small,True,0.000081,cheap-small
+RouterBench (live),routerbench-0017,False,1.44e-05,cheap-small,False,0.00073,strong-frontier,False,0.000818,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0018,True,7.860000000000001e-05,cheap-small,True,7.860000000000001e-05,cheap-small,True,0.000079,cheap-small
+RouterBench (live),routerbench-0019,False,1.52e-05,cheap-small,False,0.00077,strong-frontier,False,0.000861,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0020,True,8.7e-05,mid-general,False,1.74e-05,cheap-small,True,0.000104,cheap-small+mid-general
+RouterBench (live),routerbench-0021,True,8.92e-05,cheap-small,True,8.92e-05,cheap-small,True,0.000089,cheap-small
+RouterBench (live),routerbench-0022,False,4.520000000000001e-05,cheap-small,False,0.00227,strong-frontier,False,0.002541,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0023,True,2.9e-05,cheap-small,True,2.9e-05,cheap-small,True,0.000029,cheap-small
+RouterBench (live),routerbench-0024,True,0.0006000000000000001,mid-general,False,0.00799,strong-frontier,True,0.000691,cheap-small+mid-general
+RouterBench (live),routerbench-0025,False,1.9600000000000002e-05,cheap-small,False,0.00099,strong-frontier,False,0.001108,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0026,True,0.00231,strong-frontier,False,0.000232,mid-general,True,0.002588,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0027,True,0.00017999999999999998,mid-general,False,3.600000000000001e-05,cheap-small,True,0.000216,cheap-small+mid-general
+RouterBench (live),routerbench-0028,True,1.9600000000000002e-05,cheap-small,True,1.9600000000000002e-05,cheap-small,True,0.000020,cheap-small
+RouterBench (live),routerbench-0029,True,0.00321,strong-frontier,False,0.00032199999999999997,mid-general,True,0.003596,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0030,True,7.8e-05,mid-general,False,1.5600000000000003e-05,cheap-small,True,0.000094,cheap-small+mid-general
+RouterBench (live),routerbench-0031,True,9.400000000000001e-05,cheap-small,False,0.00471,strong-frontier,True,0.000094,cheap-small
+RouterBench (live),routerbench-0032,True,1.5600000000000003e-05,cheap-small,True,1.5600000000000003e-05,cheap-small,True,0.000016,cheap-small
+RouterBench (live),routerbench-0033,True,0.00010499999999999999,mid-general,False,2.1000000000000002e-05,cheap-small,True,0.000126,cheap-small+mid-general
+RouterBench (live),routerbench-0034,True,1.8599999999999998e-05,cheap-small,True,1.8599999999999998e-05,cheap-small,True,0.000019,cheap-small
+RouterBench (live),routerbench-0035,True,0.00014,mid-general,False,2.8e-05,cheap-small,True,0.000168,cheap-small+mid-general
+RouterBench (live),routerbench-0036,True,0.000244,mid-general,False,4.8400000000000004e-05,cheap-small,True,0.000292,cheap-small+mid-general
+RouterBench (live),routerbench-0037,True,2.32e-05,cheap-small,False,0.00117,strong-frontier,True,0.000023,cheap-small
+RouterBench (live),routerbench-0038,True,0.00023799999999999998,mid-general,False,4.720000000000001e-05,cheap-small,True,0.000285,cheap-small+mid-general
+RouterBench (live),routerbench-0039,False,9.34e-05,cheap-small,False,0.010020000000000001,strong-frontier,False,0.010979,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0040,True,0.00542,strong-frontier,False,0.00034199999999999996,mid-general,True,0.005818,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0041,True,9.1e-05,mid-general,False,0.00093,strong-frontier,True,0.000109,cheap-small+mid-general
+RouterBench (live),routerbench-0042,True,0.000173,mid-general,False,3.460000000000001e-05,cheap-small,True,0.000208,cheap-small+mid-general
+RouterBench (live),routerbench-0043,True,0.0005250000000000001,mid-general,False,8.6e-05,cheap-small,True,0.000611,cheap-small+mid-general
+RouterBench (live),routerbench-0044,True,0.00102,strong-frontier,False,0.000103,mid-general,True,0.001143,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0045,True,0.0006640000000000001,mid-general,False,9.82e-05,cheap-small,True,0.000762,cheap-small+mid-general
+RouterBench (live),routerbench-0046,True,0.0005250000000000001,mid-general,False,9.02e-05,cheap-small,True,0.000615,cheap-small+mid-general
+RouterBench (live),routerbench-0047,True,0.00010099999999999999,mid-general,False,2.02e-05,cheap-small,True,0.000121,cheap-small+mid-general
+RouterBench (live),routerbench-0048,True,0.00010099999999999999,mid-general,False,2.02e-05,cheap-small,True,0.000121,cheap-small+mid-general
+RouterBench (live),routerbench-0049,True,1.46e-05,cheap-small,True,1.46e-05,cheap-small,True,0.000015,cheap-small
+RouterBench (live),routerbench-0050,True,5.9800000000000003e-05,cheap-small,False,0.00779,strong-frontier,True,0.000060,cheap-small
+RouterBench (live),routerbench-0051,True,0.00101,strong-frontier,False,9.999999999999999e-05,mid-general,True,0.001130,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0052,True,0.000304,mid-general,False,6.080000000000001e-05,cheap-small,True,0.000365,cheap-small+mid-general
+RouterBench (live),routerbench-0053,True,0.000474,mid-general,False,7.32e-05,cheap-small,True,0.000547,cheap-small+mid-general
+RouterBench (live),routerbench-0054,True,1.46e-05,cheap-small,True,1.46e-05,cheap-small,True,0.000015,cheap-small
+RouterBench (live),routerbench-0055,True,0.000139,mid-general,False,2.78e-05,cheap-small,True,0.000167,cheap-small+mid-general
+RouterBench (live),routerbench-0056,True,0.00102,strong-frontier,False,0.000103,mid-general,True,0.001143,cheap-small+mid-general+strong-frontier
+RouterBench (live),routerbench-0057,True,0.00010999999999999999,mid-general,False,0.00111,strong-frontier,True,0.000132,cheap-small+mid-general
+RouterBench (live),routerbench-0058,True,7.620000000000001e-05,cheap-small,True,7.620000000000001e-05,cheap-small,True,0.000076,cheap-small
+RouterBench (live),routerbench-0059,True,0.000363,mid-general,False,7.300000000000001e-05,cheap-small,True,0.000436,cheap-small+mid-general
+WebArena (live),webarena-102,False,0.0017947500000000001,cheap-small,False,0.18733800000000003,mid-general,False,0.295453,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-103,True,0.05836,strong-frontier,False,0.08208299999999999,mid-general,True,0.147278,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-104,True,0.02802,mid-general,False,0.015064750000000005,cheap-small,True,0.043085,cheap-small+mid-general
+WebArena (live),webarena-105,False,0.010374849999999998,cheap-small,False,0.3303240000000001,mid-general,False,0.446794,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-106,False,0.0,strong-frontier,False,0.10273200000000002,mid-general,False,0.105121,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-117,False,0.0,strong-frontier,False,0.019485000000000002,mid-general,False,0.020111,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-118,False,0.0,strong-frontier,False,0.015878999999999997,mid-general,False,0.017917,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-124,False,0.0,strong-frontier,False,0.03012,mid-general,False,0.032228,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-125,False,0.0,strong-frontier,False,0.031878,mid-general,False,0.033101,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-126,True,0.024999,mid-general,False,0.00121235,cheap-small,True,0.026211,cheap-small+mid-general
+WebArena (live),webarena-21,False,0.0008674000000000002,cheap-small,False,0.073395,strong-frontier,False,0.105252,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-22,True,0.0016925,cheap-small,False,0.06563500000000001,strong-frontier,True,0.001692,cheap-small
+WebArena (live),webarena-23,False,0.0008564500000000001,cheap-small,False,0.041028,mid-general,False,0.078814,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-24,True,0.0007836000000000002,cheap-small,False,0.015366000000000001,mid-general,True,0.000784,cheap-small
+WebArena (live),webarena-25,False,0.0023190500000000005,cheap-small,False,0.060545,strong-frontier,False,0.088472,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-26,False,0.0027808500000000005,cheap-small,False,0.07352,strong-frontier,False,0.113810,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-44,True,0.0009075000000000001,cheap-small,True,0.0009075000000000001,cheap-small,True,0.000908,cheap-small
+WebArena (live),webarena-45,False,0.003618950000000001,cheap-small,False,0.078485,strong-frontier,False,0.106608,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-46,False,0.0023760000000000005,cheap-small,False,0.047405,strong-frontier,False,0.080651,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-47,False,0.0006328,cheap-small,False,0.3732900000000001,strong-frontier,False,0.393834,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-48,False,0.0013733,cheap-small,False,0.12444500000000001,strong-frontier,False,0.145516,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-49,False,0.0006332,cheap-small,False,0.278235,strong-frontier,False,0.298656,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-50,False,0.0006328,cheap-small,False,0.33276999999999995,strong-frontier,False,0.352954,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-51,False,0.0011439500000000001,cheap-small,False,0.22046,strong-frontier,False,0.241422,cheap-small+mid-general+strong-frontier
+WebArena (live),webarena-96,False,0.0006256,cheap-small,False,0.12511,strong-frontier,False,0.144984,cheap-small+mid-general+strong-frontier
+tau2-bench (live),tau2-0,True,0.005480910000000001,cheap-small,True,0.005480910000000001,cheap-small,True,0.005481,cheap-small
+tau2-bench (live),tau2-1,True,0.00446608,cheap-small,True,0.00446608,cheap-small,True,0.004466,cheap-small
+tau2-bench (live),tau2-10,True,0.0038966200000000004,cheap-small,True,0.0038966200000000004,cheap-small,True,0.003897,cheap-small
+tau2-bench (live),tau2-11,True,0.0039761200000000005,cheap-small,True,0.0039761200000000005,cheap-small,True,0.003976,cheap-small
+tau2-bench (live),tau2-12,True,0.00410141,cheap-small,False,0.47641500000000003,strong-frontier,True,0.004101,cheap-small
+tau2-bench (live),tau2-13,True,0.0043034300000000004,cheap-small,True,0.0043034300000000004,cheap-small,True,0.004303,cheap-small
+tau2-bench (live),tau2-14,True,0.0037879099999999994,cheap-small,True,0.0037879099999999994,cheap-small,True,0.003788,cheap-small
+tau2-bench (live),tau2-15,True,0.00484149,cheap-small,True,0.00484149,cheap-small,True,0.004841,cheap-small
+tau2-bench (live),tau2-16,True,0.00519538,cheap-small,True,0.00519538,cheap-small,True,0.005195,cheap-small
+tau2-bench (live),tau2-17,True,0.00195918,cheap-small,True,0.00195918,cheap-small,True,0.001959,cheap-small
+tau2-bench (live),tau2-18,True,0.00540958,cheap-small,False,0.24005100000000004,mid-general,True,0.005410,cheap-small
+tau2-bench (live),tau2-19,True,0.005918970000000001,cheap-small,True,0.005918970000000001,cheap-small,True,0.005919,cheap-small
+tau2-bench (live),tau2-2,True,0.5432950000000001,strong-frontier,False,0.227832,mid-general,True,0.776813,cheap-small+mid-general+strong-frontier
+tau2-bench (live),tau2-20,True,0.009242809999999999,cheap-small,True,0.009242809999999999,cheap-small,True,0.009243,cheap-small
+tau2-bench (live),tau2-21,True,0.00604481,cheap-small,True,0.00604481,cheap-small,True,0.006045,cheap-small
+tau2-bench (live),tau2-22,True,0.29428499999999996,mid-general,False,0.004652680000000001,cheap-small,True,0.298938,cheap-small+mid-general
+tau2-bench (live),tau2-23,True,0.0073719300000000005,cheap-small,True,0.0073719300000000005,cheap-small,True,0.007372,cheap-small
+tau2-bench (live),tau2-24,True,0.00662965,cheap-small,True,0.00662965,cheap-small,True,0.006630,cheap-small
+tau2-bench (live),tau2-3,True,0.00494217,cheap-small,False,0.42464,strong-frontier,True,0.004942,cheap-small
+tau2-bench (live),tau2-4,True,0.295977,mid-general,False,0.004303340000000001,cheap-small,True,0.300280,cheap-small+mid-general
+tau2-bench (live),tau2-5,True,0.0074081400000000006,cheap-small,True,0.0074081400000000006,cheap-small,True,0.007408,cheap-small
+tau2-bench (live),tau2-6,True,0.005512609999999999,cheap-small,True,0.005512609999999999,cheap-small,True,0.005513,cheap-small
+tau2-bench (live),tau2-7,True,0.007172459999999999,cheap-small,True,0.007172459999999999,cheap-small,True,0.007172,cheap-small
+tau2-bench (live),tau2-8,True,0.007466809999999999,cheap-small,True,0.007466809999999999,cheap-small,True,0.007467,cheap-small
+tau2-bench (live),tau2-9,True,0.00496848,cheap-small,True,0.00496848,cheap-small,True,0.004968,cheap-small

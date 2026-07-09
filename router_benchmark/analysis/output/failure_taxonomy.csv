@@ -1,0 +1,5 @@
+benchmark_group,success,graded_incorrect,infra_or_api_failure,n_total
+BFCL,205,35,0,240
+RouterBench,237,243,0,480
+WebArena,8,56,0,64
+tau2-bench,25,7,0,32

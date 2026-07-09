@@ -1,0 +1,5 @@
+router,RouterBench+BFCL,tau2-bench,WebArena,mean_rank,rank_variance
+Aurelio Semantic Router (live),2.00,1.00,1.50,1.50,0.167
+LiteLLM Router (live),3.00,3.00,3.50,3.17,0.056
+RouteLLM (live),4.00,4.00,3.50,3.83,0.056
+vLLM Semantic Router (live),1.00,2.00,1.50,1.50,0.167

@@ -1,0 +1,13 @@
+router,metric,point_estimate,ci_low,ci_high,n_tasks
+Aurelio Semantic Router (live),success_rate,0.9600,0.8800,1.0000,25
+Aurelio Semantic Router (live),cost_per_task,0.2597,0.2375,0.2805,25
+Aurelio Semantic Router (live),cost_per_success,0.2705,0.2429,0.3023,25
+LiteLLM Router (live),success_rate,0.7200,0.5200,0.8800,25
+LiteLLM Router (live),cost_per_task,0.0054,0.0049,0.0060,25
+LiteLLM Router (live),cost_per_success,0.0075,0.0059,0.0103,25
+RouteLLM (live),success_rate,0.7200,0.5200,0.8800,25
+RouteLLM (live),cost_per_task,0.0056,0.0047,0.0069,25
+RouteLLM (live),cost_per_success,0.0078,0.0055,0.0120,25
+vLLM Semantic Router (live),success_rate,0.8800,0.7600,1.0000,25
+vLLM Semantic Router (live),cost_per_task,0.3001,0.2310,0.3695,25
+vLLM Semantic Router (live),cost_per_success,0.3410,0.2641,0.4250,25
