@@ -1,0 +1,4 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+Tool-Required Heuristic Baseline (live),0.96,0.25630488,0.26698425,52193.746129007195,61491.73007160134,0.96,0.0,1.0,0.029462782549439452,1,True
+Prompt-Length Heuristic Baseline (live),0.84,0.2111543496,0.25137422571428575,50729.39826898801,88276.09009020375,0.84,0.0,1.0,0.11785113019775789,1,True
+Random Baseline (live),0.84,0.2469768568,0.2940200676190476,47007.198598003015,71342.38881999045,0.84,0.0,1.0,0.11785113019775789,1,False

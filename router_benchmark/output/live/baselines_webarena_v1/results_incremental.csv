@@ -1,0 +1,126 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+Always-Cheapest Baseline (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.0008474000000000001,38969.38332699938,0.005269990651868284
+Always-Cheapest Baseline (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,1.0,False,False,False,,0.00169125,69820.19377101096,0.0108700041892007
+Always-Cheapest Baseline (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,1.0,False,False,False,,0.0008577000000000001,35556.45580799319,0.008999995770864189
+Always-Cheapest Baseline (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,1.0,False,True,False,,0.0007808000000000001,34072.29018698854,0.009680006769485772
+Always-Cheapest Baseline (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0008750000000000001,41358.69860199455,0.014359990018419921
+Always-Cheapest Baseline (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,cheap-small,1.0,False,False,False,,0.0008756,41160.75212399301,0.008880000677891076
+Always-Cheapest Baseline (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,1.0,False,True,False,,0.0008575000000000001,25256.366612011334,0.009499999578110874
+Always-Cheapest Baseline (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.0011543500000000002,36447.93754800048,0.007080001523718238
+Always-Cheapest Baseline (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.00236535,53857.45856098947,0.008629998774267733
+Always-Cheapest Baseline (live),WebArena (live),webarena-47,web_navigation,0.52,0,cheap-small,1.0,False,False,False,,0.0006328,29634.207600989612,0.009969997336156666
+Always-Cheapest Baseline (live),WebArena (live),webarena-48,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,28535.30572100135,0.009009992936626077
+Always-Cheapest Baseline (live),WebArena (live),webarena-49,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,28731.24969001219,0.010289993952028453
+Always-Cheapest Baseline (live),WebArena (live),webarena-50,web_navigation,0.519,0,cheap-small,1.0,False,False,False,,0.0006328,28848.15870199236,0.009010007488541305
+Always-Cheapest Baseline (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,1.0,False,False,False,,0.0006332,29393.78366699384,0.006810005288571119
+Always-Cheapest Baseline (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,1.0,False,False,False,,0.0006256,29520.86638699984,0.009499999578110874
+Always-Cheapest Baseline (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,1.0,False,False,False,,0.0052293,91957.41916200495,0.006620000931434333
+Always-Cheapest Baseline (live),WebArena (live),webarena-103,web_navigation,0.506,0,cheap-small,1.0,False,False,False,,0.004359750000000001,80612.72468300012,0.005920010153204203
+Always-Cheapest Baseline (live),WebArena (live),webarena-104,web_navigation,0.501,0,cheap-small,1.0,False,False,False,,0.011908050000000003,193579.52211800148,0.009110997780226171
+Always-Cheapest Baseline (live),WebArena (live),webarena-105,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0053773499999999995,88465.06645200134,0.010069998097606003
+Always-Cheapest Baseline (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.011727800000000002,189922.89792800148,0.008260001777671278
+Always-Cheapest Baseline (live),WebArena (live),webarena-117,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.0006256,29916.275039009633,0.010310002835467458
+Always-Cheapest Baseline (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,1.0,False,False,False,,0.00245095,95112.38067499653,0.006360001862049103
+Always-Cheapest Baseline (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.00122235,49635.975340002915,0.010379997547715902
+Always-Cheapest Baseline (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,1.0,False,False,False,,0.0016346000000000002,60874.282837001374,0.006250003934837878
+Always-Cheapest Baseline (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,1.0,False,False,False,,0.0016354,61435.92791899573,0.00947000808082521
+Always-Strongest Baseline (live),WebArena (live),webarena-21,web_navigation,0.468,0,strong-frontier,1.0,False,False,False,,0.05449000000000001,56620.93479500618,0.009369992767460644
+Always-Strongest Baseline (live),WebArena (live),webarena-22,web_navigation,0.465,0,strong-frontier,1.0,False,False,False,,0.06687,77419.17846100114,0.011709998943842947
+Always-Strongest Baseline (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,strong-frontier,1.0,False,False,False,,0.07558000000000001,75573.59767900198,0.006400005077011883
+Always-Strongest Baseline (live),WebArena (live),webarena-24,web_navigation,0.466,0,strong-frontier,1.0,False,True,False,,0.03332,38239.27417599771,0.010100004146806896
+Always-Strongest Baseline (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,strong-frontier,1.0,False,False,False,,0.07454,85746.63980198966,0.010930001735687256
+Always-Strongest Baseline (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,strong-frontier,1.0,False,False,False,,0.07273500000000001,84990.93947399524,0.01737999264150858
+Always-Strongest Baseline (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,strong-frontier,1.0,False,True,False,,0.034225000000000005,29449.461519994657,0.011169991921633482
+Always-Strongest Baseline (live),WebArena (live),webarena-45,web_navigation,0.437,0,strong-frontier,1.0,False,False,False,,0.04874500000000001,45743.283592993976,0.011880008969455957
+Always-Strongest Baseline (live),WebArena (live),webarena-46,web_navigation,0.437,0,strong-frontier,1.0,False,False,False,,0.048380000000000006,44475.224024005,0.006360001862049103
+Always-Strongest Baseline (live),WebArena (live),webarena-47,web_navigation,0.52,0,strong-frontier,1.0,False,False,False,,0.04544,44641.08916299301,0.011059993994422257
+Always-Strongest Baseline (live),WebArena (live),webarena-48,web_navigation,0.525,0,strong-frontier,1.0,False,False,False,,0.25579500000000005,195219.07950700552,0.006989997928030789
+Always-Strongest Baseline (live),WebArena (live),webarena-49,web_navigation,0.525,0,strong-frontier,1.0,False,False,False,,0.117815,95609.93120899366,0.011930009350180626
+Always-Strongest Baseline (live),WebArena (live),webarena-50,web_navigation,0.519,0,strong-frontier,1.0,False,False,False,,0.07261000000000001,62658.41585199814,0.011059993994422257
+Always-Strongest Baseline (live),WebArena (live),webarena-51,web_navigation,0.524,0,strong-frontier,1.0,False,False,False,,0.045395,45172.960171999875,0.009919996955431998
+Always-Strongest Baseline (live),WebArena (live),webarena-96,web_navigation,0.461,0,strong-frontier,1.0,False,False,False,,0.09815000000000002,80256.29228400066,0.006030008080415428
+Always-Strongest Baseline (live),WebArena (live),webarena-102,web_navigation,0.512,0,strong-frontier,1.0,False,False,False,,0.10717000000000002,71660.6395849958,0.012839998817071319
+Always-Strongest Baseline (live),WebArena (live),webarena-103,web_navigation,0.506,0,strong-frontier,1.0,False,False,False,,0.064475,48532.25057000236,0.00999000621959567
+Always-Strongest Baseline (live),WebArena (live),webarena-104,web_navigation,0.501,0,strong-frontier,1.0,False,False,False,,0.06446,48193.127154998365,0.010139992809854448
+Always-Strongest Baseline (live),WebArena (live),webarena-105,web_navigation,0.525,0,strong-frontier,1.0,False,False,False,,0.22358,143312.21488099254,0.0113099958980456
+Always-Strongest Baseline (live),WebArena (live),webarena-106,web_navigation,0.504,0,strong-frontier,1.0,False,False,False,,0.10779,68779.91464799561,0.010709991329349577
+Always-Strongest Baseline (live),WebArena (live),webarena-117,web_navigation,0.46,0,strong-frontier,1.0,False,False,False,,0.27302499999999996,192302.07594799867,0.006829999620094895
+Always-Strongest Baseline (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,strong-frontier,1.0,False,False,False,,0.036395000000000004,42769.86399599991,0.013020006008446217
+Always-Strongest Baseline (live),WebArena (live),webarena-124,web_navigation,0.468,0,strong-frontier,1.0,False,False,False,,0.08536,83897.9808800068,0.006219997885636985
+Always-Strongest Baseline (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,strong-frontier,1.0,False,False,False,,0.08429500000000001,92395.49617699231,0.01030000566970557
+Always-Strongest Baseline (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,strong-frontier,1.0,False,True,False,,0.054329999999999996,56224.568695004564,0.008050003089010715
+Random Baseline (live),WebArena (live),webarena-21,web_navigation,0.468,0,mid-general,1.0,False,False,False,,0.029895,78253.7926530058,0.06513101106975228
+Random Baseline (live),WebArena (live),webarena-22,web_navigation,0.465,0,strong-frontier,1.0,False,False,False,,0.06778,76774.07516099629,0.041620005504228175
+Random Baseline (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,1.0,False,False,False,,0.00042620000000000006,24827.829998001107,0.04874999285675585
+Random Baseline (live),WebArena (live),webarena-24,web_navigation,0.466,0,strong-frontier,1.0,False,True,False,,0.03357,38733.449959006975,0.037079997127875686
+Random Baseline (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,strong-frontier,1.0,False,False,False,,0.073545,85980.71816499578,0.05160000000614673
+Random Baseline (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,mid-general,1.0,False,False,False,,0.038004,93780.12562599906,0.03671000013127923
+Random Baseline (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,1.0,False,True,False,,0.0008975000000000001,26071.046525001293,0.03778999962378293
+Random Baseline (live),WebArena (live),webarena-45,web_navigation,0.437,0,strong-frontier,1.0,False,False,False,,0.077935,59326.3660800003,0.05613999383058399
+Random Baseline (live),WebArena (live),webarena-46,web_navigation,0.437,0,mid-general,1.0,False,False,False,,0.03204,55388.96115600073,0.04794998676516116
+Random Baseline (live),WebArena (live),webarena-47,web_navigation,0.52,0,mid-general,1.0,False,False,False,,0.019641000000000002,42294.43251200428,0.04867000097874552
+Random Baseline (live),WebArena (live),webarena-48,web_navigation,0.525,0,strong-frontier,1.0,False,False,False,,0.04669,51949.050843992154,0.037950012483634055
+Random Baseline (live),WebArena (live),webarena-49,web_navigation,0.525,0,mid-general,1.0,False,False,False,,0.019473,43657.53930200299,0.04073001036886126
+Random Baseline (live),WebArena (live),webarena-50,web_navigation,0.519,0,strong-frontier,1.0,False,False,False,,0.13203,104114.53782398894,0.04702099249698222
+Random Baseline (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,1.0,False,False,False,,0.0006332,29596.275699994294,0.05041999975219369
+Random Baseline (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,1.0,False,False,False,,0.0006256,28552.96082799032,0.045199994929134846
+Random Baseline (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,1.0,False,False,False,,0.0017239500000000001,38831.430945996544,0.03610999556258321
+Random Baseline (live),WebArena (live),webarena-103,web_navigation,0.506,0,mid-general,1.0,False,True,False,,0.08176800000000001,105158.01375200681,0.03641999501269311
+Random Baseline (live),WebArena (live),webarena-104,web_navigation,0.501,0,strong-frontier,1.0,False,True,False,,0.045655,36020.173233002424,0.0610999995842576
+Random Baseline (live),WebArena (live),webarena-105,web_navigation,0.525,0,mid-general,1.0,False,False,False,,0.33342900000000003,447660.97778901167,0.05003000842407346
+Random Baseline (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.015648449999999998,248427.84673800634,0.04082999657839537
+Random Baseline (live),WebArena (live),webarena-117,web_navigation,0.46,0,strong-frontier,1.0,False,False,False,,0.14307,103316.97192399588,0.03823000588454306
+Random Baseline (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,1.0,False,False,False,,0.00203835,75066.9132740004,0.03715099592227489
+Random Baseline (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.00205585,73568.51822099998,0.047510009608231485
+Random Baseline (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,mid-general,1.0,False,False,False,,0.031863,80159.99513599672,0.03840000135824084
+Random Baseline (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,1.0,False,False,False,,0.00121235,52450.52180500352,0.03779100370593369
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.0012377500000000001,47259.9027910037,0.009759998647496104
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,1.0,False,True,False,,0.0016925,62672.32310799591,0.011099997209385037
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,1.0,False,False,False,,0.0008554000000000001,35369.56475999614,0.018149992683902383
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,1.0,False,True,False,,0.0007808000000000001,33905.72044500732,0.01850999251473695
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0008748,40609.79633399984,0.01606000296305865
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,cheap-small,1.0,False,False,False,,0.0018618500000000002,78881.89188600518,0.017749989638105035
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,1.0,False,True,False,,0.0018294000000000001,41745.12064699957,0.017350001144222915
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.0030084000000000005,74830.69583900215,0.012270000297576189
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.00231955,54104.81910999806,0.014450008166022599
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-47,web_navigation,0.52,0,cheap-small,1.0,False,False,False,,0.0006328,29693.900943006156,0.016480000340379775
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-48,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0011352,38914.27289901185,0.01768000947777182
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-49,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,30778.991095998208,0.015539990272372961
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-50,web_navigation,0.519,0,cheap-small,1.0,False,False,False,,0.0006328,28667.23887200351,0.018139995518140495
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,1.0,False,False,False,,0.0006332,28715.194452001015,0.01156001235358417
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,1.0,False,False,False,,0.0006256,28920.700817994657,0.009320006938651204
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,1.0,False,False,False,,0.006064,103818.19581201125,0.019019993487745523
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-103,web_navigation,0.506,0,cheap-small,1.0,False,False,False,,0.00428695,74119.8400400026,0.010930001735687256
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-104,web_navigation,0.501,0,cheap-small,1.0,False,False,False,,0.015199350000000002,239205.9396620025,0.01855999289546162
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-105,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.006058700000000001,101914.56990000734,0.010199990356341004
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.013233249999999998,203078.25036899885,0.015379991964437068
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-117,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.0006256,29820.70531298814,0.0158400071086362
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,1.0,False,False,False,,0.00203835,72402.7151640039,0.011039999662898481
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.00121235,49811.02561400621,0.014460005331784487
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,1.0,False,False,False,,0.0016043000000000001,60805.439995005145,0.00916999124456197
+Prompt-Length Heuristic Baseline (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,1.0,False,False,False,,0.00159255,59245.540345989866,0.01855999289546162
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.0008474000000000001,35996.66916800197,0.006419999408535659
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,1.0,False,False,False,,0.00169125,71826.15897999494,0.008269998943433166
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,1.0,False,False,False,,0.0008666500000000001,39539.10503498628,0.009009992936626077
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,1.0,False,True,False,,0.0007808000000000001,39058.54686399107,0.007378999725915492
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0008748,45971.308876003604,0.008779999916441739
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,cheap-small,1.0,False,False,False,,0.00136855,59529.32202500233,0.007849987014196813
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,1.0,False,True,False,,0.0012109500000000001,42719.7162139928,0.007319991709664464
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.0023933500000000003,59637.02600100078,0.011310010449960828
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.0012365499999999999,37679.173021009774,0.006250003934837878
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-47,web_navigation,0.52,0,cheap-small,1.0,False,False,False,,0.0006328,32640.29521899647,0.006800008122809231
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-48,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,32965.795056996285,0.006609989213757217
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-49,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,32536.13567299908,0.01314000110141933
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-50,web_navigation,0.519,0,cheap-small,1.0,False,False,False,,0.0006328,33803.329745001975,0.008849994628690183
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,1.0,False,False,False,,0.0006332,32193.419948001974,0.012839998817071319
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,1.0,False,False,False,,0.0006256,33030.00921200146,0.011340001947246492
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,1.0,False,False,False,,0.0017947500000000001,38240.676301007625,0.008100003469735384
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-103,web_navigation,0.506,0,cheap-small,1.0,False,False,False,,0.0089379,162138.4577860008,0.006770002073608339
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-104,web_navigation,0.501,0,cheap-small,1.0,False,False,False,,0.005270550000000001,101606.06265100068,0.017910002497956157
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-105,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.011561949999999998,191038.31466399424,0.010400006431154907
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.010365800000000001,176436.752463007,0.018210004782304168
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-117,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.0006256,34868.95598600677,0.029839997296221554
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,1.0,False,False,False,,0.0024237500000000006,91636.92382600857,0.011660013115033507
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.0021078,79477.40038800112,0.009469993528909981
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,1.0,False,False,False,,0.0012242000000000002,54955.33409800555,0.006539994501508772
+Tool-Required Heuristic Baseline (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,1.0,False,False,False,,0.00121235,54988.703932001954,0.012240008800290525

@@ -1,0 +1,901 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,2.36e-05,,0.005900001269765198
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.38e-05,,0.0026300112949684262
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,,0.0021899904822930694
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,,0.002130007487721741
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,9.760000000000001e-05,,0.0021700107026845217
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.34e-05,,0.0021000014385208488
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,,0.0020400038920342922
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.840000000000001e-05,,0.0033099931897595525
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.42e-05,,0.002209999365732074
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.6800000000000006e-05,,0.0019799917936325073
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.74e-05,,0.0018790015019476414
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.22e-05,,0.0019400031305849552
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0019800063455477357
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.180000000000001e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.7e-05,,0.0018199934856966138
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,1.6800000000000002e-05,,0.0018199934856966138
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,8.08e-05,,0.0018300052033737302
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.44e-05,,0.0018300052033737302
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,7.860000000000001e-05,,0.0019900035113096237
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.52e-05,,0.0019099970813840628
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,1.74e-05,,0.0018999999156221747
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,1.0,False,True,False,,8.92e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,4.520000000000001e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.9e-05,,0.0019099970813840628
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,9.06e-05,,0.002019995008595288
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.9600000000000002e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,4.600000000000001e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.600000000000001e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,,0.0018800055840983987
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,6.4e-05,,0.0018199934856966138
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,1.5600000000000003e-05,,0.0018600112525746226
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,9.400000000000001e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.5600000000000003e-05,,0.0018100108718499541
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.1000000000000002e-05,,0.0020099978428333998
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.8e-05,,0.0017799902707338333
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,,0.0017699931049719453
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,2.32e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.720000000000001e-05,,0.0018099963199347258
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,1.0,False,False,False,,9.34e-05,,0.0018100108718499541
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,5.580000000000001e-05,,0.0017900019884109497
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,,0.0020099978428333998
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.460000000000001e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,8.6e-05,,0.0018100108718499541
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0017800048226490617
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,9.82e-05,,0.0018299906514585018
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.02e-05,,0.0017800048226490617
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,,0.0017900019884109497
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,,0.0018500140868127346
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.080000000000001e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.32e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.78e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018099963199347258
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.2e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,True,False,,7.620000000000001e-05,,0.0019900035113096237
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,7.300000000000001e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,2.36e-05,,0.002510001650080085
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.38e-05,,0.0019199942471459508
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,,0.0018099963199347258
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.760000000000001e-05,,0.0019300059648230672
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.34e-05,,0.0021799933165311813
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,,0.0018999999156221747
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.840000000000001e-05,,0.0018700084183365107
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.42e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.6800000000000006e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.74e-05,,0.0018999999156221747
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.22e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0018300052033737302
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.180000000000001e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.7e-05,,0.0018999999156221747
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.6800000000000002e-05,,0.0020500010577961802
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,8.08e-05,,0.0018899881979450583
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.44e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,7.860000000000001e-05,,0.0018099963199347258
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.52e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.74e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,1.0,False,True,False,,8.92e-05,,0.0017700076568871737
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,4.520000000000001e-05,,0.0018099963199347258
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.9e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.06e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.9600000000000002e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,4.600000000000001e-05,,0.0017599959392100573
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.600000000000001e-05,,0.0018200080376118422
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,,0.0017900019884109497
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,6.4e-05,,0.0018100108718499541
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.5600000000000003e-05,,0.0018300052033737302
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,9.400000000000001e-05,,0.0018100108718499541
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.5600000000000003e-05,,0.0020699953893199563
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.1000000000000002e-05,,0.0018900027498602867
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0017999991541728377
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.8e-05,,0.0018099963199347258
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,,0.0018100108718499541
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,2.32e-05,,0.00650000583846122
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.720000000000001e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,1.0,False,False,False,,9.34e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,5.580000000000001e-05,,0.0018699938664212823
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,,0.0018799910321831703
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.460000000000001e-05,,0.0018800055840983987
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,8.6e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,9.82e-05,,0.0017499987734481692
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.02e-05,,0.0018499995348975062
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018300052033737302
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018900027498602867
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,,0.0020900042727589607
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,,0.0018600112525746226
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2e-05,,0.0019099970813840628
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.080000000000001e-05,,0.0018800055840983987
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.32e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.78e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018599967006593943
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.2e-05,,0.0018400023691356182
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,True,False,,7.620000000000001e-05,,0.0017799902707338333
+Always-Cheapest Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,7.300000000000001e-05,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00119,,0.003049994120374322
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.007430000000000001,,0.002019995008595288
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0025700000000000002,,0.0019599974621087313
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.0013100000000000002,,0.0020099978428333998
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,True,False,,0.01344,,0.0068500085035339
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00121,,0.0018800055840983987
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.0014500000000000001,,0.0020699953893199563
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.0093,,0.0023699976736679673
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0032500000000000003,,0.0019599974621087313
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00235,,0.0019100116332992911
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00238,,0.0018200080376118422
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00115,,0.0019300059648230672
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,False,False,,0.00094,,0.0018999999156221747
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00163,,0.0018600112525746226
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.00086,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00085,,0.0018700084183365107
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0051,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,strong-frontier,1.0,False,False,False,,0.00073,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.011279999999999998,,0.0018799910321831703
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,strong-frontier,1.0,False,False,False,,0.00077,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00091,,0.0018800055840983987
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,strong-frontier,1.0,False,True,False,,0.00825,,0.0018799910321831703
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,strong-frontier,1.0,False,False,False,,0.00227,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.00149,,0.0020699953893199563
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,False,False,,0.00799,,0.0019199942471459508
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,strong-frontier,1.0,False,False,False,,0.00099,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00231,,0.0018899881979450583
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00181,,0.0018999999156221747
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.00102,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00321,,0.0018800055840983987
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00079,,0.0018299906514585018
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,False,False,,0.00471,,0.0018699938664212823
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.0008200000000000001,,0.0018699938664212823
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0010600000000000002,,0.0018800055840983987
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.00094,,0.0018400023691356182
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00141,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00243,,0.0018999999156221747
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,False,False,,0.00117,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00237,,0.0018299906514585018
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,strong-frontier,1.0,False,False,False,,0.010020000000000001,,0.0018199934856966138
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,True,False,,0.00542,,0.0020500010577961802
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,False,False,,0.00093,,0.0019400031305849552
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00174,,0.0019299914129078388
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00918,,0.0019199942471459508
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00102,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00938,,0.0018999999156221747
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.00826,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00102,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00102,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.0007700000000000001,,0.0021900050342082977
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,False,False,,0.00779,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00101,,0.0018100108718499541
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00305,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00807,,0.0018600112525746226
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.00074,,0.0018300052033737302
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0014,,0.0018400023691356182
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00102,,0.0018400023691356182
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,False,False,,0.00111,,0.0020400038920342922
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.0068000000000000005,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.00641,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00119,,0.0023799948394298553
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,strong-frontier,1.0,False,True,False,,0.007430000000000001,,0.0018999999156221747
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0025700000000000002,,0.0019299914129078388
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.0013100000000000002,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,strong-frontier,1.0,False,True,False,,0.01344,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00121,,0.0018399878172203898
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.0014500000000000001,,0.0018200080376118422
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.0093,,0.0018700084183365107
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0032500000000000003,,0.0017999991541728377
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00235,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00238,,0.0017800048226490617
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00115,,0.0017999991541728377
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,False,False,,0.00094,,0.0018700084183365107
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00163,,0.0018799910321831703
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.00086,,0.0020000006770715117
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00085,,0.0018799910321831703
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0051,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00073,,0.0018900027498602867
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.011279999999999998,,0.0018699938664212823
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00077,,0.0018590071704238653
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00091,,0.0018599967006593943
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,strong-frontier,1.0,False,True,False,,0.00825,,0.0019400031305849552
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00227,,0.001868989784270525
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.00149,,0.0018899881979450583
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,strong-frontier,1.0,False,False,False,,0.00799,,0.0019699946278706193
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00099,,0.0017889979062601924
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00231,,0.0018199934856966138
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00181,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.00102,,0.0018299906514585018
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00321,,0.0018300052033737302
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00079,,0.0018199934856966138
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,False,False,,0.00471,,0.0019299914129078388
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.0008200000000000001,,0.0017999991541728377
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0010600000000000002,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.00094,,0.0023899920051917434
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00141,,0.0018200080376118422
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00243,,0.0017900019884109497
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,False,False,,0.00117,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00237,,0.0018300052033737302
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,strong-frontier,1.0,False,False,False,,0.010020000000000001,,0.0018699938664212823
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,strong-frontier,1.0,False,True,False,,0.00542,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,False,False,,0.00093,,0.0018999999156221747
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00174,,0.0018199934856966138
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00918,,0.0018400023691356182
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00102,,0.0022699969122186303
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00938,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,strong-frontier,1.0,False,True,False,,0.00826,,0.0018400023691356182
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00102,,0.0018199934856966138
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00102,,0.0018800055840983987
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.0007700000000000001,,0.0018600112525746226
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,False,False,,0.00779,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00101,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00305,,0.0018499995348975062
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00807,,0.0018099963199347258
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.00074,,0.0018799910321831703
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0014,,0.0017800048226490617
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00102,,0.0017999991541728377
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,False,False,,0.00111,,0.0017900019884109497
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.0068000000000000005,,0.0017600104911252856
+Always-Strongest Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,strong-frontier,1.0,False,True,False,,0.00641,,0.0017999991541728377
+Random Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00119,,0.02689000393729657
+Random Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.38e-05,,0.007820010068826377
+Random Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0025700000000000002,,0.007209993782453239
+Random Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,,0.006909991498105228
+Random Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,mid-general,1.0,False,False,False,,0.0007700000000000001,,0.007100010407157242
+Random Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.34e-05,,0.0073499977588653564
+Random Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,,0.007139999070204794
+Random Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.0093,,0.007960014045238495
+Random Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0032500000000000003,,0.006930000381544232
+Random Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00235,,0.0067689979914575815
+Random Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.74e-05,,0.006749993190169334
+Random Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.00011300000000000001,,0.006990012479946017
+Random Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,False,False,,0.00094,,0.006729998858645558
+Random Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000159,,0.006880000000819564
+Random Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,8.499999999999999e-05,,0.006800008122809231
+Random Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00085,,0.006739996024407446
+Random Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00036,,0.006560003384947777
+Random Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,strong-frontier,1.0,False,False,False,,0.00073,,0.006710004527121782
+Random Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,7.860000000000001e-05,,0.006810005288571119
+Random Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.52e-05,,0.006880000000819564
+Random Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,8.7e-05,,0.006789996405132115
+Random Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,strong-frontier,1.0,False,True,False,,0.00825,,0.006880000000819564
+Random Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,4.520000000000001e-05,,0.006860005669295788
+Random Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.9e-05,,0.006729998858645558
+Random Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,mid-general,1.0,False,True,False,,0.0006000000000000001,,0.006740010576322675
+Random Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,mid-general,1.0,False,False,False,,9.8e-05,,0.006760004907846451
+Random Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00231,,0.006629998097196221
+Random Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00017999999999999998,,0.006559988833032548
+Random Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,9.8e-05,,0.006699992809444666
+Random Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,6.4e-05,,0.006829999620094895
+Random Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00079,,0.00672000169288367
+Random Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.00047,,0.006810005288571119
+Random Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,7.8e-05,,0.006930000381544232
+Random Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00010499999999999999,,0.0068500085035339
+Random Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.006700007361359894
+Random Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00014,,0.006600006599910557
+Random Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,,0.006599992047995329
+Random Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,2.32e-05,,0.006590009434148669
+Random Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00237,,0.006550006219185889
+Random Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,1.0,False,False,False,,9.34e-05,,0.006809990736655891
+Random Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,True,False,,0.00542,,0.006650006980635226
+Random Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,False,False,,0.00093,,0.006610003765672445
+Random Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000173,,0.006629998097196221
+Random Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00918,,0.006898990250192583
+Random Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.006840011337772012
+Random Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,9.82e-05,,0.006900008884258568
+Random Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.02e-05,,0.0069599918788298965
+Random Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.00689999433234334
+Random Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.006729998858645558
+Random Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,,0.006589994882233441
+Random Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,False,False,,0.00779,,0.006810005288571119
+Random Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00101,,0.0066590000642463565
+Random Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.080000000000001e-05,,0.006620000931434333
+Random Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.32e-05,,0.006690010195598006
+Random Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,strong-frontier,1.0,False,True,False,,0.00074,,0.006740010576322675
+Random Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000139,,0.006880000000819564
+Random Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00102,,0.006940012099221349
+Random Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.2e-05,,0.006729998858645558
+Random Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.0068000000000000005,,0.006950009264983237
+Random Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.00641,,0.006670001312159002
+Random Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00119,,0.007540002116002142
+Random Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,mid-general,1.0,False,True,False,,0.000464,,0.007199996616691351
+Random Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,,0.00672000169288367
+Random Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,,0.006779999239370227
+Random Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.760000000000001e-05,,0.00693999754730612
+Random Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000117,,0.006570000550709665
+Random Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.000144,,0.006579997716471553
+Random Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.0093,,0.006670001312159002
+Random Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000323,,0.006550006219185889
+Random Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00235,,0.006689995643682778
+Random Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00238,,0.006880000000819564
+Random Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.00011300000000000001,,0.0068699882831424475
+Random Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,False,False,,0.00094,,0.006620000931434333
+Random Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000159,,0.006809990736655891
+Random Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.00086,,0.006479996955022216
+Random Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,8.4e-05,,0.00667999847792089
+Random Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0051,,0.006699992809444666
+Random Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00073,,0.006729998858645558
+Random Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000546,,0.0064889900386333466
+Random Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.52e-05,,0.006680013029836118
+Random Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.74e-05,,0.006589994882233441
+Random Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,strong-frontier,1.0,False,True,False,,0.00825,,0.006700007361359894
+Random Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00227,,0.0068500085035339
+Random Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,0.000145,,0.006770002073608339
+Random Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.06e-05,,0.006800008122809231
+Random Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00099,,0.0068599911173805594
+Random Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,4.600000000000001e-05,,0.00667999847792089
+Random Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00017999999999999998,,0.006529997335746884
+Random Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,,0.006620000931434333
+Random Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,6.4e-05,,0.006880000000819564
+Random Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,7.8e-05,,0.006700007361359894
+Random Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,False,False,,0.00471,,0.006670001312159002
+Random Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.0008200000000000001,,0.006590009434148669
+Random Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0010600000000000002,,0.006670001312159002
+Random Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,9.3e-05,,0.006480011506937444
+Random Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.8e-05,,0.00667999847792089
+Random Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,,0.0067599903559312224
+Random Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,2.32e-05,,0.006510003004223108
+Random Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.720000000000001e-05,,0.00650000583846122
+Random Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,strong-frontier,1.0,False,False,False,,0.010020000000000001,,0.006450005457736552
+Random Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,mid-general,1.0,False,False,False,,0.00034199999999999996,,0.006570000550709665
+Random Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,,0.006640009814873338
+Random Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.460000000000001e-05,,0.00667999847792089
+Random Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,8.6e-05,,0.006570000550709665
+Random Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.006660004146397114
+Random Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00938,,0.006659989594481885
+Random Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.02e-05,,0.00650000583846122
+Random Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00010099999999999999,,0.006930000381544232
+Random Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00102,,0.006970003596507013
+Random Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,strong-frontier,1.0,False,True,False,,0.0007700000000000001,,0.006570000550709665
+Random Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,,0.006660004146397114
+Random Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,9.999999999999999e-05,,0.006840011337772012
+Random Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.080000000000001e-05,,0.006489994120784104
+Random Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.32e-05,,0.006520000169984996
+Random Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,7.3e-05,,0.006649992428719997
+Random Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000139,,0.006589994882233441
+Random Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.006639995262958109
+Random Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,True,False,,0.00010999999999999999,,0.006600006599910557
+Random Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.0068000000000000005,,0.006520000169984996
+Random Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,mid-general,1.0,False,True,False,,0.000363,,0.006570000550709665
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,False,False,,0.000118,,0.021550004021264613
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.007430000000000001,,0.019829996745102108
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0025700000000000002,,0.011509997420944273
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,0.00013,,0.007809998351149261
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,True,False,,0.01344,,0.012999997125007212
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000117,,0.007399998139590025
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.000144,,0.007939001079648733
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.0093,,0.013019991456530988
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0032500000000000003,,0.013970013242214918
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00235,,0.010269999620504677
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00238,,0.010419011232443154
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.00011300000000000001,,0.006909991498105228
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,9.5e-05,,0.005709996912628412
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000159,,0.007880007615312934
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,8.499999999999999e-05,,0.005189998773857951
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,8.4e-05,,0.004779998562298715
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.0051,,0.010799994925037026
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.44e-05,,0.004179993993602693
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.011279999999999998,,0.012630000128410757
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.52e-05,,0.004299989086575806
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,8.7e-05,,0.005120004061609507
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,strong-frontier,1.0,False,True,False,,0.00825,,0.011598996934480965
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,strong-frontier,1.0,False,False,False,,0.00227,,0.010119998478330672
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,0.000145,,0.0077400036389008164
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,False,False,,0.00799,,0.010970004950650036
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,mid-general,1.0,False,False,False,,9.8e-05,,0.005809997674077749
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00231,,0.013819997548125684
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00017999999999999998,,0.009049996151588857
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,9.8e-05,,0.005639987648464739
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,True,False,,0.00321,,0.016099002095870674
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,7.8e-05,,0.004750007065013051
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,strong-frontier,1.0,False,False,False,,0.00471,,0.02400000812485814
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,7.8e-05,,0.004799992893822491
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00010499999999999999,,0.00610999995842576
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,9.3e-05,,0.005619993316940963
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00014,,0.006750007742084563
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00243,,0.010320000001229346
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.000116,,0.00764899596106261
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00237,,0.009899988071992993
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,strong-frontier,1.0,False,False,False,,0.010020000000000001,,0.011320007615722716
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,strong-frontier,1.0,False,True,False,,0.00542,,0.010160001693293452
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,True,False,,9.1e-05,,0.00510999234393239
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000173,,0.008830000297166407
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00918,,0.010660005500540137
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.000103,,0.005640002200379968
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00938,,0.012219010386615992
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.00826,,0.011330004781484604
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00010099999999999999,,0.005729991244152188
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.00010099999999999999,,0.004989997250959277
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,mid-general,1.0,False,True,False,,7.3e-05,,0.004620000254362822
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,False,False,,0.00779,,0.011849988368339837
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,9.999999999999999e-05,,0.005750000127591193
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,strong-frontier,1.0,False,True,False,,0.00305,,0.01401000190526247
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.00807,,0.014329998521134257
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,,0.004269997589290142
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,mid-general,1.0,False,True,False,,0.000139,,0.0070799869718030095
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,False,False,,0.000103,,0.005659996531903744
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,mid-general,1.0,False,True,False,,0.00010999999999999999,,0.005430003511719406
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,strong-frontier,1.0,False,True,False,,0.0068000000000000005,,0.014578996342606843
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,strong-frontier,1.0,False,True,False,,0.00641,,0.010050003766082227
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,False,False,,0.000118,,0.007619993994012475
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,strong-frontier,1.0,False,True,False,,0.007430000000000001,,0.010550007573328912
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0025700000000000002,,0.010529998689889908
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,0.00013,,0.006900008884258568
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,strong-frontier,1.0,False,True,False,,0.01344,,0.011369003914296627
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000117,,0.006760004907846451
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.000144,,0.008609989890828729
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.0093,,0.010849995305761695
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0032500000000000003,,0.013349010259844363
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00235,,0.00982001074589789
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00238,,0.010310002835467458
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.00011300000000000001,,0.006750007742084563
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,9.5e-05,,0.005659007001668215
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000159,,0.007519993232563138
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,8.499999999999999e-05,,0.005199995939619839
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,8.4e-05,,0.004779998562298715
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.0051,,0.010110001312568784
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.44e-05,,0.0041900057112798095
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.011279999999999998,,0.011980009730905294
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.52e-05,,0.004269997589290142
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,8.7e-05,,0.004899993655271828
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,strong-frontier,1.0,False,True,False,,0.00825,,0.011270007234998047
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,strong-frontier,1.0,False,False,False,,0.00227,,0.00990999978967011
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,0.000145,,0.007598995580337942
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,strong-frontier,1.0,False,False,False,,0.00799,,0.010759991710074246
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,mid-general,1.0,False,False,False,,9.8e-05,,0.005570007488131523
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00231,,0.009769995813257992
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00017999999999999998,,0.008859002264216542
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,9.8e-05,,0.005680005415342748
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,True,False,,0.00321,,0.012449992937035859
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,7.8e-05,,0.004630011972039938
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,strong-frontier,1.0,False,False,False,,0.00471,,0.03104899951722473
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,7.8e-05,,0.004659988917410374
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00010499999999999999,,0.005880006938241422
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,9.3e-05,,0.005529989721253514
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00014,,0.0067490036599338055
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00243,,0.010200004908256233
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.000116,,0.007020003977231681
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00237,,0.009569994290359318
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,strong-frontier,1.0,False,False,False,,0.010020000000000001,,0.01122899993788451
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,strong-frontier,1.0,False,True,False,,0.00542,,0.010370000381954014
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,True,False,,9.1e-05,,0.004999994416721165
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000173,,0.008759991033002734
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00918,,0.010389005183242261
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.000103,,0.005360008799470961
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00938,,0.018520004232414067
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,strong-frontier,1.0,False,True,False,,0.00826,,0.01117000647354871
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00010099999999999999,,0.005330002750270069
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.00010099999999999999,,0.004739995347335935
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,mid-general,1.0,False,True,False,,7.3e-05,,0.0045000051613897085
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,False,False,,0.00779,,0.011159994755871594
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,9.999999999999999e-05,,0.005470006726682186
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,strong-frontier,1.0,False,True,False,,0.00305,,0.0138300092658028
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.00807,,0.00982001074589789
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,,0.004079993232153356
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,mid-general,1.0,False,True,False,,0.000139,,0.007209993782453239
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,False,False,,0.000103,,0.005349997081793845
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,mid-general,1.0,False,True,False,,0.00010999999999999999,,0.0052800023695454
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,strong-frontier,1.0,False,True,False,,0.0068000000000000005,,0.010880001354962587
+Prompt-Length Heuristic Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,strong-frontier,1.0,False,True,False,,0.00641,,0.009719995432533324
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,2.36e-05,,0.0031800009310245514
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.38e-05,,0.0022799940779805183
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,,0.0019899889593943954
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,,0.002119995770044625
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,9.760000000000001e-05,,0.002039989340119064
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.34e-05,,0.002030006726272404
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,,0.002030006726272404
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.840000000000001e-05,,0.0023600005079060793
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.42e-05,,0.0019599974621087313
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.6800000000000006e-05,,0.0019299914129078388
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.74e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.22e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0018999999156221747
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.180000000000001e-05,,0.0018800055840983987
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.7e-05,,0.0018299906514585018
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,1.6800000000000002e-05,,0.0018300052033737302
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,8.08e-05,,0.0018999999156221747
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.44e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,7.860000000000001e-05,,0.001848995452746749
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.52e-05,,0.0018800055840983987
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,1.74e-05,,0.002029992174357176
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,1.0,False,True,False,,8.92e-05,,0.0018800055840983987
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,4.520000000000001e-05,,0.0023000029614195228
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.9e-05,,0.0018500140868127346
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,9.06e-05,,0.0018999999156221747
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.9600000000000002e-05,,0.0018600112525746226
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,4.600000000000001e-05,,0.0018900027498602867
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.600000000000001e-05,,0.0018599967006593943
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,,0.0019300059648230672
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,6.4e-05,,0.0020900042727589607
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,1.5600000000000003e-05,,0.0019300059648230672
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,9.400000000000001e-05,,0.0018790015019476414
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.5600000000000003e-05,,0.0019199942471459508
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.1000000000000002e-05,,0.0018999999156221747
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0018599967006593943
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.8e-05,,0.0018900027498602867
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,2.32e-05,,0.0019300059648230672
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.720000000000001e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,1.0,False,False,False,,9.34e-05,,0.0018799910321831703
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,5.580000000000001e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,,0.0019199942471459508
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.460000000000001e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,8.6e-05,,0.0018199934856966138
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018100108718499541
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,9.82e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.02e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018500140868127346
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2e-05,,0.0018700084183365107
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.080000000000001e-05,,0.0018599967006593943
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.32e-05,,0.0018700084183365107
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,,0.0019299914129078388
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.78e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.2e-05,,0.0018900027498602867
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,True,False,,7.620000000000001e-05,,0.0019299914129078388
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,7.300000000000001e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,2.36e-05,,0.0024400069378316402
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.38e-05,,0.0019700091797858477
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,,0.0017999991541728377
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.760000000000001e-05,,0.0018800055840983987
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.34e-05,,0.0018300052033737302
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,,0.0018099963199347258
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.840000000000001e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.42e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.6800000000000006e-05,,0.0018700084183365107
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.74e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.22e-05,,0.0019200087990611792
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0019099970813840628
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.180000000000001e-05,,0.0018999999156221747
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.7e-05,,0.0018099963199347258
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.6800000000000002e-05,,0.0018799910321831703
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,8.08e-05,,0.0018300052033737302
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.44e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,7.860000000000001e-05,,0.0018200080376118422
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.52e-05,,0.0018700084183365107
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.74e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,1.0,False,True,False,,8.92e-05,,0.0018699938664212823
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,4.520000000000001e-05,,0.0018599967006593943
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.9e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.06e-05,,0.0020400038920342922
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.9600000000000002e-05,,0.0018600112525746226
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,4.600000000000001e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.600000000000001e-05,,0.0018800055840983987
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,,0.0018599967006593943
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,6.4e-05,,0.0018300052033737302
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.5600000000000003e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,9.400000000000001e-05,,0.0018199934856966138
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.5600000000000003e-05,,0.0018199934856966138
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.1000000000000002e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,,0.0018199934856966138
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.8e-05,,0.0017900019884109497
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,,0.0017989950720220804
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,2.32e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.720000000000001e-05,,0.0018099963199347258
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,1.0,False,False,False,,9.34e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,5.580000000000001e-05,,0.0018199934856966138
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,,0.0018399878172203898
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.460000000000001e-05,,0.0018800055840983987
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,8.6e-05,,0.0017900019884109497
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018100108718499541
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,9.82e-05,,0.0019400031305849552
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.02e-05,,0.0018599967006593943
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0017900019884109497
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0018200080376118422
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,,0.0017999991541728377
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2e-05,,0.0018499995348975062
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.080000000000001e-05,,0.0018400023691356182
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.32e-05,,0.0017900019884109497
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,,0.0017800048226490617
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.78e-05,,0.0018300052033737302
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,,0.0017600104911252856
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.2e-05,,0.0018100108718499541
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,True,False,,7.620000000000001e-05,,0.0017800048226490617
+Tool-Required Heuristic Baseline (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,7.300000000000001e-05,,0.0018800055840983987
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,cheap-small,1.0,False,False,True,False,0.00010105000000000002,1458.0211840075208,0.0029900111258029938
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.00011520000000000001,1065.4056740022497,0.004759989678859711
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,6.960000000000001e-05,1338.4246089990484,0.006889997166581452
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.815e-05,872.5529780058423,0.00733000342734158
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,8.960000000000001e-05,846.3579590024892,0.0076699943747371435
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,9.235000000000001e-05,1085.1717559999088,0.006839996785856783
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,7.315e-05,1075.7999810011825,0.00707000435795635
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.995000000000002e-05,1017.9518079967238,0.006620000931434333
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,6.890000000000001e-05,989.6416419942398,0.0067789951572194695
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,6.635000000000001e-05,813.4887850028463,0.006900008884258568
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,8.350000000000001e-05,877.1785139979329,0.006770002073608339
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,1.0,False,False,True,False,8.255e-05,915.752764994977,0.004939996870234609
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.420000000000001e-05,866.257621004479,0.006880000000819564
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,cheap-small,1.0,False,True,True,True,0.0001114,923.0976000108058,0.007029986591078341
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,9.100000000000002e-05,843.1628870021086,0.0067699875216931105
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,9.075000000000001e-05,939.8434620088665,0.00628999259788543
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.775e-05,881.0594890092034,0.0073699920903891325
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,8.095e-05,946.2027089903131,0.006448986823670566
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.67e-05,1207.8742089943262,0.00667999847792089
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,1.0,False,False,True,False,7.46e-05,1019.0338539978256,0.006910006050020456
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,1.0,False,False,True,False,0.000105,1094.0864299918758,0.006660004146397114
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.25e-05,952.5317319930764,0.006880000000819564
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.740000000000001e-05,922.5933769921539,0.004949994035996497
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.010000000000001e-05,1060.0442480063066,0.007230002665892243
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.00013230000000000002,1047.8900309972232,0.005920010153204203
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.6e-05,850.3175739897415,0.004429995897226036
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,7.91e-05,881.8092099973001,0.0071599934017285705
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.785000000000001e-05,989.0089109976543,0.006839996785856783
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,7.540000000000002e-05,1005.4593320091954,0.0068599911173805594
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,7.335e-05,907.1729329880327,0.004839996108785272
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,cheap-small,1.0,False,False,True,False,0.00010105000000000002,1444.8468549962854,0.008410002919845283
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.00011520000000000001,1146.6533909988357,0.006550006219185889
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,6.960000000000001e-05,782.068412998342,0.007199996616691351
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.815e-05,957.2632299968973,0.006909991498105228
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,8.960000000000001e-05,849.787234008545,0.006620000931434333
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,9.235000000000001e-05,797.6060939981835,0.006760004907846451
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,7.315e-05,670.2215409895871,0.006800008122809231
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.745000000000001e-05,1036.621469000238,0.00654999166727066
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,1.0,False,False,True,False,7.14e-05,1578.071434996673,0.006469999789260328
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,6.635000000000001e-05,827.9703469888773,0.007370006642304361
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,8.350000000000001e-05,648.631378004211,0.007300011930055916
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,1.0,False,False,True,False,8.255e-05,781.9069779943675,0.006559988833032548
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.420000000000001e-05,881.5324459865224,0.006760004907846451
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,cheap-small,1.0,False,True,True,True,0.0001114,812.9882119974354,0.008579998393543065
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,9.100000000000002e-05,1047.4372020107694,0.005820009391754866
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,cheap-small,1.0,False,False,True,False,8.825e-05,766.6358610003954,0.006200003554113209
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.775e-05,922.9658599942923,0.006650006980635226
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,8.095e-05,691.7951240029652,0.00672000169288367
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.67e-05,1049.7166480054148,0.006360001862049103
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,1.0,False,False,True,False,8.085000000000001e-05,1098.307938009384,0.007220005500130355
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,0.0001025,1001.5411220083479,0.007440001354552805
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.25e-05,876.7901559913298,0.004750007065013051
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.740000000000001e-05,964.8639929946512,0.005149995558895171
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.010000000000001e-05,746.5518929966493,0.0048100046114996076
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.00013230000000000002,1131.8528900010278,0.005370005965232849
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.6e-05,830.3375429968582,0.006989997928030789
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,7.91e-05,4842.271449000691,0.004949994035996497
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.785000000000001e-05,93771.04282900109,94.82028700585943
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,7.540000000000002e-05,66317.57497000217,0.014549994375556707
+Always-Cheapest Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,7.835000000000001e-05,111626.35545499506,273.19065399933606
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,strong-frontier,1.0,False,False,True,False,0.007475000000000001,141477.9245509999,111.9476290041348
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.0070750000000000006,24100.368143990636,0.024149994715116918
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,strong-frontier,1.0,False,True,True,True,0.005025,2413.956666990998,0.008620001608505845
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005845,5574.201162002282,0.005420006345957518
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,strong-frontier,1.0,False,True,True,True,0.00577,2088.980871005333,0.006739996024407446
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,False,True,False,0.006365000000000001,2192.117036000127,0.007309994543902576
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,strong-frontier,1.0,False,True,True,True,0.00442,2930.4650819976814,0.00667999847792089
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.006515,2183.2661849912256,0.006399990525096655
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,strong-frontier,1.0,False,True,True,True,0.00447,1994.5813730009831,0.007850001566112041
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.004675,1918.1569249922177,0.008039991371333599
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.00553,1828.2286250032485,0.006360001862049103
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,False,True,False,0.00555,1955.007452997961,0.006930000381544232
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.0058200000000000005,2055.011457996443,0.006990012479946017
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,strong-frontier,1.0,False,True,True,True,0.00779,2558.996203006245,0.01012999564409256
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.0064600000000000005,2247.8076639963547,0.007380003808066249
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.006065000000000001,2342.913710002904,0.007099995855242014
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.006165,2171.8007430026773,0.007049995474517345
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,strong-frontier,1.0,False,True,True,True,0.004515000000000001,1718.402425001841,0.006629998097196221
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.0055000000000000005,1958.3008109912043,0.007010006811469793
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,strong-frontier,1.0,False,False,True,False,0.00452,1746.8409040011466,0.007120004738681018
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,strong-frontier,1.0,False,False,True,False,0.008150000000000001,2709.2534819967113,0.006689995643682778
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.0057,2034.1837290034164,0.0068500085035339
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005495,2657.042717997683,0.006570000550709665
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005615,2023.4707449999405,0.006829999620094895
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.0068850000000000005,3069.8820910038194,0.007100010407157242
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005725000000000001,1905.543775006663,0.00864001049194485
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.006185,5977.595457996358,0.006270012818276882
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,False,True,False,0.006370000000000001,2567.8879599872744,0.006649992428719997
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005125,2413.2365309924353,0.007030001142993569
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005215000000000001,1900.2069699927233,0.006489994120784104
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,strong-frontier,1.0,False,False,True,False,0.007475000000000001,2638.1544720061356,0.007320006261579692
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.006925000000000001,5983.485470991582,0.006319998647086322
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,strong-frontier,1.0,False,True,True,True,0.005025,2102.0523909974145,0.006419999408535659
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005745,2123.2069910038263,0.006999995093792677
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,strong-frontier,1.0,False,True,True,True,0.00577,2246.9383790012216,0.007390000973828137
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,False,True,False,0.00639,2242.4249409959884,0.006610003765672445
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,strong-frontier,1.0,False,True,True,True,0.0048200000000000005,1921.5653499995824,0.00646000262349844
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.006515,2550.397722996422,0.006750007742084563
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,strong-frontier,1.0,False,True,True,True,0.00412,1770.3509800048778,0.007399998139590025
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.004675,1710.79245400324,0.006570000550709665
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.00553,1860.8381759986514,0.006829999620094895
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,False,True,False,0.00585,3141.1239610024495,0.006379996193572879
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.0058200000000000005,2005.7335070014233,0.006539994501508772
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,strong-frontier,1.0,False,True,True,True,0.00779,2582.060740009183,0.006880000000819564
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.006335,2152.552920000744,0.007370006642304361
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.006065000000000001,2199.6488540025894,0.006620000931434333
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.006165,1994.2993629956618,0.006400005077011883
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,strong-frontier,1.0,False,True,True,True,0.004515000000000001,1693.3066339988727,0.006860005669295788
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.0061,2335.9361039911164,0.006690010195598006
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,strong-frontier,1.0,False,False,True,False,0.00442,1715.968434989918,0.006930000381544232
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,strong-frontier,1.0,False,False,True,False,0.009300000000000001,3322.298252998735,0.006379996193572879
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.0057,2231.001064996235,0.006520000169984996
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005495,1956.4266980014509,0.006449990905821323
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005665,1982.031209001434,0.008560004062019289
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.00681,3569.1491049947217,0.006810005288571119
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005725000000000001,1934.4748919975245,0.005869995220564306
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.0061600000000000005,2274.827663000906,0.005960013368166983
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,False,True,False,0.00632,2620.4219679930247,0.005779991624876857
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005175000000000001,2328.4446019970346,0.009540002793073654
+Always-Strongest Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005215000000000001,2044.9625129986089,0.00693999754730612
+Random Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,cheap-small,1.0,False,False,True,False,0.00010855000000000001,1107.249591004802,1.274780006497167
+Random Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.007,2887.14912100113,0.039849997847341
+Random Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.0030210000000000002,1739.6762349962955,0.053669995395466685
+Random Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.00572,1998.2361230067909,0.0454399996669963
+Random Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.003321,1484.2346720106434,0.044809989049099386
+Random Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,mid-general,1.0,False,False,True,False,0.003606,1644.6879819995956,0.04382999031804502
+Random Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.0029760000000000003,2450.4193879984086,0.04438999167177826
+Random Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0036509999999999997,1723.931400993024,0.03526000364217907
+Random Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,6.890000000000001e-05,742.9808999877423,0.04313999670557678
+Random Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003195,1944.1059450036846,0.04086999979335815
+Random Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.00553,2244.788434007205,0.04213000647723675
+Random Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,False,True,False,0.00585,2067.631835001521,0.05382001108955592
+Random Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.420000000000001e-05,966.4991390018258,0.04356000863481313
+Random Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,strong-frontier,1.0,False,True,True,True,0.00764,3081.4138270070544,0.041970008169300854
+Random Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.006285000000000001,2091.125729988562,0.043280000681988895
+Random Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,strong-frontier,1.0,False,True,True,True,0.006065000000000001,2072.0018110005185,0.042319996282458305
+Random Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.775e-05,943.2994530070573,0.04182998964097351
+Random Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.0030600000000000002,1473.6867850006092,0.043849999201484025
+Random Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003537,1666.6703649971168,0.04252999497111887
+Random Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,strong-frontier,1.0,False,False,True,False,0.00452,2025.3344669908984,0.050129994633607566
+Random Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,1.0,False,False,True,False,0.00011,1074.416820993065,0.04311000520829111
+Random Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005775000000000001,2049.7194090130506,0.04121000529266894
+Random Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.00512,1994.4756389886606,0.04317000275477767
+Random Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.010000000000001e-05,878.5087809956167,0.046639994252473116
+Random Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.0068850000000000005,7685.597862000577,0.04343999898992479
+Random Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003345,1429.9861219915329,0.0426600017817691
+Random Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,7.91e-05,894.5064269937575,0.044200001866556704
+Random Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.785000000000001e-05,793.7160449946532,0.04573000478558242
+Random Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,7.540000000000002e-05,757.0144380006241,0.04300000728107989
+Random Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,strong-frontier,1.0,False,True,True,True,0.005215000000000001,1985.4868810070911,0.042359999497421086
+Random Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,cheap-small,1.0,False,False,True,False,0.00010105000000000002,997.3408920050133,0.02645999484229833
+Random Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.00011520000000000001,1582.5280959979864,0.04352000541985035
+Random Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,6.960000000000001e-05,811.215606998303,0.042629995732568204
+Random Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005795,2451.9528659875505,0.043120002374053
+Random Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,8.960000000000001e-05,803.5648980003316,0.041409992263652384
+Random Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,9.235000000000001e-05,1044.250284001464,0.04180999530944973
+Random Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.0029760000000000003,1253.2862739899429,0.04329098737798631
+Random Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0036509999999999997,1715.2001619979274,0.03960999310947955
+Random Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.002745,1176.5271269978257,0.042140003642998636
+Random Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,6.635000000000001e-05,969.2735779972281,0.04305000766180456
+Random Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.00553,2630.9264410083415,0.04369000089354813
+Random Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,1.0,False,False,True,False,8.255e-05,1465.0435499934247,0.041790000977925956
+Random Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.420000000000001e-05,8499.44362899987,0.0443800090579316
+Random Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,strong-frontier,1.0,False,True,True,True,0.00779,2971.4159809955163,0.04683999577537179
+Random Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.006335,2257.116163003957,0.04255000385455787
+Random Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.006115000000000001,2034.569659997942,0.04396999429445714
+Random Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.775e-05,826.7102690006141,0.040839993744157255
+Random Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,8.095e-05,1038.7122700049076,0.04636000085156411
+Random Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.67e-05,1014.4918389996747,0.04169000021647662
+Random Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,strong-frontier,1.0,False,False,True,False,0.00477,2655.724595009815,0.043239997467026114
+Random Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,strong-frontier,1.0,False,False,True,False,0.008375,2866.3711510016583,0.052279996452853084
+Random Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005775000000000001,2257.88840399764,0.042621002648957074
+Random Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003471,1542.6013409887673,0.038219994166865945
+Random Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0032519999999999997,1512.6326890022028,0.03291000030003488
+Random Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.0068850000000000005,2701.910574993235,0.042979998397640884
+Random Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003345,1401.417686996865,0.03530000685714185
+Random Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,strong-frontier,1.0,False,True,True,True,0.006185,2263.619272998767,0.043100008042529225
+Random Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.785000000000001e-05,822.4551820021588,0.04217000969219953
+Random Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,7.540000000000002e-05,3451.37493799848,0.041961000533774495
+Random Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,strong-frontier,1.0,False,True,True,True,0.005215000000000001,2092.8028280031867,0.041140010580420494
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,mid-general,1.0,False,False,True,False,0.006057,3653.0294090043753,0.016619989764876664
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.00011520000000000001,1236.2856690015178,0.012699994840659201
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,7.085e-05,878.2149790058611,0.010730000212788582
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.815e-05,935.5556390073616,0.01091999001801014
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,8.960000000000001e-05,1257.6063799933763,0.010200004908256233
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,9.235000000000001e-05,766.8510140065337,0.010599993402138352
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,7.315e-05,912.2329319943674,0.009749986929818988
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.995000000000002e-05,914.3435580044752,0.010510004358366132
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,1.0,False,False,True,False,6.890000000000001e-05,872.7927019936033,0.009740004315972328
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,6.635000000000001e-05,787.6616010034923,0.009480005246587098
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,8.350000000000001e-05,962.477819994092,0.011259995517320931
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,1.0,False,False,True,False,8.255e-05,1747.3476960003609,0.008460003300569952
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.420000000000001e-05,817.2971650055842,0.006410002242773771
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,cheap-small,1.0,False,True,True,True,0.0001114,859.4494729914004,0.012770004104822874
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,9.100000000000002e-05,1398.050454998156,0.013040000339969993
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,cheap-small,1.0,False,False,True,False,8.825e-05,1333.3947070059367,0.011889991583302617
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.775e-05,837.710737992893,0.010519986972212791
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,8.095e-05,998.4955000109039,0.010330011718906462
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.67e-05,988.1610750016989,0.010819989256560802
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,1.0,False,False,True,False,8.085000000000001e-05,953.5782130114967,0.010100004146806896
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,1.0,False,False,True,False,0.000105,855.5552030011313,0.012730000889860094
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.25e-05,938.5177770018345,0.011209995136596262
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.740000000000001e-05,6056.583609999507,0.014029996236786246
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.010000000000001e-05,962.7964980027173,0.007730006473138928
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.00013230000000000002,1329.4029329990735,0.011629992513917387
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,8.6e-05,1634.7610580123728,0.009490002412348986
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,7.91e-05,865.5317880038638,0.010019997716881335
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003756,4028.907807005453,0.014460005331784487
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,7.540000000000002e-05,928.8902249973034,0.010670002666302025
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,7.835000000000001e-05,1214.8113120056223,0.00955999712459743
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,mid-general,1.0,False,False,True,False,0.005847,3610.7358320005005,0.010529998689889908
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.00011520000000000001,734.7420720034279,0.011679992894642055
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,7.085e-05,952.6457150059287,0.0077599979704245925
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.815e-05,769.5816289924551,0.013740005670115352
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,8.960000000000001e-05,910.5906210024841,0.009929994121193886
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,9.235000000000001e-05,945.6810989941005,0.010160001693293452
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,7.315e-05,850.2801879949402,0.008720002369955182
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.995000000000002e-05,1205.2698130137287,0.010230010957457125
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,6.890000000000001e-05,824.550226010615,0.0069599918788298965
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,6.635000000000001e-05,1085.9177490056027,0.0094299903139472
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,8.350000000000001e-05,966.0580969939474,0.011620009900070727
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,1.0,False,False,True,False,8.255e-05,753.9930100028869,0.009240000508725643
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.420000000000001e-05,1092.049382001278,0.009409995982423425
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,cheap-small,1.0,False,True,True,True,0.0001114,1097.895275990595,0.012279997463338077
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,9.100000000000002e-05,859.2004829988582,0.01309999788645655
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,9.075000000000001e-05,910.7657720014686,0.020310006220825016
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.775e-05,686.5352840104606,0.010400006431154907
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,8.095e-05,1121.0721849929541,0.009349998435936868
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.67e-05,738.8487160060322,0.011680007446557283
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,1.0,False,False,True,False,7.46e-05,796.7662919982104,0.010311006917618215
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,1.0,False,False,True,False,0.00010750000000000001,1153.0595509975683,0.012600008631125093
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.25e-05,787.336127992603,0.011809999705292284
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.740000000000001e-05,897.0845729927532,0.009780007530935109
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.010000000000001e-05,939.0934510010993,0.010420000762678683
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.00013230000000000002,884.2965350049781,0.010839998139999807
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,8.6e-05,656.5890229976503,0.010850009857676923
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,7.91e-05,992.7454330027103,0.010549993021413684
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003921,2187.7520050038584,0.014209988876245916
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,7.540000000000002e-05,845.4576439980883,0.014980003470554948
+Prompt-Length Heuristic Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,7.835000000000001e-05,776.235915007419,0.009790004696696997
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,mid-general,1.0,False,False,True,False,0.006057,3798.961792010232,0.007580005330964923
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.004347,2240.947969010449,0.007139999070204794
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.0030210000000000002,1375.6722849939251,0.008189992513507605
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0036960000000000005,1751.383478011121,0.007189999450929463
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.003321,1395.8663630037336,0.006629998097196221
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,mid-general,1.0,False,False,True,False,0.003606,1843.0726119986502,0.00567000824958086
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.0029760000000000003,1190.7642790029058,0.006670001312159002
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0036509999999999997,1677.0763649983564,0.006789996405132115
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.002745,1356.0683490068186,0.007420007023029029
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003195,1674.8087479936657,0.007969996659085155
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,mid-general,1.0,False,True,True,True,0.003954,2060.948758997256,0.010179996024817228
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,mid-general,1.0,False,False,True,False,0.0038280000000000002,1959.9039449967677,0.007440001354552805
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0033480000000000003,1318.8140300044324,0.006550006219185889
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,mid-general,1.0,False,True,True,True,0.004476,2485.808805009583,0.006449990905821323
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,mid-general,1.0,False,True,True,True,0.0039959999999999996,2219.027945000562,0.006849993951618671
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,mid-general,1.0,False,False,True,False,0.0035610000000000004,1575.7855250121793,0.007109993021003902
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003561,1681.9126310001593,0.006920003215782344
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,mid-general,1.0,False,True,True,True,0.00288,1641.265137004666,0.004859990440309048
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003537,1603.967642004136,0.006820002454333007
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,mid-general,1.0,False,False,True,False,0.003252,1616.6357830079505,0.006750007742084563
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,mid-general,1.0,False,False,True,False,0.004692,3130.5520069872728,0.00585000088904053
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0033420000000000004,2908.242902994971,0.006880000000819564
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003231,1639.7603649966186,0.005049994797445834
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0032519999999999997,1536.074417992495,0.009800001862458885
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.004242,3711.684559995774,0.009210009011439979
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003345,1408.0221240001265,0.006449990905821323
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,mid-general,1.0,False,True,True,True,0.00342,1739.6373430092353,0.007160007953643799
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003756,2355.4959280008916,0.006649992428719997
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.0035640000000000003,1945.3241209994303,0.006729998858645558
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,mid-general,1.0,False,True,True,True,0.003828,5862.053423988982,0.006629998097196221
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,mid-general,1.0,False,False,True,False,0.005082,3072.4710679933196,0.007850001566112041
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.004332,2108.502651011804,0.007540002116002142
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.0030210000000000002,3304.2038190033054,0.006469999789260328
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0036960000000000005,1935.50994299585,0.0075799907790496945
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.003321,1535.934334009653,0.006790010957047343
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,mid-general,1.0,False,False,True,False,0.003606,1869.9903819942847,0.0068500085035339
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.0029760000000000003,1929.6527359983884,0.00934000127017498
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0036509999999999997,1626.6468209942104,0.004920002538710833
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.002745,1188.6614689865382,0.006640999345108867
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003195,1577.3013949947199,0.007540002116002142
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,mid-general,1.0,False,True,True,True,0.0040739999999999995,2279.8229059990263,0.006789996405132115
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,mid-general,1.0,False,False,True,False,0.003543,2707.6693839917425,0.0073499977588653564
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0033480000000000003,1432.9606690007495,0.005210007657296956
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,mid-general,1.0,False,True,True,True,0.0043560000000000005,2484.5796909939963,0.006559988833032548
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,mid-general,1.0,False,True,True,True,0.0039959999999999996,2273.3262490073685,0.0068500085035339
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,mid-general,1.0,False,False,True,False,0.0035610000000000004,1550.8733019960346,0.0077400036389008164
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003561,1608.7047850014642,0.006810005288571119
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,mid-general,1.0,False,True,True,True,0.00288,1742.4799610016635,0.00707000435795635
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003537,1885.636186998454,0.006970003596507013
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,mid-general,1.0,False,False,True,False,0.003282,2149.8746029974427,0.006700007361359894
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,mid-general,1.0,False,True,True,True,0.004451999999999999,2407.0672920061043,0.006340007530525327
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0033420000000000004,2784.1446950042155,0.007609996828250587
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003231,1608.7310570001137,0.007180002285167575
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.0032519999999999997,1468.803691008361,0.006670001312159002
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.004242,2363.7377620034385,0.00632999581284821
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003345,1595.1834159932332,0.006799993570894003
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,mid-general,1.0,False,True,True,True,0.00342,1574.926499000867,0.01619000977370888
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003756,5200.433099002112,0.007039998308755457
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003534,1767.9384700022638,0.007409995305351913
+Tool-Required Heuristic Baseline (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,mid-general,1.0,False,True,True,True,0.003408,1741.318031999981,0.009220006177201867

@@ -1,0 +1,601 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+LiteLLM Router (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.0008474000000000001,36638.1876070227,1.7095789953600615
+LiteLLM Router (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,1.0,False,False,False,,0.00169125,68833.50845400128,1.155488978838548
+LiteLLM Router (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,1.0,False,False,False,,0.0008579000000000001,36017.5228099979,1.2276099878363311
+LiteLLM Router (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,1.0,False,True,False,,0.0007808000000000001,34304.35589599074,1.1393599852453917
+LiteLLM Router (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0008748,40575.85806498537,1.1711900006048381
+LiteLLM Router (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,cheap-small,1.0,False,False,False,,0.0008756,39765.356313990196,2.150130021618679
+LiteLLM Router (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,1.0,False,True,False,,0.0008780500000000001,25756.15045800805,1.0891499987337738
+LiteLLM Router (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.0037106500000000002,70149.4161990122,1.3091699802316725
+LiteLLM Router (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,1.0,False,False,False,,0.0048623,90922.40567898261,1.8779509991873056
+LiteLLM Router (live),WebArena (live),webarena-47,web_navigation,0.52,0,cheap-small,1.0,False,False,False,,0.0006328,28710.527848015772,1.85003099613823
+LiteLLM Router (live),WebArena (live),webarena-48,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,28446.053994004615,1.8403409922029823
+LiteLLM Router (live),WebArena (live),webarena-49,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0006332,28485.257620021002,1.8253909947816283
+LiteLLM Router (live),WebArena (live),webarena-50,web_navigation,0.519,0,cheap-small,1.0,False,False,False,,0.0006328,28859.499281010358,1.9708210020326078
+LiteLLM Router (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,1.0,False,False,False,,0.0006332,28996.429869992426,1.0779710137285292
+LiteLLM Router (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,1.0,False,False,False,,0.0006256,28544.729313987773,1.810760993976146
+LiteLLM Router (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,1.0,False,False,False,,0.0017947500000000001,37146.018908009864,1.1094910150859505
+LiteLLM Router (live),WebArena (live),webarena-103,web_navigation,0.506,0,cheap-small,1.0,False,False,False,,0.006339250000000001,111165.11399697629,1.8040710128843784
+LiteLLM Router (live),WebArena (live),webarena-104,web_navigation,0.501,0,cheap-small,1.0,False,False,False,,0.014614050000000003,229534.95860798284,1.8436209938954562
+LiteLLM Router (live),WebArena (live),webarena-105,web_navigation,0.525,0,cheap-small,1.0,False,False,False,,0.0021046000000000003,40522.51883799909,1.1839710059575737
+LiteLLM Router (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.000548,19548.404971021228,1.0981910163536668
+LiteLLM Router (live),WebArena (live),webarena-117,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.0006256,29599.51661201194,2.1029319905210286
+LiteLLM Router (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,1.0,False,False,False,,0.00203835,71512.98542099539,1.8722919921856374
+LiteLLM Router (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,1.0,False,False,False,,0.0016449,60156.94892901229,1.0643409914337099
+LiteLLM Router (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,1.0,False,False,False,,0.00204015,82181.51174701052,1.769142021657899
+LiteLLM Router (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,1.0,False,False,False,,0.0024485500000000003,83408.33566698711,1.828331995056942
+LiteLLM Router (live),WebArena (live),webarena-132,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.00110475,31482.752968004206,1.0792810062412173
+LiteLLM Router (live),WebArena (live),webarena-133,web_navigation,0.453,0,cheap-small,1.0,False,False,False,,0.00170135,45276.64088198799,1.8147819791920483
+LiteLLM Router (live),WebArena (live),webarena-134,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.00166175,43645.867422019364,2.00902100186795
+LiteLLM Router (live),WebArena (live),webarena-135,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0035034,74669.04836898902,1.8216420139651746
+LiteLLM Router (live),WebArena (live),webarena-136,web_navigation,0.47400000000000003,0,cheap-small,1.0,False,False,False,,0.0017081499999999999,44287.361378985224,1.1070309847127646
+LiteLLM Router (live),WebArena (live),webarena-141,web_navigation,0.459,0,cheap-small,1.0,False,False,False,,0.0006256,28984.372044011252,1.81947200326249
+LiteLLM Router (live),WebArena (live),webarena-142,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0006268000000000001,28973.29866499058,1.0656310187187046
+LiteLLM Router (live),WebArena (live),webarena-143,web_navigation,0.461,0,cheap-small,1.0,False,False,False,,0.0006268000000000001,29562.5733800116,1.8908219935838133
+LiteLLM Router (live),WebArena (live),webarena-144,web_navigation,0.47300000000000003,0,cheap-small,1.0,False,False,False,,0.0006276000000000001,29187.039456999628,1.081691007129848
+LiteLLM Router (live),WebArena (live),webarena-145,web_navigation,0.463,0,cheap-small,1.0,False,False,False,,0.000626,28759.836916986387,1.798951008822769
+LiteLLM Router (live),WebArena (live),webarena-146,web_navigation,0.46900000000000003,0,cheap-small,1.0,False,False,False,,0.0024225500000000003,81937.14282699511,1.7955820076167583
+LiteLLM Router (live),WebArena (live),webarena-147,web_navigation,0.465,0,cheap-small,1.0,False,False,False,,0.0011262,38285.63949599629,1.8759859958663583
+LiteLLM Router (live),WebArena (live),webarena-148,web_navigation,0.47000000000000003,0,cheap-small,1.0,False,False,False,,0.00038780000000000005,25773.42014000169,1.056993001839146
+LiteLLM Router (live),WebArena (live),webarena-149,web_navigation,0.47300000000000003,0,cheap-small,1.0,False,False,False,,0.0007989500000000001,37043.38660198846,1.845405000494793
+LiteLLM Router (live),WebArena (live),webarena-150,web_navigation,0.466,0,cheap-small,1.0,False,False,False,,0.0006264,29116.70828500064,1.0530230065342039
+LiteLLM Router (live),WebArena (live),webarena-156,web_navigation,0.438,0,cheap-small,1.0,False,False,False,,0.00302075,53982.85994201433,1.0526429978199303
+LiteLLM Router (live),WebArena (live),webarena-158,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.00120975,49274.81148700463,1.1543529981281608
+LiteLLM Router (live),WebArena (live),webarena-159,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.00120975,50196.36492501013,1.8151639960706234
+LiteLLM Router (live),WebArena (live),webarena-160,web_navigation,0.503,0,cheap-small,1.0,False,False,False,,0.0024333500000000004,82407.76810701936,1.8249139830004424
+LiteLLM Router (live),WebArena (live),webarena-161,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.0033105500000000006,106152.58449901012,1.8596940208226442
+LiteLLM Router (live),WebArena (live),webarena-162,web_navigation,0.504,0,cheap-small,1.0,False,False,False,,0.00204635,75974.85742298886,1.8115630082320422
+LiteLLM Router (live),WebArena (live),webarena-163,web_navigation,0.48400000000000004,0,cheap-small,1.0,False,False,False,,0.0009409500000000001,39246.58795600408,1.8035329994745553
+LiteLLM Router (live),WebArena (live),webarena-164,web_navigation,0.48400000000000004,0,cheap-small,1.0,False,True,False,,0.0007996500000000001,35585.530263982946,1.0688519978430122
+LiteLLM Router (live),WebArena (live),webarena-165,web_navigation,0.48400000000000004,0,cheap-small,1.0,False,False,False,,0.001216,69997.09175698808,1.8251430010423064
+LiteLLM Router (live),WebArena (live),webarena-166,web_navigation,0.48400000000000004,0,cheap-small,1.0,False,True,False,,0.0007638,35589.42164000473,1.0620919929351658
+LiteLLM Router (live),WebArena (live),webarena-167,web_navigation,0.48400000000000004,0,cheap-small,1.0,False,False,False,,0.0011089000000000001,36298.51178100216,1.8074039835482836
+LiteLLM Router (live),WebArena (live),webarena-168,web_navigation,0.503,0,cheap-small,1.0,False,True,False,,0.00146865,34778.52635498857,1.9840229942929
+LiteLLM Router (live),WebArena (live),webarena-169,web_navigation,0.498,0,cheap-small,1.0,False,False,False,,0.00411045,73593.2305699971,1.0683420114219189
+LiteLLM Router (live),WebArena (live),webarena-170,web_navigation,0.499,0,cheap-small,1.0,False,False,False,,0.00150335,35260.1591690036,1.8012830114457756
+LiteLLM Router (live),WebArena (live),webarena-171,web_navigation,0.501,0,cheap-small,1.0,False,False,False,,0.000548,19900.055932987016,1.313621993176639
+LiteLLM Router (live),WebArena (live),webarena-172,web_navigation,0.492,0,cheap-small,1.0,False,False,False,,0.0014672500000000002,34537.543604004895,1.8390819896012545
+LiteLLM Router (live),WebArena (live),webarena-173,web_navigation,0.592,0,cheap-small,1.0,False,False,False,,0.005716800000000001,104402.03823099728,1.8783530103974044
+LiteLLM Router (live),WebArena (live),webarena-174,web_navigation,0.593,0,cheap-small,1.0,False,False,False,,0.0029711,59345.64388100989,1.7960830009542406
+LiteLLM Router (live),WebArena (live),webarena-175,web_navigation,0.596,0,cheap-small,1.0,False,False,False,,0.0028859500000000004,57840.246421983466,1.804152998374775
+LiteLLM Router (live),WebArena (live),webarena-176,web_navigation,0.598,0,cheap-small,1.0,False,False,False,,0.006259649999999999,109737.32515898882,1.0830520186573267
+LiteLLM Router (live),WebArena (live),webarena-177,web_navigation,0.602,0,cheap-small,1.0,False,False,False,,0.0037404000000000005,74620.02384799416,1.0837610170710832
+LiteLLM Router (live),WebArena (live),webarena-178,web_navigation,0.582,0,cheap-small,1.0,False,False,False,,0.009716949999999999,212025.87852600846,1.7867920105345547
+LiteLLM Router (live),WebArena (live),webarena-179,web_navigation,0.583,0,cheap-small,1.0,False,False,False,,0.00179335,40518.183864012826,1.8627829849720001
+LiteLLM Router (live),WebArena (live),webarena-180,web_navigation,0.586,0,cheap-small,1.0,False,False,False,,0.00400675,98884.25683099194,1.7957420204766095
+LiteLLM Router (live),WebArena (live),webarena-181,web_navigation,0.588,0,cheap-small,1.0,False,False,False,,0.0029035500000000004,65582.48404599726,1.9026620138902217
+LiteLLM Router (live),WebArena (live),webarena-182,web_navigation,0.592,0,cheap-small,1.0,False,False,False,,0.00227155,52098.358307994204,1.7923220002558082
+LiteLLM Router (live),WebArena (live),webarena-188,web_navigation,0.452,0,cheap-small,1.0,False,False,False,,0.0006244,31365.70834199665,1.8128420051652938
+LiteLLM Router (live),WebArena (live),webarena-189,web_navigation,0.45,0,cheap-small,1.0,False,False,False,,0.0006244,32370.977434009546,2.664344006916508
+LiteLLM Router (live),WebArena (live),webarena-190,web_navigation,0.451,0,cheap-small,1.0,False,False,False,,0.0006244,29455.926455004374,1.7967929888982326
+LiteLLM Router (live),WebArena (live),webarena-191,web_navigation,0.453,0,cheap-small,1.0,False,True,False,,0.0006244,30374.94649400469,1.8003919976763427
+LiteLLM Router (live),WebArena (live),webarena-192,web_navigation,0.456,0,cheap-small,1.0,False,False,False,,0.0006256,30882.344790996285,1.667731994530186
+LiteLLM Router (live),WebArena (live),webarena-205,web_navigation,0.445,0,cheap-small,1.0,False,False,False,,0.004018400000000001,107696.01986301132,1.0907709947787225
+LiteLLM Router (live),WebArena (live),webarena-206,web_navigation,0.438,0,cheap-small,1.0,False,False,False,,0.004565100000000001,106351.79971798789,1.0835500143002719
+LiteLLM Router (live),WebArena (live),webarena-207,web_navigation,0.463,0,cheap-small,1.0,False,False,False,,0.00142785,43285.401609988185,1.8216850003227592
+LiteLLM Router (live),WebArena (live),webarena-225,web_navigation,0.446,0,cheap-small,1.0,False,True,False,,0.0016317,61244.0157480014,1.8250339780934155
+LiteLLM Router (live),WebArena (live),webarena-226,web_navigation,0.455,0,cheap-small,1.0,False,False,False,,0.00203235,73857.36963999807,1.8234029994346201
+LiteLLM Router (live),WebArena (live),webarena-227,web_navigation,0.45,0,cheap-small,1.0,False,False,False,,0.00121115,50800.32173299696,1.1143469891976565
+LiteLLM Router (live),WebArena (live),webarena-228,web_navigation,0.45,0,cheap-small,1.0,False,False,False,,0.00122055,50385.48243898549,1.8158509919885546
+LiteLLM Router (live),WebArena (live),webarena-229,web_navigation,0.449,0,cheap-small,1.0,False,False,False,,0.00120995,50606.942562997574,1.9375410047359765
+LiteLLM Router (live),WebArena (live),webarena-230,web_navigation,0.455,0,cheap-small,1.0,False,False,False,,0.0008637,32975.08920999826,2.3602930014021695
+LiteLLM Router (live),WebArena (live),webarena-231,web_navigation,0.455,0,cheap-small,1.0,False,False,False,,0.0006244,30256.68372900691,1.8028590129688382
+LiteLLM Router (live),WebArena (live),webarena-232,web_navigation,0.453,0,cheap-small,1.0,False,False,False,,0.0006244,29027.33511599945,2.0563009893521667
+LiteLLM Router (live),WebArena (live),webarena-233,web_navigation,0.454,0,cheap-small,1.0,False,False,False,,0.0006244,29055.732967011863,1.0584949923213571
+LiteLLM Router (live),WebArena (live),webarena-234,web_navigation,0.453,0,cheap-small,1.0,False,True,False,,0.0006248,29878.08934901841,1.812138973036781
+LiteLLM Router (live),WebArena (live),webarena-235,web_navigation,0.46,0,cheap-small,1.0,False,True,False,,0.0006248,29074.243879003916,1.0657450184226036
+LiteLLM Router (live),WebArena (live),webarena-238,web_navigation,0.512,0,cheap-small,1.0,False,False,False,,0.0032992500000000005,121069.79291699827,1.872079010354355
+LiteLLM Router (live),WebArena (live),webarena-239,web_navigation,0.522,0,cheap-small,1.0,False,False,False,,0.006025950000000001,192592.48320700135,1.8196370219811797
+LiteLLM Router (live),WebArena (live),webarena-240,web_navigation,0.517,0,cheap-small,1.0,False,False,False,,0.00243735,89554.29912899854,1.8277959898114204
+LiteLLM Router (live),WebArena (live),webarena-241,web_navigation,0.511,0,cheap-small,1.0,False,False,False,,0.01230755,359960.29479798744,1.7885460110846907
+LiteLLM Router (live),WebArena (live),webarena-242,web_navigation,0.515,0,cheap-small,1.0,False,False,False,,0.0032529500000000005,103237.59378501563,1.8406559829600155
+LiteLLM Router (live),WebArena (live),webarena-258,web_navigation,0.42300000000000004,0,cheap-small,1.0,False,False,False,,0.0011247000000000002,27985.750683990773,1.5716740163043141
+LiteLLM Router (live),WebArena (live),webarena-259,web_navigation,0.42400000000000004,0,cheap-small,1.0,False,False,False,,0.0051666,90345.34392901696,1.8805750005412847
+LiteLLM Router (live),WebArena (live),webarena-260,web_navigation,0.456,0,cheap-small,1.0,False,True,False,,0.003775750000000001,130547.2508299863,1.0993230098392814
+LiteLLM Router (live),WebArena (live),webarena-261,web_navigation,0.456,0,cheap-small,1.0,False,False,False,,0.0024449500000000004,95470.36516899243,1.8496650154702365
+LiteLLM Router (live),WebArena (live),webarena-262,web_navigation,0.455,0,cheap-small,1.0,False,False,False,,0.0020487500000000002,85657.68753000884,1.8081649905070662
+LiteLLM Router (live),WebArena (live),webarena-263,web_navigation,0.46,0,cheap-small,1.0,False,False,False,,0.00205775,83722.1337039955,1.7668239888735116
+LiteLLM Router (live),WebArena (live),webarena-264,web_navigation,0.47100000000000003,0,cheap-small,1.0,False,False,False,,0.0025177500000000005,94826.72602200182,1.116842991905287
+LiteLLM Router (live),WebArena (live),webarena-269,web_navigation,0.452,0,cheap-small,1.0,False,False,False,,0.0041761,131555.82629499258,1.0770030203275383
+LiteLLM Router (live),WebArena (live),webarena-270,web_navigation,0.45,0,cheap-small,1.0,False,False,False,,0.004945850000000001,153499.90357199567,1.0975929908454418
+LiteLLM Router (live),WebArena (live),webarena-271,web_navigation,0.458,0,cheap-small,1.0,False,False,False,,0.00203795,85519.63449901086,3.038166993064806
+Aurelio Semantic Router (live),WebArena (live),webarena-21,web_navigation,0.468,0,mid-general,0.0,True,False,False,,0.030765,79812.53742298577,881.3716500008013
+Aurelio Semantic Router (live),WebArena (live),webarena-22,web_navigation,0.465,0,mid-general,0.0,True,False,False,,0.030684,79303.09696300537,350.8142970094923
+Aurelio Semantic Router (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,mid-general,0.0,True,False,False,,0.034485,82140.63296100358,470.3541279886849
+Aurelio Semantic Router (live),WebArena (live),webarena-24,web_navigation,0.466,0,mid-general,0.0,True,False,False,,0.015846,39658.59112102771,594.3297359917779
+Aurelio Semantic Router (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,mid-general,0.0,True,False,False,,0.037263,94538.44039398246,480.375464016106
+Aurelio Semantic Router (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,mid-general,0.0,True,False,False,,0.036234,92533.36194899748,784.9272000021301
+Aurelio Semantic Router (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,mid-general,0.0,True,True,False,,0.017109,30404.76531200693,960.0186469906475
+Aurelio Semantic Router (live),WebArena (live),webarena-45,web_navigation,0.437,0,mid-general,0.0,True,False,False,,0.031578,62391.122004017234,585.2521879714914
+Aurelio Semantic Router (live),WebArena (live),webarena-46,web_navigation,0.437,0,mid-general,0.0,True,False,False,,0.03318,59673.489223991055,512.6231600006577
+Aurelio Semantic Router (live),WebArena (live),webarena-47,web_navigation,0.52,0,mid-general,0.0,True,False,False,,0.019326000000000003,43576.34706099634,929.2084639891982
+Aurelio Semantic Router (live),WebArena (live),webarena-48,web_navigation,0.525,0,mid-general,0.0,True,False,False,,0.019443000000000002,43180.27966297814,838.0978920031339
+Aurelio Semantic Router (live),WebArena (live),webarena-49,web_navigation,0.525,0,mid-general,0.0,True,False,False,,0.019773,42527.669692994095,356.39621899463236
+Aurelio Semantic Router (live),WebArena (live),webarena-50,web_navigation,0.519,0,mid-general,0.0,True,False,False,,0.019416000000000003,43430.37270300556,377.7238999900874
+Aurelio Semantic Router (live),WebArena (live),webarena-51,web_navigation,0.524,0,mid-general,0.0,True,False,False,,0.019488000000000002,42756.61861698609,452.4824389955029
+Aurelio Semantic Router (live),WebArena (live),webarena-96,web_navigation,0.461,0,mid-general,0.0,True,False,False,,0.019188,53176.120616000844,231.49988701334223
+Aurelio Semantic Router (live),WebArena (live),webarena-102,web_navigation,0.512,0,mid-general,0.0,True,False,False,,0.14833200000000002,205667.8431679902,456.7705380031839
+Aurelio Semantic Router (live),WebArena (live),webarena-103,web_navigation,0.506,0,mid-general,0.0,True,False,False,,0.07532100000000001,102085.72624798398,354.42233900539577
+Aurelio Semantic Router (live),WebArena (live),webarena-104,web_navigation,0.501,0,mid-general,0.0,True,True,False,,0.021699000000000003,35981.53938000905,399.8085579951294
+Aurelio Semantic Router (live),WebArena (live),webarena-105,web_navigation,0.525,0,mid-general,0.0,True,False,False,,0.33000900000000005,458172.2137310135,184.1163500212133
+Aurelio Semantic Router (live),WebArena (live),webarena-106,web_navigation,0.504,0,mid-general,0.0,True,False,False,,0.07608,103607.75938798906,734.495609998703
+Aurelio Semantic Router (live),WebArena (live),webarena-117,web_navigation,0.46,0,mid-general,0.0,True,False,False,,0.019353000000000002,44361.42984000617,1275.7444359885994
+Aurelio Semantic Router (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,mid-general,0.0,True,False,False,,0.017664,46396.101655991515,252.55676501546986
+Aurelio Semantic Router (live),WebArena (live),webarena-124,web_navigation,0.468,0,mid-general,0.0,True,False,False,,0.030240000000000003,79955.74462099466,407.48671398614533
+Aurelio Semantic Router (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,mid-general,0.0,True,False,False,,0.031143000000000004,81757.16444800491,821.2274730030913
+Aurelio Semantic Router (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,mid-general,0.0,True,True,False,,0.025659,57497.58083000779,465.3471039782744
+Aurelio Semantic Router (live),WebArena (live),webarena-132,web_navigation,0.46,0,mid-general,0.0,True,True,False,,0.031329,55616.08075702679,251.71319098444656
+Aurelio Semantic Router (live),WebArena (live),webarena-133,web_navigation,0.453,0,mid-general,0.0,True,False,False,,0.3330240000000001,510824.8485189979,596.9922859803773
+Aurelio Semantic Router (live),WebArena (live),webarena-134,web_navigation,0.46,0,mid-general,0.0,True,False,False,,0.18738000000000002,300652.4456529878,384.99417499406263
+Aurelio Semantic Router (live),WebArena (live),webarena-135,web_navigation,0.46900000000000003,0,mid-general,0.0,True,False,False,,0.053979,135412.294527021,1186.1310089880135
+Aurelio Semantic Router (live),WebArena (live),webarena-136,web_navigation,0.47400000000000003,0,mid-general,0.0,True,False,False,,0.10266300000000002,161891.7708150111,644.5307219983079
+Aurelio Semantic Router (live),WebArena (live),webarena-141,web_navigation,0.459,0,mid-general,0.0,True,False,False,,0.019605,43470.66788200755,628.5833700094372
+Aurelio Semantic Router (live),WebArena (live),webarena-142,web_navigation,0.46900000000000003,0,mid-general,0.0,True,False,False,,0.019389,45420.03390798345,264.79053898947313
+Aurelio Semantic Router (live),WebArena (live),webarena-143,web_navigation,0.461,0,mid-general,0.0,True,False,False,,0.019556999999999998,42868.581493006786,699.950180016458
+Aurelio Semantic Router (live),WebArena (live),webarena-144,web_navigation,0.47300000000000003,0,mid-general,0.0,True,False,False,,0.019593000000000003,46536.57455102075,1718.8202110119164
+Aurelio Semantic Router (live),WebArena (live),webarena-145,web_navigation,0.463,0,mid-general,0.0,True,False,False,,0.019530000000000002,43451.995335984975,451.90538198221475
+Aurelio Semantic Router (live),WebArena (live),webarena-146,web_navigation,0.46900000000000003,0,mid-general,0.0,True,False,False,,0.019617000000000002,44810.817850986496,527.6243260013871
+Aurelio Semantic Router (live),WebArena (live),webarena-147,web_navigation,0.465,0,mid-general,0.0,True,False,False,,0.019425,47128.45491801272,373.31317699863575
+Aurelio Semantic Router (live),WebArena (live),webarena-148,web_navigation,0.47000000000000003,0,mid-general,0.0,True,False,False,,0.019347000000000003,42347.448040993186,315.07675198372453
+Aurelio Semantic Router (live),WebArena (live),webarena-149,web_navigation,0.47300000000000003,0,mid-general,0.0,True,False,False,,0.019419,43748.95563299651,900.8956410107203
+Aurelio Semantic Router (live),WebArena (live),webarena-150,web_navigation,0.466,0,mid-general,0.0,True,False,False,,0.019452000000000004,42214.12845200393,255.1613190153148
+Aurelio Semantic Router (live),WebArena (live),webarena-156,web_navigation,0.438,0,mid-general,0.0,True,True,False,,0.028683,42797.023525025,567.8067730041221
+Aurelio Semantic Router (live),WebArena (live),webarena-158,web_navigation,0.504,0,mid-general,0.0,True,True,False,,0.11942399999999999,316900.8549549908,234.86852398491465
+Aurelio Semantic Router (live),WebArena (live),webarena-159,web_navigation,0.504,0,mid-general,0.0,True,False,False,,0.045285,142929.01095200796,500.56099801440723
+Aurelio Semantic Router (live),WebArena (live),webarena-160,web_navigation,0.503,0,mid-general,0.0,True,False,False,,0.064467,152734.40181300975,563.5959619830828
+Aurelio Semantic Router (live),WebArena (live),webarena-161,web_navigation,0.504,0,mid-general,0.0,True,True,False,,0.09754500000000002,176923.1479029986,720.9559769835323
+Aurelio Semantic Router (live),WebArena (live),webarena-162,web_navigation,0.504,0,mid-general,0.0,True,False,False,,0.089445,156827.1459149837,429.9077699834015
+Aurelio Semantic Router (live),WebArena (live),webarena-163,web_navigation,0.48400000000000004,0,mid-general,0.0,True,False,False,,0.028767,81665.11353300302,663.0507799854968
+Aurelio Semantic Router (live),WebArena (live),webarena-164,web_navigation,0.48400000000000004,0,mid-general,0.0,True,True,False,,0.016311,40251.18260298041,1066.305326006841
+Aurelio Semantic Router (live),WebArena (live),webarena-165,web_navigation,0.48400000000000004,0,mid-general,0.0,True,False,False,,0.023811,60792.05212701345,343.6322449997533
+Aurelio Semantic Router (live),WebArena (live),webarena-166,web_navigation,0.48400000000000004,0,mid-general,0.0,True,False,False,,0.17612699999999995,412512.22777500516,558.7915730138775
+Aurelio Semantic Router (live),WebArena (live),webarena-167,web_navigation,0.48400000000000004,0,mid-general,0.0,True,False,False,,0.018468000000000002,41857.078845001524,610.6490870006382
+Aurelio Semantic Router (live),WebArena (live),webarena-168,web_navigation,0.503,0,mid-general,0.0,True,False,False,,0.266316,440792.0691190229,533.3181929890998
+Aurelio Semantic Router (live),WebArena (live),webarena-169,web_navigation,0.498,0,mid-general,0.0,True,False,False,,0.097722,143630.50108301104,554.397735017119
+Aurelio Semantic Router (live),WebArena (live),webarena-170,web_navigation,0.499,0,mid-general,0.0,True,False,False,,0.247749,378426.3514499762,827.7930149924941
+Aurelio Semantic Router (live),WebArena (live),webarena-171,web_navigation,0.501,0,mid-general,0.0,True,False,False,,0.27920700000000004,442810.73055800516,680.442088021664
+Aurelio Semantic Router (live),WebArena (live),webarena-172,web_navigation,0.492,0,mid-general,0.0,True,False,False,,0.141507,149336.24866598984,679.4578910048585
+Aurelio Semantic Router (live),WebArena (live),webarena-173,web_navigation,0.592,0,mid-general,0.0,True,False,False,,0.060132000000000005,81289.33236098965,1394.3320619873703
+Aurelio Semantic Router (live),WebArena (live),webarena-174,web_navigation,0.593,0,mid-general,0.0,True,False,False,,0.042920999999999994,59947.27449800121,628.1364859896712
+Aurelio Semantic Router (live),WebArena (live),webarena-175,web_navigation,0.596,0,mid-general,0.0,True,False,False,,0.033612,51209.682758984854,468.0591789947357
+Aurelio Semantic Router (live),WebArena (live),webarena-176,web_navigation,0.598,0,mid-general,0.0,True,False,False,,0.031956,52256.21047697496,795.1220709946938
+Aurelio Semantic Router (live),WebArena (live),webarena-177,web_navigation,0.602,0,mid-general,0.0,True,False,False,,0.048777,68618.1076040084,374.90957099362276
+Aurelio Semantic Router (live),WebArena (live),webarena-178,web_navigation,0.582,0,mid-general,0.0,True,False,False,,0.042324,60153.94560500863,397.47329099918716
+Aurelio Semantic Router (live),WebArena (live),webarena-179,web_navigation,0.583,0,mid-general,0.0,True,False,False,,0.034011,49532.928308995906,464.15206100209616
+Aurelio Semantic Router (live),WebArena (live),webarena-180,web_navigation,0.586,0,mid-general,0.0,True,False,False,,0.047874,66002.39102801424,843.5688000172377
+Aurelio Semantic Router (live),WebArena (live),webarena-181,web_navigation,0.588,0,mid-general,0.0,True,False,False,,0.032184,51858.81828999845,553.0143510259222
+Aurelio Semantic Router (live),WebArena (live),webarena-182,web_navigation,0.592,0,mid-general,0.0,True,False,False,,0.050106,69524.4415079942,510.11996300076135
+Aurelio Semantic Router (live),WebArena (live),webarena-188,web_navigation,0.452,0,mid-general,0.0,True,False,False,,0.019254,43140.842952008825,772.2928909934126
+Aurelio Semantic Router (live),WebArena (live),webarena-189,web_navigation,0.45,0,mid-general,0.0,True,False,False,,0.019239,42258.50085198181,479.27174597862177
+Aurelio Semantic Router (live),WebArena (live),webarena-190,web_navigation,0.451,0,mid-general,0.0,True,False,False,,0.019239,44691.65160600096,336.3874350034166
+Aurelio Semantic Router (live),WebArena (live),webarena-191,web_navigation,0.453,0,mid-general,0.0,True,False,False,,0.019254,42909.18404000695,251.77189498208463
+Aurelio Semantic Router (live),WebArena (live),webarena-192,web_navigation,0.456,0,mid-general,0.0,True,False,False,,0.019338,43345.210494997445,410.36309898481704
+Aurelio Semantic Router (live),WebArena (live),webarena-205,web_navigation,0.445,0,mid-general,0.0,True,True,False,,0.020637000000000003,47703.63062398974,479.7582329774741
+Aurelio Semantic Router (live),WebArena (live),webarena-206,web_navigation,0.438,0,mid-general,0.0,True,False,False,,0.35389500000000007,599197.5537130202,1035.6327859917656
+Aurelio Semantic Router (live),WebArena (live),webarena-207,web_navigation,0.463,0,mid-general,0.0,True,False,False,,0.044889,96454.5586220047,1377.9346049996093
+Aurelio Semantic Router (live),WebArena (live),webarena-225,web_navigation,0.446,0,mid-general,0.0,True,False,False,,0.015531,60479.93531599059,334.4041250238661
+Aurelio Semantic Router (live),WebArena (live),webarena-226,web_navigation,0.455,0,mid-general,0.0,True,False,False,,0.070347,201572.53568901797,926.5686910075601
+Aurelio Semantic Router (live),WebArena (live),webarena-227,web_navigation,0.45,0,mid-general,0.0,True,True,False,,0.021516,59558.91019498813,868.4653780073859
+Aurelio Semantic Router (live),WebArena (live),webarena-228,web_navigation,0.45,0,mid-general,0.0,True,False,False,,0.23786700000000002,472122.82294000033,1058.392262988491
+Aurelio Semantic Router (live),WebArena (live),webarena-229,web_navigation,0.449,0,mid-general,0.0,True,False,False,,0.031302,79245.41245901491,759.1756519977935
+Aurelio Semantic Router (live),WebArena (live),webarena-230,web_navigation,0.455,0,mid-general,0.0,True,True,False,,0.025397999999999997,57510.341292014346,622.984051995445
+Aurelio Semantic Router (live),WebArena (live),webarena-231,web_navigation,0.455,0,mid-general,0.0,True,False,False,,0.019104,45958.54348700959,754.4535470078699
+Aurelio Semantic Router (live),WebArena (live),webarena-232,web_navigation,0.453,0,mid-general,0.0,True,False,False,,0.019118999999999997,41764.78625001619,162.92410998721607
+Aurelio Semantic Router (live),WebArena (live),webarena-233,web_navigation,0.454,0,mid-general,0.0,True,False,False,,0.019149,42974.43371100235,396.6814329905901
+Aurelio Semantic Router (live),WebArena (live),webarena-234,web_navigation,0.453,0,mid-general,0.0,True,False,False,,0.019236,43884.69495699974,521.075140015455
+Aurelio Semantic Router (live),WebArena (live),webarena-235,web_navigation,0.46,0,mid-general,0.0,True,False,False,,0.019296,42725.2053959819,554.3993489991408
+Aurelio Semantic Router (live),WebArena (live),webarena-238,web_navigation,0.512,0,mid-general,0.0,True,False,False,,0.24389999999999998,458111.0455969756,237.32625099364668
+Aurelio Semantic Router (live),WebArena (live),webarena-239,web_navigation,0.522,0,mid-general,0.0,True,False,False,,0.05632500000000001,145526.31083101733,1181.9964780006558
+Aurelio Semantic Router (live),WebArena (live),webarena-240,web_navigation,0.517,0,mid-general,0.0,True,False,False,,0.032115,81170.14559099334,413.6419080023188
+Aurelio Semantic Router (live),WebArena (live),webarena-241,web_navigation,0.511,0,mid-general,0.0,True,False,False,,0.15293400000000001,282742.5257109862,518.7536089797504
+Aurelio Semantic Router (live),WebArena (live),webarena-242,web_navigation,0.515,0,mid-general,0.0,True,False,False,,0.055362,126054.1389619757,417.39632599637844
+Aurelio Semantic Router (live),WebArena (live),webarena-258,web_navigation,0.42300000000000004,0,mid-general,0.0,True,True,False,,0.04077,58841.157885995926,1300.3162960230839
+Aurelio Semantic Router (live),WebArena (live),webarena-259,web_navigation,0.42400000000000004,0,mid-general,0.0,True,True,False,,0.05019900000000001,68269.84210201772,690.9707029990386
+Aurelio Semantic Router (live),WebArena (live),webarena-260,web_navigation,0.456,0,mid-general,0.0,True,True,False,,0.014946000000000001,45088.446882000426,492.8738400049042
+Aurelio Semantic Router (live),WebArena (live),webarena-261,web_navigation,0.456,0,mid-general,0.0,True,False,False,,0.023532,57263.13074000063,782.9682439914905
+Aurelio Semantic Router (live),WebArena (live),webarena-262,web_navigation,0.455,0,mid-general,0.0,True,False,False,,0.056283,113014.36685799854,998.2849879888818
+Aurelio Semantic Router (live),WebArena (live),webarena-263,web_navigation,0.46,0,mid-general,0.0,True,False,False,,0.055575,113138.41668199166,542.5507540057879
+Aurelio Semantic Router (live),WebArena (live),webarena-264,web_navigation,0.47100000000000003,0,mid-general,0.0,True,False,False,,0.040191,93781.40349700698,724.7321199974976
+Aurelio Semantic Router (live),WebArena (live),webarena-269,web_navigation,0.452,0,mid-general,0.0,True,False,False,,0.23433600000000004,447833.6046850018,424.3271269951947
+Aurelio Semantic Router (live),WebArena (live),webarena-270,web_navigation,0.45,0,mid-general,0.0,True,False,False,,0.23464799999999997,439530.9179369942,476.53053698013537
+Aurelio Semantic Router (live),WebArena (live),webarena-271,web_navigation,0.458,0,mid-general,0.0,True,False,False,,0.23855100000000004,439437.56853599916,1388.556284015067
+RouteLLM (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,0.7834509524049388,False,False,False,,0.0008474000000000001,36364.67746598646,2459.1688490181696
+RouteLLM (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,0.7816082571941759,False,True,False,,0.0007968000000000001,37060.763797024265,1941.095358983148
+RouteLLM (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,0.7814565481952055,False,False,False,,0.0008552000000000002,39202.36486999784,1920.240551000461
+RouteLLM (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,0.7796963770438727,False,False,False,,0.0034159000000000012,127032.15288597858,1750.2985160099342
+RouteLLM (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,0.7803482763044796,False,False,False,,0.0011995500000000002,52949.22422000673,1566.6624649893492
+RouteLLM (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,cheap-small,0.7825520744166066,False,False,False,,0.0008758000000000001,40764.35622698045,1631.4490879885852
+RouteLLM (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,0.7812737087733698,False,True,False,,0.00090415,26206.57183500589,1835.3277660207823
+RouteLLM (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,0.782494614691887,False,False,False,,0.0018606000000000002,44570.362009020755,1708.1648010062054
+RouteLLM (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,0.782494614691887,False,False,False,,0.0012766000000000001,33751.033259002725,1900.3482770058326
+RouteLLM (live),WebArena (live),webarena-47,web_navigation,0.52,0,cheap-small,0.7771807190528159,False,False,False,,0.0011269000000000001,35722.996963973856,1619.469939992996
+RouteLLM (live),WebArena (live),webarena-48,web_navigation,0.525,0,cheap-small,0.7766643179127238,False,False,False,,0.0006332,29167.877324012807,1354.8315399966668
+RouteLLM (live),WebArena (live),webarena-49,web_navigation,0.525,0,cheap-small,0.7774862315471975,False,False,False,,0.0006332,29319.95720602572,5050.239558011526
+RouteLLM (live),WebArena (live),webarena-50,web_navigation,0.519,0,cheap-small,0.7771656998386821,False,False,False,,0.0006328,29199.458754999796,1340.2857830224093
+RouteLLM (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,0.7772456713001215,False,False,False,,0.0006332,29991.470206005033,1626.6682159912307
+RouteLLM (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,0.7826284587502834,False,False,False,,0.0006256,28870.593684987398,1772.7879140002187
+RouteLLM (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,0.7798955096402143,False,False,False,,0.0103902,162338.59783399384,1948.6363919859286
+RouteLLM (live),WebArena (live),webarena-103,web_navigation,0.506,0,cheap-small,0.7773653440793916,False,False,False,,0.008324,133430.70000398438,1590.3997429995798
+RouteLLM (live),WebArena (live),webarena-104,web_navigation,0.501,0,cheap-small,0.7803970823845163,False,False,False,,0.014385700000000005,223449.91218601353,2097.6348939875606
+RouteLLM (live),WebArena (live),webarena-105,web_navigation,0.525,0,cheap-small,0.7791687933884076,False,False,False,,0.013679599999999997,224388.33696802612,1964.2626880086027
+RouteLLM (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,0.7793655322578391,False,False,False,,0.004993,84834.0111960133,1963.8545100169722
+RouteLLM (live),WebArena (live),webarena-117,web_navigation,0.46,0,cheap-small,0.787179663908433,False,False,False,,0.0006256,29616.10218300484,1493.8164099876303
+RouteLLM (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,0.7883277427554101,False,False,False,,0.00120395,47311.030996002955,1454.3067649938166
+RouteLLM (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,0.7854390272358284,False,False,False,,0.0016449,60700.48269900144,1812.6772880204953
+RouteLLM (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,0.7881439937406515,False,False,False,,0.0030477,113731.53493201244,1711.5772370016202
+RouteLLM (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,0.7855750350365696,False,False,False,,0.0016354,62036.98015899863,1737.8366769989952
+RouteLLM (live),WebArena (live),webarena-132,web_navigation,0.46,0,cheap-small,0.7775389945860218,False,False,False,,0.00170855,42323.555415001465,2121.0236320039257
+RouteLLM (live),WebArena (live),webarena-133,web_navigation,0.453,0,cheap-small,0.7774593759761818,False,False,False,,0.00456685,94750.50462802756,1553.1601339753252
+RouteLLM (live),WebArena (live),webarena-134,web_navigation,0.46,0,cheap-small,0.7774457713163478,False,False,False,,0.00198245,45661.582651984645,1432.8718790202402
+RouteLLM (live),WebArena (live),webarena-135,web_navigation,0.46900000000000003,0,cheap-small,0.7774116616621338,False,False,False,,0.00234875,47276.327235013014,1430.9407609980553
+RouteLLM (live),WebArena (live),webarena-136,web_navigation,0.47400000000000003,0,cheap-small,0.7792958199642477,False,False,False,,0.0016841500000000001,42106.378334981855,1920.4812819953077
+RouteLLM (live),WebArena (live),webarena-141,web_navigation,0.459,0,cheap-small,0.7814916365375124,False,False,False,,0.0006256,28671.560962015064,1296.9450199743733
+RouteLLM (live),WebArena (live),webarena-142,web_navigation,0.46900000000000003,0,cheap-small,0.7835772650980193,False,False,False,,0.0006268000000000001,29327.192337979795,1439.5833699963987
+RouteLLM (live),WebArena (live),webarena-143,web_navigation,0.461,0,cheap-small,0.7804822250242677,False,False,False,,0.0006268000000000001,30446.96297001792,1499.2023460217752
+RouteLLM (live),WebArena (live),webarena-144,web_navigation,0.47300000000000003,0,cheap-small,0.7804747817639501,False,False,False,,0.0006276000000000001,28585.04521899158,3095.175147987902
+RouteLLM (live),WebArena (live),webarena-145,web_navigation,0.463,0,cheap-small,0.781687427498424,False,False,False,,0.000626,29072.26686400827,1597.4473120004404
+RouteLLM (live),WebArena (live),webarena-146,web_navigation,0.46900000000000003,0,cheap-small,0.7816598107146043,False,False,False,,0.0008769000000000001,33114.972070005024,1637.380853004288
+RouteLLM (live),WebArena (live),webarena-147,web_navigation,0.465,0,cheap-small,0.7812723837715992,False,False,False,,0.0007977500000000001,37868.355995975435,2888.8866560009774
+RouteLLM (live),WebArena (live),webarena-148,web_navigation,0.47000000000000003,0,cheap-small,0.7827843281579796,False,False,False,,0.0008738000000000001,33952.410700003384,4068.314492003992
+RouteLLM (live),WebArena (live),webarena-149,web_navigation,0.47300000000000003,0,cheap-small,0.7845359123556948,False,False,False,,0.0007989500000000001,38586.38681701268,2333.230800984893
+RouteLLM (live),WebArena (live),webarena-150,web_navigation,0.466,0,cheap-small,0.7832503996606343,False,False,False,,0.0006264,31039.94551600772,2462.446060992079
+RouteLLM (live),WebArena (live),webarena-156,web_navigation,0.438,0,cheap-small,0.7832232171249515,False,False,False,,0.00819895,126945.08151200716,1835.84962200257
+RouteLLM (live),WebArena (live),webarena-158,web_navigation,0.504,0,cheap-small,0.7844641678594444,False,False,False,,0.00204635,71880.33449600334,2158.6474379873835
+RouteLLM (live),WebArena (live),webarena-159,web_navigation,0.504,0,cheap-small,0.7841641990445333,False,False,False,,0.00163215,59812.308561988175,1749.0576179989148
+RouteLLM (live),WebArena (live),webarena-160,web_navigation,0.503,0,cheap-small,0.784717681700809,False,False,False,,0.00163215,60269.06310999766,2068.7664540018886
+RouteLLM (live),WebArena (live),webarena-161,web_navigation,0.504,0,cheap-small,0.7841556669487416,False,False,False,,0.0020519500000000003,81121.46281599416,1701.4177740202285
+RouteLLM (live),WebArena (live),webarena-162,web_navigation,0.504,0,cheap-small,0.7849761300644872,False,False,False,,0.00163215,60020.679092995124,1611.536498006899
+RouteLLM (live),WebArena (live),webarena-163,web_navigation,0.48400000000000004,0,cheap-small,0.7787624893312322,False,False,False,,0.00083595,35808.708566008136,2094.910201005405
+RouteLLM (live),WebArena (live),webarena-164,web_navigation,0.48400000000000004,0,cheap-small,0.7787624893312322,False,True,False,,0.00116065,44752.32146598864,1621.5367379772943
+RouteLLM (live),WebArena (live),webarena-165,web_navigation,0.48400000000000004,0,cheap-small,0.7787624893312322,False,False,False,,0.0012024000000000002,57942.67167698126,1585.2948130050208
+RouteLLM (live),WebArena (live),webarena-166,web_navigation,0.48400000000000004,0,cheap-small,0.7787624893312322,False,False,False,,0.0034430499999999996,125497.0189690066,1496.2903019913938
+RouteLLM (live),WebArena (live),webarena-167,web_navigation,0.48400000000000004,0,cheap-small,0.7787636820104802,False,False,False,,0.0010864,35875.09622500511,1782.792421989143
+RouteLLM (live),WebArena (live),webarena-168,web_navigation,0.503,0,cheap-small,0.7796735938341904,False,True,False,,0.0018101500000000002,38264.281679992564,1681.8202320137061
+RouteLLM (live),WebArena (live),webarena-169,web_navigation,0.498,0,cheap-small,0.779812871887781,False,False,False,,0.0014707,32922.56418900797,1611.7817499907687
+RouteLLM (live),WebArena (live),webarena-170,web_navigation,0.499,0,cheap-small,0.7782410251541316,False,False,False,,0.00167795,37169.19098698418,1574.5908289973158
+RouteLLM (live),WebArena (live),webarena-171,web_navigation,0.501,0,cheap-small,0.7788238914519455,False,False,False,,0.0011286,27477.864860004047,1903.3721790183336
+RouteLLM (live),WebArena (live),webarena-172,web_navigation,0.492,0,cheap-small,0.7796275099492546,False,False,False,,0.0016898,35654.91170901805,1669.3830940057524
+RouteLLM (live),WebArena (live),webarena-173,web_navigation,0.592,0,cheap-small,0.7817267629630984,False,False,False,,0.005087400000000001,96540.8722969878,1850.12071399251
+RouteLLM (live),WebArena (live),webarena-174,web_navigation,0.593,0,cheap-small,0.7815988455616608,False,False,False,,0.0032845500000000002,76323.13957199221,1748.0130509939045
+RouteLLM (live),WebArena (live),webarena-175,web_navigation,0.596,0,cheap-small,0.7809262951909429,False,False,False,,0.010212300000000002,199794.41941698315,2618.687164009316
+RouteLLM (live),WebArena (live),webarena-176,web_navigation,0.598,0,cheap-small,0.7813332875418647,False,False,False,,0.008585500000000001,168011.08946400927,1847.2316120169125
+RouteLLM (live),WebArena (live),webarena-177,web_navigation,0.602,0,cheap-small,0.7819297568004158,False,False,False,,0.0029067000000000003,63517.40709898877,2157.6436920149717
+RouteLLM (live),WebArena (live),webarena-178,web_navigation,0.582,0,cheap-small,0.782971803726755,False,False,False,,0.00168095,39259.01851899107,1531.0467160015833
+RouteLLM (live),WebArena (live),webarena-179,web_navigation,0.583,0,cheap-small,0.7831846119884589,False,False,False,,0.0028783500000000004,56513.44319697819,1701.6223480168264
+RouteLLM (live),WebArena (live),webarena-180,web_navigation,0.586,0,cheap-small,0.7824696049467178,False,False,False,,0.00168095,38211.34888799861,2079.245748987887
+RouteLLM (live),WebArena (live),webarena-181,web_navigation,0.588,0,cheap-small,0.7833112955330094,False,False,False,,0.00333695,90891.00106302067,1663.689217006322
+RouteLLM (live),WebArena (live),webarena-182,web_navigation,0.592,0,cheap-small,0.7832575065238907,False,False,False,,0.0022474500000000002,49307.647431996884,1912.8568690211978
+RouteLLM (live),WebArena (live),webarena-188,web_navigation,0.452,0,cheap-small,0.7816866047445662,False,False,False,,0.0006244,28773.60164700076,1589.6152660134248
+RouteLLM (live),WebArena (live),webarena-189,web_navigation,0.45,0,cheap-small,0.7794160672200016,False,False,False,,0.0006244,29305.585138994502,1806.3357879873365
+RouteLLM (live),WebArena (live),webarena-190,web_navigation,0.451,0,cheap-small,0.7787621443109236,False,False,False,,0.0006244,29278.275296994252,1863.392527011456
+RouteLLM (live),WebArena (live),webarena-191,web_navigation,0.453,0,cheap-small,0.7782219352706586,False,True,False,,0.0006244,29754.39012699644,1625.5478789971676
+RouteLLM (live),WebArena (live),webarena-192,web_navigation,0.456,0,cheap-small,0.780502035854041,False,False,False,,0.0008678000000000001,32255.444402981084,1502.1055419929326
+RouteLLM (live),WebArena (live),webarena-205,web_navigation,0.445,0,cheap-small,0.7780889309874622,False,False,False,,0.0011094,40305.88383600116,1524.4946159946267
+RouteLLM (live),WebArena (live),webarena-206,web_navigation,0.438,0,cheap-small,0.778599176611605,False,False,False,,0.00323285,78400.55112898699,1681.3888270116877
+RouteLLM (live),WebArena (live),webarena-207,web_navigation,0.463,0,cheap-small,0.7772989920019614,False,False,False,,0.00253635,71499.07833698671,1951.2945910100825
+RouteLLM (live),WebArena (live),webarena-225,web_navigation,0.446,0,cheap-small,0.7915353597428717,False,True,False,,0.005862850000000001,162321.8468420091,1286.9138369860593
+RouteLLM (live),WebArena (live),webarena-226,web_navigation,0.455,0,cheap-small,0.7885783333584541,False,False,False,,0.00120995,48949.63774600183,2088.7761369813234
+RouteLLM (live),WebArena (live),webarena-227,web_navigation,0.45,0,cheap-small,0.7853262259362093,False,False,False,,0.0015674500000000002,58726.639150001574,1588.8191900157835
+RouteLLM (live),WebArena (live),webarena-228,web_navigation,0.45,0,cheap-small,0.7894190593103411,False,False,False,,0.0020135500000000002,81091.76460601157,2053.5337809997145
+RouteLLM (live),WebArena (live),webarena-229,web_navigation,0.449,0,cheap-small,0.7869383137709255,False,False,False,,0.00120995,48575.05977601977,2101.540614006808
+RouteLLM (live),WebArena (live),webarena-230,web_navigation,0.455,0,cheap-small,0.7893995206366726,False,False,False,,0.0011238,37480.56673401152,1364.0288060123567
+RouteLLM (live),WebArena (live),webarena-231,web_navigation,0.455,0,cheap-small,0.7820933303690011,False,False,False,,0.0006244,29095.301124994876,2091.423689009389
+RouteLLM (live),WebArena (live),webarena-232,web_navigation,0.453,0,cheap-small,0.7812320206590961,False,False,False,,0.0006244,28813.030101009645,2002.9167690081522
+RouteLLM (live),WebArena (live),webarena-233,web_navigation,0.454,0,cheap-small,0.7805184653109488,False,False,False,,0.0006244,28794.47020299267,1489.928671013331
+RouteLLM (live),WebArena (live),webarena-234,web_navigation,0.453,0,cheap-small,0.7804116989448054,False,True,False,,0.0006248,29050.404722976964,1745.0643169868272
+RouteLLM (live),WebArena (live),webarena-235,web_navigation,0.46,0,cheap-small,0.7811789479802116,False,True,False,,0.0006248,29265.62043497688,1923.3445199788548
+RouteLLM (live),WebArena (live),webarena-238,web_navigation,0.512,0,cheap-small,0.7846519630620615,False,False,False,,0.00291585,106799.13963499712,1515.3352869965602
+RouteLLM (live),WebArena (live),webarena-239,web_navigation,0.522,0,cheap-small,0.7845598561474703,False,False,False,,0.00287155,106212.40571400267,1781.7092039913405
+RouteLLM (live),WebArena (live),webarena-240,web_navigation,0.517,0,cheap-small,0.7850129349289263,False,False,False,,0.00161655,60611.07040301431,1610.660923004616
+RouteLLM (live),WebArena (live),webarena-241,web_navigation,0.511,0,cheap-small,0.7864249892350683,False,False,False,,0.0030666000000000005,108137.2611609986,1677.817750023678
+RouteLLM (live),WebArena (live),webarena-242,web_navigation,0.515,0,cheap-small,0.7824145090837783,False,False,False,,0.0033250000000000007,117826.62211998831,1349.304673000006
+RouteLLM (live),WebArena (live),webarena-258,web_navigation,0.42300000000000004,0,cheap-small,0.7831305745425692,False,False,False,,0.0038679,73558.32438298967,1687.9409230023157
+RouteLLM (live),WebArena (live),webarena-259,web_navigation,0.42400000000000004,0,cheap-small,0.7853745727532885,False,True,False,,0.00638575,106893.76905700192,1884.5641759980936
+RouteLLM (live),WebArena (live),webarena-260,web_navigation,0.456,0,cheap-small,0.7856057147829583,False,True,False,,0.0012099,50924.757442000555,1541.9424420106225
+RouteLLM (live),WebArena (live),webarena-261,web_navigation,0.456,0,cheap-small,0.786719152489954,False,False,False,,0.0024449500000000004,94379.46133199148,1362.8259249962866
+RouteLLM (live),WebArena (live),webarena-262,web_navigation,0.455,0,cheap-small,0.7864013393088118,False,False,False,,0.00291915,105660.01849999884,1742.9084860195871
+RouteLLM (live),WebArena (live),webarena-263,web_navigation,0.46,0,cheap-small,0.7861855259955938,False,False,False,,0.00205775,82507.79293599771,1901.9089780049399
+RouteLLM (live),WebArena (live),webarena-264,web_navigation,0.47100000000000003,0,cheap-small,0.7863691522736057,False,False,False,,0.00245095,93621.58083601389,1500.9320950193796
+RouteLLM (live),WebArena (live),webarena-269,web_navigation,0.452,0,cheap-small,0.7842687618489584,False,False,False,,0.0039092,121228.43753398047,1639.707633992657
+RouteLLM (live),WebArena (live),webarena-270,web_navigation,0.45,0,cheap-small,0.7839447811663723,False,False,False,,0.0050393,155700.94598198193,2069.646752992412
+RouteLLM (live),WebArena (live),webarena-271,web_navigation,0.458,0,cheap-small,0.7848845489739508,False,False,False,,0.0045023500000000004,138860.10914301733,1957.370209012879
+LLMRouter (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,0.6,False,False,False,,0.0012090000000000002,46804.889951017685,416.39747700537555
+LLMRouter (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,0.6,False,True,False,,0.0008002,35382.50159297604,206.01292297942564
+LLMRouter (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,cheap-small,0.6,False,False,False,,0.0008579000000000001,35396.16160900914,485.2457770030014
+LLMRouter (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,0.6,False,True,False,,0.0014757500000000003,54640.23897200241,645.7134679949377
+LLMRouter (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,0.6,False,False,False,,0.0008748,41010.15611801995,366.18589199497364
+LLMRouter (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,cheap-small,0.6,False,False,False,,0.0013352000000000001,53368.318033986725,438.33448298391886
+LLMRouter (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,mid-general,0.6,False,True,False,,0.015939000000000002,29633.14208498923,363.4035570139531
+LLMRouter (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,0.6,False,False,False,,0.0012160500000000002,35982.06514198682,393.6002549889963
+LLMRouter (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,0.6,False,False,False,,0.0017895500000000004,49088.61888901447,1288.2779749925248
+LLMRouter (live),WebArena (live),webarena-47,web_navigation,0.52,0,cheap-small,0.6,False,False,False,,0.0006328,29003.410112985875,267.9006529797334
+LLMRouter (live),WebArena (live),webarena-48,web_navigation,0.525,0,cheap-small,0.6,False,False,False,,0.0006332,28564.749967015814,481.6428549820557
+LLMRouter (live),WebArena (live),webarena-49,web_navigation,0.525,0,cheap-small,0.6,False,False,False,,0.0006332,28773.193264001748,517.0793709985446
+LLMRouter (live),WebArena (live),webarena-50,web_navigation,0.519,0,cheap-small,0.6,False,False,False,,0.0006328,28434.28492898238,211.16514599998482
+LLMRouter (live),WebArena (live),webarena-51,web_navigation,0.524,0,cheap-small,0.6,False,False,False,,0.0011271,35043.063001008704,244.79477299610153
+LLMRouter (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,0.6,False,False,False,,0.0006256,29173.49187200307,676.4720740029588
+LLMRouter (live),WebArena (live),webarena-102,web_navigation,0.512,0,cheap-small,0.6,False,False,False,,0.0016339,35331.968153011985,519.2495769879315
+LLMRouter (live),WebArena (live),webarena-103,web_navigation,0.506,0,cheap-small,0.6,False,False,False,,0.0018686,40343.75072902185,503.0421740084421
+LLMRouter (live),WebArena (live),webarena-104,web_navigation,0.501,0,cheap-small,0.6,False,False,False,,0.012545200000000001,183962.79975699144,408.30133101553656
+LLMRouter (live),WebArena (live),webarena-105,web_navigation,0.525,0,mid-general,0.6,False,False,False,,0.33074699999999996,439088.1608110212,548.9420749945566
+LLMRouter (live),WebArena (live),webarena-106,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0045829,75823.40819999808,795.5822990043089
+LLMRouter (live),WebArena (live),webarena-117,web_navigation,0.46,0,cheap-small,0.6,False,False,False,,0.0006256,28760.411301016575,410.2350330213085
+LLMRouter (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,cheap-small,0.6,False,False,False,,0.00203835,71568.7525740068,469.27254999172874
+LLMRouter (live),WebArena (live),webarena-124,web_navigation,0.468,0,cheap-small,0.6,False,False,False,,0.0012236,48545.33476897632,517.3382479988504
+LLMRouter (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,0.6,False,False,False,,0.0012242000000000002,50263.7783169921,398.27222999883816
+LLMRouter (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,0.6,False,False,False,,0.00163415,60701.22276499751,520.6164979899768
+LLMRouter (live),WebArena (live),webarena-132,web_navigation,0.46,0,cheap-small,0.6,False,False,False,,0.00299115,66840.16183300992,530.0565169891343
+LLMRouter (live),WebArena (live),webarena-133,web_navigation,0.453,0,cheap-small,0.6,False,False,False,,0.00297445,57844.484713015845,739.5011739863548
+LLMRouter (live),WebArena (live),webarena-134,web_navigation,0.46,0,cheap-small,0.6,False,False,False,,0.0026502500000000003,56297.545859008096,361.98559700278565
+LLMRouter (live),WebArena (live),webarena-135,web_navigation,0.46900000000000003,0,cheap-small,0.6,False,False,False,,0.0014242500000000002,34026.09199899598,378.7093189894222
+LLMRouter (live),WebArena (live),webarena-136,web_navigation,0.47400000000000003,0,cheap-small,0.6,False,False,False,,0.0008813000000000001,25502.48781402479,581.8663850077428
+LLMRouter (live),WebArena (live),webarena-141,web_navigation,0.459,0,cheap-small,0.6,False,False,False,,0.0008678000000000001,31478.272387990728,504.55035601044074
+LLMRouter (live),WebArena (live),webarena-142,web_navigation,0.46900000000000003,0,cheap-small,0.6,False,False,False,,0.0006268000000000001,29766.824537015054,379.7403520147782
+LLMRouter (live),WebArena (live),webarena-143,web_navigation,0.461,0,cheap-small,0.6,False,False,False,,0.0006268000000000001,30399.79873498669,287.1984690136742
+LLMRouter (live),WebArena (live),webarena-144,web_navigation,0.47300000000000003,0,cheap-small,0.6,False,False,False,,0.0011159000000000002,35391.0050939885,277.32925000600517
+LLMRouter (live),WebArena (live),webarena-145,web_navigation,0.463,0,cheap-small,0.6,False,False,False,,0.0008684000000000001,31792.74229699513,361.59547098213807
+LLMRouter (live),WebArena (live),webarena-146,web_navigation,0.46900000000000003,0,cheap-small,0.6,False,False,False,,0.0008738000000000001,31607.75496799033,224.29514900431968
+LLMRouter (live),WebArena (live),webarena-147,web_navigation,0.465,0,cheap-small,0.6,False,False,False,,0.000626,28754.971481015673,398.68521998869255
+LLMRouter (live),WebArena (live),webarena-148,web_navigation,0.47000000000000003,0,cheap-small,0.6,False,False,False,,0.0006264,28561.790895997547,264.11129799089395
+LLMRouter (live),WebArena (live),webarena-149,web_navigation,0.47300000000000003,0,cheap-small,0.6,False,False,False,,0.00038820000000000006,26396.59446902806,237.60873099672608
+LLMRouter (live),WebArena (live),webarena-150,web_navigation,0.466,0,cheap-small,0.6,False,False,False,,0.0006264,28784.04030200909,269.6518019947689
+LLMRouter (live),WebArena (live),webarena-156,web_navigation,0.438,0,cheap-small,0.6,False,True,False,,0.00219555,41804.38537200098,411.22553902096115
+LLMRouter (live),WebArena (live),webarena-158,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0032539500000000007,106112.84206798882,236.38899199431762
+LLMRouter (live),WebArena (live),webarena-159,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0012133500000000002,49737.59405000601,684.158899995964
+LLMRouter (live),WebArena (live),webarena-160,web_navigation,0.503,0,cheap-small,0.6,False,False,False,,0.0028461500000000004,103031.62818498095,225.46290600439534
+LLMRouter (live),WebArena (live),webarena-161,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0020403500000000002,72218.7768840231,340.0308779964689
+LLMRouter (live),WebArena (live),webarena-162,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0032849500000000005,104805.59328300296,410.73096299078315
+LLMRouter (live),WebArena (live),webarena-163,web_navigation,0.48400000000000004,0,cheap-small,0.6,False,False,False,,0.0008970000000000001,38167.61525499169,202.35573602258228
+LLMRouter (live),WebArena (live),webarena-164,web_navigation,0.48400000000000004,0,cheap-small,0.6,False,False,False,,0.004654450000000001,167972.30039699934,435.78892201185226
+LLMRouter (live),WebArena (live),webarena-165,web_navigation,0.48400000000000004,0,cheap-small,0.6,False,False,False,,0.00090335,40494.96032399475,442.22135699237697
+LLMRouter (live),WebArena (live),webarena-166,web_navigation,0.48400000000000004,0,cheap-small,0.6,False,False,False,,0.0014480500000000002,63884.547265974106,239.80344299343415
+LLMRouter (live),WebArena (live),webarena-167,web_navigation,0.48400000000000004,0,cheap-small,0.6,False,False,False,,0.008768850000000002,274284.9248330167,389.41083001554944
+LLMRouter (live),WebArena (live),webarena-168,web_navigation,0.503,0,cheap-small,0.6,False,True,False,,0.0043745,80510.6402989768,439.19841301976703
+LLMRouter (live),WebArena (live),webarena-169,web_navigation,0.498,0,cheap-small,0.6,False,False,False,,0.00102615,28049.623694998445,369.43370700464584
+LLMRouter (live),WebArena (live),webarena-170,web_navigation,0.499,0,cheap-small,0.6,False,False,False,,0.0081169,142213.62173897796,323.92965399776585
+LLMRouter (live),WebArena (live),webarena-171,web_navigation,0.501,0,cheap-small,0.6,False,False,False,,0.005556950000000001,96205.95841199975,271.0916770156473
+LLMRouter (live),WebArena (live),webarena-172,web_navigation,0.492,0,cheap-small,0.6,False,False,False,,0.00246165,50097.29058499215,606.3749750028364
+LLMRouter (live),WebArena (live),webarena-173,web_navigation,0.592,0,cheap-small,0.6,False,False,False,,0.0028295,56230.526044004364,485.32722698291764
+LLMRouter (live),WebArena (live),webarena-174,web_navigation,0.593,0,cheap-small,0.6,False,False,False,,0.0034216999999999997,65643.60277200467,343.6996290110983
+LLMRouter (live),WebArena (live),webarena-175,web_navigation,0.596,0,cheap-small,0.6,False,False,False,,0.0038574000000000004,72591.14845402655,247.5101340096444
+LLMRouter (live),WebArena (live),webarena-176,web_navigation,0.598,0,cheap-small,0.6,False,False,False,,0.0056071,95590.92007399886,518.1284570135176
+LLMRouter (live),WebArena (live),webarena-177,web_navigation,0.602,0,cheap-small,0.6,False,False,False,,0.0025096,55629.63132202276,664.6151719905902
+LLMRouter (live),WebArena (live),webarena-178,web_navigation,0.582,0,cheap-small,0.6,False,False,False,,0.00207675,52131.878429994686,268.9534279925283
+LLMRouter (live),WebArena (live),webarena-179,web_navigation,0.583,0,cheap-small,0.6,False,False,False,,0.004941700000000001,91102.95827599475,165.79868699773215
+LLMRouter (live),WebArena (live),webarena-180,web_navigation,0.586,0,cheap-small,0.6,False,False,False,,0.009826850000000002,179678.98481097654,259.1502839932218
+LLMRouter (live),WebArena (live),webarena-181,web_navigation,0.588,0,cheap-small,0.6,False,False,False,,0.0022346500000000004,59334.91733201663,430.28525399859063
+LLMRouter (live),WebArena (live),webarena-182,web_navigation,0.592,0,cheap-small,0.6,False,False,False,,0.00209805,51485.55591699551,461.86915499856696
+LLMRouter (live),WebArena (live),webarena-188,web_navigation,0.452,0,cheap-small,0.6,False,False,False,,0.0006244,28571.28765102243,730.4819939890876
+LLMRouter (live),WebArena (live),webarena-189,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.0006244,28905.141625989927,708.4088299889117
+LLMRouter (live),WebArena (live),webarena-190,web_navigation,0.451,0,cheap-small,0.6,False,False,False,,0.0006244,27875.22357501439,583.4124389803037
+LLMRouter (live),WebArena (live),webarena-191,web_navigation,0.453,0,cheap-small,0.6,False,True,False,,0.0010988500000000002,34565.53374399664,587.4142380198464
+LLMRouter (live),WebArena (live),webarena-192,web_navigation,0.456,0,cheap-small,0.6,False,False,False,,0.0006256,28311.40629199217,247.6701240229886
+LLMRouter (live),WebArena (live),webarena-205,web_navigation,0.445,0,cheap-small,0.6,False,False,False,,0.0014155500000000002,41920.24728798424,358.293108001817
+LLMRouter (live),WebArena (live),webarena-206,web_navigation,0.438,0,cheap-small,0.6,False,False,False,,0.0018604500000000005,50238.83101899992,468.5042150085792
+LLMRouter (live),WebArena (live),webarena-207,web_navigation,0.463,0,cheap-small,0.6,False,False,False,,0.0015985500000000002,51700.302761018975,276.2823959928937
+LLMRouter (live),WebArena (live),webarena-225,web_navigation,0.446,0,cheap-small,0.6,False,True,False,,0.00203235,74753.42869901215,587.1295850083698
+LLMRouter (live),WebArena (live),webarena-226,web_navigation,0.455,0,cheap-small,0.6,False,False,False,,0.00079615,36273.733272973914,401.51663799770176
+LLMRouter (live),WebArena (live),webarena-227,web_navigation,0.45,0,cheap-small,0.6,False,True,False,,0.0012190500000000002,46748.405696009286,382.10191897815093
+LLMRouter (live),WebArena (live),webarena-228,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.00079655,36017.5489539979,759.3680319841951
+LLMRouter (live),WebArena (live),webarena-229,web_navigation,0.449,0,cheap-small,0.6,False,False,False,,0.00079615,36157.675370021025,540.7519600121304
+LLMRouter (live),WebArena (live),webarena-230,web_navigation,0.455,0,cheap-small,0.6,False,False,False,,0.0012105500000000001,47652.45672600577,800.2308730210643
+LLMRouter (live),WebArena (live),webarena-231,web_navigation,0.455,0,cheap-small,0.6,False,False,False,,0.0006244,28941.508764983155,471.5019650175236
+LLMRouter (live),WebArena (live),webarena-232,web_navigation,0.453,0,cheap-small,0.6,False,False,False,,0.0006244,29244.2111360142,245.3939559927676
+LLMRouter (live),WebArena (live),webarena-233,web_navigation,0.454,0,cheap-small,0.6,False,False,False,,0.0006244,28232.74834098993,546.1503819969948
+LLMRouter (live),WebArena (live),webarena-234,web_navigation,0.453,0,cheap-small,0.6,False,True,False,,0.0006248,28587.994361994788,435.5820110067725
+LLMRouter (live),WebArena (live),webarena-235,web_navigation,0.46,0,cheap-small,0.6,False,True,False,,0.0006248,28829.747251002118,286.4431680063717
+LLMRouter (live),WebArena (live),webarena-238,web_navigation,0.512,0,cheap-small,0.6,False,False,False,,0.009581049999999999,265864.332363999,356.31141101475805
+LLMRouter (live),WebArena (live),webarena-239,web_navigation,0.522,0,cheap-small,0.6,False,False,False,,0.008323250000000003,242598.96327898605,468.0021849926561
+LLMRouter (live),WebArena (live),webarena-240,web_navigation,0.517,0,cheap-small,0.6,False,False,False,,0.006972150000000001,213801.99770099716,487.3548450123053
+LLMRouter (live),WebArena (live),webarena-241,web_navigation,0.511,0,cheap-small,0.6,False,False,False,,0.0024435500000000005,79844.28299800493,411.46749298786744
+LLMRouter (live),WebArena (live),webarena-242,web_navigation,0.515,0,cheap-small,0.6,False,False,False,,0.004108200000000001,117389.03780898545,431.30933100474067
+LLMRouter (live),WebArena (live),webarena-258,web_navigation,0.42300000000000004,0,cheap-small,0.6,False,False,False,,0.00362535,66649.65513799689,365.4538740229327
+LLMRouter (live),WebArena (live),webarena-259,web_navigation,0.42400000000000004,0,cheap-small,0.6,False,False,False,,0.0010525999999999999,27878.503418993205,211.84659699792974
+LLMRouter (live),WebArena (live),webarena-260,web_navigation,0.456,0,cheap-small,0.6,False,True,False,,0.0008158,37442.29962999816,483.5229410091415
+LLMRouter (live),WebArena (live),webarena-261,web_navigation,0.456,0,cheap-small,0.6,False,False,False,,0.0028517500000000006,103552.77053502505,442.0961390133016
+LLMRouter (live),WebArena (live),webarena-262,web_navigation,0.455,0,cheap-small,0.6,False,True,False,,0.0020802500000000005,70959.3967370165,479.3371389969252
+LLMRouter (live),WebArena (live),webarena-263,web_navigation,0.46,0,cheap-small,0.6,False,False,False,,0.00205775,80910.33246001462,342.3998779908288
+LLMRouter (live),WebArena (live),webarena-264,web_navigation,0.47100000000000003,0,cheap-small,0.6,False,False,False,,0.0020305500000000003,80667.48204399482,253.52066199411638
+LLMRouter (live),WebArena (live),webarena-269,web_navigation,0.452,0,cheap-small,0.6,False,False,False,,0.0043430000000000005,145882.15548399603,334.61377199273556
+LLMRouter (live),WebArena (live),webarena-270,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.00542615,172872.31194399646,532.7977830020245
+LLMRouter (live),WebArena (live),webarena-271,web_navigation,0.458,0,cheap-small,0.6,False,False,False,,0.0033035,104940.50368800526,306.33500101976097
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,0.6,False,False,False,,0.0008474000000000001,35263.564013992436,816.5457579889335
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-22,web_navigation,0.465,0,strong-frontier,0.6,False,False,False,,0.06373000000000001,74410.46595200896,570.2118240005802
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,strong-frontier,0.6,False,False,False,,0.035780000000000006,39464.973186986754,732.9846950015053
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-24,web_navigation,0.466,0,strong-frontier,0.6,False,True,False,,0.033920000000000006,38834.45460299845,862.090234993957
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,0.6,False,False,False,,0.00182455,64961.658988002455,912.0304600219242
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,strong-frontier,0.6,False,False,False,,0.073075,90690.103239991,1079.6174239949323
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,0.6,False,True,False,,0.00085105,25014.6730330016,956.6924959945027
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,0.6,False,False,False,,0.0022585,50892.831145989476,583.4079629858024
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,0.6,False,False,False,,0.0016469499999999999,42700.46274698689,507.7925530204084
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-47,web_navigation,0.52,0,strong-frontier,0.6,False,False,False,,0.3737950000000001,281827.1845189738,714.0675409755204
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-48,web_navigation,0.525,0,strong-frontier,0.6,False,False,False,,0.06897,62056.19147300604,591.973416012479
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-49,web_navigation,0.525,0,strong-frontier,0.6,False,False,False,,0.37432000000000004,279070.6182990107,983.6891610175371
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-50,web_navigation,0.519,0,strong-frontier,0.6,False,False,False,,0.12325000000000003,100638.21720599663,609.1279550164472
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-51,web_navigation,0.524,0,strong-frontier,0.6,False,False,False,,0.292765,197259.85374700394,643.4449989756104
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,0.6,False,False,False,,0.0006256,29445.957682997687,779.425163025735
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-102,web_navigation,0.512,0,strong-frontier,0.6,False,False,False,,0.10612000000000002,71877.52687599277,964.7569209919311
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-103,web_navigation,0.506,0,strong-frontier,0.6,False,False,False,,0.062975,48782.87727700081,720.9950019896496
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-104,web_navigation,0.501,0,strong-frontier,0.6,False,False,False,,0.063495,48065.31243599602,775.6713620037772
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-105,web_navigation,0.525,0,strong-frontier,0.6,False,False,False,,0.06231500000000001,45855.3617229918,674.9814140202943
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-106,web_navigation,0.504,0,strong-frontier,0.6,False,False,False,,0.06229500000000002,48124.56775698229,533.5950379958376
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-117,web_navigation,0.46,0,strong-frontier,0.6,False,False,False,,0.09794500000000002,78959.52331798617,1221.2312880146783
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,strong-frontier,0.6,False,False,False,,0.03637,46579.00960301049,1118.6456120049115
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-124,web_navigation,0.468,0,strong-frontier,0.6,False,False,False,,0.070025,84261.89369900385,611.6566720011178
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,0.6,False,False,False,,0.00162905,61228.796423005406,1051.557786995545
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,0.6,False,False,False,,0.0021078,71870.43411500053,1022.8038200002629
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-132,web_navigation,0.46,0,strong-frontier,0.6,False,True,False,,0.06371,58685.04624799243,1240.4701559862588
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-133,web_navigation,0.453,0,strong-frontier,0.6,False,False,False,,0.0908,70193.73946500127,907.0589019975159
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-134,web_navigation,0.46,0,strong-frontier,0.6,False,False,False,,0.083615,73096.51377401315,970.2555230178405
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-135,web_navigation,0.46900000000000003,0,strong-frontier,0.6,False,False,False,,0.17623999999999998,121422.77674202342,1755.9931130090263
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-136,web_navigation,0.47400000000000003,0,strong-frontier,0.6,False,False,False,,0.21246500000000001,151345.70807000273,1042.0907879888546
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-141,web_navigation,0.459,0,strong-frontier,0.6,False,False,False,,0.045185,43614.17689899099,1016.3333069940563
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-142,web_navigation,0.46900000000000003,0,strong-frontier,0.6,False,False,False,,0.17935000000000004,135267.5952760037,1418.2217530033085
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-143,web_navigation,0.461,0,strong-frontier,0.6,False,False,False,,0.046275000000000004,44720.60946299462,1557.1563100093044
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-144,web_navigation,0.47300000000000003,0,cheap-small,0.6,False,False,False,,0.0006276000000000001,29105.627179000294,1053.333627001848
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-145,web_navigation,0.463,0,strong-frontier,0.6,False,False,False,,0.049385,43464.31975800078,850.2382499864325
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-146,web_navigation,0.46900000000000003,0,mid-general,0.6,False,False,False,,0.019962,42334.858618007274,1092.764110013377
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-147,web_navigation,0.465,0,mid-general,0.6,False,False,False,,0.0198,44344.101049995515,1246.717608999461
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-148,web_navigation,0.47000000000000003,0,mid-general,0.6,False,False,False,,0.019887000000000002,44408.36103100446,605.5019749910571
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-149,web_navigation,0.47300000000000003,0,mid-general,0.6,False,False,False,,0.019869,42096.875448012725,824.7719409991987
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-150,web_navigation,0.466,0,strong-frontier,0.6,False,False,False,,0.04568,42659.64326800895,910.5277360067703
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-156,web_navigation,0.438,0,cheap-small,0.6,False,False,False,,0.00340975,55377.17191700358,1652.2946009936277
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-158,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.00161815,59380.73204498505,1958.4275830129627
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-159,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0020265500000000002,70677.30477801524,1104.3127090088092
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-160,web_navigation,0.503,0,cheap-small,0.6,False,False,False,,0.0020265500000000002,80304.0376130084,687.7914809738286
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-161,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0024357000000000003,80972.04500201042,838.6501829954796
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-162,web_navigation,0.504,0,cheap-small,0.6,False,False,False,,0.0016005500000000003,57301.99819299742,1042.4602249986492
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-163,web_navigation,0.48400000000000004,0,strong-frontier,0.6,False,False,False,,0.066125,77207.38849401823,1681.3600859895814
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-164,web_navigation,0.48400000000000004,0,strong-frontier,0.6,False,True,False,,0.035155000000000006,39345.20810400136,1036.363577004522
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-165,web_navigation,0.48400000000000004,0,strong-frontier,0.6,False,False,False,,0.05129,58478.16800000146,780.4289330088068
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-166,web_navigation,0.48400000000000004,0,strong-frontier,0.6,False,False,False,,0.11247,102519.22576600919,1626.7928279994521
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-167,web_navigation,0.48400000000000004,0,strong-frontier,0.6,False,False,False,,0.06185500000000001,55952.74946800782,1029.6973630029242
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-168,web_navigation,0.503,0,strong-frontier,0.6,False,False,False,,0.09115000000000001,61876.07915501576,798.4030130028259
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-169,web_navigation,0.498,0,strong-frontier,0.6,False,False,False,,0.02264,25924.160512018716,1664.5049510116223
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-170,web_navigation,0.499,0,strong-frontier,0.6,False,False,False,,0.108375,63223.30690198578,899.3529140134342
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-171,web_navigation,0.501,0,strong-frontier,0.6,False,False,False,,0.026055000000000002,24663.727793988073,1190.124159998959
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-172,web_navigation,0.492,0,strong-frontier,0.6,False,False,False,,0.025160000000000002,23321.202459017513,1237.2090760036372
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-173,web_navigation,0.592,0,cheap-small,0.6,False,False,False,,0.00399865,74223.13918499276,1559.4822010025382
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-174,web_navigation,0.593,0,cheap-small,0.6,False,False,False,,0.011645800000000001,206319.69025701983,833.6319800000638
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-175,web_navigation,0.596,0,cheap-small,0.6,False,False,False,,0.0036941,67213.25163100846,1658.6330700083636
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-176,web_navigation,0.598,0,cheap-small,0.6,False,False,False,,0.005264349999999999,100276.42666100292,1386.714626016328
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-177,web_navigation,0.602,0,cheap-small,0.6,False,False,False,,0.00318305,62359.46263599908,1104.300554987276
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-178,web_navigation,0.582,0,cheap-small,0.6,False,False,False,,0.0045173,89003.72532597976,1019.3732530169655
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-179,web_navigation,0.583,0,cheap-small,0.6,False,False,False,,0.0062175,119925.09003999294,1308.0455659946892
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-180,web_navigation,0.586,0,cheap-small,0.6,False,False,False,,0.00449415,95983.50113700144,1210.6712049862836
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-181,web_navigation,0.588,0,cheap-small,0.6,False,False,False,,0.00335055,84912.01795099187,1089.3022119998932
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-182,web_navigation,0.592,0,cheap-small,0.6,False,False,False,,0.00225515,50963.87119201245,1105.2260269934777
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-188,web_navigation,0.452,0,cheap-small,0.6,False,False,False,,0.0006244,29248.61787102418,741.6751239798032
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-189,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.0008560500000000001,32233.08804599219,852.4266690074
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-190,web_navigation,0.451,0,cheap-small,0.6,False,False,False,,0.0006244,29647.834727016743,1178.8490939943586
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-191,web_navigation,0.453,0,cheap-small,0.6,False,True,False,,0.0011101000000000001,36012.486648978665,940.3310979832895
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-192,web_navigation,0.456,0,cheap-small,0.6,False,False,False,,0.0006256,28970.222682022722,741.2215920048766
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-205,web_navigation,0.445,0,strong-frontier,0.6,False,True,False,,0.044160000000000005,45953.66514098714,1131.2141760136
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-206,web_navigation,0.438,0,strong-frontier,0.6,False,False,False,,0.07166,62840.62850099872,942.6817699859384
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-207,web_navigation,0.463,0,strong-frontier,0.6,False,False,False,,0.29463000000000006,219508.8399350061,1155.9430269990116
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-225,web_navigation,0.446,0,strong-frontier,0.6,False,True,False,,0.03737,37952.28788701934,752.0589829946402
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-226,web_navigation,0.455,0,strong-frontier,0.6,False,False,False,,0.5597049999999999,466459.5964899927,658.687443996314
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-227,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.0010162,40292.85485300352,2002.045111003099
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-228,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.004051550000000001,126348.5597599938,867.3297369969077
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-229,web_navigation,0.449,0,cheap-small,0.6,False,False,False,,0.0012212,48285.99805600243,828.1498590076808
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-230,web_navigation,0.455,0,strong-frontier,0.6,False,False,False,,0.10797000000000001,106441.09175301855,667.4440520000644
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-231,web_navigation,0.455,0,strong-frontier,0.6,False,False,False,,0.126035,102635.66075399285,654.9328299879562
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-232,web_navigation,0.453,0,cheap-small,0.6,False,False,False,,0.0006244,27952.55260702106,990.2951029944234
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-233,web_navigation,0.454,0,strong-frontier,0.6,False,False,False,,0.11819500000000001,86770.32119999058,1126.3541159860324
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-234,web_navigation,0.453,0,strong-frontier,0.6,False,False,False,,0.17364000000000002,133244.0623959992,780.6099290028214
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-235,web_navigation,0.46,0,cheap-small,0.6,False,True,False,,0.0006248,28415.17301701242,1108.0658650025725
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-238,web_navigation,0.512,0,cheap-small,0.6,False,False,False,,0.0040996,141423.1465299963,1274.8407660110388
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-239,web_navigation,0.522,0,strong-frontier,0.6,False,False,False,,0.11540500000000001,109634.61666097282,809.8208279989194
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-240,web_navigation,0.517,0,strong-frontier,0.6,False,False,False,,0.16906000000000004,145766.29743500962,946.5157719969284
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-241,web_navigation,0.511,0,strong-frontier,0.6,False,False,False,,0.14776,128165.34632499679,1071.991717995843
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-242,web_navigation,0.515,0,strong-frontier,0.6,False,False,False,,0.19003000000000006,159297.65766099445,955.4469239956234
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-258,web_navigation,0.42300000000000004,0,cheap-small,0.6,False,True,False,,0.0016713000000000001,37081.93551900331,950.9195099817589
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-259,web_navigation,0.42400000000000004,0,cheap-small,0.6,False,False,False,,0.0023406,49027.07748999819,596.8079779995605
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-260,web_navigation,0.456,0,cheap-small,0.6,False,True,False,,0.0008183000000000001,37682.485224999255,736.1233740230091
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-261,web_navigation,0.456,0,cheap-small,0.6,False,False,False,,0.0028395500000000006,102107.91041300399,9419.540039001731
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-262,web_navigation,0.455,0,cheap-small,0.6,False,False,False,,0.0041570999999999995,139684.28426698665,799.6492550009862
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-263,web_navigation,0.46,0,cheap-small,0.6,False,False,False,,0.00205775,80519.96628401685,703.5587269929238
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-264,web_navigation,0.47100000000000003,0,cheap-small,0.6,False,False,False,,0.0020305500000000003,81111.1321770004,1092.2429810161702
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-269,web_navigation,0.452,0,cheap-small,0.6,False,False,False,,0.0020687500000000003,71126.99268001597,701.2162579922006
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-270,web_navigation,0.45,0,cheap-small,0.6,False,False,False,,0.006231950000000001,195976.61821299698,957.1141280175652
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),webarena-271,web_navigation,0.458,0,cheap-small,0.6,False,False,False,,0.006228150000000001,179243.15920399386,829.4193400070071
+vLLM Semantic Router (live),WebArena (live),webarena-21,web_navigation,0.468,0,cheap-small,0.7,False,False,False,,0.0008474000000000001,34994.36797801172,981.0494680132251
+vLLM Semantic Router (live),WebArena (live),webarena-22,web_navigation,0.465,0,cheap-small,0.7,False,True,False,,0.00119135,47154.752429021755,944.9156409827992
+vLLM Semantic Router (live),WebArena (live),webarena-23,web_navigation,0.47400000000000003,0,strong-frontier,0.7,False,False,False,,0.037505000000000004,41816.49919800111,1789.6139330114238
+vLLM Semantic Router (live),WebArena (live),webarena-24,web_navigation,0.466,0,cheap-small,0.7,False,True,False,,0.0007808000000000001,34203.76637700247,873.9518109941855
+vLLM Semantic Router (live),WebArena (live),webarena-25,web_navigation,0.46900000000000003,0,cheap-small,0.7,False,False,False,,0.0018269500000000001,65074.70641800319,814.9340460076928
+vLLM Semantic Router (live),WebArena (live),webarena-26,web_navigation,0.48000000000000004,0,mid-general,0.7,False,False,False,,0.037914,93026.6542850004,2299.4075620081276
+vLLM Semantic Router (live),WebArena (live),webarena-44,web_navigation,0.41800000000000004,0,cheap-small,0.7,False,True,False,,0.0011831000000000003,29566.714650020003,974.4921659876127
+vLLM Semantic Router (live),WebArena (live),webarena-45,web_navigation,0.437,0,cheap-small,0.7,False,False,False,,0.00158755,45228.770410991274,955.2084480237681
+vLLM Semantic Router (live),WebArena (live),webarena-46,web_navigation,0.437,0,cheap-small,0.7,False,False,False,,0.0010149500000000001,32095.73695200379,835.8298530220054
+vLLM Semantic Router (live),WebArena (live),webarena-47,web_navigation,0.52,0,mid-general,0.7,False,False,False,,0.019461000000000003,45247.577251982875,1694.7383979859296
+vLLM Semantic Router (live),WebArena (live),webarena-48,web_navigation,0.525,0,mid-general,0.7,False,False,False,,0.019563,41239.61238900665,1651.450423989445
+vLLM Semantic Router (live),WebArena (live),webarena-49,web_navigation,0.525,0,mid-general,0.7,False,False,False,,0.019578,43097.09120099433,1864.7544000123162
+vLLM Semantic Router (live),WebArena (live),webarena-50,web_navigation,0.519,0,mid-general,0.7,False,False,False,,0.019491,41535.029329010285,1752.273870020872
+vLLM Semantic Router (live),WebArena (live),webarena-51,web_navigation,0.524,0,mid-general,0.7,False,False,False,,0.019833,43534.10359699046,1627.3674450058024
+vLLM Semantic Router (live),WebArena (live),webarena-96,web_navigation,0.461,0,cheap-small,0.7,False,False,False,,0.0006256,29075.72017799248,1259.9320419831201
+vLLM Semantic Router (live),WebArena (live),webarena-102,web_navigation,0.512,0,mid-general,0.7,False,False,False,,0.32654999999999995,461787.44856998674,1642.5806820043363
+vLLM Semantic Router (live),WebArena (live),webarena-103,web_navigation,0.506,0,strong-frontier,0.7,False,True,False,,0.045540000000000004,33922.15532500995,1660.5720350053161
+vLLM Semantic Router (live),WebArena (live),webarena-104,web_navigation,0.501,0,strong-frontier,0.7,False,False,False,,0.06578,48035.41435999796,2118.4323279885575
+vLLM Semantic Router (live),WebArena (live),webarena-105,web_navigation,0.525,0,strong-frontier,0.7,False,False,False,,0.084565,53063.39487299556,2035.6455070141237
+vLLM Semantic Router (live),WebArena (live),webarena-106,web_navigation,0.504,0,strong-frontier,0.7,False,False,False,,0.065265,46146.933540992904,1716.8513690121472
+vLLM Semantic Router (live),WebArena (live),webarena-117,web_navigation,0.46,0,mid-general,0.7,False,False,False,,0.01941,42966.33917299914,1413.1937870115507
+vLLM Semantic Router (live),WebArena (live),webarena-118,web_navigation,0.47900000000000004,0,mid-general,0.7,False,False,False,,0.015894,42616.587908996735,1278.6513419996481
+vLLM Semantic Router (live),WebArena (live),webarena-124,web_navigation,0.468,0,mid-general,0.7,False,False,False,,0.030989999999999997,84456.16346600582,1967.63909899164
+vLLM Semantic Router (live),WebArena (live),webarena-125,web_navigation,0.47700000000000004,0,cheap-small,0.7,False,False,False,,0.00123655,48654.39797998988,1862.613789999159
+vLLM Semantic Router (live),WebArena (live),webarena-126,web_navigation,0.47000000000000003,0,cheap-small,0.7,False,False,False,,0.0020926000000000004,71968.53653600556,1412.78205398703
+vLLM Semantic Router (live),WebArena (live),webarena-132,web_navigation,0.46,0,cheap-small,0.7,False,False,False,,0.0014903499999999999,32550.70616697776,936.3310749758966
+vLLM Semantic Router (live),WebArena (live),webarena-133,web_navigation,0.453,0,cheap-small,0.7,False,False,False,,0.0014462999999999998,32538.64614199847,1033.4300569957122
+vLLM Semantic Router (live),WebArena (live),webarena-134,web_navigation,0.46,0,cheap-small,0.7,False,False,False,,0.00429105,92301.27621701104,1151.6925919859204
+vLLM Semantic Router (live),WebArena (live),webarena-135,web_navigation,0.46900000000000003,0,cheap-small,0.7,False,False,False,,0.0033682,60248.76912101172,975.6041369982995
+vLLM Semantic Router (live),WebArena (live),webarena-136,web_navigation,0.47400000000000003,0,cheap-small,0.7,False,False,False,,0.0032317000000000005,64184.12704899674,1087.2340780042578
+vLLM Semantic Router (live),WebArena (live),webarena-141,web_navigation,0.459,0,cheap-small,0.7,False,False,False,,0.0008678000000000001,31875.69929601159,1999.8018009937368
+vLLM Semantic Router (live),WebArena (live),webarena-142,web_navigation,0.46900000000000003,0,cheap-small,0.7,False,False,False,,0.0011143000000000001,34475.57904399582,949.9555349757429
+vLLM Semantic Router (live),WebArena (live),webarena-143,web_navigation,0.461,0,cheap-small,0.7,False,False,False,,0.0008696000000000001,31423.0356120097,950.5606559978332
+vLLM Semantic Router (live),WebArena (live),webarena-144,web_navigation,0.47300000000000003,0,cheap-small,0.7,False,False,False,,0.0006276000000000001,28868.22492699139,1245.3447459847666
+vLLM Semantic Router (live),WebArena (live),webarena-145,web_navigation,0.463,0,cheap-small,0.7,False,False,False,,0.000626,28057.584402995417,921.6848110081628
+vLLM Semantic Router (live),WebArena (live),webarena-146,web_navigation,0.46900000000000003,0,cheap-small,0.7,False,False,False,,0.0006264,28524.684767005965,1022.1666760044172
+vLLM Semantic Router (live),WebArena (live),webarena-147,web_navigation,0.465,0,cheap-small,0.7,False,False,False,,0.000626,29051.679904019693,1068.7171789759304
+vLLM Semantic Router (live),WebArena (live),webarena-148,web_navigation,0.47000000000000003,0,cheap-small,0.7,False,False,False,,0.0006264,28170.16580697964,3709.8891059868038
+vLLM Semantic Router (live),WebArena (live),webarena-149,web_navigation,0.47300000000000003,0,cheap-small,0.7,False,False,False,,0.0016265500000000003,60397.740187007,702.9338020074647
+vLLM Semantic Router (live),WebArena (live),webarena-150,web_navigation,0.466,0,cheap-small,0.7,False,False,False,,0.0006264,28484.34244998498,1142.0513149932958
+vLLM Semantic Router (live),WebArena (live),webarena-156,web_navigation,0.438,0,cheap-small,0.7,False,False,False,,0.014096699999999998,214543.30702798325,1003.0383300036192
+vLLM Semantic Router (live),WebArena (live),webarena-158,web_navigation,0.504,0,strong-frontier,0.7,False,False,False,,0.11974000000000001,111588.9396139828,1820.3842169896234
+vLLM Semantic Router (live),WebArena (live),webarena-159,web_navigation,0.504,0,strong-frontier,0.7,False,False,False,,0.10108999999999999,92022.9507490003,1555.0596230023075
+vLLM Semantic Router (live),WebArena (live),webarena-160,web_navigation,0.503,0,strong-frontier,0.7,False,True,False,,0.09854500000000002,84843.6131089984,1567.326502990909
+vLLM Semantic Router (live),WebArena (live),webarena-161,web_navigation,0.504,0,strong-frontier,0.7,False,False,False,,0.09454500000000002,84138.72439300758,1779.2152619804256
+vLLM Semantic Router (live),WebArena (live),webarena-162,web_navigation,0.504,0,cheap-small,0.7,False,False,False,,0.00121835,48638.50411499152,1872.4051130120642
+vLLM Semantic Router (live),WebArena (live),webarena-163,web_navigation,0.48400000000000004,0,cheap-small,0.7,False,False,False,,0.0009322,37461.76238701446,918.0870819836855
+vLLM Semantic Router (live),WebArena (live),webarena-164,web_navigation,0.48400000000000004,0,cheap-small,0.7,False,True,False,,0.00114225,44135.76306801406,1038.5955089877825
+vLLM Semantic Router (live),WebArena (live),webarena-165,web_navigation,0.48400000000000004,0,cheap-small,0.7,False,False,False,,0.0009183500000000001,40312.2764340078,917.5837360089645
+vLLM Semantic Router (live),WebArena (live),webarena-166,web_navigation,0.48400000000000004,0,cheap-small,0.7,False,False,False,,0.0007915000000000001,33999.77686299826,851.1194809980225
+vLLM Semantic Router (live),WebArena (live),webarena-167,web_navigation,0.48400000000000004,0,cheap-small,0.7,False,False,False,,0.00136895,43717.621877003694,1016.9210780004505
+vLLM Semantic Router (live),WebArena (live),webarena-168,web_navigation,0.503,0,cheap-small,0.7,False,True,False,,0.0017867500000000001,37682.58736797725,925.669068004936
+vLLM Semantic Router (live),WebArena (live),webarena-169,web_navigation,0.498,0,cheap-small,0.7,False,False,False,,0.0031704999999999997,56590.286005986854,1021.4628409885336
+vLLM Semantic Router (live),WebArena (live),webarena-170,web_navigation,0.499,0,strong-frontier,0.7,False,False,False,,0.07858000000000001,45443.78229000722,1699.0861240192316
+vLLM Semantic Router (live),WebArena (live),webarena-171,web_navigation,0.501,0,cheap-small,0.7,False,False,False,,0.0031654,55057.660924998345,634.1689109976869
+vLLM Semantic Router (live),WebArena (live),webarena-172,web_navigation,0.492,0,strong-frontier,0.7,False,False,False,,0.079115,48422.74991297745,1740.822808991652
+vLLM Semantic Router (live),WebArena (live),webarena-173,web_navigation,0.592,0,cheap-small,0.7,False,False,False,,0.011203200000000003,181461.98448899668,1241.6715810250025
+vLLM Semantic Router (live),WebArena (live),webarena-174,web_navigation,0.593,0,strong-frontier,0.7,False,False,False,,0.12694500000000003,82550.82774499897,1520.1460410025902
+vLLM Semantic Router (live),WebArena (live),webarena-175,web_navigation,0.596,0,cheap-small,0.7,False,False,False,,0.0041090499999999995,70821.47730700672,595.8972229855135
+vLLM Semantic Router (live),WebArena (live),webarena-176,web_navigation,0.598,0,cheap-small,0.7,False,False,False,,0.0019042,40447.14640500024,860.309954994591
+vLLM Semantic Router (live),WebArena (live),webarena-177,web_navigation,0.602,0,cheap-small,0.7,False,False,False,,0.0018965000000000002,45981.118927011266,714.5952240098268
+vLLM Semantic Router (live),WebArena (live),webarena-178,web_navigation,0.582,0,cheap-small,0.7,False,False,False,,0.00371735,73797.50629802584,1025.7241869985592
+vLLM Semantic Router (live),WebArena (live),webarena-179,web_navigation,0.583,0,strong-frontier,0.7,False,False,False,,0.18810500000000002,109945.68270500167,1976.2627680029254
+vLLM Semantic Router (live),WebArena (live),webarena-180,web_navigation,0.586,0,strong-frontier,0.7,False,False,False,,0.24903000000000003,138318.81239201175,3814.008240995463
+vLLM Semantic Router (live),WebArena (live),webarena-181,web_navigation,0.588,0,strong-frontier,0.7,False,False,False,,0.10294500000000001,68041.7706730077,1761.2821579969022
+vLLM Semantic Router (live),WebArena (live),webarena-182,web_navigation,0.592,0,strong-frontier,0.7,False,False,False,,0.056135000000000004,44742.86900201696,1277.6299619872589
+vLLM Semantic Router (live),WebArena (live),webarena-188,web_navigation,0.452,0,cheap-small,0.7,False,False,False,,0.0006244,29148.061796993716,948.7103360006586
+vLLM Semantic Router (live),WebArena (live),webarena-189,web_navigation,0.45,0,cheap-small,0.7,False,False,False,,0.00109595,39548.61944998265,1142.572946002474
+vLLM Semantic Router (live),WebArena (live),webarena-190,web_navigation,0.451,0,cheap-small,0.7,False,False,False,,0.0006244,28791.27589199925,1098.208427982172
+vLLM Semantic Router (live),WebArena (live),webarena-191,web_navigation,0.453,0,cheap-small,0.7,False,True,False,,0.0012452500000000003,46266.154619981535,901.2192320078611
+vLLM Semantic Router (live),WebArena (live),webarena-192,web_navigation,0.456,0,cheap-small,0.7,False,False,False,,0.0006256,28923.24514000211,835.1222880010027
+vLLM Semantic Router (live),WebArena (live),webarena-205,web_navigation,0.445,0,cheap-small,0.7,False,False,False,,0.0026010499999999997,62333.57294098823,976.0133370000403
+vLLM Semantic Router (live),WebArena (live),webarena-206,web_navigation,0.438,0,cheap-small,0.7,False,False,False,,0.0009727500000000001,39070.910814014496,945.9819949988741
+vLLM Semantic Router (live),WebArena (live),webarena-207,web_navigation,0.463,0,cheap-small,0.7,False,False,False,,0.000539,26795.16551498091,861.1979649867862
+vLLM Semantic Router (live),WebArena (live),webarena-225,web_navigation,0.446,0,cheap-small,0.7,False,True,False,,0.00203235,71438.47586601623,1389.2446999961976
+vLLM Semantic Router (live),WebArena (live),webarena-226,web_navigation,0.455,0,mid-general,0.7,False,False,False,,0.052860000000000004,114342.3875909939,2566.6196460078936
+vLLM Semantic Router (live),WebArena (live),webarena-227,web_navigation,0.45,0,mid-general,0.7,False,True,False,,0.021741,53246.14920199383,1571.4476419962011
+vLLM Semantic Router (live),WebArena (live),webarena-228,web_navigation,0.45,0,mid-general,0.7,False,False,False,,0.23891700000000005,415791.1926099914,1432.9388399783056
+vLLM Semantic Router (live),WebArena (live),webarena-229,web_navigation,0.449,0,mid-general,0.7,False,False,False,,0.031632,78410.30254002544,1592.0951220032293
+vLLM Semantic Router (live),WebArena (live),webarena-230,web_navigation,0.455,0,mid-general,0.7,False,True,False,,0.025638,55500.53642099374,1448.3541259833146
+vLLM Semantic Router (live),WebArena (live),webarena-231,web_navigation,0.455,0,cheap-small,0.7,False,False,False,,0.0006244,33545.25722100516,1469.4230489840265
+vLLM Semantic Router (live),WebArena (live),webarena-232,web_navigation,0.453,0,mid-general,0.7,False,False,False,,0.019089,42809.378195001045,1549.636276991805
+vLLM Semantic Router (live),WebArena (live),webarena-233,web_navigation,0.454,0,cheap-small,0.7,False,False,False,,0.0006244,28728.495112998644,1522.327504993882
+vLLM Semantic Router (live),WebArena (live),webarena-234,web_navigation,0.453,0,cheap-small,0.7,False,True,False,,0.0006248,28347.372149000876,964.1534390102606
+vLLM Semantic Router (live),WebArena (live),webarena-235,web_navigation,0.46,0,mid-general,0.7,False,False,False,,0.019341,43233.52485700161,1962.0794809889048
+vLLM Semantic Router (live),WebArena (live),webarena-238,web_navigation,0.512,0,cheap-small,0.7,False,False,False,,0.0029038000000000007,94041.05325799901,1104.764627001714
+vLLM Semantic Router (live),WebArena (live),webarena-239,web_navigation,0.522,0,cheap-small,0.7,False,False,False,,0.0121276,354970.6257529906,1189.8397530021612
+vLLM Semantic Router (live),WebArena (live),webarena-240,web_navigation,0.517,0,cheap-small,0.7,False,False,False,,0.0012237500000000002,48236.83804797474,1063.5574309853837
+vLLM Semantic Router (live),WebArena (live),webarena-241,web_navigation,0.511,0,cheap-small,0.7,False,False,False,,0.0016413,58169.84442502144,1116.0915800137445
+vLLM Semantic Router (live),WebArena (live),webarena-242,web_navigation,0.515,0,cheap-small,0.7,False,False,False,,0.005726149999999999,168665.01537000295,1256.7364510032348
+vLLM Semantic Router (live),WebArena (live),webarena-258,web_navigation,0.42300000000000004,0,cheap-small,0.7,False,True,False,,0.00111415,28212.069675006205,1018.3808989822865
+vLLM Semantic Router (live),WebArena (live),webarena-259,web_navigation,0.42400000000000004,0,cheap-small,0.7,False,False,False,,0.0017712000000000001,38720.6101710035,1016.37534800102
+vLLM Semantic Router (live),WebArena (live),webarena-260,web_navigation,0.456,0,cheap-small,0.7,False,True,False,,0.001673,60314.63360399357,1113.166215014644
+vLLM Semantic Router (live),WebArena (live),webarena-261,web_navigation,0.456,0,cheap-small,0.7,False,False,False,,0.0016343500000000001,70516.76340599079,891.9744770100806
+vLLM Semantic Router (live),WebArena (live),webarena-262,web_navigation,0.455,0,cheap-small,0.7,False,False,False,,0.0025083500000000003,92209.5552390092,1007.4745859892573
+vLLM Semantic Router (live),WebArena (live),webarena-263,web_navigation,0.46,0,cheap-small,0.7,False,False,False,,0.00205775,81754.76400600746,1005.380308983149
+vLLM Semantic Router (live),WebArena (live),webarena-264,web_navigation,0.47100000000000003,0,cheap-small,0.7,False,False,False,,0.0020430500000000002,73912.07543102792,778.5286049766
+vLLM Semantic Router (live),WebArena (live),webarena-269,web_navigation,0.452,0,cheap-small,0.7,False,False,False,,0.01262595,387821.75809299224,1132.0406199956778
+vLLM Semantic Router (live),WebArena (live),webarena-270,web_navigation,0.45,0,cheap-small,0.7,False,False,False,,0.012492150000000002,399080.86992101744,981.493152998155
+vLLM Semantic Router (live),WebArena (live),webarena-271,web_navigation,0.458,0,mid-general,0.7,False,False,False,,0.23919600000000002,455521.8443789927,1419.835767999757

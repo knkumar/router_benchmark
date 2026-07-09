@@ -1,0 +1,2 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+vLLM Semantic Router (live),0.7708333333333333,0.0015322100000000002,0.0018344168084101112,2009.3285104376264,3171.4952573878686,0.85,0.0,0.825,0.31664393833222443,2,True

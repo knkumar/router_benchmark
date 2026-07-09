@@ -1,0 +1,5 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+LiteLLM Router (live),0.1875,0.0012678374999999936,0.006761799999999966,34772.13246750762,58445.92255500174,,0.0,1.0,,1,True
+RouteLLM (live),0.125,0.000982009375,0.007856075,31145.0051264992,51616.35843049998,,0.0,1.0,,1,True
+vLLM Semantic Router (live),0.125,0.0013344250000000002,0.010675400000000002,33655.10233749956,77586.21188975303,,0.0,1.0,,1,False
+Aurelio Semantic Router (live),0.0625,0.028820437499999997,0.46112699999999995,43952.97038649005,94134.21159251084,,1.0,1.0,,1,False

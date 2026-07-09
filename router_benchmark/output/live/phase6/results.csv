@@ -1,0 +1,181 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+LLMRouter (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,2.36e-05,
+LLMRouter (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,0.6,False,False,False,,9.38e-05,
+LLMRouter (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,5.0600000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,2.6000000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,0.6,False,False,False,,9.760000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,2.34e-05,
+LLMRouter (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,mid-general,0.6,False,False,False,,0.000144,
+LLMRouter (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,0.6,False,False,False,,7.840000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,6.42e-05,
+LLMRouter (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,4.6800000000000006e-05,
+LLMRouter (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,4.74e-05,
+LLMRouter (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2.22e-05,
+LLMRouter (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,1.8599999999999998e-05,
+LLMRouter (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,3.180000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.7e-05,
+LLMRouter (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,1.6800000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,8.08e-05,
+LLMRouter (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,0.6,False,False,False,,1.44e-05,
+LLMRouter (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,7.860000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,0.6,False,False,False,,1.52e-05,
+LLMRouter (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,1.74e-05,
+LLMRouter (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,0.6,False,True,False,,8.92e-05,
+LLMRouter (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,0.6,False,False,False,,4.520000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,2.9e-05,
+LLMRouter (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,0.6,False,False,False,,9.06e-05,
+LLMRouter (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,0.6,False,False,False,,1.9600000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,4.600000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,3.600000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.9600000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,6.4e-05,
+LLMRouter (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,1.5600000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,True,False,,9.400000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.5600000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,2.1000000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.8599999999999998e-05,
+LLMRouter (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,2.8e-05,
+LLMRouter (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,4.8400000000000004e-05,
+LLMRouter (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,True,False,,2.32e-05,
+LLMRouter (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,4.720000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,0.6,False,False,False,,9.34e-05,
+LLMRouter (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,0.6,False,False,False,,5.580000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,1.7800000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,3.460000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,0.6,False,False,False,,8.6e-05,
+LLMRouter (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,0.6,False,False,False,,9.82e-05,
+LLMRouter (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,0.6,False,False,False,,9.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.46e-05,
+LLMRouter (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,5.9800000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2e-05,
+LLMRouter (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,6.080000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,0.6,False,False,False,,7.32e-05,
+LLMRouter (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.46e-05,
+LLMRouter (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,2.78e-05,
+LLMRouter (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2.2e-05,
+LLMRouter (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,0.6,False,True,False,,7.620000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,0.6,False,False,False,,7.300000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,2.36e-05,
+LLMRouter (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,0.6,False,False,False,,9.38e-05,
+LLMRouter (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,5.0600000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,2.6000000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,0.6,False,False,False,,9.760000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,2.34e-05,
+LLMRouter (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,mid-general,0.6,False,False,False,,0.000144,
+LLMRouter (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,0.6,False,False,False,,7.840000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,6.42e-05,
+LLMRouter (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,4.6800000000000006e-05,
+LLMRouter (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,4.74e-05,
+LLMRouter (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,2.22e-05,
+LLMRouter (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,1.8599999999999998e-05,
+LLMRouter (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,3.180000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.7e-05,
+LLMRouter (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,1.6800000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,8.08e-05,
+LLMRouter (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,0.6,False,False,False,,1.44e-05,
+LLMRouter (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,7.860000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,0.6,False,False,False,,1.52e-05,
+LLMRouter (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,1.74e-05,
+LLMRouter (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,0.6,False,True,False,,8.92e-05,
+LLMRouter (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,cheap-small,0.6,False,False,False,,4.520000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,2.9e-05,
+LLMRouter (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,0.6,False,False,False,,9.06e-05,
+LLMRouter (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,0.6,False,False,False,,1.9600000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,4.600000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,3.600000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.9600000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,6.4e-05,
+LLMRouter (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,1.5600000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,True,False,,9.400000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.5600000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,2.1000000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.8599999999999998e-05,
+LLMRouter (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,2.8e-05,
+LLMRouter (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,4.8400000000000004e-05,
+LLMRouter (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,True,False,,2.32e-05,
+LLMRouter (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,4.720000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,0.6,False,False,False,,9.34e-05,
+LLMRouter (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,0.6,False,False,False,,5.580000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,1.7800000000000002e-05,
+LLMRouter (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,3.460000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,0.6,False,False,False,,8.6e-05,
+LLMRouter (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,0.6,False,False,False,,9.82e-05,
+LLMRouter (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,0.6,False,False,False,,9.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.46e-05,
+LLMRouter (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,5.9800000000000003e-05,
+LLMRouter (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,2e-05,
+LLMRouter (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,6.080000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,0.6,False,False,False,,7.32e-05,
+LLMRouter (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.46e-05,
+LLMRouter (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,False,False,,2.78e-05,
+LLMRouter (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,2.02e-05,
+LLMRouter (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,2.2e-05,
+LLMRouter (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,0.6,False,True,False,,7.620000000000001e-05,
+LLMRouter (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,0.6,False,False,False,,7.300000000000001e-05,
+LLMRouter (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,cheap-small,0.6,False,False,True,False,9.730000000000001e-05,1044.1561309853569
+LLMRouter (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,0.00011520000000000001,777.6944249635562
+LLMRouter (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,7.085e-05,729.495542938821
+LLMRouter (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.815e-05,1155.6499720318243
+LLMRouter (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,8.960000000000001e-05,742.5185209140182
+LLMRouter (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,9.235000000000001e-05,719.7520099580288
+LLMRouter (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,7.315e-05,460.1826360449195
+LLMRouter (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.995000000000002e-05,848.8716520369053
+LLMRouter (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,0.6,False,False,True,False,7.14e-05,867.879549972713
+LLMRouter (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,6.635000000000001e-05,837.1227249735966
+LLMRouter (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,0.6,False,True,True,True,8.350000000000001e-05,619.2318830871955
+LLMRouter (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,0.6,False,False,True,False,8.255e-05,991.6750220581889
+LLMRouter (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.420000000000001e-05,951.5876319492236
+LLMRouter (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,cheap-small,0.6,False,True,True,True,0.0001114,841.0198969068006
+LLMRouter (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,cheap-small,0.6,False,True,True,True,9.100000000000002e-05,816.5263269329444
+LLMRouter (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,cheap-small,0.6,False,False,True,False,8.825e-05,829.7726729651913
+LLMRouter (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.775e-05,484.93739403784275
+LLMRouter (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,8.095e-05,856.1730859801173
+LLMRouter (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.67e-05,1154.097188031301
+LLMRouter (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,0.6,False,False,True,False,7.46e-05,840.2772119734436
+LLMRouter (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,0.6,False,True,True,True,0.0001025,812.4503099825233
+LLMRouter (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.25e-05,773.1919890502468
+LLMRouter (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.740000000000001e-05,669.3241969915107
+LLMRouter (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.010000000000001e-05,776.5006530098617
+LLMRouter (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,0.00013230000000000002,1178.2431249739602
+LLMRouter (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.6e-05,993.5949640348554
+LLMRouter (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,0.6,False,True,True,True,7.91e-05,1393.8999939709902
+LLMRouter (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.785000000000001e-05,908.7141610216349
+LLMRouter (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,7.540000000000002e-05,683.9954889146611
+LLMRouter (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,mid-general,0.6,False,True,True,True,0.003408,1900.5055900197476
+LLMRouter (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,cheap-small,0.6,False,False,True,False,0.00010105000000000002,960.1195479044691
+LLMRouter (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,0.00011520000000000001,696.1031289538369
+LLMRouter (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,6.960000000000001e-05,623.8574949093163
+LLMRouter (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.815e-05,671.8513489468023
+LLMRouter (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,8.960000000000001e-05,781.6839650040492
+LLMRouter (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,9.235000000000001e-05,586.2539239460602
+LLMRouter (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,7.315e-05,701.4439660124481
+LLMRouter (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.995000000000002e-05,664.8537300061435
+LLMRouter (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,0.6,False,False,True,False,6.890000000000001e-05,558.6032349383458
+LLMRouter (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,6.635000000000001e-05,514.6763289812952
+LLMRouter (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,0.6,False,True,True,True,8.350000000000001e-05,593.0432699387893
+LLMRouter (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,0.6,False,False,True,False,8.255e-05,688.1695250049233
+LLMRouter (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.420000000000001e-05,802.8024589875713
+LLMRouter (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,cheap-small,0.6,False,True,True,True,0.0001114,990.2807399630547
+LLMRouter (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,cheap-small,0.6,False,True,True,True,9.100000000000002e-05,866.0984400194138
+LLMRouter (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,cheap-small,0.6,False,True,True,True,9.075000000000001e-05,700.8986949222162
+LLMRouter (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.775e-05,638.6058189673349
+LLMRouter (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,8.095e-05,686.2496850080788
+LLMRouter (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.67e-05,703.521132003516
+LLMRouter (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,0.6,False,False,True,False,8.085000000000001e-05,864.4492769381031
+LLMRouter (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,0.6,False,False,True,False,0.000105,739.4147419836372
+LLMRouter (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.25e-05,524.6021959464997
+LLMRouter (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.740000000000001e-05,1003.306710976176
+LLMRouter (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.010000000000001e-05,1119.7628820082173
+LLMRouter (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,0.00013230000000000002,994.6738840080798
+LLMRouter (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.6e-05,576.6422901069745
+LLMRouter (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,0.6,False,True,True,True,7.91e-05,907.8493069391698
+LLMRouter (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.785000000000001e-05,532.2407779749483
+LLMRouter (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,7.540000000000002e-05,766.3431708933786
+LLMRouter (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,mid-general,0.6,False,True,True,True,0.003408,1746.4911460410804

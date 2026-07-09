@@ -1,0 +1,7 @@
+router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
+NVIDIA AI Blueprint LLM Router (live),WebArena (live),16,1,0.25,0.051360575000000006,0.20544230000000002,45313.96102100007,118755.78266825141,,0.0,1.0,0.6,,0.25,,
+LLMRouter (live),WebArena (live),16,1,0.1875,0.00238206875,0.012704366666666666,36463.69231749941,56889.14672400006,,0.0,1.0,0.6,,0.1875,,
+RouteLLM (live),WebArena (live),16,1,0.125,0.000982009375,0.007856075,31145.0051264992,51616.35843049998,,0.0,1.0,0.7802279162466546,,0.125,,
+vLLM Semantic Router (live),WebArena (live),16,1,0.125,0.0013344250000000002,0.010675400000000002,33655.10233749956,77586.21188975303,,0.0,1.0,0.7,,0.125,,
+Aurelio Semantic Router (live),WebArena (live),16,1,0.0625,0.0405568125,0.648909,45108.767432000604,153063.0949514989,,0.0,1.0,0.7,,0.0625,,
+LiteLLM Router (live),WebArena (live),16,1,0.0625,0.0437386875,0.699819,46583.9830040004,180314.78766874986,,0.0,1.0,0.6,,0.0625,,

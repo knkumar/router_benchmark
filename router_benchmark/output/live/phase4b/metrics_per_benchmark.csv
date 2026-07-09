@@ -1,0 +1,5 @@
+router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
+Aurelio Semantic Router (live),SWE-bench Verified (live),2,1,0.0,0.0122745,,8964.255627004604,12600.423201602098,,0.0,1.0,0.7,0.0,,,
+LLMRouter (live),SWE-bench Verified (live),2,1,0.0,0.001017825,,5197.646735501621,6963.096923946068,,0.0,1.0,0.6,0.0,,,
+NVIDIA AI Blueprint LLM Router (live),SWE-bench Verified (live),2,1,0.0,0.013805000000000001,,4271.883452503971,4598.047148355181,,0.0,1.0,0.6,0.0,,,
+vLLM Semantic Router (live),SWE-bench Verified (live),2,1,0.0,0.0008128250000000001,,4108.812730999489,5338.260743295541,,0.0,1.0,0.7,0.0,,,

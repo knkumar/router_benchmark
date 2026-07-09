@@ -1,0 +1,76 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+Random Baseline (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.004980729999999999,44208.554508993984,0.03128999378532171
+Random Baseline (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00464549,41150.21669398993,0.03563000063877553
+Random Baseline (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.26181599999999994,51124.84190901159,0.066359993070364
+Random Baseline (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.25456500000000004,45655.24293600174,0.04038099723402411
+Random Baseline (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00488626,37880.089823011076,0.036650002584792674
+Random Baseline (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.006219720000000001,49672.86675599462,0.03614999877754599
+Random Baseline (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,strong-frontier,1.0,False,True,True,True,0.6161200000000001,64987.57219300023,0.03628000558819622
+Random Baseline (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.33803399999999995,64504.75066700892,0.051049995818175375
+Random Baseline (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.30600299999999997,54232.915255008265,0.03828000626526773
+Random Baseline (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00452288,41516.56500599347,0.04811999679077417
+Random Baseline (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,strong-frontier,1.0,False,True,True,True,0.40192500000000003,46946.36046500818,0.045231005060486495
+Random Baseline (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,strong-frontier,1.0,False,True,True,True,0.41784000000000004,44345.98481601279,0.041530001908540726
+Random Baseline (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00339723,33288.13567999168,0.03697999636642635
+Random Baseline (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,strong-frontier,1.0,False,True,True,True,0.422605,52602.17320000811,0.03745000867638737
+Random Baseline (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00307827,30051.7967009946,0.04787999205291271
+Random Baseline (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0052144999999999995,48638.344712002436,0.04370001261122525
+Random Baseline (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,strong-frontier,1.0,False,True,True,True,0.76654,62561.49421299051,0.03678999200928956
+Random Baseline (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00198813,20389.4711239991,0.05201999738346785
+Random Baseline (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.0038071100000000003,42394.17154199327,0.037480000173673034
+Random Baseline (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,mid-general,1.0,False,False,True,False,0.24836399999999995,47007.198598003015,0.038080004742369056
+Random Baseline (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,mid-general,1.0,False,False,True,False,0.37988099999999997,71309.180028009,0.040440005250275135
+Random Baseline (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.366504,71350.69101798581,0.05283000064082444
+Random Baseline (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.33401400000000003,53557.473573004245,0.04723999882116914
+Random Baseline (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,strong-frontier,1.0,False,True,True,True,1.0141049999999998,72749.61004999932,0.047469991841353476
+Random Baseline (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,1.0,False,True,True,True,0.0033651,44903.94332099822,0.04090000584255904
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,mid-general,1.0,False,False,True,False,0.266709,61134.93007099896,0.012060001608915627
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.232173,49350.79486698669,0.012470001820474863
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00484311,40262.513637004304,0.011879994417540729
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00436886,33242.83085600473,0.018049991922453046
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,cheap-small,1.0,False,False,True,False,0.00468337,37971.465902999626,0.017450001905672252
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.35771400000000003,91116.68958200607,0.01365999924018979
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.326418,64380.52566400438,0.01304999750573188
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.316296,63847.44306700304,0.02173999382648617
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.32831999999999995,76087.45017800538,0.019539991626515985
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.307026,61451.90880099835,0.018890001229010522
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.18413400000000002,37916.797771991696,0.015879995771683753
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.23672099999999996,46377.71648200578,0.018740000086836517
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.18868200000000002,44480.37237599783,0.010799994925037026
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.23615100000000003,49845.38813999097,0.017239988665096462
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00311962,32794.771130997106,0.01767999492585659
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00534422,46192.15702000656,0.010050003766082227
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00491687,51201.62072899984,0.010830000974237919
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.0018251600000000002,23523.056951002218,0.012970005627721548
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.31818300000000005,55970.94043200195,0.0201700022444129
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,mid-general,1.0,False,False,True,False,0.287808,63260.667040987755,0.012010001228190958
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.351747,76913.69212299469,0.014570003258995712
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.366546,74809.30308600364,0.024469991330988705
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.30939,50729.39826898801,0.01868999970611185
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.6314909999999999,98331.92292999593,0.0190399878192693
+Prompt-Length Heuristic Baseline (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,cheap-small,1.0,False,True,True,True,0.0042485299999999995,48974.13815499749,0.017529993783682585
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.21064799999999997,47031.61024401197,0.009789990144781768
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.20855100000000001,45980.69046600722,0.007430004188790917
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,mid-general,1.0,False,False,True,False,0.23036099999999998,53059.66408600216,0.006369999027810991
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-3,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.261585,56700.31278800161,0.006740010576322675
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-4,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.267747,49009.69340300071,0.006880000000819564
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-5,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.336687,58729.26187199482,0.006880000000819564
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-6,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.30417600000000006,60642.97169800557,0.0071699905674904585
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-7,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.309144,61703.919665000285,0.008210001396946609
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-8,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.27609,58909.81805999763,0.00977999297901988
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-9,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.308295,59370.76347399852,0.009530005627311766
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-10,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.202143,42223.43529500358,0.019409999367780983
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-11,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.23757,43822.7921959915,0.006199989002197981
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-12,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.18496800000000002,41988.500175008085,0.006920003215782344
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-13,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.20958900000000003,52193.746129007195,0.009101000614464283
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-14,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.23807100000000003,51892.25542299391,0.01109000004362315
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-15,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.235023,41600.40952099371,0.008150003850460052
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-16,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.234975,55570.954310009256,0.0067599903559312224
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-17,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.134046,26842.96216299117,0.005959998816251755
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-18,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.31692,59403.84170500329,0.006860005669295788
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-19,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.249729,50757.599276010296,0.010399991879239678
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-20,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.323478,60283.56686599727,0.0075599964475259185
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-21,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.39108599999999993,63476.00183299801,0.0096809962997213
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-22,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.257907,43490.210832998855,0.006560003384947777
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-23,multi_turn_policy,1.0,0,mid-general,1.0,False,True,True,True,0.30485700000000004,58645.5117949954,0.009630006388761103
+Tool-Required Heuristic Baseline (live),tau2-bench (live),tau2-24,multi_turn_policy,0.25,0,mid-general,1.0,False,True,True,True,0.17397600000000002,49894.68534600746,0.006179994670674205

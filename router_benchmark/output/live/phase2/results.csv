@@ -1,0 +1,181 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+RouteLLM (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,0.7774597591576257,False,True,False,,2.36e-05,
+RouteLLM (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,0.7691112462624635,False,False,False,,9.38e-05,
+RouteLLM (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,cheap-small,0.783739700674203,False,True,False,,5.0600000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,0.7768740268311046,False,True,False,,2.6000000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,0.7706468347290675,False,False,False,,9.760000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,0.7736930583885636,False,False,False,,2.34e-05,
+RouteLLM (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,0.7763694587030303,False,False,False,,2.8800000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,0.7688918261556968,False,False,False,,7.840000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,cheap-small,0.7832843372855447,False,False,False,,6.42e-05,
+RouteLLM (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,0.7847254461893081,False,False,False,,4.6800000000000006e-05,
+RouteLLM (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,0.7829624025347197,False,False,False,,4.74e-05,
+RouteLLM (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,0.7732832429097772,False,False,False,,2.22e-05,
+RouteLLM (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,0.774621434788452,False,True,False,,1.8599999999999998e-05,
+RouteLLM (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,cheap-small,0.7763377281687827,False,False,False,,3.180000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,0.7786272646644292,False,True,False,,1.7e-05,
+RouteLLM (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,0.774810378245117,False,False,False,,1.6800000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,0.7694785064693676,False,True,False,,8.08e-05,
+RouteLLM (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,0.7758262170528638,False,False,False,,1.44e-05,
+RouteLLM (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,0.7710333336530311,False,True,False,,7.860000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,0.7761023861666332,False,False,False,,1.52e-05,
+RouteLLM (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,0.777220958454151,False,False,False,,1.74e-05,
+RouteLLM (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,0.7683633599792564,False,True,False,,8.92e-05,
+RouteLLM (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,0.7768729906728763,False,False,False,,4.520000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,0.7738667867743297,False,True,False,,2.9e-05,
+RouteLLM (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,0.769885987223611,False,False,False,,9.06e-05,
+RouteLLM (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,0.7761783799555738,False,False,False,,1.9600000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,0.7853487093175835,False,False,False,,4.600000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,cheap-small,0.7734543193543137,False,False,False,,3.600000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,0.7749901587354703,False,True,False,,1.9600000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,0.7835023414393428,False,False,False,,6.4e-05,
+RouteLLM (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,0.778433997517644,False,False,False,,1.5600000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,cheap-small,0.7769933545647502,False,True,False,,9.400000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,0.7756536775451411,False,True,False,,1.5600000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,0.777324441492573,False,False,False,,2.1000000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,0.7781755793642746,False,True,False,,1.8599999999999998e-05,
+RouteLLM (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,0.7758448841043754,False,False,False,,2.8e-05,
+RouteLLM (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,0.7812150112505912,False,False,False,,4.8400000000000004e-05,
+RouteLLM (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,0.7748180835071076,False,True,False,,2.32e-05,
+RouteLLM (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,0.7842066974604868,False,False,False,,4.720000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,0.7690652905838965,False,False,False,,9.34e-05,
+RouteLLM (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,0.769042321979327,False,False,False,,5.580000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,0.7789034683659947,False,False,False,,1.7800000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,cheap-small,0.7774199152500604,False,False,False,,3.460000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,0.768882466980079,False,False,False,,8.6e-05,
+RouteLLM (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,0.7753277285283432,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,0.7719249608408595,False,False,False,,9.82e-05,
+RouteLLM (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,0.7702314149694645,False,False,False,,9.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,0.7731576829036002,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,0.7724779568873673,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,0.7802559062346711,False,True,False,,1.46e-05,
+RouteLLM (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,0.7755013842733957,False,True,False,,5.9800000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,0.7766139263711868,False,False,False,,2e-05,
+RouteLLM (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,0.7773268636020209,False,False,False,,6.080000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,0.7687341440544759,False,False,False,,7.32e-05,
+RouteLLM (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,0.7740144016812613,False,True,False,,1.46e-05,
+RouteLLM (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,0.7695078384789447,False,False,False,,2.78e-05,
+RouteLLM (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,0.7762621662328344,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,0.7739856708265908,False,False,False,,2.2e-05,
+RouteLLM (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,0.7692740753525255,False,True,False,,7.620000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,0.7698265864895031,False,False,False,,7.300000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,0.7774597591576257,False,True,False,,2.36e-05,
+RouteLLM (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,0.769114764452791,False,False,False,,9.38e-05,
+RouteLLM (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,0.783739700674203,False,True,False,,5.0600000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,0.7768740268311046,False,True,False,,2.6000000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,0.7706422619330641,False,False,False,,9.760000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,0.7736930583885636,False,False,False,,2.34e-05,
+RouteLLM (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,cheap-small,0.7763697049838217,False,False,False,,2.8800000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,0.7688930784026474,False,False,False,,7.840000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,cheap-small,0.7832843372855447,False,False,False,,6.42e-05,
+RouteLLM (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,0.7847254461893081,False,False,False,,4.6800000000000006e-05,
+RouteLLM (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,0.7829624025347197,False,False,False,,4.74e-05,
+RouteLLM (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,0.7732832429097772,False,False,False,,2.22e-05,
+RouteLLM (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,0.7746211430613136,False,True,False,,1.8599999999999998e-05,
+RouteLLM (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,cheap-small,0.7763377281687827,False,False,False,,3.180000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,0.7786272646644292,False,True,False,,1.7e-05,
+RouteLLM (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,0.7747904758760009,False,False,False,,1.6800000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,0.7694779703690781,False,True,False,,8.08e-05,
+RouteLLM (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,0.7758262170528638,False,False,False,,1.44e-05,
+RouteLLM (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,0.7710333336530311,False,True,False,,7.860000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,0.7761023861666332,False,False,False,,1.52e-05,
+RouteLLM (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,0.777220958454151,False,False,False,,1.74e-05,
+RouteLLM (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,0.768367489059349,False,True,False,,8.92e-05,
+RouteLLM (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,cheap-small,0.7768731059708377,False,False,False,,4.520000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,0.7738667867743297,False,True,False,,2.9e-05,
+RouteLLM (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,0.769884244134013,False,False,False,,9.06e-05,
+RouteLLM (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,0.7761783799555738,False,False,False,,1.9600000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,0.7853487093175835,False,False,False,,4.600000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,cheap-small,0.7734543193543137,False,False,False,,3.600000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,0.7749918082681113,False,True,False,,1.9600000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,0.7835023414393428,False,False,False,,6.4e-05,
+RouteLLM (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,0.778433997517644,False,False,False,,1.5600000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,cheap-small,0.7769933545647502,False,True,False,,9.400000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,0.7756536775451411,False,True,False,,1.5600000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,0.7773224020971167,False,False,False,,2.1000000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,0.7781755793642746,False,True,False,,1.8599999999999998e-05,
+RouteLLM (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,0.775847415429536,False,False,False,,2.8e-05,
+RouteLLM (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,0.7812150112505912,False,False,False,,4.8400000000000004e-05,
+RouteLLM (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,0.7748180835071076,False,True,False,,2.32e-05,
+RouteLLM (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,0.7842065467992242,False,False,False,,4.720000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,0.7690672843056628,False,False,False,,9.34e-05,
+RouteLLM (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,0.7690402630101713,False,False,False,,5.580000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,0.7789034683659947,False,False,False,,1.7800000000000002e-05,
+RouteLLM (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,0.7774199152500604,False,False,False,,3.460000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,0.768882466980079,False,False,False,,8.6e-05,
+RouteLLM (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,0.7753277285283432,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,0.7719249608408595,False,False,False,,9.82e-05,
+RouteLLM (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,0.7702359650022153,False,False,False,,9.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,cheap-small,0.7731576829036002,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,0.7724779568873673,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,0.7802559062346711,False,True,False,,1.46e-05,
+RouteLLM (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,0.7755013842733957,False,True,False,,5.9800000000000003e-05,
+RouteLLM (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,0.7766139263711868,False,False,False,,2e-05,
+RouteLLM (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,0.7773330433526866,False,False,False,,6.080000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,0.768732732009262,False,False,False,,7.32e-05,
+RouteLLM (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,0.7740144016812613,False,True,False,,1.46e-05,
+RouteLLM (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,0.7695078384789447,False,False,False,,2.78e-05,
+RouteLLM (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,0.7762621662328344,False,False,False,,2.02e-05,
+RouteLLM (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,0.7739856708265908,False,False,False,,2.2e-05,
+RouteLLM (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,0.7692740753525255,False,True,False,,7.620000000000001e-05,
+RouteLLM (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,0.7698265864895031,False,False,False,,7.300000000000001e-05,
+RouteLLM (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,cheap-small,0.7772918514624105,False,False,True,False,0.00010105000000000002,1360.971246031113
+RouteLLM (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,0.7725392633855955,False,True,True,True,0.00011520000000000001,951.3920610770583
+RouteLLM (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,0.7838149728491883,False,True,True,True,6.960000000000001e-05,745.4061990138143
+RouteLLM (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,0.7811595085729139,False,True,True,True,8.815e-05,799.1122419480234
+RouteLLM (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,0.7882429478286298,False,True,True,True,8.960000000000001e-05,940.0383449392393
+RouteLLM (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,0.7831150360499567,False,True,True,True,9.235000000000001e-05,772.0874570077285
+RouteLLM (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,0.7845715226444583,False,True,True,True,7.315e-05,649.9298800481483
+RouteLLM (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,0.7846152028413422,False,True,True,True,8.995000000000002e-05,706.8539710016921
+RouteLLM (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,0.7866112607740102,False,False,True,False,7.390000000000001e-05,876.6863769851625
+RouteLLM (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,0.7778744646879335,False,True,True,True,6.635000000000001e-05,744.1451620543376
+RouteLLM (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,0.7782809822991473,False,True,True,True,8.350000000000001e-05,745.7503639161587
+RouteLLM (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,0.7820733183271181,False,False,True,False,8.255e-05,764.5915679167956
+RouteLLM (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,0.7868497159239963,False,True,True,True,8.420000000000001e-05,671.8715080060065
+RouteLLM (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,cheap-small,0.7781336294089494,False,True,True,True,0.0001114,640.7331130467355
+RouteLLM (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,cheap-small,0.7762260461702692,False,True,True,True,9.100000000000002e-05,1120.8100189687684
+RouteLLM (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,cheap-small,0.779526239475819,False,True,True,True,9.075000000000001e-05,850.3746360074729
+RouteLLM (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,0.7827391911314607,False,True,True,True,8.775e-05,728.4133320208639
+RouteLLM (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,0.784667658909185,False,True,True,True,8.095e-05,810.2570930495858
+RouteLLM (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,0.7807126316230197,False,True,True,True,8.67e-05,872.97305802349
+RouteLLM (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,0.781077222783082,False,False,True,False,7.46e-05,630.4176019039005
+RouteLLM (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,0.7834782817465964,False,True,True,True,0.0001025,753.9016020018607
+RouteLLM (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,cheap-small,0.7759195017918468,False,True,True,True,8.25e-05,757.2852660669014
+RouteLLM (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,0.7833760230218367,False,True,True,True,8.740000000000001e-05,804.4387069530785
+RouteLLM (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,0.7816148893711782,False,True,True,True,8.010000000000001e-05,819.58292494528
+RouteLLM (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,cheap-small,0.7793991153928884,False,True,True,True,0.00013230000000000002,2559.070629067719
+RouteLLM (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,0.7840036600882393,False,True,True,True,8.6e-05,752.5306158931926
+RouteLLM (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,0.785431580818969,False,True,True,True,7.91e-05,965.5175299849361
+RouteLLM (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,cheap-small,0.7847282855304679,False,True,True,True,8.785000000000001e-05,747.2923389868811
+RouteLLM (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,0.7809297506242835,False,True,True,True,7.540000000000002e-05,972.221344942227
+RouteLLM (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,0.7802970884278715,False,True,True,True,7.835000000000001e-05,799.1414999123663
+RouteLLM (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,cheap-small,0.7772918514624105,False,False,True,False,0.00010105000000000002,764.6343200467527
+RouteLLM (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,0.7725369483852489,False,True,True,True,0.00011520000000000001,933.0795640125871
+RouteLLM (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,0.7838149728491883,False,True,True,True,6.960000000000001e-05,719.6411759359762
+RouteLLM (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,0.7811595085729139,False,True,True,True,8.815e-05,712.0302700204775
+RouteLLM (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,0.7882429478286298,False,True,True,True,8.960000000000001e-05,864.6809159545228
+RouteLLM (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,0.783118382271352,False,True,True,True,9.235000000000001e-05,690.7646179897711
+RouteLLM (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,0.7845695767702087,False,True,True,True,7.315e-05,636.6282849339768
+RouteLLM (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,0.7846152028413422,False,True,True,True,8.995000000000002e-05,881.0656070709229
+RouteLLM (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,0.7866127607720075,False,False,True,False,7.390000000000001e-05,770.9340290166438
+RouteLLM (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,0.7778744646879335,False,True,True,True,6.635000000000001e-05,712.3447930207476
+RouteLLM (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,0.7782743632351337,False,True,True,True,8.350000000000001e-05,597.6609570207074
+RouteLLM (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,0.7820733183271181,False,False,True,False,8.255e-05,821.6812900500372
+RouteLLM (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,0.7868497159239963,False,True,True,True,8.420000000000001e-05,663.5626389179379
+RouteLLM (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,cheap-small,0.7781336294089494,False,True,True,True,0.0001114,1002.5324739981443
+RouteLLM (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,cheap-small,0.7762260580406041,False,True,True,True,9.100000000000002e-05,640.9961800090969
+RouteLLM (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,cheap-small,0.779526239475819,False,True,True,True,9.075000000000001e-05,676.3223659945652
+RouteLLM (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,0.7827387658217029,False,True,True,True,8.775e-05,859.2240619473159
+RouteLLM (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,0.7846665281432947,False,True,True,True,8.095e-05,593.2686110027134
+RouteLLM (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,0.7807126316230197,False,True,True,True,8.67e-05,1040.9706480568275
+RouteLLM (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,0.781077222783082,False,False,True,False,7.46e-05,497.186355991289
+RouteLLM (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,0.7834782817465964,False,False,True,False,0.00011,832.9898080555722
+RouteLLM (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,cheap-small,0.7759195017918468,False,True,True,True,8.25e-05,751.4438079670072
+RouteLLM (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,0.7833760230218367,False,True,True,True,8.740000000000001e-05,670.6567810615525
+RouteLLM (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,0.7816148893711782,False,True,True,True,8.010000000000001e-05,617.0182750793174
+RouteLLM (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,cheap-small,0.7793991153928884,False,True,True,True,0.00013230000000000002,754.0069869719446
+RouteLLM (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,0.7840036600882393,False,True,True,True,8.6e-05,760.952987940982
+RouteLLM (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,0.785431580818969,False,True,True,True,7.91e-05,931.9250419503078
+RouteLLM (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,cheap-small,0.7847282855304679,False,True,True,True,8.785000000000001e-05,485.5977729894221
+RouteLLM (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,0.7809297506242835,False,True,True,True,7.540000000000002e-05,597.2491300199181
+RouteLLM (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,0.7802970884278715,False,True,True,True,7.835000000000001e-05,630.0956580089405

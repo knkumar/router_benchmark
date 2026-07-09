@@ -1,0 +1,721 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms,router_decision_latency_ms
+LiteLLM Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,2.36e-05,nan,1.506960004917346
+LiteLLM Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.38e-05,nan,0.9970429964596406
+LiteLLM Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,nan,0.9437679982511327
+LiteLLM Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,nan,0.8549729973310605
+LiteLLM Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,9.760000000000001e-05,nan,0.9179370099445805
+LiteLLM Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.34e-05,nan,0.8336210012203082
+LiteLLM Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,nan,0.8217499998863786
+LiteLLM Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.840000000000001e-05,nan,0.9360080002807081
+LiteLLM Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.42e-05,nan,0.8904249989427626
+LiteLLM Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.6800000000000006e-05,nan,0.8517520036548376
+LiteLLM Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.74e-05,nan,0.9617000032449141
+LiteLLM Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.22e-05,nan,0.7813370029907674
+LiteLLM Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,nan,0.8624729962320998
+LiteLLM Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.180000000000001e-05,nan,0.8176199917215854
+LiteLLM Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.7e-05,nan,0.78300699533429
+LiteLLM Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,1.6800000000000002e-05,nan,0.776207001763396
+LiteLLM Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,8.08e-05,nan,0.8683939959155396
+LiteLLM Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.44e-05,nan,0.7828070083633065
+LiteLLM Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,7.860000000000001e-05,nan,0.8914950012695044
+LiteLLM Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.52e-05,nan,0.7954679895192385
+LiteLLM Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,1.74e-05,nan,0.7997689972398803
+LiteLLM Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,1.0,False,True,False,,8.92e-05,nan,0.8638330036774278
+LiteLLM Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,4.520000000000001e-05,nan,0.8511729974998161
+LiteLLM Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,2.9e-05,nan,0.8053880010265857
+LiteLLM Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,9.06e-05,nan,0.8562830043956637
+LiteLLM Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,1.0,False,False,False,,1.9600000000000002e-05,nan,0.7903579971753061
+LiteLLM Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,4.600000000000001e-05,nan,0.8343509980477393
+LiteLLM Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.600000000000001e-05,nan,0.8213900000555441
+LiteLLM Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,nan,0.7787670037942007
+LiteLLM Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,6.4e-05,nan,0.8930250041885301
+LiteLLM Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,1.5600000000000003e-05,nan,0.7763270114082843
+LiteLLM Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,9.400000000000001e-05,nan,0.9393279906362295
+LiteLLM Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.5600000000000003e-05,nan,0.8160099969245493
+LiteLLM Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.1000000000000002e-05,nan,0.7986279961187392
+LiteLLM Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,nan,0.8114889933494851
+LiteLLM Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.8e-05,nan,0.8196600101655349
+LiteLLM Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,nan,0.8536419918527827
+LiteLLM Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,True,False,,2.32e-05,nan,0.8289099932881072
+LiteLLM Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,4.720000000000001e-05,nan,0.8633230027044192
+LiteLLM Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,1.0,False,False,False,,9.34e-05,nan,0.8773139998083934
+LiteLLM Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,1.0,False,False,False,,5.580000000000001e-05,nan,0.8441220124950632
+LiteLLM Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,nan,0.8043490088311955
+LiteLLM Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,3.460000000000001e-05,nan,0.8286299998871982
+LiteLLM Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,8.6e-05,nan,0.8570819918531924
+LiteLLM Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.799809000454843
+LiteLLM Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,9.82e-05,nan,0.8928950119297951
+LiteLLM Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,9.02e-05,nan,0.8793540037004277
+LiteLLM Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.7922579970909283
+LiteLLM Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.809428995125927
+LiteLLM Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,nan,0.7674660009797662
+LiteLLM Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,nan,0.8702129998710006
+LiteLLM Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2e-05,nan,0.7855669973650947
+LiteLLM Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,6.080000000000001e-05,nan,0.9041259909281507
+LiteLLM Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,False,False,,7.32e-05,nan,0.8538120018783957
+LiteLLM Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,1.0,False,True,False,,1.46e-05,nan,0.7742369925836101
+LiteLLM Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,1.0,False,False,False,,2.78e-05,nan,0.8020389941520989
+LiteLLM Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.774906002334319
+LiteLLM Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,1.0,False,False,False,,2.2e-05,nan,0.7960980001371354
+LiteLLM Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,1.0,False,True,False,,7.620000000000001e-05,nan,0.8443510014330968
+LiteLLM Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,1.0,False,False,False,,7.300000000000001e-05,nan,0.8538719994248822
+LiteLLM Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,2.36e-05,nan,0.8091390045592561
+LiteLLM Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.38e-05,nan,0.8627329953014851
+LiteLLM Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.0600000000000003e-05,nan,0.8623530011391267
+LiteLLM Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.6000000000000002e-05,nan,0.8010689925868064
+LiteLLM Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.760000000000001e-05,nan,0.8771840075496584
+LiteLLM Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.34e-05,nan,0.7960179937072098
+LiteLLM Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.8800000000000002e-05,nan,0.82612999540288
+LiteLLM Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.840000000000001e-05,nan,0.984152007731609
+LiteLLM Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.42e-05,nan,0.8898939995560795
+LiteLLM Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.6800000000000006e-05,nan,0.8440020028501749
+LiteLLM Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.74e-05,nan,0.8380310027860105
+LiteLLM Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.22e-05,nan,0.775446998886764
+LiteLLM Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,nan,0.7668650068808347
+LiteLLM Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.180000000000001e-05,nan,0.7979180081747472
+LiteLLM Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.7e-05,nan,0.7636549999006093
+LiteLLM Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.6800000000000002e-05,nan,0.7788869988871738
+LiteLLM Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,8.08e-05,nan,0.8384310058318079
+LiteLLM Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.44e-05,nan,0.7729659992037341
+LiteLLM Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,7.860000000000001e-05,nan,0.8543919975636527
+LiteLLM Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.52e-05,nan,0.7667159952688962
+LiteLLM Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.74e-05,nan,0.7709860074101016
+LiteLLM Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,1.0,False,True,False,,8.92e-05,nan,0.8495509973727167
+LiteLLM Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,4.520000000000001e-05,nan,0.8404520049225539
+LiteLLM Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,2.9e-05,nan,0.8080889965640381
+LiteLLM Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,9.06e-05,nan,0.8578519918955863
+LiteLLM Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,1.0,False,False,False,,1.9600000000000002e-05,nan,0.7695859967498109
+LiteLLM Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,4.600000000000001e-05,nan,0.8787139959167689
+LiteLLM Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.600000000000001e-05,nan,0.8280899928649887
+LiteLLM Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.9600000000000002e-05,nan,0.7806170033290982
+LiteLLM Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,6.4e-05,nan,0.8948649920057505
+LiteLLM Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,1.5600000000000003e-05,nan,0.7631759945070371
+LiteLLM Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,9.400000000000001e-05,nan,0.9573999996064231
+LiteLLM Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.5600000000000003e-05,nan,0.780636997660622
+LiteLLM Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.1000000000000002e-05,nan,0.7832970004528761
+LiteLLM Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.8599999999999998e-05,nan,0.7771569944452494
+LiteLLM Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.8e-05,nan,0.866933012730442
+LiteLLM Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.8400000000000004e-05,nan,0.8381509978789836
+LiteLLM Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,True,False,,2.32e-05,nan,0.8027190051507205
+LiteLLM Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,4.720000000000001e-05,nan,0.8576219988754019
+LiteLLM Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,1.0,False,False,False,,9.34e-05,nan,0.8753540023462847
+LiteLLM Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,1.0,False,False,False,,5.580000000000001e-05,nan,0.8541019924450666
+LiteLLM Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,1.7800000000000002e-05,nan,0.7998880028026178
+LiteLLM Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,3.460000000000001e-05,nan,0.8206299971789122
+LiteLLM Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,8.6e-05,nan,0.8600030123488978
+LiteLLM Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.7770770025672391
+LiteLLM Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,9.82e-05,nan,0.8972249925136566
+LiteLLM Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,9.02e-05,nan,0.940447993343696
+LiteLLM Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.7933380111353472
+LiteLLM Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.7906779937911779
+LiteLLM Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,nan,0.7735560066066682
+LiteLLM Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,True,False,,5.9800000000000003e-05,nan,0.8540830021956936
+LiteLLM Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2e-05,nan,0.7859869947424158
+LiteLLM Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,6.080000000000001e-05,nan,0.8969860064098611
+LiteLLM Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,False,False,,7.32e-05,nan,0.853141988045536
+LiteLLM Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,1.0,False,True,False,,1.46e-05,nan,0.7628050079802051
+LiteLLM Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,1.0,False,False,False,,2.78e-05,nan,0.8098890102701262
+LiteLLM Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.02e-05,nan,0.7953679887577891
+LiteLLM Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,1.0,False,False,False,,2.2e-05,nan,0.8070790063356981
+LiteLLM Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,1.0,False,True,False,,7.620000000000001e-05,nan,0.8597029955126345
+LiteLLM Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,1.0,False,False,False,,7.300000000000001e-05,nan,0.9698810026748106
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,False,False,,0.000118,nan,518.024973993306
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,mid-general,0.395076769485238,False,True,False,,0.000464,nan,499.93720499332994
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,False,False,,0.00025499999999999996,nan,407.46435800974723
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,mid-general,0.0,True,True,False,,0.00013,nan,306.4333770016674
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,mid-general,0.3800876476129239,False,False,False,,0.0007700000000000001,nan,207.2557999927085
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000117,nan,199.56716200977098
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,mid-general,0.3041279132364649,False,False,False,,0.000144,nan,408.4189069981221
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,mid-general,0.40375640850512173,False,True,False,,0.00074,nan,300.4987199965399
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000323,nan,332.3707529925741
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000234,nan,216.18503599893302
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000237,nan,190.86466400767677
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,0.00011300000000000001,nan,181.60202400758862
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,9.5e-05,nan,2865.854435003712
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000159,nan,214.19187399442308
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,mid-general,0.0,True,True,False,,8.499999999999999e-05,nan,220.78181599499658
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,8.4e-05,nan,380.03659300738946
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,mid-general,0.39114248305989907,False,True,False,,0.00036,nan,203.94608200876974
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,mid-general,0.0,True,False,False,,7.4e-05,nan,187.70727499213535
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,mid-general,0.3919090268235737,False,True,False,,0.000546,nan,321.18589100718964
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,mid-general,0.3139545277551296,False,False,False,,7.599999999999999e-05,nan,203.02628198987804
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,8.7e-05,nan,204.51233799394686
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,mid-general,0.3769955440432544,False,True,False,,0.000525,nan,280.1128019928001
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,mid-general,0.0,True,False,False,,0.000226,nan,329.53663800435606
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,mid-general,0.0,True,True,False,,0.000145,nan,191.56466699496377
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,mid-general,0.3818541479690029,False,True,False,,0.0006000000000000001,nan,214.45579601277132
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,mid-general,0.0,True,False,False,,9.8e-05,nan,197.87589799670968
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,0.000232,nan,209.0642839903012
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.00017999999999999998,nan,204.03272499970626
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,mid-general,0.0,True,True,False,,9.8e-05,nan,408.1936299917288
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,0.00032199999999999997,nan,204.8872759914957
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,7.8e-05,nan,406.923624992487
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,0.00047,nan,406.8254929879913
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,mid-general,0.30038593027171856,False,True,False,,7.8e-05,nan,296.31951700139325
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.00010499999999999999,nan,522.0836890075589
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,mid-general,0.3057475927303516,False,True,False,,9.3e-05,nan,314.0254330064636
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.00014,nan,194.56662000447977
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000244,nan,510.9242809994612
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,mid-general,0.32293053705870584,False,False,False,,0.000116,nan,314.9679130001459
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.00023799999999999998,nan,296.9124209921574
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,mid-general,0.38694379751500185,False,False,False,,0.000866,nan,311.02766600088216
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,mid-general,0.3876804137333376,False,False,False,,0.00034199999999999996,nan,300.61874599778093
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,True,False,,9.1e-05,nan,190.89312499272637
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000173,nan,424.3445470056031
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,mid-general,0.3932811289987359,False,True,False,,0.0005250000000000001,nan,200.63263201154768
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,0.000103,nan,313.64712500362657
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,mid-general,0.37549134105915516,False,True,False,,0.0006640000000000001,nan,205.12392900127452
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,mid-general,0.3723609281555114,False,True,False,,0.0005250000000000001,nan,206.4271590061253
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.00010099999999999999,nan,189.57297599990852
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.00010099999999999999,nan,417.87029399711173
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,mid-general,0.0,True,True,False,,7.3e-05,nan,297.0937820064137
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000324,nan,1637.063954010955
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,9.999999999999999e-05,nan,305.9485319972737
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,mid-general,0.0,True,True,False,,0.000304,nan,510.01443499990273
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,mid-general,0.3812905446256112,False,True,False,,0.000474,nan,818.6103390034987
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,mid-general,0.0,True,True,False,,7.3e-05,nan,304.71046299498994
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,mid-general,0.3086120110083745,False,True,False,,0.000139,nan,208.5049879970029
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,False,False,,0.000103,nan,506.0400660004234
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,mid-general,0.0,True,True,False,,0.00010999999999999999,nan,202.27125700330362
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,mid-general,0.3769845331631401,False,True,False,,0.000375,nan,313.8652649940923
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,mid-general,0.3864053866258043,False,True,False,,0.000363,nan,197.01947500288952
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,False,False,,0.000118,nan,508.762288998696
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,mid-general,0.3950880919335661,False,True,False,,0.000464,nan,203.41656300297473
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,False,False,,0.00025499999999999996,nan,305.63971601077355
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,mid-general,0.0,True,True,False,,0.00013,nan,510.25836399639957
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,mid-general,0.3800932301466778,False,False,False,,0.0007700000000000001,nan,514.4434440007899
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000117,nan,205.0395690021105
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,mid-general,0.3041279132364649,False,False,False,,0.000144,nan,203.31813899974804
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,mid-general,0.4037180885793614,False,True,False,,0.00074,nan,411.42858999955934
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000323,nan,190.83552500524092
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000234,nan,212.81581799848936
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000237,nan,203.4570249961689
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,0.00011300000000000001,nan,410.8256170002278
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,9.5e-05,nan,200.50658599939197
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000159,nan,505.68526799906977
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,mid-general,0.0,True,True,False,,8.499999999999999e-05,nan,203.2027189998189
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,8.4e-05,nan,306.96731100033503
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,mid-general,0.39114248305989907,False,True,False,,0.00036,nan,510.1818229886703
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,mid-general,0.0,True,False,False,,7.4e-05,nan,313.8538299972424
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,mid-general,0.39188280459367114,False,True,False,,0.000546,nan,194.1555389930727
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,mid-general,0.3139545277551296,False,False,False,,7.599999999999999e-05,nan,204.12111000041477
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,8.7e-05,nan,208.06958399771247
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,mid-general,0.37701675580383337,False,True,False,,0.000525,nan,204.6196349983802
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,mid-general,0.0,True,False,False,,0.000226,nan,407.3621129937237
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,mid-general,0.0,True,True,False,,0.000145,nan,203.546157994424
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,mid-general,0.3818541479690029,False,True,False,,0.0006000000000000001,nan,220.42732599948067
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,mid-general,0.0,True,False,False,,9.8e-05,nan,394.6633479936281
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,0.000232,nan,200.33009200415108
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.00017999999999999998,nan,206.86277300410438
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,mid-general,0.0,True,True,False,,9.8e-05,nan,292.1926630078815
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,0.00032199999999999997,nan,208.8148119946709
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,7.8e-05,nan,155.94672500446904
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,0.00047,nan,456.0763219924411
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,mid-general,0.30038593027171856,False,True,False,,7.8e-05,nan,407.69253399048466
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.00010499999999999999,nan,305.55614799959585
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,mid-general,0.3057475927303516,False,True,False,,9.3e-05,nan,202.66566700593103
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.00014,nan,165.9515060018748
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000244,nan,343.16004801075906
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,mid-general,0.32293053705870584,False,False,False,,0.000116,nan,1842.4378900090232
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.00023799999999999998,nan,204.24244499008637
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,mid-general,0.38703262835594243,False,False,False,,0.000866,nan,612.6992759964196
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,mid-general,0.3876804137333376,False,False,False,,0.00034199999999999996,nan,412.920025002677
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,True,False,,9.1e-05,nan,177.30128800030798
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000173,nan,429.8086240014527
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,mid-general,0.39325557087279794,False,True,False,,0.0005250000000000001,nan,218.90665499086026
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,0.000103,nan,169.956137004192
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,mid-general,0.3756088576776799,False,True,False,,0.0006640000000000001,nan,189.57914700149558
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,mid-general,0.3722938256763487,False,True,False,,0.0005250000000000001,nan,209.6246769942809
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.00010099999999999999,nan,451.5249669930199
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.00010099999999999999,nan,171.6001179884188
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,mid-general,0.0,True,True,False,,7.3e-05,nan,182.9896160052158
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000324,nan,228.92511100508273
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,9.999999999999999e-05,nan,416.9472659996245
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,mid-general,0.0,True,True,False,,0.000304,nan,312.9329579969635
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,mid-general,0.38114852122749343,False,True,False,,0.000474,nan,503.69371099804994
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,mid-general,0.0,True,True,False,,7.3e-05,nan,203.20839500345755
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,mid-general,0.3086120110083745,False,True,False,,0.000139,nan,197.76414899388328
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,False,False,,0.000103,nan,126.79045199183747
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,mid-general,0.0,True,True,False,,0.00010999999999999999,nan,489.9509200040484
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,mid-general,0.3770745814119575,False,True,False,,0.000375,nan,1022.749332987587
+Aurelio Semantic Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,mid-general,0.3864053866258043,False,True,False,,0.000363,nan,203.4814929938875
+RouteLLM (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,0.7774597591576272,False,True,False,,2.36e-05,nan,2230.7786410092376
+RouteLLM (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,0.7691147353484393,False,False,False,,9.38e-05,nan,2074.5190199959325
+RouteLLM (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,cheap-small,0.7837397006742005,False,True,False,,5.0600000000000003e-05,nan,2195.4867990134517
+RouteLLM (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,0.7768740268311047,False,True,False,,2.6000000000000002e-05,nan,2406.1904730042443
+RouteLLM (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,0.7706468347290567,False,False,False,,9.760000000000001e-05,nan,2140.1979439979186
+RouteLLM (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,0.773693058388546,False,False,False,,2.34e-05,nan,2844.477256992832
+RouteLLM (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,0.7763694587030312,False,False,False,,2.8800000000000002e-05,nan,2415.0691920076497
+RouteLLM (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,0.768893945907259,False,False,False,,7.840000000000001e-05,nan,2583.3378060051473
+RouteLLM (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,cheap-small,0.7832843372857554,False,False,False,,6.42e-05,nan,2240.0027890107594
+RouteLLM (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,0.7847240305651741,False,False,False,,4.6800000000000006e-05,nan,2279.909600998508
+RouteLLM (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,0.782962402534723,False,False,False,,4.74e-05,nan,2385.0996289984323
+RouteLLM (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,0.7732832429097368,False,False,False,,2.22e-05,nan,2272.377373999916
+RouteLLM (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,0.7746211430613139,False,True,False,,1.8599999999999998e-05,nan,2253.5261970042484
+RouteLLM (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,cheap-small,0.7763377281687752,False,False,False,,3.180000000000001e-05,nan,2038.757906993851
+RouteLLM (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,0.7786272646645552,False,True,False,,1.7e-05,nan,2245.3206080099335
+RouteLLM (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,0.7748103782451259,False,False,False,,1.6800000000000002e-05,nan,2295.7894449937157
+RouteLLM (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,0.7694776626804416,False,True,False,,8.08e-05,nan,2027.5563659961335
+RouteLLM (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,0.775826217052858,False,False,False,,1.44e-05,nan,2146.7419019900262
+RouteLLM (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,0.771033333653028,False,True,False,,7.860000000000001e-05,nan,2227.479355991818
+RouteLLM (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,cheap-small,0.7761023861666285,False,False,False,,1.52e-05,nan,2715.9127320046537
+RouteLLM (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,0.7772209584541144,False,False,False,,1.74e-05,nan,2367.6440929993987
+RouteLLM (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,0.7683674890593494,False,True,False,,8.92e-05,nan,2648.0797279946273
+RouteLLM (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,cheap-small,0.7768729906728733,False,False,False,,4.520000000000001e-05,nan,2274.4591829978162
+RouteLLM (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,0.7738667867742959,False,True,False,,2.9e-05,nan,2408.7355360097717
+RouteLLM (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,0.7698938057613771,False,False,False,,9.06e-05,nan,2272.7731199993286
+RouteLLM (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,0.7761783799555761,False,False,False,,1.9600000000000002e-05,nan,2473.4744080051314
+RouteLLM (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,0.7853487093175812,False,False,False,,4.600000000000001e-05,nan,2551.6794209979707
+RouteLLM (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,cheap-small,0.773454319354311,False,False,False,,3.600000000000001e-05,nan,2451.6095709986985
+RouteLLM (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,0.7749918082681095,False,True,False,,1.9600000000000002e-05,nan,3888.8472949911375
+RouteLLM (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,cheap-small,0.7835023414393468,False,False,False,,6.4e-05,nan,2213.849906998803
+RouteLLM (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,0.7784339975176429,False,False,False,,1.5600000000000003e-05,nan,2327.96563100419
+RouteLLM (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,cheap-small,0.7769933545647517,False,True,False,,9.400000000000001e-05,nan,2302.5458390038693
+RouteLLM (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,0.7756536775451364,False,True,False,,1.5600000000000003e-05,nan,2114.8933160002343
+RouteLLM (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,0.7773244414925673,False,False,False,,2.1000000000000002e-05,nan,2357.8168480016757
+RouteLLM (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,0.7781755793642806,False,True,False,,1.8599999999999998e-05,nan,2604.792155994801
+RouteLLM (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,0.7758448841043754,False,False,False,,2.8e-05,nan,2325.5528239969863
+RouteLLM (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,0.7812150112506061,False,False,False,,4.8400000000000004e-05,nan,2238.743413006887
+RouteLLM (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,0.7748180835071036,False,True,False,,2.32e-05,nan,2199.4529040093767
+RouteLLM (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,0.7842066974604863,False,False,False,,4.720000000000001e-05,nan,2389.301909992355
+RouteLLM (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,0.7690724759328009,False,False,False,,9.34e-05,nan,2330.6970140110934
+RouteLLM (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,0.7690423219793243,False,False,False,,5.580000000000001e-05,nan,2395.503084990196
+RouteLLM (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,0.7789034683660093,False,False,False,,1.7800000000000002e-05,nan,2308.7110909982584
+RouteLLM (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,cheap-small,0.7774199152500275,False,False,False,,3.460000000000001e-05,nan,2411.9303959887475
+RouteLLM (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,0.7688824669800794,False,False,False,,8.6e-05,nan,2338.70571499574
+RouteLLM (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,0.7753277285283419,False,False,False,,2.02e-05,nan,2345.6075479916763
+RouteLLM (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,0.7719235149353395,False,False,False,,9.82e-05,nan,2043.5807019966887
+RouteLLM (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,0.7702359650022168,False,False,False,,9.02e-05,nan,2044.7269669966772
+RouteLLM (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,cheap-small,0.7731576829036013,False,False,False,,2.02e-05,nan,2105.670717995963
+RouteLLM (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,0.7724814836787516,False,False,False,,2.02e-05,nan,2444.6358400018653
+RouteLLM (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,0.7802559062346761,False,True,False,,1.46e-05,nan,2349.724322994007
+RouteLLM (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,0.7755013842733804,False,True,False,,5.9800000000000003e-05,nan,2073.7293869897258
+RouteLLM (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,0.7766139263711939,False,False,False,,2e-05,nan,2110.3617519984255
+RouteLLM (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,0.7773268636020234,False,False,False,,6.080000000000001e-05,nan,2255.2172860014252
+RouteLLM (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,0.7687298131779927,False,False,False,,7.32e-05,nan,2023.4448339906521
+RouteLLM (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,0.7740144016812635,False,True,False,,1.46e-05,nan,2091.6452129895333
+RouteLLM (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,0.7695080532314977,False,False,False,,2.78e-05,nan,2166.845771003864
+RouteLLM (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,0.7762621662328284,False,False,False,,2.02e-05,nan,2522.5439759960864
+RouteLLM (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,0.7739856708265824,False,False,False,,2.2e-05,nan,2447.1141760004684
+RouteLLM (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,0.7692731705382411,False,True,False,,7.620000000000001e-05,nan,2400.9760310000274
+RouteLLM (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,0.7698269191127959,False,False,False,,7.300000000000001e-05,nan,2520.6758490094217
+RouteLLM (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,0.7774597591576272,False,True,False,,2.36e-05,nan,2247.9752719955286
+RouteLLM (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,0.7691147353484393,False,False,False,,9.38e-05,nan,2355.468745008693
+RouteLLM (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,cheap-small,0.7837397006742005,False,True,False,,5.0600000000000003e-05,nan,2195.889494003495
+RouteLLM (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,0.7768740268311047,False,True,False,,2.6000000000000002e-05,nan,2539.3609880120493
+RouteLLM (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,0.7706422619330647,False,False,False,,9.760000000000001e-05,nan,2339.5492999989074
+RouteLLM (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,0.773693058388546,False,False,False,,2.34e-05,nan,2464.816545994836
+RouteLLM (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,cheap-small,0.7763694587030312,False,False,False,,2.8800000000000002e-05,nan,2410.523550992366
+RouteLLM (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,0.768893945907259,False,False,False,,7.840000000000001e-05,nan,2262.6057470042724
+RouteLLM (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,cheap-small,0.7832843372857554,False,False,False,,6.42e-05,nan,2196.1221730016405
+RouteLLM (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,0.7847254461893052,False,False,False,,4.6800000000000006e-05,nan,2449.0127979952376
+RouteLLM (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,0.782962402534723,False,False,False,,4.74e-05,nan,2276.4147839916404
+RouteLLM (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,0.7732832429097368,False,False,False,,2.22e-05,nan,2349.628476004
+RouteLLM (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,0.7746214347884498,False,True,False,,1.8599999999999998e-05,nan,2552.938594002626
+RouteLLM (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,cheap-small,0.7763377281687752,False,False,False,,3.180000000000001e-05,nan,2498.9281099988148
+RouteLLM (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,0.7786272646645552,False,True,False,,1.7e-05,nan,2506.383227999322
+RouteLLM (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,0.7747904758760022,False,False,False,,1.6800000000000002e-05,nan,2433.7984360026894
+RouteLLM (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,0.7694785064693711,False,True,False,,8.08e-05,nan,2149.459782987833
+RouteLLM (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,0.775826217052858,False,False,False,,1.44e-05,nan,2263.9273529930506
+RouteLLM (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,0.771033333653028,False,True,False,,7.860000000000001e-05,nan,2255.2411400101846
+RouteLLM (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,cheap-small,0.7761023861666285,False,False,False,,1.52e-05,nan,2674.0318439988187
+RouteLLM (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,0.7772209584541144,False,False,False,,1.74e-05,nan,2735.4527860006783
+RouteLLM (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,0.7683633599792566,False,True,False,,8.92e-05,nan,2341.57965000486
+RouteLLM (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,cheap-small,0.7768729906728733,False,False,False,,4.520000000000001e-05,nan,2313.7589039979503
+RouteLLM (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,0.7738667867742959,False,True,False,,2.9e-05,nan,2424.319749989081
+RouteLLM (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,0.769885987223612,False,False,False,,9.06e-05,nan,2601.73204599414
+RouteLLM (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,0.7761783799555761,False,False,False,,1.9600000000000002e-05,nan,2385.050496988697
+RouteLLM (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,0.7853487093175812,False,False,False,,4.600000000000001e-05,nan,2455.025814997498
+RouteLLM (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,cheap-small,0.773454319354311,False,False,False,,3.600000000000001e-05,nan,2118.7919929943746
+RouteLLM (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,0.7749918082681095,False,True,False,,1.9600000000000002e-05,nan,2242.9850600019563
+RouteLLM (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,cheap-small,0.7835032772292901,False,False,False,,6.4e-05,nan,2661.1964750045445
+RouteLLM (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,0.7784339975176429,False,False,False,,1.5600000000000003e-05,nan,2348.227650989429
+RouteLLM (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,cheap-small,0.7769933545647517,False,True,False,,9.400000000000001e-05,nan,2366.506651000236
+RouteLLM (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,0.7756536775451364,False,True,False,,1.5600000000000003e-05,nan,2284.7810860112077
+RouteLLM (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,0.7773244414925673,False,False,False,,2.1000000000000002e-05,nan,2316.7060220002895
+RouteLLM (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,0.7781755793642806,False,True,False,,1.8599999999999998e-05,nan,2510.7492550014285
+RouteLLM (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,0.7758474154295356,False,False,False,,2.8e-05,nan,2622.4005490075797
+RouteLLM (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,0.7812150112506061,False,False,False,,4.8400000000000004e-05,nan,2309.8002949991496
+RouteLLM (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,0.7748180835071036,False,True,False,,2.32e-05,nan,2230.8579009986715
+RouteLLM (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,cheap-small,0.7842066974604863,False,False,False,,4.720000000000001e-05,nan,2501.8807659944287
+RouteLLM (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,0.7690724759328009,False,False,False,,9.34e-05,nan,2087.574222998228
+RouteLLM (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,0.7690398309463417,False,False,False,,5.580000000000001e-05,nan,2028.6697639967315
+RouteLLM (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,0.7789034683660093,False,False,False,,1.7800000000000002e-05,nan,2606.7691770003876
+RouteLLM (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,cheap-small,0.7774199152500275,False,False,False,,3.460000000000001e-05,nan,2499.4773130019894
+RouteLLM (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,0.7688824669800794,False,False,False,,8.6e-05,nan,2313.716780001414
+RouteLLM (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,0.7753277285283419,False,False,False,,2.02e-05,nan,2516.6777779959375
+RouteLLM (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,0.7719235149353395,False,False,False,,9.82e-05,nan,2284.0512480033794
+RouteLLM (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,0.7702314149694746,False,False,False,,9.02e-05,nan,2809.8575040057767
+RouteLLM (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,cheap-small,0.7731576829036013,False,False,False,,2.02e-05,nan,2122.870266000973
+RouteLLM (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,0.7724779568872638,False,False,False,,2.02e-05,nan,2738.9025980082806
+RouteLLM (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,0.7802559062346761,False,True,False,,1.46e-05,nan,2490.3148370067356
+RouteLLM (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,0.7755013842733804,False,True,False,,5.9800000000000003e-05,nan,2242.8019499930087
+RouteLLM (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,0.7766139263711939,False,False,False,,2e-05,nan,2636.4822239993373
+RouteLLM (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,0.7773268636020234,False,False,False,,6.080000000000001e-05,nan,2366.6862459940603
+RouteLLM (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,0.7687309138804208,False,False,False,,7.32e-05,nan,2469.4532479916234
+RouteLLM (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,0.7740144016812635,False,True,False,,1.46e-05,nan,2297.648305000621
+RouteLLM (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,0.7695077947076897,False,False,False,,2.78e-05,nan,2177.447882000706
+RouteLLM (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,0.7762621662328284,False,False,False,,2.02e-05,nan,2258.51392999175
+RouteLLM (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,0.7739856708265824,False,False,False,,2.2e-05,nan,2124.468156005605
+RouteLLM (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,0.7692731705382411,False,True,False,,7.620000000000001e-05,nan,2158.5276770056225
+RouteLLM (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,0.7698265105445894,False,False,False,,7.300000000000001e-05,nan,2431.4504119975027
+vLLM Semantic Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,True,False,,2.36e-05,nan,1612.29062199709
+vLLM Semantic Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,cheap-small,0.7,False,False,False,,9.38e-05,nan,2144.5069820038043
+vLLM Semantic Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.0025700000000000002,nan,2033.4016879933188
+vLLM Semantic Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,2.6000000000000002e-05,nan,1055.5155030015158
+vLLM Semantic Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,cheap-small,0.7,False,False,False,,9.760000000000001e-05,nan,1767.4836900114315
+vLLM Semantic Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,2.34e-05,nan,2036.746571000549
+vLLM Semantic Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,2.8800000000000002e-05,nan,1044.4846669997787
+vLLM Semantic Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,cheap-small,0.7,False,False,False,,7.840000000000001e-05,nan,2024.6430609986419
+vLLM Semantic Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.0032500000000000003,nan,2219.733896999969
+vLLM Semantic Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,4.6800000000000006e-05,nan,1528.0091689928668
+vLLM Semantic Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,4.74e-05,nan,1368.4249090001686
+vLLM Semantic Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,2.22e-05,nan,1020.6305650062859
+vLLM Semantic Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,True,False,,1.8599999999999998e-05,nan,1360.3506240033312
+vLLM Semantic Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.00163,nan,1567.4200750072487
+vLLM Semantic Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,1.7e-05,nan,1023.5856310027884
+vLLM Semantic Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,1.6800000000000002e-05,nan,840.1423859904753
+vLLM Semantic Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,True,False,,8.08e-05,nan,1706.5141450002557
+vLLM Semantic Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,cheap-small,0.7,False,False,False,,1.44e-05,nan,917.3791439970955
+vLLM Semantic Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,True,False,,7.860000000000001e-05,nan,4247.168842004612
+vLLM Semantic Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,mid-general,0.7,False,False,False,,7.599999999999999e-05,nan,1400.03441600129
+vLLM Semantic Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,1.74e-05,nan,1120.3435939969495
+vLLM Semantic Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,cheap-small,0.7,False,True,False,,8.92e-05,nan,1841.152216991759
+vLLM Semantic Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,strong-frontier,0.7,False,False,False,,0.00227,nan,2382.8176700044423
+vLLM Semantic Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,2.9e-05,nan,1022.4836730048992
+vLLM Semantic Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,cheap-small,0.7,False,False,False,,9.06e-05,nan,1702.7020440000342
+vLLM Semantic Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,cheap-small,0.7,False,False,False,,1.9600000000000002e-05,nan,1164.0360059973318
+vLLM Semantic Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,4.600000000000001e-05,nan,1247.4592469952768
+vLLM Semantic Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.00181,nan,1984.8626530001638
+vLLM Semantic Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,1.9600000000000002e-05,nan,1059.1842259891564
+vLLM Semantic Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,strong-frontier,0.7,False,True,False,,0.00321,nan,2254.683548992034
+vLLM Semantic Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,1.5600000000000003e-05,nan,1789.0930330031551
+vLLM Semantic Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,strong-frontier,0.7,False,False,False,,0.00471,nan,3131.6852979944088
+vLLM Semantic Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,1.5600000000000003e-05,nan,924.3747129949043
+vLLM Semantic Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,2.1000000000000002e-05,nan,1048.8446039962582
+vLLM Semantic Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,1.8599999999999998e-05,nan,1688.8918500044383
+vLLM Semantic Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,2.8e-05,nan,1293.1017509981757
+vLLM Semantic Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,4.8400000000000004e-05,nan,1365.6939329957822
+vLLM Semantic Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,True,False,,2.32e-05,nan,1079.6726909902645
+vLLM Semantic Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.00237,nan,2376.473761993111
+vLLM Semantic Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,cheap-small,0.7,False,False,False,,9.34e-05,nan,3794.011097998009
+vLLM Semantic Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,cheap-small,0.7,False,False,False,,5.580000000000001e-05,nan,1656.0975479951594
+vLLM Semantic Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,1.7800000000000002e-05,nan,1270.4651539970655
+vLLM Semantic Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.00174,nan,7161.142548997304
+vLLM Semantic Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,cheap-small,0.7,False,False,False,,8.6e-05,nan,1965.6940550048603
+vLLM Semantic Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,2.02e-05,nan,1098.3035690005636
+vLLM Semantic Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,cheap-small,0.7,False,False,False,,9.82e-05,nan,2472.9792199941585
+vLLM Semantic Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,cheap-small,0.7,False,False,False,,9.02e-05,nan,2256.5053470025305
+vLLM Semantic Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,strong-frontier,0.7,False,True,False,,0.00102,nan,1938.541413997882
+vLLM Semantic Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,2.02e-05,nan,1432.1552039909875
+vLLM Semantic Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,1.46e-05,nan,750.5951659986749
+vLLM Semantic Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,True,False,,5.9800000000000003e-05,nan,1807.3628090060083
+vLLM Semantic Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,2e-05,nan,1123.89889699989
+vLLM Semantic Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,6.080000000000001e-05,nan,1594.7043030027999
+vLLM Semantic Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,cheap-small,0.7,False,False,False,,7.32e-05,nan,2396.369649999542
+vLLM Semantic Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,cheap-small,0.7,False,True,False,,1.46e-05,nan,834.0221519902116
+vLLM Semantic Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,cheap-small,0.7,False,False,False,,2.78e-05,nan,1210.7644109928515
+vLLM Semantic Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,2.02e-05,nan,1022.6478980039246
+vLLM Semantic Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,cheap-small,0.7,False,False,False,,2.2e-05,nan,1022.5491290038917
+vLLM Semantic Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,cheap-small,0.7,False,True,False,,7.620000000000001e-05,nan,1943.8527559977956
+vLLM Semantic Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,cheap-small,0.7,False,False,False,,7.300000000000001e-05,nan,1721.1930490011582
+vLLM Semantic Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,True,False,,2.36e-05,nan,944.7427400009474
+vLLM Semantic Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,cheap-small,0.7,False,False,False,,9.38e-05,nan,1937.4254589929478
+vLLM Semantic Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.0025700000000000002,nan,2233.1443739967654
+vLLM Semantic Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,2.6000000000000002e-05,nan,1654.5082180091413
+vLLM Semantic Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,0.7,False,False,False,,9.760000000000001e-05,nan,1842.0899619959528
+vLLM Semantic Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,2.34e-05,nan,1227.5342679931782
+vLLM Semantic Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,2.8800000000000002e-05,nan,1473.1257290113717
+vLLM Semantic Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,cheap-small,0.7,False,False,False,,7.840000000000001e-05,nan,1987.3484039999312
+vLLM Semantic Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.0032500000000000003,nan,2474.1586559975985
+vLLM Semantic Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,4.6800000000000006e-05,nan,1810.1397259888472
+vLLM Semantic Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,4.74e-05,nan,1854.2254529893398
+vLLM Semantic Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,2.22e-05,nan,1022.610090993112
+vLLM Semantic Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,True,False,,1.8599999999999998e-05,nan,1656.1128220055252
+vLLM Semantic Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.00163,nan,1456.5176339965547
+vLLM Semantic Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,1.7e-05,nan,1407.0066889980808
+vLLM Semantic Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,1.6800000000000002e-05,nan,1226.4561640040483
+vLLM Semantic Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,True,False,,8.08e-05,nan,1832.5095729960594
+vLLM Semantic Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,cheap-small,0.7,False,False,False,,1.44e-05,nan,1032.3709710064577
+vLLM Semantic Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,True,False,,7.860000000000001e-05,nan,2045.7499120093416
+vLLM Semantic Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,mid-general,0.7,False,False,False,,7.599999999999999e-05,nan,1618.4693180111935
+vLLM Semantic Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,1.74e-05,nan,937.8939820016967
+vLLM Semantic Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,cheap-small,0.7,False,True,False,,8.92e-05,nan,2151.038657000754
+vLLM Semantic Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,strong-frontier,0.7,False,False,False,,0.00227,nan,1947.6360839908011
+vLLM Semantic Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,2.9e-05,nan,1129.891636010143
+vLLM Semantic Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,cheap-small,0.7,False,False,False,,9.06e-05,nan,2017.2505269874819
+vLLM Semantic Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,cheap-small,0.7,False,False,False,,1.9600000000000002e-05,nan,1063.7698939972324
+vLLM Semantic Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,4.600000000000001e-05,nan,2432.9152340069413
+vLLM Semantic Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.00181,nan,2046.4545329887187
+vLLM Semantic Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,1.9600000000000002e-05,nan,2455.9693549963413
+vLLM Semantic Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,strong-frontier,0.7,False,True,False,,0.00321,nan,2047.6104929985013
+vLLM Semantic Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,1.5600000000000003e-05,nan,1022.0449089974863
+vLLM Semantic Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,strong-frontier,0.7,False,False,False,,0.00471,nan,2866.223140998045
+vLLM Semantic Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,1.5600000000000003e-05,nan,1021.5732649958227
+vLLM Semantic Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,2.1000000000000002e-05,nan,1022.9152309912024
+vLLM Semantic Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,1.8599999999999998e-05,nan,1226.8642559938598
+vLLM Semantic Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,2.8e-05,nan,1021.5431879914831
+vLLM Semantic Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,4.8400000000000004e-05,nan,1539.8594050057
+vLLM Semantic Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,True,False,,2.32e-05,nan,1324.6044859988615
+vLLM Semantic Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.00237,nan,2352.908499990008
+vLLM Semantic Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,cheap-small,0.7,False,False,False,,9.34e-05,nan,2968.528850993607
+vLLM Semantic Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,cheap-small,0.7,False,False,False,,5.580000000000001e-05,nan,1813.8318540004548
+vLLM Semantic Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,1.7800000000000002e-05,nan,1158.0779360083397
+vLLM Semantic Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.00174,nan,5483.833809994394
+vLLM Semantic Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,cheap-small,0.7,False,False,False,,8.6e-05,nan,2392.340272999718
+vLLM Semantic Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,2.02e-05,nan,1227.7859129972057
+vLLM Semantic Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,cheap-small,0.7,False,False,False,,9.82e-05,nan,2046.6112239955692
+vLLM Semantic Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,cheap-small,0.7,False,False,False,,9.02e-05,nan,2166.5963230043417
+vLLM Semantic Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,strong-frontier,0.7,False,True,False,,0.00102,nan,1720.7363290071953
+vLLM Semantic Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,2.02e-05,nan,1226.7915229895152
+vLLM Semantic Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,1.46e-05,nan,1023.4918060014024
+vLLM Semantic Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,True,False,,5.9800000000000003e-05,nan,1493.7917600036599
+vLLM Semantic Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,2e-05,nan,938.1194720044732
+vLLM Semantic Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,6.080000000000001e-05,nan,1659.7966589906719
+vLLM Semantic Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,cheap-small,0.7,False,False,False,,7.32e-05,nan,1839.4838370004436
+vLLM Semantic Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,cheap-small,0.7,False,True,False,,1.46e-05,nan,1022.2351590055041
+vLLM Semantic Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,cheap-small,0.7,False,False,False,,2.78e-05,nan,1022.7509810065385
+vLLM Semantic Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,2.02e-05,nan,1022.2887019917835
+vLLM Semantic Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,cheap-small,0.7,False,False,False,,2.2e-05,nan,1022.5156539963791
+vLLM Semantic Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,cheap-small,0.7,False,True,False,,7.620000000000001e-05,nan,1614.1637520049699
+vLLM Semantic Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,0.7,False,False,False,,7.300000000000001e-05,nan,2109.890906009241
+LiteLLM Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,cheap-small,1.0,False,False,True,False,0.002018,3039.502450992586,1.9428230007179081
+LiteLLM Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001328,1395.327771009761,1.4716680016135797
+LiteLLM Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,0.001006,1020.0038649927592,1.791668008081615
+LiteLLM Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001111,1212.146126999869,1.746515990816988
+LiteLLM Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,0.001106,1239.8660289909458,1.7421860102331266
+LiteLLM Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.0012109999999999998,1020.8240210049553,1.768886999343522
+LiteLLM Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,0.000991,1021.0029430018039,1.796537995687686
+LiteLLM Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001216,1020.6829759990796,1.8041669973172247
+LiteLLM Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,0.000914,944.8022650030907,1.883420001831837
+LiteLLM Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.000999,1914.828648994444,1.825529005145654
+LiteLLM Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,0.001167,1095.5052569916006,1.6030410042731091
+LiteLLM Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,1.0,False,False,True,False,0.001055,1124.2378400056623,1.030922998324968
+LiteLLM Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001115,1048.7449270003708,1.7279650055570528
+LiteLLM Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,cheap-small,1.0,False,True,True,True,0.001441,1429.940539994277,1.944382005603984
+LiteLLM Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,0.001211,1224.9114750011358,1.9159110088367015
+LiteLLM Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,cheap-small,1.0,False,False,True,False,0.001186,1430.4584299970884,1.7412259912816808
+LiteLLM Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001186,1202.9566130077,1.7769859987311065
+LiteLLM Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,1.0,False,True,True,True,0.001149,1356.3443099992583,1.751585994497873
+LiteLLM Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001178,1527.6912020053715,1.9037299935007468
+LiteLLM Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,1.0,False,False,True,False,0.0009680000000000001,815.8439919934608,1.8876389949582517
+LiteLLM Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,1.0,False,False,True,False,0.001688,1840.4354930098634,1.952690989128314
+LiteLLM Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.0011129999999999998,2044.060439002351,1.9209399906685576
+LiteLLM Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.0010760000000000001,1225.6670670030871,1.84755701047834
+LiteLLM Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001083,963.406862996635,1.8109560041921213
+LiteLLM Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.0013080000000000001,1078.6004600086017,1.9428609957685694
+LiteLLM Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001114,1327.309394007898,1.9290499913040549
+LiteLLM Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,1.0,False,True,True,True,0.001139,1533.1664590048604,1.902388990856707
+LiteLLM Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,cheap-small,1.0,False,False,True,False,0.001616,1652.4358660099097,1.9353300012880936
+LiteLLM Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.001057,1617.0291909947991,1.93112000124529
+LiteLLM Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,1.0,False,True,True,True,0.0010500000000000002,1227.306183995097,1.870467996923253
+LiteLLM Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,cheap-small,1.0,False,False,True,False,0.001958,3247.868867998477,1.923288989928551
+LiteLLM Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.0013679999999999999,1866.0500469995895,1.9514599989634007
+LiteLLM Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,0.001006,878.7705530121457,1.8288559949724004
+LiteLLM Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001111,1063.6375629983377,1.8565860082162544
+LiteLLM Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,0.001106,1079.2374339944217,1.8363859999226406
+LiteLLM Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.0012109999999999998,1058.8821770070354,1.8388769967714325
+LiteLLM Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,0.000991,1018.8140539976303,2.0671929960371926
+LiteLLM Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001216,1201.2993569951504,1.872467008070089
+LiteLLM Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,0.000914,1020.1833280007122,1.8764880078379065
+LiteLLM Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.000999,1560.449183001765,1.9212790066376328
+LiteLLM Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,0.001167,1119.919791992288,1.910758001031354
+LiteLLM Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,1.0,False,False,True,False,0.001055,1021.370857997681,2.303489003679715
+LiteLLM Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001115,1224.2051819921471,1.8870769999921322
+LiteLLM Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,cheap-small,1.0,False,True,True,True,0.001441,1635.3398299979744,1.8483160092728212
+LiteLLM Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,0.001211,1020.2149079996161,1.8962169997394085
+LiteLLM Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,cheap-small,1.0,False,False,True,False,0.001186,1225.7770100113703,1.8461559957358986
+LiteLLM Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001186,1224.591492995387,1.8696869956329465
+LiteLLM Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,1.0,False,True,True,True,0.001149,985.1922460075002,1.7290520045207813
+LiteLLM Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001178,1056.9968029885786,1.900486007798463
+LiteLLM Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,1.0,False,False,True,False,0.0009680000000000001,815.9866710047936,1.7598019912838936
+LiteLLM Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,1.0,False,False,True,False,0.001728,1839.9202869914006,1.9240370020270348
+LiteLLM Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.0011129999999999998,1225.7799520011758,1.8458950071362779
+LiteLLM Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.0010760000000000001,1020.5245329998434,1.7731420084601268
+LiteLLM Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001083,1642.2423159965547,1.628067999263294
+LiteLLM Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.0013080000000000001,1219.0232349967118,1.6320889990311116
+LiteLLM Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001114,1128.2386450038757,1.8692049925448373
+LiteLLM Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,1.0,False,True,True,True,0.001139,1118.04992701218,1.759021994075738
+LiteLLM Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,cheap-small,1.0,False,False,True,False,0.001461,1840.0200229953043,1.9580679945647717
+LiteLLM Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.001057,1020.7880070083775,1.7410109867341816
+LiteLLM Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,1.0,False,True,True,True,0.0010500000000000002,1105.413691009744,1.8735949997790158
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,mid-general,0.0,True,False,True,False,0.0057870000000000005,3712.041214996134,503.18497700209264
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.004347,2483.382693011663,382.1881600015331
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,mid-general,0.0,True,True,True,True,0.0030210000000000002,1637.5634510040982,408.51247499813326
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.0033360000000000004,1842.9310659994371,204.22315700852778
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,mid-general,0.0,True,True,True,True,0.003321,3071.425023008487,408.23104699666146
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,mid-general,0.0,True,False,True,False,0.003606,1868.8854409992928,177.97758599044755
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,mid-general,0.0,True,True,True,True,0.0029760000000000003,2477.472876998945,183.62764599442016
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.0036509999999999997,2944.903865995002,202.90970600035507
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,mid-general,0.0,True,True,True,True,0.002745,1225.427404002403,330.5615629942622
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003255,1802.9994789976627,219.772570009809
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,mid-general,0.0,True,True,True,True,0.003939,2252.123511992977,436.0174289904535
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,mid-general,0.0,True,False,True,False,0.0038280000000000002,1999.6803579997504,203.43479899747763
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.0033480000000000003,1533.1284599960782,224.8115480033448
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,mid-general,0.0,True,True,True,True,0.004491,3071.7485529894475,513.189246004913
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,mid-general,0.0,True,True,True,True,0.003936,2318.330395995872,164.81717499846127
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,mid-general,0.0,True,False,True,False,0.0035610000000000004,2046.8598139996175,203.96299399726558
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003561,1841.7066490073921,204.90167499519885
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,mid-general,0.0,True,True,True,True,0.00288,1638.3662059961352,204.1549409914296
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003537,1841.5803389943903,408.8263489975361
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,mid-general,0.0,True,False,True,False,0.003252,1841.723585006548,204.63317599205766
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,mid-general,0.0,True,False,True,False,0.004812,2968.7797210062854,306.5413680014899
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003612,2041.6729449934792,182.10514899692498
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003591,2049.406613004976,436.01671799842734
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.0032519999999999997,1735.5984080058988,1537.579583004117
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.004302,2887.260753006558,184.31893299566582
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003345,1842.8577320009936,202.65226998890284
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,mid-general,0.0,True,True,True,True,0.00342,1978.4904490079498,379.85381999169476
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003921,6349.363102010102,505.60185199719854
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003504,2358.6312489933334,819.0459379984532
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,mid-general,0.0,True,True,True,True,0.003408,2730.289917992195,711.3128829951165
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,mid-general,0.0,True,False,True,False,0.0052770000000000004,4095.546276003006,339.43913799885195
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.004512,2866.548170000897,408.7864330067532
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,mid-general,0.0,True,True,True,True,0.0030210000000000002,1656.9720989937196,188.25077699148096
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.0033360000000000004,1640.1257710094796,407.73619200626854
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,mid-general,0.0,True,True,True,True,0.003321,1943.4093520103488,507.8551199985668
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,mid-general,0.0,True,False,True,False,0.003606,1871.6077049903106,174.6481650043279
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,mid-general,0.0,True,True,True,True,0.0029760000000000003,1446.3644520001253,190.78754300426226
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.0036509999999999997,1841.9884420000017,204.42563999677077
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,mid-general,0.0,True,True,True,True,0.002745,1403.30245399673,204.03644700127188
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003195,1619.713348991354,438.79418799770065
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,mid-general,0.0,True,True,True,True,0.003909,2252.652189999935,426.41737099620514
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,mid-general,0.0,True,False,True,False,0.003468,2555.376559990691,310.49646800966
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.0033480000000000003,2252.3880840017227,201.88440699712373
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,mid-general,0.0,True,True,True,True,0.004476,3308.2565749937203,274.95380998880137
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,mid-general,0.0,True,True,True,True,0.003936,2353.280952986097,306.4820549916476
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,mid-general,0.0,True,True,True,True,0.0035910000000000004,1640.537024999503,716.6082159965299
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003561,1739.5144019974396,407.02664700802416
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,mid-general,0.0,True,True,True,True,0.00288,1636.5036130009685,209.0210640017176
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003537,1843.194515997311,506.40789700264577
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,mid-general,0.0,True,False,True,False,0.003252,1638.3258360001491,613.2058040093398
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,mid-general,0.0,True,True,True,True,0.004617,2828.889299998991,139.2622170096729
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.0035070000000000006,2149.1865110001527,202.50630799273495
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003231,1652.084981004009,311.56764600018505
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.0032519999999999997,2661.844596004812,492.58148300577886
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.004272,3631.640514009632,311.7592130001867
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003345,1746.6340819955803,355.0797700008843
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,mid-general,0.0,True,True,True,True,0.00342,1887.8111760132015,459.8129469959531
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003921,3384.7304490045644,203.4397590032313
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003549,2051.8646929995157,198.9536990004126
+Aurelio Semantic Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,mid-general,0.0,True,True,True,True,0.003408,1748.5316660022363,505.3939089993946
+RouteLLM (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,cheap-small,0.7772918514624092,False,False,True,False,0.001793,2564.3368250021012,2443.57342699368
+RouteLLM (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,0.7725392633855936,False,True,True,True,0.0013679999999999999,1690.0753669906408,2506.828975994722
+RouteLLM (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,0.7838145182028434,False,True,True,True,0.001006,1251.4785019884584,2384.4609020015923
+RouteLLM (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,0.7811595085729118,False,True,True,True,0.001111,1397.7913179987809,2029.1308460000437
+RouteLLM (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,0.7882429478286488,False,True,True,True,0.001106,1077.9095139878336,2086.9712730054744
+RouteLLM (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,0.7831150360499562,False,True,True,True,0.0012109999999999998,987.0299979957053,2090.74855200015
+RouteLLM (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,0.7845695767702091,False,True,True,True,0.000991,1299.9941860034596,2077.636132002226
+RouteLLM (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,0.7846152028413433,False,True,True,True,0.001216,1258.1263900065096,2017.8130069980398
+RouteLLM (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,0.7866127607720073,False,True,True,True,0.000914,1043.8613100122893,2544.1496540006483
+RouteLLM (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,0.7778744646879311,False,True,True,True,0.000999,1266.6740639979253,2514.8251130012795
+RouteLLM (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,0.7782809822991411,False,True,True,True,0.001167,1122.5022389990045,2255.926976009505
+RouteLLM (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,0.7820733183271205,False,False,True,False,0.001055,828.6288039962528,2344.8461559892166
+RouteLLM (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,0.7868497159239924,False,True,True,True,0.001115,1178.1249710038537,1999.2379169998458
+RouteLLM (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,cheap-small,0.7781336294089407,False,True,True,True,0.001441,1597.594824997941,2036.2982660008129
+RouteLLM (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,cheap-small,0.7762260461702793,False,True,True,True,0.001316,1051.9805880030617,2168.09180600103
+RouteLLM (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,cheap-small,0.7795262394758266,False,False,True,False,0.001186,936.2136270065093,2446.4270010066684
+RouteLLM (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,0.7827391911314568,False,True,True,True,0.001186,1403.601781988982,2280.4754029930336
+RouteLLM (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,0.7846676589092147,False,True,True,True,0.000959,1030.8094630017877,2654.328129996429
+RouteLLM (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,0.7807132190545357,False,True,True,True,0.001178,1440.4649170028279,2340.78197699273
+RouteLLM (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,0.7810772227830806,False,False,True,False,0.0009680000000000001,1526.677062996896,2265.9857550024753
+RouteLLM (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,cheap-small,0.7834782817466027,False,False,True,False,0.0017729999999999998,2411.1610389954876,2230.7800510025118
+RouteLLM (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,cheap-small,0.7759192110890221,False,True,True,True,0.0011129999999999998,958.5289910028223,2605.3703950019553
+RouteLLM (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,0.7833779254426295,False,True,True,True,0.0010760000000000001,1221.2986340018688,2135.1075190032134
+RouteLLM (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,0.7816148893711808,False,True,True,True,0.001083,1162.612657994032,2523.113261006074
+RouteLLM (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,cheap-small,0.7793991153928992,False,True,True,True,0.0013080000000000001,1461.2371149996761,2125.889887989615
+RouteLLM (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,0.7840032109125709,False,True,True,True,0.001114,1316.356576004182,2264.473685005214
+RouteLLM (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,0.7854315808189043,False,True,True,True,0.001139,930.6053940090351,2342.180327992537
+RouteLLM (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,cheap-small,0.7847282855304661,False,False,True,False,0.001621,1764.8609580064658,2738.335639995057
+RouteLLM (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,0.7809297506243487,False,True,True,True,0.001057,901.5593679941958,2373.927378997905
+RouteLLM (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,0.780297088427875,False,True,True,True,0.0010500000000000002,1235.4550330055645,2352.9997549921973
+RouteLLM (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,cheap-small,0.7772918514624092,False,False,True,False,0.002018,2854.6002530056285,2361.118661996443
+RouteLLM (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,0.7725392633855936,False,True,True,True,0.0013679999999999999,1342.348309000954,2120.212914989679
+RouteLLM (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,0.7838149728491959,False,True,True,True,0.001006,1052.26471099013,5125.878050996107
+RouteLLM (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,0.7811595085729118,False,True,True,True,0.001111,961.4424769970356,1991.504970996175
+RouteLLM (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,0.7882429478286488,False,True,True,True,0.001106,1124.3146219931077,2196.1595909961034
+RouteLLM (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,0.7831150360499562,False,True,True,True,0.0012109999999999998,871.6773240012117,2210.325735999504
+RouteLLM (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,0.7845695767702091,False,True,True,True,0.000991,1358.892377000302,2574.2094540037215
+RouteLLM (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,0.7846151898070183,False,True,True,True,0.001216,1392.1777399955317,2400.01202399435
+RouteLLM (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,0.7866127607720073,False,True,True,True,0.000914,749.3006230070023,6195.155508001335
+RouteLLM (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,0.7778738944268841,False,True,True,True,0.000999,1161.310893992777,2639.077065003221
+RouteLLM (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,0.7782809822991411,False,True,True,True,0.001167,1416.2023429962574,2882.102634990588
+RouteLLM (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,0.7820733183271205,False,False,True,False,0.001055,920.3993900009664,2662.442827000632
+RouteLLM (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,0.7868497159239924,False,True,True,True,0.001115,1101.5220880071865,2378.434580998146
+RouteLLM (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,cheap-small,0.7781336294089407,False,True,True,True,0.001376,1347.1291699970607,2235.8588360075373
+RouteLLM (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,cheap-small,0.7762260580406362,False,True,True,True,0.001211,2866.2438000028487,2252.2075370070525
+RouteLLM (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,cheap-small,0.7795262394758266,False,False,True,False,0.001186,1091.088500994374,2497.2291689919075
+RouteLLM (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,0.7827391911314568,False,True,True,True,0.001186,1445.927972003119,2335.6400780030526
+RouteLLM (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,0.7846665281432987,False,True,True,True,0.001149,1331.7924379953183,2051.3717079884373
+RouteLLM (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,0.7807126316230185,False,True,True,True,0.001178,1231.8334570009029,2141.0269740008516
+RouteLLM (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,0.7810772227830806,False,False,True,False,0.0009680000000000001,1454.4935199955944,2025.9274749987526
+RouteLLM (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,0.7834782817466027,False,False,True,False,0.0016229999999999999,1771.7195520090172,2321.847428989713
+RouteLLM (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,cheap-small,0.7759195017918421,False,True,True,True,0.0011129999999999998,1364.4705999904545,2116.0005850106245
+RouteLLM (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,0.7833760230218383,False,True,True,True,0.0010760000000000001,1049.4604220002657,2141.171588009456
+RouteLLM (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,0.7816136461784712,False,True,True,True,0.001083,916.2350889964728,2346.3109790027374
+RouteLLM (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,cheap-small,0.7793991153928992,False,True,True,True,0.0013080000000000001,1104.3958000082057,2371.6827720054425
+RouteLLM (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,0.7840036600882228,False,True,True,True,0.001114,2539.065862001735,2067.6025599968852
+RouteLLM (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,0.7854315808189043,False,True,True,True,0.001139,1143.0065919994377,2132.0415740046883
+RouteLLM (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,cheap-small,0.7847282855304661,False,False,True,False,0.001476,1965.0395450007636,2441.535632999148
+RouteLLM (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,0.7808466217211368,False,True,True,True,0.001057,896.4647899992997,2373.6669780046213
+RouteLLM (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,0.780297088427875,False,True,True,True,0.0010500000000000002,1446.5830739936791,2034.0176350000547
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,strong-frontier,0.7,False,False,True,False,0.007475000000000001,3072.6871079968987,1945.0521389953792
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.0013679999999999999,1431.6653749992838,1636.531083000591
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,0.7,False,True,True,True,0.001006,915.3354479931295,1337.152366002556
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001111,1022.1933799912222,1023.7057880003704
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,0.7,False,True,True,True,0.001106,1335.7846009894274,1023.6687290016562
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.0012109999999999998,7780.693816996063,1327.1797269990202
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,cheap-small,0.7,False,True,True,True,0.000991,1013.0695420084521,1134.2495610006154
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001216,1432.5738280022051,922.4362849927275
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,0.7,False,True,True,True,0.000914,1636.6330049932003,1024.3314260005718
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.000999,1071.823353995569,877.2003339981893
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,0.7,False,True,True,True,0.001167,1223.9624529902358,2255.997272004606
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,cheap-small,0.7,False,False,True,False,0.001055,959.8647940001683,3067.4323980056215
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,mid-general,0.7,False,True,True,True,0.0033480000000000003,1538.6015380063327,1901.1225340072997
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,strong-frontier,0.7,False,True,True,True,0.00779,2866.332322009839,2047.2770829946967
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,strong-frontier,0.7,False,True,True,True,0.006685,2195.5622359964764,1696.5954699990107
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,mid-general,0.7,False,False,True,False,0.0035610000000000004,2056.88841000665,1727.9101179883583
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001186,1067.0724789961241,826.3037479919149
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,0.7,False,True,True,True,0.000959,1022.8300419985317,870.0726509996457
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001178,1227.080594006111,1023.7854729930405
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,cheap-small,0.7,False,False,True,False,0.0009680000000000001,920.3642630018294,1023.8179080042755
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,strong-frontier,0.7,False,False,True,False,0.008150000000000001,3172.761982001248,2355.3661659971112
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,strong-frontier,0.7,False,True,True,True,0.005725000000000001,3685.4883049963973,2559.749688996817
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.0010760000000000001,1841.949975991156,1023.9791079948191
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001083,975.1618279988179,763.2846899941796
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,strong-frontier,0.7,False,True,True,True,0.00681,3373.6435059981886,1847.8054000006523
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001114,1124.159293001867,1024.8089320084546
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,0.7,False,True,True,True,0.001139,1325.3158979932778,1028.5156660102075
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,strong-frontier,0.7,False,False,True,False,0.00632,2256.6403079981683,1331.5665800037095
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.001057,920.8979469985934,1120.6572329974733
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,0.7,False,True,True,True,0.0010500000000000002,1023.1594580109231,1534.8041459947126
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,strong-frontier,0.7,False,False,True,False,0.007475000000000001,2556.1894290003693,2152.7341379987774
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.0013679999999999999,1460.4496480023954,3794.028985008481
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,cheap-small,0.7,False,True,True,True,0.001006,1227.349235006841,1297.5801010034047
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001111,1022.5249850045657,1024.3032200087328
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,0.7,False,True,True,True,0.001106,1534.4945629913127,1126.1185540060978
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.0012109999999999998,1022.3409850004828,1638.2808720081812
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,0.7,False,True,True,True,0.000991,1433.2707459980156,1842.3602909897454
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001216,1021.7749049916165,819.7035990015138
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,0.7,False,True,True,True,0.000914,1227.7326530020218,1024.1587509954115
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.000999,1226.5939659992,820.4577160067856
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,0.7,False,True,True,True,0.001167,1124.5506370032672,1433.0668180045905
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,cheap-small,0.7,False,False,True,False,0.001055,1744.1144809999969,921.8343179963995
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,mid-general,0.7,False,True,True,True,0.0033480000000000003,1643.1089479883667,1428.6210620048223
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,strong-frontier,0.7,False,True,True,True,0.00779,2865.3765760100214,1734.9450019974029
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,strong-frontier,0.7,False,True,True,True,0.006635,2554.9159280053573,1540.7587569934549
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,mid-general,0.7,False,False,True,False,0.0035610000000000004,1939.9392119958065,1540.0286210060585
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001186,1432.7203759894473,1023.2921170099871
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,0.7,False,True,True,True,0.000959,1227.440022994415,818.8887369906297
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001178,1525.909877003869,1031.6051080008037
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,cheap-small,0.7,False,False,True,False,0.0009680000000000001,920.9630949917482,1023.4247550106375
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,strong-frontier,0.7,False,False,True,False,0.008150000000000001,2764.0289300034055,2047.162542003207
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,strong-frontier,0.7,False,True,True,True,0.005775000000000001,2456.221212996752,1535.712227007025
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.0010760000000000001,1226.664018991869,819.336034997832
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001083,1161.4792150066933,1090.452340999036
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,strong-frontier,0.7,False,True,True,True,0.0068850000000000005,3997.284127995954,2866.5515989996493
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001114,1124.9914910004009,1121.421055009705
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,0.7,False,True,True,True,0.001139,920.515970006818,921.0087879910134
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,strong-frontier,0.7,False,False,True,False,0.006370000000000001,2358.2290810009,2151.4871370018227
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.001057,805.6256139971083,915.8811720117228
+vLLM Semantic Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,0.7,False,True,True,True,0.0010500000000000002,1130.3553899924736,1035.708376992261

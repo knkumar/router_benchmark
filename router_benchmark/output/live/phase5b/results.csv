@@ -1,0 +1,49 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-blind-maze-explorer-5x5,terminal_agent,0.3,0,cheap-small,0.6,False,True,True,True,0.00483821,69762.27325900254
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-fix-git,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.0068328600000000005,151803.76760099898
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-heterogeneous-dates,terminal_agent,0.3,0,cheap-small,0.6,False,True,True,True,0.00177925,56069.76310099708
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-jq-data-processing,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00597389,71708.91675700113
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-mixed-integer-programming,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.011356600000000001,353668.55206299806
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-multistep-definite-integral,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.0009230000000000001,58384.68132799608
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-pandas-etl,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00469027,70842.70092599763
+LiteLLM Router (live),Terminal-Bench 2.0 (live),tbench-png-generation,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.0,602863.9081639994
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-blind-maze-explorer-5x5,terminal_agent,0.3,0,mid-general,0.7,False,True,True,True,0.3207459,457166.0977700012
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-fix-git,terminal_agent,0.3,0,mid-general,0.7,False,True,True,True,0.048360150000000005,63008.55603899981
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-heterogeneous-dates,terminal_agent,0.3,0,mid-general,0.7,False,True,True,True,0.05167395,63307.17322000419
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-jq-data-processing,terminal_agent,0.3,0,mid-general,0.7,False,True,True,True,0.06763095000000001,76573.80744299735
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-mixed-integer-programming,terminal_agent,0.3,0,mid-general,0.7,False,True,True,True,0.30659970000000003,858281.2258010018
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-multistep-definite-integral,terminal_agent,0.3,0,mid-general,0.7,False,False,True,False,0.02839245,86743.33535700134
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-pandas-etl,terminal_agent,0.3,0,mid-general,0.7,False,True,True,True,0.0926277,92750.02949099871
+Aurelio Semantic Router (live),Terminal-Bench 2.0 (live),tbench-png-generation,terminal_agent,0.3,0,mid-general,0.7,False,False,True,False,0.0444522,429859.8881420039
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-blind-maze-explorer-5x5,terminal_agent,0.3,0,cheap-small,0.7745530372034395,False,False,True,False,0.06185657000000001,924197.7488620032
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-fix-git,terminal_agent,0.3,0,cheap-small,0.7837860342376152,False,True,True,True,0.00789014,127659.12058699905
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-heterogeneous-dates,terminal_agent,0.3,0,cheap-small,0.7771849382891506,False,True,True,True,0.0033301400000000005,46959.41837099963
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-jq-data-processing,terminal_agent,0.3,0,cheap-small,0.7711900197394964,False,True,True,True,0.005142080000000001,60377.02594699658
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-mixed-integer-programming,terminal_agent,0.3,0,cheap-small,0.7672839952659816,False,False,True,False,0.01806615,360428.5973129954
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-multistep-definite-integral,terminal_agent,0.3,0,cheap-small,0.7790618185756716,False,False,True,False,0.0011179,50217.233620001934
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-pandas-etl,terminal_agent,0.3,0,cheap-small,0.773140415669941,False,False,True,False,0.00484955,53353.1142819993
+RouteLLM (live),Terminal-Bench 2.0 (live),tbench-png-generation,terminal_agent,0.3,0,cheap-small,0.777255254077557,False,False,True,False,0.00259136,359819.6769500064
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-blind-maze-explorer-5x5,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.10476857999999996,924071.7924860001
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-fix-git,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.006266270000000001,107177.51048600621
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-heterogeneous-dates,terminal_agent,0.3,0,cheap-small,0.6,False,True,True,True,0.0024566100000000006,43970.889274998626
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-jq-data-processing,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00221506,39253.528785004164
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-mixed-integer-programming,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.01590292,149585.30818000145
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-multistep-definite-integral,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00108365,49703.10772499943
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-pandas-etl,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00746897,61571.995805999904
+LLMRouter (live),Terminal-Bench 2.0 (live),tbench-png-generation,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00319891,460275.5939140043
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-blind-maze-explorer-5x5,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.02475588,385430.98027900123
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-fix-git,terminal_agent,0.3,0,strong-frontier,0.6,False,True,True,True,0.1102275,70566.95155999478
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-heterogeneous-dates,terminal_agent,0.3,0,strong-frontier,0.6,False,True,True,True,0.07403,55200.91545300238
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-jq-data-processing,terminal_agent,0.3,0,cheap-small,0.6,False,False,True,False,0.00225733,42718.84602800128
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-mixed-integer-programming,terminal_agent,0.3,0,strong-frontier,0.6,False,True,True,True,0.29437825,741766.6302159997
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-multistep-definite-integral,terminal_agent,0.3,0,strong-frontier,0.6,False,False,True,False,0.04481525,85707.67852000427
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-pandas-etl,terminal_agent,0.3,0,strong-frontier,0.6,False,True,True,True,0.14490725,113028.13795400289
+NVIDIA AI Blueprint LLM Router (live),Terminal-Bench 2.0 (live),tbench-png-generation,terminal_agent,0.3,0,mid-general,0.6,False,False,True,False,0.032027850000000004,463878.54995900125
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-blind-maze-explorer-5x5,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.10247172999999998,925526.3205380033
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-fix-git,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.02489822,212551.02988800354
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-heterogeneous-dates,terminal_agent,0.3,0,cheap-small,0.7,False,True,True,True,0.0031632099999999996,47116.607586998725
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-jq-data-processing,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.01771471,124930.53237300046
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-mixed-integer-programming,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.07135396999999999,923279.6683380002
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-multistep-definite-integral,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.0010189,43461.58590200503
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-pandas-etl,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.0035901500000000003,46129.82177900267
+vLLM Semantic Router (live),Terminal-Bench 2.0 (live),tbench-png-generation,terminal_agent,0.3,0,cheap-small,0.7,False,False,True,False,0.00199709,471480.7726290019

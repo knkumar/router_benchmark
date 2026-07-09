@@ -1,0 +1,181 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00119,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,0,strong-frontier,0.6,False,True,False,,0.007430000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.0025700000000000002,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,0,strong-frontier,0.6,False,True,False,,0.0013100000000000002,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,0,strong-frontier,0.6,False,True,False,,0.01344,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,0,mid-general,0.6,False,True,False,,0.000117,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,True,False,,0.0014500000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,0,strong-frontier,0.6,False,True,False,,0.0093,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.0032500000000000003,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00235,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00238,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2.22e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,1.8599999999999998e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00163,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,0,strong-frontier,0.6,False,True,False,,0.00086,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,1.6800000000000002e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,8.08e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,0,strong-frontier,0.6,False,False,False,,0.00073,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.011279999999999998,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,0,strong-frontier,0.6,False,False,False,,0.00077,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00091,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,0,strong-frontier,0.6,False,True,False,,0.00825,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,0,strong-frontier,0.6,False,False,False,,0.00227,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,0,mid-general,0.6,False,True,False,,0.000145,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,0,strong-frontier,0.6,False,False,False,,0.00799,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,0,strong-frontier,0.6,False,False,False,,0.00099,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,True,False,,0.00231,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00181,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,0,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,True,False,,0.00321,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00079,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,False,False,,0.00471,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,0,strong-frontier,0.6,False,True,False,,0.0008200000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.0010600000000000002,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,0,strong-frontier,0.6,False,True,False,,0.00094,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00141,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00243,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,False,False,,0.00117,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,False,False,,4.720000000000001e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,0,strong-frontier,0.6,False,False,False,,0.010020000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,0,strong-frontier,0.6,False,True,False,,0.00542,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,False,False,,0.00093,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00174,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,0,strong-frontier,0.6,False,True,False,,0.00918,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,0,cheap-small,0.6,False,False,False,,2.02e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,0,strong-frontier,0.6,False,True,False,,0.00938,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,0,strong-frontier,0.6,False,True,False,,0.00826,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,0,cheap-small,0.6,False,True,False,,1.46e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,0,cheap-small,0.6,False,True,False,,5.9800000000000003e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,True,False,,0.00101,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.00305,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,0,strong-frontier,0.6,False,True,False,,0.00807,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,0,strong-frontier,0.6,False,True,False,,0.00074,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,0,strong-frontier,0.6,False,True,False,,0.0014,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,0,strong-frontier,0.6,False,False,False,,0.00111,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,0,strong-frontier,0.6,False,True,False,,0.0068000000000000005,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,0,strong-frontier,0.6,False,True,False,,0.00641,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0000,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00119,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0001,qa_reasoning,0.5,1,strong-frontier,0.6,False,True,False,,0.007430000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0002,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.0025700000000000002,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0003,qa_reasoning,0.0,1,strong-frontier,0.6,False,True,False,,0.0013100000000000002,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0004,qa_reasoning,0.5833333333333333,1,cheap-small,0.6,False,False,False,,9.760000000000001e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0005,qa_reasoning,0.33333333333333337,1,mid-general,0.6,False,True,False,,0.000117,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0006,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,True,False,,0.0014500000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0007,qa_reasoning,0.41666666666666663,1,strong-frontier,0.6,False,True,False,,0.0093,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0008,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.0032500000000000003,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0009,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00235,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0010,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00238,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0011,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,True,False,,0.00115,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0012,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,1.8599999999999998e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0013,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00163,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0014,qa_reasoning,0.0,1,strong-frontier,0.6,False,True,False,,0.00086,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0015,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,1.6800000000000002e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0016,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.0051,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0017,qa_reasoning,1.0,1,strong-frontier,0.6,False,False,False,,0.00073,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0018,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.011279999999999998,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0019,qa_reasoning,1.0,1,strong-frontier,0.6,False,False,False,,0.00077,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0020,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00091,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0021,qa_reasoning,0.25,1,strong-frontier,0.6,False,True,False,,0.00825,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0022,qa_reasoning,1.0,1,strong-frontier,0.6,False,False,False,,0.00227,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0023,qa_reasoning,0.0,1,mid-general,0.6,False,True,False,,0.000145,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0024,qa_reasoning,0.5833333333333333,1,strong-frontier,0.6,False,False,False,,0.00799,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0025,qa_reasoning,1.0,1,strong-frontier,0.6,False,False,False,,0.00099,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0026,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,True,False,,0.00231,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0027,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00181,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0028,qa_reasoning,0.0,1,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0029,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,True,False,,0.00321,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0030,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00079,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0031,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,False,False,,0.00471,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0032,qa_reasoning,0.0,1,strong-frontier,0.6,False,True,False,,0.0008200000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0033,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.0010600000000000002,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0034,qa_reasoning,0.0,1,strong-frontier,0.6,False,True,False,,0.00094,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0035,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00141,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0036,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00243,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0037,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,False,False,,0.00117,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0038,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00237,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0039,qa_reasoning,0.8333333333333334,1,strong-frontier,0.6,False,False,False,,0.010020000000000001,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0040,qa_reasoning,0.5833333333333333,1,strong-frontier,0.6,False,True,False,,0.00542,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0041,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,1.7800000000000002e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0042,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00174,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0043,qa_reasoning,0.41666666666666663,1,strong-frontier,0.6,False,True,False,,0.00918,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0044,qa_reasoning,0.6666666666666667,1,cheap-small,0.6,False,False,False,,2.02e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0045,qa_reasoning,0.41666666666666663,1,strong-frontier,0.6,False,True,False,,0.00938,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0046,qa_reasoning,0.5,1,strong-frontier,0.6,False,True,False,,0.00826,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0047,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0048,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0049,qa_reasoning,0.0,1,cheap-small,0.6,False,True,False,,1.46e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0050,qa_reasoning,0.33333333333333337,1,cheap-small,0.6,False,True,False,,5.9800000000000003e-05,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0051,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,True,False,,0.00101,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0052,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.00305,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0053,qa_reasoning,0.41666666666666663,1,strong-frontier,0.6,False,True,False,,0.00807,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0054,qa_reasoning,0.0,1,strong-frontier,0.6,False,True,False,,0.00074,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0055,qa_reasoning,0.33333333333333337,1,strong-frontier,0.6,False,True,False,,0.0014,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0056,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,True,False,,0.00102,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0057,qa_reasoning,0.6666666666666667,1,strong-frontier,0.6,False,False,False,,0.00111,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0058,qa_reasoning,0.41666666666666663,1,strong-frontier,0.6,False,True,False,,0.0068000000000000005,
+NVIDIA AI Blueprint LLM Router (live),RouterBench (live),routerbench-0059,qa_reasoning,0.5,1,cheap-small,0.6,False,False,False,,7.300000000000001e-05,
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,0,strong-frontier,0.6,False,False,True,False,0.007475000000000001,3685.571721987799
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.007,2368.696443969384
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,6.960000000000001e-05,896.9852940645069
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.00572,2535.2862279396504
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,8.960000000000001e-05,763.1551050581038
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,9.235000000000001e-05,785.8979100128636
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,0,strong-frontier,0.6,False,True,True,True,0.00442,4177.638340974227
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.995000000000002e-05,907.0686709601432
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,0,cheap-small,0.6,False,False,True,False,6.890000000000001e-05,595.2953399391845
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.004675,2092.278350959532
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,0,cheap-small,0.6,False,True,True,True,8.350000000000001e-05,1690.127796959132
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,False,True,False,0.00585,2292.228400008753
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.420000000000001e-05,694.0345530165359
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,0,strong-frontier,0.6,False,True,True,True,0.007690000000000001,2583.3385760197416
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,0,strong-frontier,0.6,False,True,True,True,0.006335,2083.8029920123518
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,0,strong-frontier,0.6,False,True,True,True,0.006065000000000001,2062.7035720972344
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.775e-05,901.6781309619546
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,0,cheap-small,0.6,False,True,True,True,8.095e-05,805.2003009943292
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.67e-05,1781.2526469351724
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,0,strong-frontier,0.6,False,False,True,False,0.00442,1969.3800730165094
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,0,strong-frontier,0.6,False,False,True,False,0.008150000000000001,2594.9432039633393
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.0057,2128.437014995143
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.005495,2065.4652160592377
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,8.010000000000001e-05,932.1534149348736
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.006785000000000001,2597.8699970291927
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.005725000000000001,2082.9784290399402
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,0,cheap-small,0.6,False,True,True,True,7.91e-05,1013.8842890737578
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,False,True,False,0.006370000000000001,2544.1509489901364
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,0,strong-frontier,0.6,False,True,True,True,0.0052,2158.2447070395574
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,0,cheap-small,0.6,False,True,True,True,7.335e-05,877.3683070903644
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0000-simple_java_51,tool_use,1.0,1,strong-frontier,0.6,False,False,True,False,0.008225000000000001,3432.373807998374
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0001-simple_python_119,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.006925000000000001,2721.3882080977783
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0002-simple_python_7,tool_use,0.4,1,strong-frontier,0.6,False,True,True,True,0.004975,6556.846041930839
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0003-simple_python_92,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.00572,2486.030508996919
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0004-simple_python_35,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,8.960000000000001e-05,1151.9047749461606
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0005-simple_python_85,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,9.235000000000001e-05,1118.6030840035528
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0006-simple_python_100,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,7.315e-05,802.9605409828946
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0007-simple_python_363,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.995000000000002e-05,710.7828230364248
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0008-simple_python_242,tool_use,0.4,1,cheap-small,0.6,False,False,True,False,6.890000000000001e-05,823.7282439367846
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0009-simple_python_17,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.004675,2853.8699219934642
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0010-simple_python_31,tool_use,0.8,1,cheap-small,0.6,False,True,True,True,8.350000000000001e-05,1143.365519004874
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0011-simple_python_16,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,False,True,False,0.00585,2408.1311780028045
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0012-simple_python_354,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.420000000000001e-05,779.0986209874973
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0013-simple_java_95,tool_use,1.0,1,strong-frontier,0.6,False,True,True,True,0.007690000000000001,2420.982294017449
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0014-simple_java_74,tool_use,0.8,1,strong-frontier,0.6,False,True,True,True,0.006485,2345.449227024801
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0015-simple_python_152,tool_use,0.8,1,strong-frontier,0.6,False,True,True,True,0.006065000000000001,2037.8627829486504
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0016-simple_python_93,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,8.775e-05,699.611091054976
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0017-simple_python_187,tool_use,0.4,1,cheap-small,0.6,False,True,True,True,8.095e-05,716.2203310290352
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0018-simple_python_117,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.0061,2086.4080709870905
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0019-simple_python_14,tool_use,0.4,1,strong-frontier,0.6,False,False,True,False,0.00442,2066.187565913424
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0020-simple_javascript_15,tool_use,0.8,1,cheap-small,0.6,False,False,True,False,0.000105,839.7430040640756
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0021-simple_java_98,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.0057,2083.4446999942884
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0022-simple_python_255,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.005495,2389.876222005114
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0023-simple_python_66,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.005615,2654.991711024195
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0024-simple_java_77,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.007035,2758.378161001019
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0025-simple_python_70,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.005725000000000001,1994.822463952005
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0026-simple_python_91,tool_use,0.8,1,cheap-small,0.6,False,True,True,True,7.91e-05,588.2843639701605
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0027-simple_javascript_27,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,False,True,False,0.00632,2023.4297070419416
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0028-simple_python_47,tool_use,0.6000000000000001,1,strong-frontier,0.6,False,True,True,True,0.0052,2175.7373069413006
+NVIDIA AI Blueprint LLM Router (live),BFCL v4 (live),bfcl-0029-simple_python_276,tool_use,0.6000000000000001,1,cheap-small,0.6,False,True,True,True,7.835000000000001e-05,892.0557579258457

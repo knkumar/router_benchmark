@@ -1,0 +1,5 @@
+router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
+LiteLLM Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14309,code_repair,0.3,0,cheap-small,0.6,False,False,False,,0.0006273,14454.94361303281
+LiteLLM Router (live),SWE-bench Verified (live),swebench-astropy__astropy-14995,code_repair,0.3,0,cheap-small,0.6,False,False,False,,0.0010946,44036.37624892872
+RouteLLM (live),SWE-bench Verified (live),swebench-astropy__astropy-14309,code_repair,0.3,0,cheap-small,0.774092162096379,False,False,False,,0.0006648000000000001,28403.102242038585
+RouteLLM (live),SWE-bench Verified (live),swebench-astropy__astropy-14995,code_repair,0.3,0,cheap-small,0.7759354656039854,False,False,False,,0.0009171,141286.2891020486

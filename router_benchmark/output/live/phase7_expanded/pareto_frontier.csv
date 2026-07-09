@@ -1,0 +1,2 @@
+router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
+RouteLLM (live),0.16,0.002283274,0.0142704625,35141.53287099907,149762.33096380002,,0.0,1.0,,1,True
