@@ -1,0 +1,1190 @@
+{
+  "tau2-0_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00452422,
+    "latency_ms": 50512.98179200967,
+    "tool_call_correct": true
+  },
+  "tau2-1_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00572637,
+    "latency_ms": 43917.04243601998,
+    "tool_call_correct": true
+  },
+  "tau2-2_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00566922,
+    "latency_ms": 44830.723616003525,
+    "tool_call_correct": false
+  },
+  "tau2-3_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00447331,
+    "latency_ms": 36749.5130939933,
+    "tool_call_correct": false
+  },
+  "tau2-4_cheap-small": {
+    "success": false,
+    "cost_usd": 0.0043808899999999,
+    "latency_ms": 37553.94635698758,
+    "tool_call_correct": false
+  },
+  "tau2-5_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00832244,
+    "latency_ms": 59651.13571000984,
+    "tool_call_correct": false
+  },
+  "tau2-6_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00535198,
+    "latency_ms": 44819.37098898925,
+    "tool_call_correct": true
+  },
+  "tau2-7_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0064489,
+    "latency_ms": 58894.04591399944,
+    "tool_call_correct": true
+  },
+  "tau2-8_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00600198,
+    "latency_ms": 68157.62837399961,
+    "tool_call_correct": true
+  },
+  "tau2-9_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00467614,
+    "latency_ms": 43088.56182999443,
+    "tool_call_correct": true
+  },
+  "tau2-10_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00432904,
+    "latency_ms": 41442.27641497855,
+    "tool_call_correct": true
+  },
+  "tau2-11_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0046575,
+    "latency_ms": 51398.44337600516,
+    "tool_call_correct": true
+  },
+  "tau2-12_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00334745,
+    "latency_ms": 41468.11404402251,
+    "tool_call_correct": true
+  },
+  "tau2-13_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00390906,
+    "latency_ms": 47840.64314700663,
+    "tool_call_correct": true
+  },
+  "tau2-14_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00348572,
+    "latency_ms": 33360.590789001435,
+    "tool_call_correct": true
+  },
+  "tau2-15_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0050294699999999,
+    "latency_ms": 38543.09568999452,
+    "tool_call_correct": true
+  },
+  "tau2-16_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00455649,
+    "latency_ms": 48304.95724099456,
+    "tool_call_correct": true
+  },
+  "tau2-17_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00179981,
+    "latency_ms": 17990.45272899093,
+    "tool_call_correct": true
+  },
+  "tau2-18_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00412338,
+    "latency_ms": 36794.95719898841,
+    "tool_call_correct": false
+  },
+  "tau2-19_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00655114,
+    "latency_ms": 52190.22993801627,
+    "tool_call_correct": true
+  },
+  "tau2-20_cheap-small": {
+    "success": false,
+    "cost_usd": 0.01217408,
+    "latency_ms": 81084.46288298,
+    "tool_call_correct": false
+  },
+  "tau2-21_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00563434,
+    "latency_ms": 54671.03314999258,
+    "tool_call_correct": true
+  },
+  "tau2-22_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00448795,
+    "latency_ms": 35487.71515698172,
+    "tool_call_correct": false
+  },
+  "tau2-23_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00657716,
+    "latency_ms": 43477.84112600493,
+    "tool_call_correct": true
+  },
+  "tau2-24_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00473746,
+    "latency_ms": 54087.60064802482,
+    "tool_call_correct": true
+  },
+  "tau2-25_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00412611,
+    "latency_ms": 34121.766344993375,
+    "tool_call_correct": true
+  },
+  "tau2-26_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00317524,
+    "latency_ms": 34337.11540198419,
+    "tool_call_correct": true
+  },
+  "tau2-27_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00491139,
+    "latency_ms": 35524.12857598392,
+    "tool_call_correct": false
+  },
+  "tau2-28_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00690844,
+    "latency_ms": 38910.57817701949,
+    "tool_call_correct": false
+  },
+  "tau2-29_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0074093699999999,
+    "latency_ms": 57709.23817099538,
+    "tool_call_correct": true
+  },
+  "tau2-30_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0078574999999999,
+    "latency_ms": 66045.48808699474,
+    "tool_call_correct": true
+  },
+  "tau2-31_cheap-small": {
+    "success": false,
+    "cost_usd": 0.0095838,
+    "latency_ms": 91401.78154100433,
+    "tool_call_correct": false
+  },
+  "tau2-32_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00692866,
+    "latency_ms": 60595.0360520219,
+    "tool_call_correct": true
+  },
+  "tau2-33_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00303952,
+    "latency_ms": 38404.169601009926,
+    "tool_call_correct": true
+  },
+  "tau2-34_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00331386,
+    "latency_ms": 40679.46562700672,
+    "tool_call_correct": false
+  },
+  "tau2-35_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0054301299999999,
+    "latency_ms": 44944.19577502413,
+    "tool_call_correct": true
+  },
+  "tau2-36_cheap-small": {
+    "success": false,
+    "cost_usd": 0.0090453,
+    "latency_ms": 68384.01183398673,
+    "tool_call_correct": false
+  },
+  "tau2-37_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00854154,
+    "latency_ms": 52372.48043200816,
+    "tool_call_correct": false
+  },
+  "tau2-38_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00353161,
+    "latency_ms": 31921.95618301048,
+    "tool_call_correct": false
+  },
+  "tau2-39_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00418417,
+    "latency_ms": 47668.50464598974,
+    "tool_call_correct": true
+  },
+  "tau2-40_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00436129,
+    "latency_ms": 42013.99034899077,
+    "tool_call_correct": true
+  },
+  "tau2-41_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00582933,
+    "latency_ms": 38066.97942400933,
+    "tool_call_correct": false
+  },
+  "tau2-42_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00654551,
+    "latency_ms": 44683.69155700202,
+    "tool_call_correct": true
+  },
+  "tau2-43_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0046684899999999,
+    "latency_ms": 58974.49087302084,
+    "tool_call_correct": true
+  },
+  "tau2-44_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00307196,
+    "latency_ms": 28617.11901301169,
+    "tool_call_correct": true
+  },
+  "tau2-45_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00361879,
+    "latency_ms": 38203.11288101948,
+    "tool_call_correct": false
+  },
+  "tau2-46_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00538225,
+    "latency_ms": 48934.24177801353,
+    "tool_call_correct": true
+  },
+  "tau2-47_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00452355,
+    "latency_ms": 48190.515941998456,
+    "tool_call_correct": true
+  },
+  "tau2-48_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0045448,
+    "latency_ms": 43068.06878600037,
+    "tool_call_correct": true
+  },
+  "tau2-49_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00387495,
+    "latency_ms": 38049.48126300587,
+    "tool_call_correct": true
+  },
+  "tau2-50_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00225661,
+    "latency_ms": 25220.821330003677,
+    "tool_call_correct": true
+  },
+  "tau2-51_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00192174,
+    "latency_ms": 20776.881767000305,
+    "tool_call_correct": false
+  },
+  "tau2-52_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00309203,
+    "latency_ms": 32854.33106002165,
+    "tool_call_correct": true
+  },
+  "tau2-53_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00382858,
+    "latency_ms": 39092.853678012034,
+    "tool_call_correct": true
+  },
+  "tau2-54_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00713256,
+    "latency_ms": 60554.86223302432,
+    "tool_call_correct": false
+  },
+  "tau2-55_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00525151,
+    "latency_ms": 50898.261400987394,
+    "tool_call_correct": true
+  },
+  "tau2-56_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00518046,
+    "latency_ms": 36327.5480849843,
+    "tool_call_correct": false
+  },
+  "tau2-57_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00325969,
+    "latency_ms": 27230.57401500409,
+    "tool_call_correct": false
+  },
+  "tau2-58_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00651181,
+    "latency_ms": 43097.07407199312,
+    "tool_call_correct": true
+  },
+  "tau2-59_cheap-small": {
+    "success": false,
+    "cost_usd": 0.0027909,
+    "latency_ms": 32759.335226000985,
+    "tool_call_correct": false
+  },
+  "tau2-60_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00354014,
+    "latency_ms": 35310.607943014475,
+    "tool_call_correct": true
+  },
+  "tau2-61_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0030736,
+    "latency_ms": 28981.736871006437,
+    "tool_call_correct": true
+  },
+  "tau2-62_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0044159,
+    "latency_ms": 40795.25709399604,
+    "tool_call_correct": true
+  },
+  "tau2-63_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00594503,
+    "latency_ms": 52224.126251996495,
+    "tool_call_correct": false
+  },
+  "tau2-64_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00404955,
+    "latency_ms": 36000.14005697449,
+    "tool_call_correct": true
+  },
+  "tau2-65_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00195246,
+    "latency_ms": 24444.81265801005,
+    "tool_call_correct": true
+  },
+  "tau2-66_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00357497,
+    "latency_ms": 48359.207093017176,
+    "tool_call_correct": false
+  },
+  "tau2-67_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00220163,
+    "latency_ms": 24326.60735398531,
+    "tool_call_correct": true
+  },
+  "tau2-68_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00220636,
+    "latency_ms": 24364.74711698247,
+    "tool_call_correct": false
+  },
+  "tau2-69_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00262973,
+    "latency_ms": 27064.07872302225,
+    "tool_call_correct": true
+  },
+  "tau2-70_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00421892,
+    "latency_ms": 38322.29649901274,
+    "tool_call_correct": true
+  },
+  "tau2-71_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00714497,
+    "latency_ms": 56473.39953001938,
+    "tool_call_correct": false
+  },
+  "tau2-72_cheap-small": {
+    "success": false,
+    "cost_usd": 0.0065947,
+    "latency_ms": 52387.73144400329,
+    "tool_call_correct": false
+  },
+  "tau2-73_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00282757,
+    "latency_ms": 28638.63417500397,
+    "tool_call_correct": true
+  },
+  "tau2-74_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0070395599999999,
+    "latency_ms": 56994.94329598383,
+    "tool_call_correct": true
+  },
+  "tau2-75_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0031637199999999,
+    "latency_ms": 31741.87609902583,
+    "tool_call_correct": true
+  },
+  "tau2-76_cheap-small": {
+    "success": false,
+    "cost_usd": 0.0088583699999999,
+    "latency_ms": 57666.45447298652,
+    "tool_call_correct": false
+  },
+  "tau2-77_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00353571,
+    "latency_ms": 35991.96039297385,
+    "tool_call_correct": false
+  },
+  "tau2-78_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00635282,
+    "latency_ms": 55258.77852001577,
+    "tool_call_correct": true
+  },
+  "tau2-79_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00687973,
+    "latency_ms": 55321.96366999415,
+    "tool_call_correct": false
+  },
+  "tau2-80_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0030208599999999,
+    "latency_ms": 45613.8368640095,
+    "tool_call_correct": true
+  },
+  "tau2-81_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00367317,
+    "latency_ms": 32054.23655200866,
+    "tool_call_correct": true
+  },
+  "tau2-82_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00493591,
+    "latency_ms": 42704.07365600113,
+    "tool_call_correct": true
+  },
+  "tau2-83_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00541343,
+    "latency_ms": 43754.69110000995,
+    "tool_call_correct": true
+  },
+  "tau2-84_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0044443,
+    "latency_ms": 36700.921272014966,
+    "tool_call_correct": true
+  },
+  "tau2-85_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00658674,
+    "latency_ms": 45200.114908016985,
+    "tool_call_correct": true
+  },
+  "tau2-86_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00938889,
+    "latency_ms": 68480.41250798269,
+    "tool_call_correct": true
+  },
+  "tau2-87_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00450479,
+    "latency_ms": 40199.54766498995,
+    "tool_call_correct": true
+  },
+  "tau2-88_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00471099,
+    "latency_ms": 37634.22125400393,
+    "tool_call_correct": true
+  },
+  "tau2-89_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0042832799999999,
+    "latency_ms": 35559.01829901268,
+    "tool_call_correct": true
+  },
+  "tau2-90_cheap-small": {
+    "success": true,
+    "cost_usd": 0.0046370799999999,
+    "latency_ms": 39966.004793997854,
+    "tool_call_correct": true
+  },
+  "tau2-91_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00696479,
+    "latency_ms": 67441.08603399945,
+    "tool_call_correct": false
+  },
+  "tau2-92_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00424388,
+    "latency_ms": 31979.60363799939,
+    "tool_call_correct": true
+  },
+  "tau2-93_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00500224,
+    "latency_ms": 37148.44843701576,
+    "tool_call_correct": false
+  },
+  "tau2-94_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00523198,
+    "latency_ms": 39411.48973899544,
+    "tool_call_correct": true
+  },
+  "tau2-95_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00577634,
+    "latency_ms": 40224.54143399955,
+    "tool_call_correct": true
+  },
+  "tau2-96_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00525154,
+    "latency_ms": 45589.32679699501,
+    "tool_call_correct": true
+  },
+  "tau2-97_cheap-small": {
+    "success": true,
+    "cost_usd": 0.00335895,
+    "latency_ms": 29985.92148700845,
+    "tool_call_correct": true
+  },
+  "tau2-98_cheap-small": {
+    "success": true,
+    "cost_usd": 0.01025537,
+    "latency_ms": 71168.91917597968,
+    "tool_call_correct": true
+  },
+  "tau2-99_cheap-small": {
+    "success": false,
+    "cost_usd": 0.00776334,
+    "latency_ms": 52821.23316801153,
+    "tool_call_correct": false
+  },
+  "tau2-0_mid-general": {
+    "success": true,
+    "cost_usd": 0.274749,
+    "latency_ms": 61270.49975900445,
+    "tool_call_correct": true
+  },
+  "tau2-1_mid-general": {
+    "success": true,
+    "cost_usd": 0.234162,
+    "latency_ms": 48317.336620006245,
+    "tool_call_correct": true
+  },
+  "tau2-2_mid-general": {
+    "success": false,
+    "cost_usd": 0.228561,
+    "latency_ms": 46943.86171302176,
+    "tool_call_correct": false
+  },
+  "tau2-3_mid-general": {
+    "success": true,
+    "cost_usd": 0.254544,
+    "latency_ms": 45817.43364498834,
+    "tool_call_correct": true
+  },
+  "tau2-4_mid-general": {
+    "success": true,
+    "cost_usd": 0.296595,
+    "latency_ms": 49928.4491110011,
+    "tool_call_correct": true
+  },
+  "tau2-5_mid-general": {
+    "success": true,
+    "cost_usd": 0.358815,
+    "latency_ms": 75300.74788699858,
+    "tool_call_correct": true
+  },
+  "tau2-6_mid-general": {
+    "success": true,
+    "cost_usd": 0.302223,
+    "latency_ms": 62818.84331800393,
+    "tool_call_correct": true
+  },
+  "tau2-7_mid-general": {
+    "success": true,
+    "cost_usd": 0.298632,
+    "latency_ms": 70969.38200699515,
+    "tool_call_correct": true
+  },
+  "tau2-8_mid-general": {
+    "success": true,
+    "cost_usd": 0.303738,
+    "latency_ms": 64000.67445100285,
+    "tool_call_correct": true
+  },
+  "tau2-9_mid-general": {
+    "success": true,
+    "cost_usd": 0.31023,
+    "latency_ms": 68767.9505069973,
+    "tool_call_correct": true
+  },
+  "tau2-10_mid-general": {
+    "success": true,
+    "cost_usd": 0.183018,
+    "latency_ms": 41086.22657100205,
+    "tool_call_correct": true
+  },
+  "tau2-11_mid-general": {
+    "success": true,
+    "cost_usd": 0.238164,
+    "latency_ms": 54532.62722000363,
+    "tool_call_correct": true
+  },
+  "tau2-12_mid-general": {
+    "success": true,
+    "cost_usd": 0.187389,
+    "latency_ms": 44910.06756699062,
+    "tool_call_correct": true
+  },
+  "tau2-13_mid-general": {
+    "success": true,
+    "cost_usd": 0.191112,
+    "latency_ms": 49927.97217599582,
+    "tool_call_correct": true
+  },
+  "tau2-14_mid-general": {
+    "success": true,
+    "cost_usd": 0.216174,
+    "latency_ms": 59187.29124599486,
+    "tool_call_correct": true
+  },
+  "tau2-15_mid-general": {
+    "success": true,
+    "cost_usd": 0.313317,
+    "latency_ms": 65080.13319800375,
+    "tool_call_correct": true
+  },
+  "tau2-16_mid-general": {
+    "success": true,
+    "cost_usd": 0.291474,
+    "latency_ms": 61087.94134602067,
+    "tool_call_correct": true
+  },
+  "tau2-17_mid-general": {
+    "success": true,
+    "cost_usd": 0.133788,
+    "latency_ms": 26377.33508698875,
+    "tool_call_correct": true
+  },
+  "tau2-18_mid-general": {
+    "success": true,
+    "cost_usd": 0.317673,
+    "latency_ms": 57516.20595398708,
+    "tool_call_correct": true
+  },
+  "tau2-19_mid-general": {
+    "success": true,
+    "cost_usd": 0.251232,
+    "latency_ms": 56069.33534599375,
+    "tool_call_correct": true
+  },
+  "tau2-20_mid-general": {
+    "success": true,
+    "cost_usd": 0.305583,
+    "latency_ms": 58332.3330610001,
+    "tool_call_correct": true
+  },
+  "tau2-21_mid-general": {
+    "success": true,
+    "cost_usd": 0.366831,
+    "latency_ms": 69050.05975300446,
+    "tool_call_correct": true
+  },
+  "tau2-22_mid-general": {
+    "success": true,
+    "cost_usd": 0.293883,
+    "latency_ms": 59059.75791098899,
+    "tool_call_correct": true
+  },
+  "tau2-23_mid-general": {
+    "success": true,
+    "cost_usd": 0.6498120000000001,
+    "latency_ms": 98062.19667100233,
+    "tool_call_correct": true
+  },
+  "tau2-24_mid-general": {
+    "success": true,
+    "cost_usd": 0.152286,
+    "latency_ms": 39376.67647699709,
+    "tool_call_correct": true
+  },
+  "tau2-25_mid-general": {
+    "success": true,
+    "cost_usd": 0.200814,
+    "latency_ms": 41642.00270999572,
+    "tool_call_correct": true
+  },
+  "tau2-26_mid-general": {
+    "success": true,
+    "cost_usd": 0.15624,
+    "latency_ms": 33531.212227011565,
+    "tool_call_correct": true
+  },
+  "tau2-27_mid-general": {
+    "success": true,
+    "cost_usd": 0.224058,
+    "latency_ms": 48289.104292023694,
+    "tool_call_correct": true
+  },
+  "tau2-28_mid-general": {
+    "success": true,
+    "cost_usd": 0.371466,
+    "latency_ms": 62712.2430879972,
+    "tool_call_correct": true
+  },
+  "tau2-29_mid-general": {
+    "success": true,
+    "cost_usd": 0.290943,
+    "latency_ms": 64252.26972598466,
+    "tool_call_correct": true
+  },
+  "tau2-30_mid-general": {
+    "success": true,
+    "cost_usd": 0.575049,
+    "latency_ms": 86500.2897529921,
+    "tool_call_correct": true
+  },
+  "tau2-31_mid-general": {
+    "success": true,
+    "cost_usd": 0.393225,
+    "latency_ms": 66921.35642000358,
+    "tool_call_correct": true
+  },
+  "tau2-32_mid-general": {
+    "success": true,
+    "cost_usd": 0.4714919999999999,
+    "latency_ms": 77069.87434299663,
+    "tool_call_correct": true
+  },
+  "tau2-33_mid-general": {
+    "success": true,
+    "cost_usd": 0.17619,
+    "latency_ms": 40922.10662498837,
+    "tool_call_correct": true
+  },
+  "tau2-34_mid-general": {
+    "success": false,
+    "cost_usd": 0.148863,
+    "latency_ms": 42958.33967899671,
+    "tool_call_correct": false
+  },
+  "tau2-35_mid-general": {
+    "success": true,
+    "cost_usd": 0.320208,
+    "latency_ms": 78825.48360500368,
+    "tool_call_correct": true
+  },
+  "tau2-36_mid-general": {
+    "success": false,
+    "cost_usd": 0.293301,
+    "latency_ms": 66606.18588401121,
+    "tool_call_correct": false
+  },
+  "tau2-37_mid-general": {
+    "success": false,
+    "cost_usd": 0.24465,
+    "latency_ms": 51546.51958600152,
+    "tool_call_correct": false
+  },
+  "tau2-38_mid-general": {
+    "success": false,
+    "cost_usd": 0.242706,
+    "latency_ms": 46231.53077199822,
+    "tool_call_correct": false
+  },
+  "tau2-39_mid-general": {
+    "success": true,
+    "cost_usd": 0.260583,
+    "latency_ms": 67791.6078660055,
+    "tool_call_correct": true
+  },
+  "tau2-40_mid-general": {
+    "success": true,
+    "cost_usd": 0.2130929999999999,
+    "latency_ms": 49495.95601999317,
+    "tool_call_correct": true
+  },
+  "tau2-41_strong-frontier": {
+    "success": true,
+    "cost_usd": 0.5680050000000001,
+    "latency_ms": 60288.23003399884,
+    "tool_call_correct": true
+  },
+  "tau2-42_mid-general": {
+    "success": true,
+    "cost_usd": 0.390408,
+    "latency_ms": 64680.8154140017,
+    "tool_call_correct": true
+  },
+  "tau2-43_mid-general": {
+    "success": true,
+    "cost_usd": 0.250359,
+    "latency_ms": 74906.3495839946,
+    "tool_call_correct": true
+  },
+  "tau2-44_mid-general": {
+    "success": true,
+    "cost_usd": 0.2087219999999999,
+    "latency_ms": 44372.84851801815,
+    "tool_call_correct": true
+  },
+  "tau2-45_mid-general": {
+    "success": true,
+    "cost_usd": 0.241281,
+    "latency_ms": 57900.2709040069,
+    "tool_call_correct": true
+  },
+  "tau2-46_mid-general": {
+    "success": true,
+    "cost_usd": 0.219126,
+    "latency_ms": 50650.6575270032,
+    "tool_call_correct": true
+  },
+  "tau2-47_mid-general": {
+    "success": true,
+    "cost_usd": 0.296529,
+    "latency_ms": 61073.27377799084,
+    "tool_call_correct": true
+  },
+  "tau2-48_mid-general": {
+    "success": true,
+    "cost_usd": 0.210696,
+    "latency_ms": 43558.88415101799,
+    "tool_call_correct": true
+  },
+  "tau2-49_mid-general": {
+    "success": true,
+    "cost_usd": 0.221334,
+    "latency_ms": 44803.134802990826,
+    "tool_call_correct": true
+  },
+  "tau2-50_mid-general": {
+    "success": true,
+    "cost_usd": 0.0950429999999999,
+    "latency_ms": 30552.2918550123,
+    "tool_call_correct": true
+  },
+  "tau2-51_mid-general": {
+    "success": true,
+    "cost_usd": 0.2234249999999999,
+    "latency_ms": 40604.36371798278,
+    "tool_call_correct": true
+  },
+  "tau2-52_mid-general": {
+    "success": true,
+    "cost_usd": 0.241824,
+    "latency_ms": 52584.7829169943,
+    "tool_call_correct": true
+  },
+  "tau2-53_mid-general": {
+    "success": true,
+    "cost_usd": 0.204549,
+    "latency_ms": 43899.33591100271,
+    "tool_call_correct": true
+  },
+  "tau2-54_mid-general": {
+    "success": false,
+    "cost_usd": 0.299244,
+    "latency_ms": 64463.37191297789,
+    "tool_call_correct": false
+  },
+  "tau2-55_mid-general": {
+    "success": true,
+    "cost_usd": 0.257931,
+    "latency_ms": 68353.7804200023,
+    "tool_call_correct": true
+  },
+  "tau2-56_mid-general": {
+    "success": false,
+    "cost_usd": 0.223077,
+    "latency_ms": 39607.40258099395,
+    "tool_call_correct": false
+  },
+  "tau2-57_mid-general": {
+    "success": true,
+    "cost_usd": 0.1141079999999999,
+    "latency_ms": 31063.71213402599,
+    "tool_call_correct": true
+  },
+  "tau2-58_mid-general": {
+    "success": true,
+    "cost_usd": 0.345375,
+    "latency_ms": 66533.2756860007,
+    "tool_call_correct": true
+  },
+  "tau2-59_mid-general": {
+    "success": true,
+    "cost_usd": 0.186468,
+    "latency_ms": 56483.42479200801,
+    "tool_call_correct": true
+  },
+  "tau2-60_mid-general": {
+    "success": true,
+    "cost_usd": 0.137052,
+    "latency_ms": 34565.414056996815,
+    "tool_call_correct": true
+  },
+  "tau2-61_mid-general": {
+    "success": true,
+    "cost_usd": 0.155805,
+    "latency_ms": 36807.54495898145,
+    "tool_call_correct": true
+  },
+  "tau2-62_mid-general": {
+    "success": true,
+    "cost_usd": 0.3058049999999999,
+    "latency_ms": 67748.9838010224,
+    "tool_call_correct": true
+  },
+  "tau2-63_mid-general": {
+    "success": true,
+    "cost_usd": 0.284031,
+    "latency_ms": 68251.32377797854,
+    "tool_call_correct": true
+  },
+  "tau2-64_mid-general": {
+    "success": true,
+    "cost_usd": 0.207462,
+    "latency_ms": 47684.97766199289,
+    "tool_call_correct": true
+  },
+  "tau2-65_mid-general": {
+    "success": true,
+    "cost_usd": 0.134694,
+    "latency_ms": 30671.618319989648,
+    "tool_call_correct": true
+  },
+  "tau2-66_mid-general": {
+    "success": true,
+    "cost_usd": 0.259104,
+    "latency_ms": 53505.52140601212,
+    "tool_call_correct": true
+  },
+  "tau2-69_mid-general": {
+    "success": true,
+    "cost_usd": 0.1885679999999999,
+    "latency_ms": 43586.98237399221,
+    "tool_call_correct": true
+  },
+  "tau2-70_mid-general": {
+    "success": true,
+    "cost_usd": 0.264306,
+    "latency_ms": 46116.464288992574,
+    "tool_call_correct": true
+  },
+  "tau2-71_mid-general": {
+    "success": true,
+    "cost_usd": 0.3340979999999999,
+    "latency_ms": 77265.34862001427,
+    "tool_call_correct": true
+  },
+  "tau2-72_mid-general": {
+    "success": true,
+    "cost_usd": 0.331662,
+    "latency_ms": 71960.12972301105,
+    "tool_call_correct": true
+  },
+  "tau2-73_mid-general": {
+    "success": true,
+    "cost_usd": 0.140718,
+    "latency_ms": 28536.93691501394,
+    "tool_call_correct": true
+  },
+  "tau2-74_mid-general": {
+    "success": false,
+    "cost_usd": 0.289713,
+    "latency_ms": 65708.21994400467,
+    "tool_call_correct": false
+  },
+  "tau2-75_mid-general": {
+    "success": true,
+    "cost_usd": 0.195213,
+    "latency_ms": 39209.86659300979,
+    "tool_call_correct": true
+  },
+  "tau2-76_mid-general": {
+    "success": true,
+    "cost_usd": 0.33777,
+    "latency_ms": 73888.13998701517,
+    "tool_call_correct": true
+  },
+  "tau2-77_mid-general": {
+    "success": true,
+    "cost_usd": 0.1605059999999999,
+    "latency_ms": 31787.206868990324,
+    "tool_call_correct": true
+  },
+  "tau2-78_mid-general": {
+    "success": true,
+    "cost_usd": 0.3986370000000001,
+    "latency_ms": 77907.81898298883,
+    "tool_call_correct": true
+  },
+  "tau2-79_mid-general": {
+    "success": true,
+    "cost_usd": 0.258312,
+    "latency_ms": 52372.79248499544,
+    "tool_call_correct": true
+  },
+  "tau2-80_mid-general": {
+    "success": true,
+    "cost_usd": 0.229485,
+    "latency_ms": 75118.8237350143,
+    "tool_call_correct": true
+  },
+  "tau2-81_mid-general": {
+    "success": true,
+    "cost_usd": 0.2241089999999999,
+    "latency_ms": 60684.843129012734,
+    "tool_call_correct": true
+  },
+  "tau2-82_mid-general": {
+    "success": true,
+    "cost_usd": 0.247752,
+    "latency_ms": 59864.554212021176,
+    "tool_call_correct": true
+  },
+  "tau2-83_mid-general": {
+    "success": true,
+    "cost_usd": 0.20214,
+    "latency_ms": 43794.51041400898,
+    "tool_call_correct": true
+  },
+  "tau2-84_mid-general": {
+    "success": true,
+    "cost_usd": 0.226572,
+    "latency_ms": 48800.51871298929,
+    "tool_call_correct": true
+  },
+  "tau2-85_mid-general": {
+    "success": true,
+    "cost_usd": 0.23001,
+    "latency_ms": 41115.76952401083,
+    "tool_call_correct": true
+  },
+  "tau2-86_mid-general": {
+    "success": true,
+    "cost_usd": 0.371061,
+    "latency_ms": 67961.67651898577,
+    "tool_call_correct": true
+  },
+  "tau2-87_mid-general": {
+    "success": true,
+    "cost_usd": 0.283362,
+    "latency_ms": 48589.202212984674,
+    "tool_call_correct": true
+  },
+  "tau2-88_mid-general": {
+    "success": true,
+    "cost_usd": 0.242961,
+    "latency_ms": 47983.51500602439,
+    "tool_call_correct": true
+  },
+  "tau2-89_mid-general": {
+    "success": true,
+    "cost_usd": 0.293973,
+    "latency_ms": 51577.19182400615,
+    "tool_call_correct": true
+  },
+  "tau2-90_mid-general": {
+    "success": true,
+    "cost_usd": 0.231099,
+    "latency_ms": 40818.64594097715,
+    "tool_call_correct": true
+  },
+  "tau2-91_mid-general": {
+    "success": false,
+    "cost_usd": 0.2877959999999999,
+    "latency_ms": 66384.88570199115,
+    "tool_call_correct": false
+  },
+  "tau2-92_mid-general": {
+    "success": true,
+    "cost_usd": 0.202794,
+    "latency_ms": 46128.840210003546,
+    "tool_call_correct": true
+  },
+  "tau2-93_mid-general": {
+    "success": true,
+    "cost_usd": 0.254811,
+    "latency_ms": 44812.15555599192,
+    "tool_call_correct": true
+  },
+  "tau2-94_mid-general": {
+    "success": true,
+    "cost_usd": 0.219471,
+    "latency_ms": 45222.21243701642,
+    "tool_call_correct": true
+  },
+  "tau2-95_mid-general": {
+    "success": true,
+    "cost_usd": 0.289587,
+    "latency_ms": 59442.93946499238,
+    "tool_call_correct": true
+  },
+  "tau2-96_mid-general": {
+    "success": true,
+    "cost_usd": 0.26508,
+    "latency_ms": 59464.4612930133,
+    "tool_call_correct": true
+  },
+  "tau2-97_mid-general": {
+    "success": true,
+    "cost_usd": 0.242151,
+    "latency_ms": 47347.8681499837,
+    "tool_call_correct": true
+  },
+  "tau2-98_mid-general": {
+    "success": true,
+    "cost_usd": 0.291108,
+    "latency_ms": 80578.67270099814,
+    "tool_call_correct": true
+  },
+  "tau2-99_mid-general": {
+    "success": true,
+    "cost_usd": 0.282489,
+    "latency_ms": 68177.55139101064,
+    "tool_call_correct": true
+  }
+}
