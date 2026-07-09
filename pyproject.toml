@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "router-benchmark"
+version = "0.1.0"
+description = "A benchmarking harness and runner for semantic routers"
+authors = [{ name = "Kiran" }]
+dependencies = [
+    "pandas",
+    "vllm",
+    "litellm"
+]
+
+[tool.setuptools.packages.find]
+include = ["router_benchmark*"]
