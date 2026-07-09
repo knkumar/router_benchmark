@@ -9,7 +9,7 @@ from pathlib import Path
 
 random.seed(20260705)  # fixed seed for reproducibility
 
-SOURCE = "../output/live/paper1_live_v2/results.csv"
+SOURCE = "../data/live/paper1_live_v2/results.csv"
 N_BOOT = 10000
 
 

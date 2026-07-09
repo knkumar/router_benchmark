@@ -22,7 +22,7 @@ def group_key(benchmark_name):
 
 
 def main():
-    sweep_path = Path(__file__).parent / "../output/live/sweep_v1/sweep_results.csv"
+    sweep_path = Path(__file__).parent / "../data/live/sweep_v1/sweep_results.csv"
     with open(sweep_path) as f:
         sweep = list(csv.DictReader(f))
     strong_cost = {
@@ -30,7 +30,7 @@ def main():
         for r in sweep if r["candidate_tier"] == "strong-frontier"
     }
 
-    results_path = Path(__file__).parent / "../output/live/paper1_live_v2/results.csv"
+    results_path = Path(__file__).parent / "../data/live/paper1_live_v2/results.csv"
     with open(results_path) as f:
         results = list(csv.DictReader(f))
 

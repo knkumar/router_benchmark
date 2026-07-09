@@ -36,7 +36,7 @@ webarena-health:
 	echo "Timed out waiting for both sites to respond." && exit 1
 
 run-benchmark: setup-webarena
-	cd .. && router_benchmark/.venv/bin/python3 -m router_benchmark.live.run_live_phase7c
+	python3 -m router_benchmark.live.run_live_phase7c
 
 reproduce-tables:
 	cd analysis && python3 bootstrap_ci.py && python3 candidate_distribution.py && \

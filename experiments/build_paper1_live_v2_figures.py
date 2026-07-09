@@ -5,7 +5,7 @@ unchanged RouteLLM + vLLM Semantic Router rows -- mirrors how the original
 combined_rb_bfcl/ and phase7c/ each independently produced
 plots/pareto_frontier.png over only their own benchmark(s).
 
-    python -m router_benchmark.build_paper1_live_v2_figures
+    python experiments/build_paper1_live_v2_figures.py
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ from router_benchmark.plots import generate_all_plots
 FIXED_ROUTERS = {"LiteLLM Router (live)", "Aurelio Semantic Router (live)"}
 UNCHANGED_ROUTERS = {"RouteLLM (live)", "vLLM Semantic Router (live)"}
 
-LIVE_ROOT = Path(__file__).parent / "output" / "live"
+LIVE_ROOT = Path(__file__).resolve().parents[1] / "data" / "live"
 
 GROUPS = {
     "combined_rb_bfcl_v2": ("phase1_fix", ["phase2", "phase2b"], "RouterBench + BFCL v4, n=90 tasks / 180 trials"),

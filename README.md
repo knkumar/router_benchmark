@@ -10,7 +10,7 @@ It ships two interchangeable backends behind the same interface:
 
 - a **simulated backend** — offline, deterministic, zero credentials, for
   developing and testing the harness itself;
-- a **live backend** (`router_benchmark/live/`) — real, paid API calls and
+- a **live backend** (`src/router_benchmark/live/`) — real, paid API calls and
   real benchmark execution, which is what produces the paper's numbers.
 
 ---
@@ -45,15 +45,14 @@ No API keys, no network, no benchmark downloads required:
 git clone https://github.com/knkumar/router_benchmark.git
 cd router_benchmark
 python3 -m venv .venv && source .venv/bin/activate
-pip install pandas numpy matplotlib          # minimal deps for the simulated backend
-pip install -e .                             # installs the `router_benchmark` package
+pip install -e .                             # installs the `router_benchmark` package + core deps
 
 python -m router_benchmark.run               # runs the full simulated evaluation
 ```
 
 This evaluates all routers against all benchmarks and writes results, metrics,
-and plots under `router_benchmark/output/`. Because every result derives from a
-fixed seed, the run is fully reproducible.
+and plots under the repo-root `output/` (gitignored). Because every result
+derives from a fixed seed, the run is fully reproducible.
 
 ---
 
@@ -90,19 +89,20 @@ only the adapter bodies differ.
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
-pip install pandas numpy matplotlib
-pip install -e .
+pip install -e .          # core deps (pandas, numpy, matplotlib) via pyproject.toml
 ```
 
-Requires **Python 3.10+** (the codebase uses `X | None` type syntax).
+Requires **Python 3.10+** (the codebase uses `X | None` type syntax). The
+package uses a `src/` layout, so an editable install (`-e`) is the simplest way
+to make `import router_benchmark` resolve.
 
 ### Live backend (real API calls)
 
 In addition to the above:
 
-1. **Install the router/benchmark stacks** you intend to run:
+1. **Install the live extras** (real router/benchmark stacks):
    ```bash
-   pip install openai anthropic litellm semantic-router
+   pip install -e ".[live]"   # adds openai, anthropic, litellm, semantic-router
    ```
 2. **Export provider credentials:**
    ```bash
@@ -110,10 +110,10 @@ In addition to the above:
    export ANTHROPIC_API_KEY=sk-ant-...
    ```
 3. **Provision the inputs that are _not_ version-controlled** (see `.gitignore`):
-   - `router_benchmark/live/tau2env/`, `router_benchmark/live/tbench_vendor/` —
+   - `src/router_benchmark/live/tau2env/`, `src/router_benchmark/live/tbench_vendor/` —
      vendored upstream benchmark harnesses (tau2-bench, Terminal-Bench); clone
      the upstream projects into these paths.
-   - `router_benchmark/live/vllm_sr/models/` — embedding / intent-classifier
+   - `src/router_benchmark/live/vllm_sr/models/` — embedding / intent-classifier
      weights, downloaded at setup time.
    - The vLLM Semantic Router service (Envoy) and the WebArena Docker sites
      (see [Configuration](#configuration) and the `Makefile`).
@@ -164,7 +164,7 @@ Terminal-Bench 2.0.
 ### The candidate pool (shared model config)
 
 Both backends route among the **same three tiers**. The live pool is defined in
-one place — `router_benchmark/live/llm_client.py`:
+one place — `src/router_benchmark/live/llm_client.py`:
 
 ```python
 CANDIDATE_TIERS = {
@@ -246,7 +246,7 @@ selects which routers to include in its phase script (see below).
 
 ### The vLLM Semantic Router config file
 
-`router_benchmark/live/vllm_sr/config.yaml` configures the vLLM Semantic Router
+`src/router_benchmark/live/vllm_sr/config.yaml` configures the vLLM Semantic Router
 service that `VLLMSemanticRouterLive` calls. It declares:
 
 - **`providers.models`** — the same three tiers, each with `provider_model_id`,
@@ -273,7 +273,7 @@ listener on port `8899`) before running `VLLMSemanticRouterLive`.
 python -m router_benchmark.run
 ```
 
-Writes to `router_benchmark/output/` and prints the overall ranking + Pareto set:
+Writes to the repo-root `output/` (gitignored) and prints the overall ranking + Pareto set:
 
 | File | One row per |
 |---|---|
@@ -293,7 +293,7 @@ A **phase** is one script that fixes a set of routers × benchmarks and calls th
 shared driver `run_live_phase(...)`. For example:
 
 ```python
-# router_benchmark/live/run_live_phase10.py (excerpt)
+# src/router_benchmark/live/run_live_phase10.py (excerpt)
 routers    = [LiteLLMRouterLive(), AurelioSemanticRouterLive(), RouteLLMLive(),
               LLMRouterLive(), NVIDIABlueprintRouterLive(), VLLMSemanticRouterLive()]
 benchmarks = [Tau2BenchLive(n_tasks=100)]
@@ -307,7 +307,9 @@ python -m router_benchmark.live.run_live_phase10
 python -m router_benchmark.live.run_live_phase11 --fresh   # omit --fresh to resume
 ```
 
-Each phase writes `router_benchmark/output/live/<phase>/`:
+Each phase writes the repo-root `output/live/<phase>/` (gitignored runtime
+output; promote a phase into the tracked `data/live/` to make it a committed
+reproducibility artifact):
 
 - `manifest.json` — models, per-token pricing (+ as-of date), seeds, sample
   sizes, package versions.
@@ -374,21 +376,23 @@ across benchmarks, so choose by **operating point** (cost/quality) and
 
 ## Analysis & reproducing paper tables
 
-The small live-result CSVs under `router_benchmark/output/live/*/` are committed,
-so the analysis scripts run without any API calls:
+The small live-result CSVs under `data/live/*/` are committed, so the analysis
+scripts run without any API calls:
 
 ```bash
-cd router_benchmark/analysis
+cd analysis
 python3 bootstrap_ci.py          # 95% bootstrap CIs over tasks
 python3 oracle_and_cascade.py    # oracle upper bound & cascade analysis
 python3 rank_consistency_4bench.py
 # … see the analysis/ directory for the full suite
 ```
 
-Or end to end (also rebuilds the paper PDF if the LaTeX sources are present):
+The paper table/figure builders live in `experiments/` (e.g.
+`python experiments/build_paper1_live_v2_tau2fix.py`). Or run the whole chain
+end to end (also rebuilds the paper PDF if the LaTeX sources are present):
 
 ```bash
-cd router_benchmark && make reproduce-tables
+make reproduce-tables
 ```
 
 ---
@@ -441,29 +445,35 @@ all the `live/` directory is.
 
 ## Repository layout
 
+Standard `src/` layout — the Python package is isolated from scripts, data, and
+generated output:
+
 ```
-router_benchmark/                 # repo root
-├── pyproject.toml                # installable `router-benchmark` package
-├── README.md                     # this guide (the single source of docs)
-└── router_benchmark/             # the package
-    ├── interfaces.py             # Router/Benchmark/Task/RouteDecision/TaskResult contract
-    ├── harness.py                # EvaluationHarness.evaluate(routers, benchmarks)
-    ├── metrics.py                # the deployment metric suite
-    ├── routers.py                # simulated router adapters + baselines (RouterProfile)
-    ├── benchmarks.py             # simulated benchmark adapters
-    ├── plots.py                  # figure generation
-    ├── run.py                    # `python -m router_benchmark.run`
-    ├── build_paper1_*.py         # paper table/figure builders
-    ├── live/                     # LIVE backend: real API calls & benchmark execution
-    │   ├── llm_client.py         #   candidate pool + pricing (central model config)
-    │   ├── run_common.py         #   per-phase driver (manifest, tracing, resume)
-    │   ├── *_live.py             #   live router & benchmark adapters
-    │   ├── vllm_sr/config.yaml   #   vLLM Semantic Router policy
-    │   └── run_live_phaseN.py    #   phase entry points
-    ├── analysis/                 # bootstrap CIs, oracle/cascade, rank consistency, …
-    └── output/                   # results; output/live/*/ CSVs reproduce the paper
+router_benchmark/                     # repo root
+├── pyproject.toml                    # installable `router-benchmark` (src layout)
+├── README.md                         # this guide (the single source of docs)
+├── Makefile                          # webarena setup + reproduce-tables targets
+├── src/router_benchmark/             # THE PACKAGE (library code only)
+│   ├── interfaces.py                 #   Router/Benchmark/Task/RouteDecision/TaskResult contract
+│   ├── harness.py                    #   EvaluationHarness.evaluate(routers, benchmarks)
+│   ├── metrics.py                    #   the deployment metric suite
+│   ├── routers.py                    #   simulated router adapters + baselines (RouterProfile)
+│   ├── benchmarks.py                 #   simulated benchmark adapters
+│   ├── plots.py                      #   figure generation
+│   ├── run.py                        #   `python -m router_benchmark.run`
+│   └── live/                         #   LIVE backend: real API calls & benchmark execution
+│       ├── llm_client.py             #     candidate pool + pricing (central model config)
+│       ├── run_common.py             #     per-phase driver (manifest, tracing, resume)
+│       ├── *_live.py                 #     live router & benchmark adapters
+│       ├── vllm_sr/config.yaml       #     vLLM Semantic Router policy
+│       └── run_live_phaseN.py        #     phase entry points
+├── experiments/                      # one-off paper table/figure build scripts
+├── analysis/                         # bootstrap CIs, oracle/cascade, rank consistency, …
+├── tests/                            # adapter-validation tests
+├── data/live/*/                      # COMMITTED reproducibility CSVs (analysis inputs)
+└── output/                           # GENERATED runtime artifacts (gitignored)
 ```
 
 Not version-controlled (provisioned locally; see `.gitignore`): `.venv/`, the
-vendored benchmark repos under `live/`, downloaded model weights, `traces.jsonl`,
-and generated `*.png` plots.
+vendored benchmark repos under `src/router_benchmark/live/`, downloaded model
+weights, the runtime `output/` tree, `traces.jsonl`, and generated `*.png` plots.

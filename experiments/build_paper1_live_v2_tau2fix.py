@@ -26,7 +26,7 @@ WebArena was scaled from n=16 (original pilot) to n=100 in phase9 (all
 paper routers (non-zero costs, realistic 60-125s per-task browser
 latencies for all four).
 
-    python -m router_benchmark.build_paper1_live_v2_tau2fix
+    python experiments/build_paper1_live_v2_tau2fix.py
 """
 
 from __future__ import annotations
@@ -51,7 +51,7 @@ PAPER_ROUTERS = {
 FIXED_ROUTERS = {"LiteLLM Router (live)", "Aurelio Semantic Router (live)"}
 UNCHANGED_ROUTERS = {"RouteLLM (live)", "vLLM Semantic Router (live)"}
 
-LIVE_ROOT = Path(__file__).parent / "output" / "live"
+LIVE_ROOT = Path(__file__).resolve().parents[1] / "data" / "live"
 OUT_DIR = LIVE_ROOT / "paper1_live_v2"
 
 

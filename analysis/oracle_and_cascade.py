@@ -21,7 +21,7 @@ TIER_ORDER = ["cheap-small", "mid-general", "strong-frontier"]
 
 
 def main():
-    src = Path(__file__).parent / "../output/live/sweep_v1/sweep_results.csv"
+    src = Path(__file__).parent / "../data/live/sweep_v1/sweep_results.csv"
     with open(src) as f:
         rows = list(csv.DictReader(f))
 
