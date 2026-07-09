@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local tooling / editor state
+.DS_Store
+.remember/
+.serena/
+.vllm-sr/
+.agent/
+.idea/
+.vscode/
+
+# Vendored third-party benchmark repos (clone separately; see README)
+router_benchmark/live/tau2env/
+router_benchmark/live/tbench_vendor/
+
+# Downloaded model weights (multi-GB; fetched at setup time)
+router_benchmark/live/vllm_sr/models/
+
+# Live run environments / scratch (regenerated per run)
+router_benchmark/live/swebench_env/
+router_benchmark/live/tbench_env/
+router_benchmark/live/webarena_env/
+
+# Large / regenerable outputs
+**/traces.jsonl
+**/plots/
+*.png
+*.log
+*.cast
+*.pane
+*.diff
+*_backup/
+
+# Big simulated-backend dump (regenerate with `python -m router_benchmark.run`)
+router_benchmark/output/results.csv
+router_benchmark/output/paper1_sim/
