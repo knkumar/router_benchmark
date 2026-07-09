@@ -3,7 +3,7 @@
 the stale phase7c_v2 (n=16) figure that paper1_webarena_pareto_frontier.png
 was generated from before the WebArena scale-up.
 
-    python -m router_benchmark.build_webarena100_figure
+    python experiments/build_webarena100_figure.py
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ PAPER_ROUTERS = {
     "Aurelio Semantic Router (live)",
 }
 
-LIVE_ROOT = Path(__file__).parent / "output" / "live"
+LIVE_ROOT = Path(__file__).resolve().parents[1] / "data" / "live"
 OUT_DIR = LIVE_ROOT / "phase9_v1"
 
 

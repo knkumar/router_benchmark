@@ -5,13 +5,25 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "router-benchmark"
 version = "0.1.0"
-description = "A benchmarking harness and runner for semantic routers"
+description = "A benchmarking harness and runner for agentic-routing routers"
 authors = [{ name = "Kiran" }]
+requires-python = ">=3.10"
+# Core deps run the simulated (offline) backend end to end.
 dependencies = [
     "pandas",
-    "vllm",
-    "litellm"
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+# Live backend: real API calls into the upstream router projects.
+live = [
+    "openai",
+    "anthropic",
+    "litellm",
+    "semantic-router",
 ]
 
 [tool.setuptools.packages.find]
+where = ["src"]
 include = ["router_benchmark*"]

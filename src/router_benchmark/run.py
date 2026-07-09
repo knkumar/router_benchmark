@@ -18,7 +18,10 @@ from router_benchmark.metrics import (
 from router_benchmark.plots import generate_all_plots
 from router_benchmark.routers import build_all_routers
 
-OUTPUT_DIR = Path(__file__).parent / "output"
+# Write generated artifacts to the repo-root output/ (gitignored), never
+# into the installed package. __file__ = <root>/src/router_benchmark/run.py,
+# so parents[2] is the repo root.
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / "output"
 PLOTS_DIR = OUTPUT_DIR / "plots"
 
 

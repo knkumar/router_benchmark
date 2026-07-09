@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Bootstrap 95% CIs for the Phase B Task 7 tau2-bench expansion (n=25 tasks,
-phase3_expanded/results.csv), same method as bootstrap_ci.py Task 1."""
+"""Bootstrap 95% CIs for the Phase B Task 7 WebArena expansion (n=25 tasks,
+phase7_expanded/results.csv), same method as bootstrap_ci.py Task 1."""
 import csv
 import random
 from pathlib import Path
 
 random.seed(20260705)
 N_BOOT = 10000
-SRC = Path(__file__).parent / "../output/live/phase3_expanded/results.csv"
+
+SRC = Path(__file__).parent / "../data/live/phase7_expanded/results.csv"
 
 
 def success_rate(rows):
@@ -24,7 +25,11 @@ def cost_per_success(rows):
     return total_cost / len(successes) if successes else float("inf")
 
 
-METRICS = {"success_rate": success_rate, "cost_per_task": cost_per_task, "cost_per_success": cost_per_success}
+METRICS = {
+    "success_rate": success_rate,
+    "cost_per_task": cost_per_task,
+    "cost_per_success": cost_per_success,
+}
 
 
 def bootstrap_ci(rows, metric_fn, n_boot=N_BOOT):
@@ -43,7 +48,7 @@ def main():
     for r in rows:
         by_router.setdefault(r["router_name"], []).append(r)
 
-    out_path = Path(__file__).parent / "output" / "tau2_25_ci.csv"
+    out_path = Path(__file__).parent / "output" / "webarena25_ci.csv"
     with open(out_path, "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["router", "metric", "point_estimate", "ci_low", "ci_high", "n_tasks"])

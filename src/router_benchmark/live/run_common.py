@@ -1,7 +1,7 @@
 """Shared live-run driver: reproducibility plumbing used by every phase
 script (run_live.py = Phase 1, run_live_phase2.py = Phase 2, ...).
 
-For each phase, writes to router_benchmark/output/live/<phase>/:
+For each phase, writes to <repo-root>/output/live/<phase>/:
     manifest.json     - full run config: models, pricing, seeds, sample
                          sizes, package versions, routers/benchmarks used
     traces.jsonl       - every real LLM API call: full request + full
@@ -32,7 +32,11 @@ from router_benchmark.metrics import (
 )
 from router_benchmark.plots import generate_all_plots
 
-LIVE_OUTPUT_ROOT = Path(__file__).parent.parent / "output" / "live"
+# Live phases write generated artifacts to the repo-root output/live/
+# (gitignored), never into the installed package. __file__ =
+# <root>/src/router_benchmark/live/run_common.py, so parents[3] is the root.
+# Committed reproducibility CSVs live separately under <root>/data/live/.
+LIVE_OUTPUT_ROOT = Path(__file__).resolve().parents[3] / "output" / "live"
 
 
 def _pkg_version(name: str) -> str:

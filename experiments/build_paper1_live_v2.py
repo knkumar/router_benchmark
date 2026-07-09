@@ -9,7 +9,7 @@ phase3_fix, phase7c_fix) with the unchanged RouteLLM + vLLM Semantic Router
 rows (phase2, phase2b, phase3, phase7c filtered to those two routers only
 -- no bug was found in either adapter).
 
-    python -m router_benchmark.build_paper1_live_v2
+    python experiments/build_paper1_live_v2.py
 """
 
 from __future__ import annotations
@@ -28,7 +28,7 @@ from router_benchmark.plots import generate_all_plots
 FIXED_ROUTERS = {"LiteLLM Router (live)", "Aurelio Semantic Router (live)"}
 UNCHANGED_ROUTERS = {"RouteLLM (live)", "vLLM Semantic Router (live)"}
 
-LIVE_ROOT = Path(__file__).parent / "output" / "live"
+LIVE_ROOT = Path(__file__).resolve().parents[1] / "data" / "live"
 OUT_DIR = LIVE_ROOT / "paper1_live_v2"
 
 # (fixed-adapter source phase, unchanged-adapter source phase(s))

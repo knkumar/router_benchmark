@@ -7,7 +7,7 @@ outputs -- combined_rb_bfcl/ (RouterBench+BFCL, all 6 routers, filter to
 regenerate figures. No new experiments: every row here is real data
 already collected for the main 6x6 paper.
 
-    python -m router_benchmark.build_paper1_live
+    python experiments/build_paper1_live.py
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ ROUTERS = {
     "vLLM Semantic Router (live)",
 }
 
-LIVE_ROOT = Path(__file__).parent / "output" / "live"
+LIVE_ROOT = Path(__file__).resolve().parents[1] / "data" / "live"
 OUT_DIR = LIVE_ROOT / "paper1_live"
 
 

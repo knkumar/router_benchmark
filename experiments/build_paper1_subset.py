@@ -5,7 +5,7 @@ baselines since they anchor the Pareto frontier), recompute metrics, and
 regenerate figures -- no re-simulation needed since the underlying
 per-task rows are unchanged, just filtered.
 
-    python -m router_benchmark.build_paper1_subset
+    python experiments/build_paper1_subset.py
 """
 
 from __future__ import annotations
@@ -34,11 +34,11 @@ ROUTERS = {
 }
 BENCHMARKS = {"RouterBench", "BFCL v4", "tau2-bench", "WebArena"}
 
-OUT_DIR = Path(__file__).parent / "output" / "paper1_sim"
+OUT_DIR = Path(__file__).resolve().parents[1] / "output" / "paper1_sim"
 
 
 def main() -> None:
-    results_df = pd.read_csv(Path(__file__).parent / "output" / "results.csv")
+    results_df = pd.read_csv(Path(__file__).resolve().parents[1] / "output" / "results.csv")
     subset = results_df[
         results_df["router_name"].isin(ROUTERS) & results_df["benchmark_name"].isin(BENCHMARKS)
     ].copy()

@@ -19,7 +19,7 @@ def group_key(benchmark_name):
 
 
 def main():
-    src = Path(__file__).parent / "../output/live/paper1_live_v2/results.csv"
+    src = Path(__file__).parent / "../data/live/paper1_live_v2/results.csv"
     with open(src) as f:
         rows = list(csv.DictReader(f))
 

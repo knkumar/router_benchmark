@@ -28,7 +28,7 @@ def main():
     with open(oracle_path) as f:
         oracle = {(r["benchmark_name"], r["task_id"]): r for r in csv.DictReader(f)}
 
-    results_path = Path(__file__).parent / "../output/live/paper1_live_v2/results.csv"
+    results_path = Path(__file__).parent / "../data/live/paper1_live_v2/results.csv"
     with open(results_path) as f:
         results = list(csv.DictReader(f))
 
