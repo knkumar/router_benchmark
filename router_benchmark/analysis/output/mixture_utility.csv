@@ -1,0 +1,21 @@
+router,mixture,expected_success_rate,expected_cost_per_task
+Aurelio Semantic Router (live),100pct_RouterBench,0.6833,0.000300
+Aurelio Semantic Router (live),50_25_25_RB_BFCL_tau2,0.7733,0.065650
+Aurelio Semantic Router (live),uniform,0.6375,0.082500
+Aurelio Semantic Router (live),WebArena_heavy,0.3390,0.073620
+Aurelio Semantic Router (live),cost_constrained,0.6904,0.001076
+LiteLLM Router (live),100pct_RouterBench,0.3000,0.000000
+LiteLLM Router (live),50_25_25_RB_BFCL_tau2,0.5475,0.001300
+LiteLLM Router (live),uniform,0.4975,0.001850
+LiteLLM Router (live),WebArena_heavy,0.2590,0.002060
+LiteLLM Router (live),cost_constrained,0.3415,0.000022
+RouteLLM (live),100pct_RouterBench,0.3000,0.000000
+RouteLLM (live),50_25_25_RB_BFCL_tau2,0.5325,0.001300
+RouteLLM (live),uniform,0.4825,0.001925
+RouteLLM (live),WebArena_heavy,0.2530,0.002270
+RouteLLM (live),cost_constrained,0.3380,0.000023
+vLLM Semantic Router (live),100pct_RouterBench,0.6917,0.000200
+vLLM Semantic Router (live),50_25_25_RB_BFCL_tau2,0.7709,0.058500
+vLLM Semantic Router (live),uniform,0.6329,0.065775
+vLLM Semantic Router (live),WebArena_heavy,0.3372,0.043890
+vLLM Semantic Router (live),cost_constrained,0.7004,0.000728

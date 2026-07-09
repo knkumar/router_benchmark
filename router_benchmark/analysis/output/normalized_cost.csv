@@ -1,0 +1,21 @@
+router,benchmark_group,mean_cost_ratio_to_strong_frontier,n_tasks
+Aurelio Semantic Router (live),BFCL,0.6195,60
+Aurelio Semantic Router (live),RouterBench,0.0894,120
+Aurelio Semantic Router (live),WebArena,0.6236,19
+Aurelio Semantic Router (live),tau2-bench,0.5046,25
+LLMRouter (live),WebArena,0.2155,19
+LLMRouter (live),tau2-bench,0.0030,25
+LiteLLM Router (live),BFCL,0.0149,60
+LiteLLM Router (live),RouterBench,0.0172,120
+LiteLLM Router (live),WebArena,0.0405,19
+LiteLLM Router (live),tau2-bench,0.0094,25
+NVIDIA AI Blueprint LLM Router (live),WebArena,0.6711,19
+NVIDIA AI Blueprint LLM Router (live),tau2-bench,0.7875,25
+RouteLLM (live),BFCL,0.0150,60
+RouteLLM (live),RouterBench,0.0172,120
+RouteLLM (live),WebArena,0.0507,19
+RouteLLM (live),tau2-bench,0.0096,25
+vLLM Semantic Router (live),BFCL,0.4865,60
+vLLM Semantic Router (live),RouterBench,0.0839,120
+vLLM Semantic Router (live),WebArena,0.4321,19
+vLLM Semantic Router (live),tau2-bench,0.5534,25

@@ -1,0 +1,141 @@
+benchmark_name,task_id,realistic_cascade_success,realistic_cascade_cost,tiers_tried
+BFCL v4 (live),bfcl-0000-simple_java_51,False,0.000101,cheap-small
+BFCL v4 (live),bfcl-0001-simple_python_119,True,0.000115,cheap-small
+BFCL v4 (live),bfcl-0002-simple_python_7,True,0.000071,cheap-small
+BFCL v4 (live),bfcl-0003-simple_python_92,True,0.000088,cheap-small
+BFCL v4 (live),bfcl-0004-simple_python_35,True,0.000090,cheap-small
+BFCL v4 (live),bfcl-0005-simple_python_85,True,0.000092,cheap-small
+BFCL v4 (live),bfcl-0006-simple_python_100,True,0.000073,cheap-small
+BFCL v4 (live),bfcl-0007-simple_python_363,True,0.000090,cheap-small
+BFCL v4 (live),bfcl-0008-simple_python_242,False,0.000074,cheap-small
+BFCL v4 (live),bfcl-0009-simple_python_17,True,0.000066,cheap-small
+BFCL v4 (live),bfcl-0010-simple_python_31,True,0.000084,cheap-small
+BFCL v4 (live),bfcl-0011-simple_python_16,False,0.000083,cheap-small
+BFCL v4 (live),bfcl-0012-simple_python_354,True,0.000084,cheap-small
+BFCL v4 (live),bfcl-0013-simple_java_95,True,0.000111,cheap-small
+BFCL v4 (live),bfcl-0014-simple_java_74,True,0.000091,cheap-small
+BFCL v4 (live),bfcl-0015-simple_python_152,True,0.000091,cheap-small
+BFCL v4 (live),bfcl-0016-simple_python_93,True,0.000088,cheap-small
+BFCL v4 (live),bfcl-0017-simple_python_187,True,0.000081,cheap-small
+BFCL v4 (live),bfcl-0018-simple_python_117,True,0.000087,cheap-small
+BFCL v4 (live),bfcl-0019-simple_python_14,False,0.000075,cheap-small
+BFCL v4 (live),bfcl-0020-simple_javascript_15,True,0.000102,cheap-small
+BFCL v4 (live),bfcl-0021-simple_java_98,True,0.000082,cheap-small
+BFCL v4 (live),bfcl-0022-simple_python_255,True,0.000087,cheap-small
+BFCL v4 (live),bfcl-0023-simple_python_66,True,0.000080,cheap-small
+BFCL v4 (live),bfcl-0024-simple_java_77,True,0.000132,cheap-small
+BFCL v4 (live),bfcl-0025-simple_python_70,True,0.000086,cheap-small
+BFCL v4 (live),bfcl-0026-simple_python_91,True,0.000079,cheap-small
+BFCL v4 (live),bfcl-0027-simple_javascript_27,True,0.000088,cheap-small
+BFCL v4 (live),bfcl-0028-simple_python_47,True,0.000075,cheap-small
+BFCL v4 (live),bfcl-0029-simple_python_276,True,0.000078,cheap-small
+RouterBench (live),routerbench-0000,True,0.000024,cheap-small
+RouterBench (live),routerbench-0001,False,0.000094,cheap-small
+RouterBench (live),routerbench-0002,True,0.000051,cheap-small
+RouterBench (live),routerbench-0003,True,0.000026,cheap-small
+RouterBench (live),routerbench-0004,False,0.000098,cheap-small
+RouterBench (live),routerbench-0005,False,0.000023,cheap-small
+RouterBench (live),routerbench-0006,False,0.000029,cheap-small
+RouterBench (live),routerbench-0007,False,0.000078,cheap-small
+RouterBench (live),routerbench-0008,False,0.000064,cheap-small
+RouterBench (live),routerbench-0009,False,0.000047,cheap-small
+RouterBench (live),routerbench-0010,False,0.000047,cheap-small
+RouterBench (live),routerbench-0011,False,0.000022,cheap-small
+RouterBench (live),routerbench-0012,True,0.000019,cheap-small
+RouterBench (live),routerbench-0013,False,0.000032,cheap-small
+RouterBench (live),routerbench-0014,True,0.000017,cheap-small
+RouterBench (live),routerbench-0015,False,0.000017,cheap-small
+RouterBench (live),routerbench-0016,True,0.000081,cheap-small
+RouterBench (live),routerbench-0017,False,0.000014,cheap-small
+RouterBench (live),routerbench-0018,True,0.000079,cheap-small
+RouterBench (live),routerbench-0019,False,0.000015,cheap-small
+RouterBench (live),routerbench-0020,False,0.000017,cheap-small
+RouterBench (live),routerbench-0021,True,0.000089,cheap-small
+RouterBench (live),routerbench-0022,False,0.000045,cheap-small
+RouterBench (live),routerbench-0023,True,0.000029,cheap-small
+RouterBench (live),routerbench-0024,False,0.000091,cheap-small
+RouterBench (live),routerbench-0025,False,0.000020,cheap-small
+RouterBench (live),routerbench-0026,False,0.000046,cheap-small
+RouterBench (live),routerbench-0027,False,0.000036,cheap-small
+RouterBench (live),routerbench-0028,True,0.000020,cheap-small
+RouterBench (live),routerbench-0029,False,0.000064,cheap-small
+RouterBench (live),routerbench-0030,False,0.000016,cheap-small
+RouterBench (live),routerbench-0031,True,0.000094,cheap-small
+RouterBench (live),routerbench-0032,True,0.000016,cheap-small
+RouterBench (live),routerbench-0033,False,0.000021,cheap-small
+RouterBench (live),routerbench-0034,True,0.000019,cheap-small
+RouterBench (live),routerbench-0035,False,0.000028,cheap-small
+RouterBench (live),routerbench-0036,False,0.000048,cheap-small
+RouterBench (live),routerbench-0037,True,0.000023,cheap-small
+RouterBench (live),routerbench-0038,False,0.000047,cheap-small
+RouterBench (live),routerbench-0039,False,0.000093,cheap-small
+RouterBench (live),routerbench-0040,False,0.000056,cheap-small
+RouterBench (live),routerbench-0041,False,0.000018,cheap-small
+RouterBench (live),routerbench-0042,False,0.000035,cheap-small
+RouterBench (live),routerbench-0043,False,0.000086,cheap-small
+RouterBench (live),routerbench-0044,False,0.000020,cheap-small
+RouterBench (live),routerbench-0045,False,0.000098,cheap-small
+RouterBench (live),routerbench-0046,False,0.000090,cheap-small
+RouterBench (live),routerbench-0047,False,0.000020,cheap-small
+RouterBench (live),routerbench-0048,False,0.000020,cheap-small
+RouterBench (live),routerbench-0049,True,0.000015,cheap-small
+RouterBench (live),routerbench-0050,True,0.000060,cheap-small
+RouterBench (live),routerbench-0051,False,0.000020,cheap-small
+RouterBench (live),routerbench-0052,False,0.000061,cheap-small
+RouterBench (live),routerbench-0053,False,0.000073,cheap-small
+RouterBench (live),routerbench-0054,True,0.000015,cheap-small
+RouterBench (live),routerbench-0055,False,0.000028,cheap-small
+RouterBench (live),routerbench-0056,False,0.000020,cheap-small
+RouterBench (live),routerbench-0057,False,0.000022,cheap-small
+RouterBench (live),routerbench-0058,True,0.000076,cheap-small
+RouterBench (live),routerbench-0059,False,0.000073,cheap-small
+WebArena (live),webarena-102,False,0.001795,cheap-small
+WebArena (live),webarena-103,False,0.006835,cheap-small
+WebArena (live),webarena-104,False,0.015065,cheap-small
+WebArena (live),webarena-105,False,0.010375,cheap-small
+WebArena (live),webarena-106,False,0.002389,cheap-small
+WebArena (live),webarena-117,False,0.000626,cheap-small
+WebArena (live),webarena-118,False,0.002038,cheap-small
+WebArena (live),webarena-124,False,0.002108,cheap-small
+WebArena (live),webarena-125,False,0.001223,cheap-small
+WebArena (live),webarena-126,False,0.001212,cheap-small
+WebArena (live),webarena-21,False,0.000867,cheap-small
+WebArena (live),webarena-22,True,0.001692,cheap-small
+WebArena (live),webarena-23,False,0.000856,cheap-small
+WebArena (live),webarena-24,True,0.000784,cheap-small
+WebArena (live),webarena-25,False,0.002319,cheap-small
+WebArena (live),webarena-26,False,0.002781,cheap-small
+WebArena (live),webarena-44,True,0.000908,cheap-small
+WebArena (live),webarena-45,False,0.003619,cheap-small
+WebArena (live),webarena-46,False,0.002376,cheap-small
+WebArena (live),webarena-47,False,0.000633,cheap-small
+WebArena (live),webarena-48,False,0.001373,cheap-small
+WebArena (live),webarena-49,False,0.000633,cheap-small
+WebArena (live),webarena-50,False,0.000633,cheap-small
+WebArena (live),webarena-51,False,0.001144,cheap-small
+WebArena (live),webarena-96,False,0.000626,cheap-small
+tau2-bench (live),tau2-0,True,0.005481,cheap-small
+tau2-bench (live),tau2-1,True,0.004466,cheap-small
+tau2-bench (live),tau2-10,True,0.003897,cheap-small
+tau2-bench (live),tau2-11,True,0.003976,cheap-small
+tau2-bench (live),tau2-12,True,0.004101,cheap-small
+tau2-bench (live),tau2-13,True,0.004303,cheap-small
+tau2-bench (live),tau2-14,True,0.003788,cheap-small
+tau2-bench (live),tau2-15,True,0.004841,cheap-small
+tau2-bench (live),tau2-16,True,0.005195,cheap-small
+tau2-bench (live),tau2-17,True,0.001959,cheap-small
+tau2-bench (live),tau2-18,True,0.005410,cheap-small
+tau2-bench (live),tau2-19,True,0.005919,cheap-small
+tau2-bench (live),tau2-2,False,0.005686,cheap-small
+tau2-bench (live),tau2-20,True,0.009243,cheap-small
+tau2-bench (live),tau2-21,True,0.006045,cheap-small
+tau2-bench (live),tau2-22,False,0.004653,cheap-small
+tau2-bench (live),tau2-23,True,0.007372,cheap-small
+tau2-bench (live),tau2-24,True,0.006630,cheap-small
+tau2-bench (live),tau2-3,True,0.004942,cheap-small
+tau2-bench (live),tau2-4,False,0.004303,cheap-small
+tau2-bench (live),tau2-5,True,0.007408,cheap-small
+tau2-bench (live),tau2-6,True,0.005513,cheap-small
+tau2-bench (live),tau2-7,True,0.007172,cheap-small
+tau2-bench (live),tau2-8,True,0.007467,cheap-small
+tau2-bench (live),tau2-9,True,0.004968,cheap-small

@@ -1,0 +1,17 @@
+router,benchmark_group,pct_cheap_small,pct_mid_general,pct_strong_frontier,mean_confidence,fallback_rate,n_tasks
+Aurelio Semantic Router (live),BFCL,0.000,1.000,0.000,0.000,1.000,60
+Aurelio Semantic Router (live),RouterBench,0.000,1.000,0.000,0.127,0.650,120
+Aurelio Semantic Router (live),WebArena,0.000,1.000,0.000,0.000,1.000,100
+Aurelio Semantic Router (live),tau2-bench,0.020,0.970,0.010,0.010,0.970,100
+LiteLLM Router (live),BFCL,1.000,0.000,0.000,1.000,0.000,60
+LiteLLM Router (live),RouterBench,1.000,0.000,0.000,1.000,0.000,120
+LiteLLM Router (live),WebArena,1.000,0.000,0.000,1.000,0.000,100
+LiteLLM Router (live),tau2-bench,1.000,0.000,0.000,1.000,0.000,100
+RouteLLM (live),BFCL,1.000,0.000,0.000,0.782,0.000,60
+RouteLLM (live),RouterBench,1.000,0.000,0.000,0.775,0.000,120
+RouteLLM (live),WebArena,1.000,0.000,0.000,0.782,0.000,100
+RouteLLM (live),tau2-bench,1.000,0.000,0.000,0.781,0.000,100
+vLLM Semantic Router (live),BFCL,0.217,0.783,0.000,0.700,0.000,60
+vLLM Semantic Router (live),RouterBench,0.075,0.925,0.000,0.700,0.000,120
+vLLM Semantic Router (live),WebArena,0.660,0.180,0.160,0.700,0.000,100
+vLLM Semantic Router (live),tau2-bench,0.360,0.440,0.200,0.700,0.000,100
