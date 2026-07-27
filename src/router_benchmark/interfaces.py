@@ -105,6 +105,10 @@ class Benchmark(ABC):
     """Adapter interface every benchmark must implement."""
 
     name: str
+    # True when score() is deterministic and safe to evaluate once per
+    # (task, candidate, fallback) for all router comparisons. Live benchmarks
+    # that make real model calls must set this False.
+    reusable_score: bool = True
 
     @abstractmethod
     def generate_tasks(self, rng: Any) -> list[Task]:

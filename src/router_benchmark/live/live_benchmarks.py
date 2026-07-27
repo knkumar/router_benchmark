@@ -26,6 +26,8 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
+from collections.abc import Sequence
 
 import pandas as pd
 from huggingface_hub import hf_hub_download
@@ -33,6 +35,7 @@ from huggingface_hub import hf_hub_download
 from router_benchmark.interfaces import Benchmark, RouteDecision, Task, TaskDomain
 from router_benchmark.live.live_routers import LIVE_CANDIDATES
 from router_benchmark.live.llm_client import CANDIDATE_TIERS, LiveLLMClient
+from router_benchmark.live.frozen_task_selection import normalize_frozen_task_ids, select_frozen_records
 
 _ROUTERBENCH_TIER_MODEL = {
     "cheap-small": "mistralai/mistral-7b-chat",
@@ -44,9 +47,10 @@ _ROUTERBENCH_TIER_MODEL = {
 class RouterBenchLive(Benchmark):
     name = "RouterBench (live)"
 
-    def __init__(self, n_tasks: int = 60, seed: int = 1234):
+    def __init__(self, n_tasks: int = 60, seed: int = 1234, *, task_ids: Sequence[str] | None = None):
         self.n_tasks = n_tasks
         self.seed = seed
+        self._frozen_task_ids = normalize_frozen_task_ids(task_ids, benchmark=self.name)
         self._df = None
 
     def _load(self) -> pd.DataFrame:
@@ -59,15 +63,27 @@ class RouterBenchLive(Benchmark):
 
     def generate_tasks(self, rng) -> list[Task]:
         df = self._load()
-        sample = df.sample(n=self.n_tasks, random_state=self.seed)
+        if self._frozen_task_ids is None:
+            sample = df.sample(n=self.n_tasks, random_state=self.seed)
+            selected = [(f"routerbench-{i:04d}", (idx, row)) for i, (idx, row) in enumerate(sample.iterrows())]
+        else:
+            positions = []
+            for task_id in self._frozen_task_ids:
+                match = re.fullmatch(r"routerbench-(\d{4})", task_id)
+                if match is None:
+                    raise ValueError(f"{self.name} has invalid frozen task ID: {task_id}")
+                positions.append(int(match.group(1)))
+            sample = df.sample(n=max(positions) + 1, random_state=self.seed)
+            records = {f"routerbench-{i:04d}": (idx, row) for i, (idx, row) in enumerate(sample.iterrows())}
+            selected = select_frozen_records(records, self._frozen_task_ids, benchmark=self.name)
         tier_models = list(_ROUTERBENCH_TIER_MODEL.values())
         tasks = []
-        for i, (idx, row) in enumerate(sample.iterrows()):
+        for task_id, (idx, row) in selected:
             avg_score = float(sum(row[m] for m in tier_models) / len(tier_models))
             difficulty = float(1.0 - avg_score)
             tasks.append(
                 Task(
-                    task_id=f"routerbench-{i:04d}",
+                    task_id=task_id,
                     benchmark_name=self.name,
                     domain=TaskDomain.QA_REASONING,
                     difficulty=difficulty,
@@ -94,13 +110,15 @@ class RouterBenchLive(Benchmark):
 
 class BFCLLive(Benchmark):
     name = "BFCL v4 (live)"
+    reusable_score = False
 
     _CATEGORY_FILES = ["BFCL_v4_simple_python.json", "BFCL_v4_simple_java.json", "BFCL_v4_simple_javascript.json"]
 
-    def __init__(self, n_tasks: int = 30, seed: int = 1234):
+    def __init__(self, n_tasks: int = 30, seed: int = 1234, *, task_ids: Sequence[str] | None = None):
         self.n_tasks = n_tasks
         self.seed = seed
-        self._client = LiveLLMClient()
+        self._frozen_task_ids = normalize_frozen_task_ids(task_ids, benchmark=self.name)
+        self._client: LiveLLMClient | None = None
         self._data_dir = None
 
     def _find_data_dir(self) -> str:
@@ -181,17 +199,29 @@ class BFCLLive(Benchmark):
 
     def generate_tasks(self, rng) -> list[Task]:
         items = self._load_raw()
-        rnd = random.Random(self.seed)
-        sample = rnd.sample(items, min(self.n_tasks, len(items)))
+        if self._frozen_task_ids is None:
+            rnd = random.Random(self.seed)
+            selected = [
+                (f"bfcl-{i:04d}-{item['question']['id']}", item)
+                for i, item in enumerate(rnd.sample(items, min(self.n_tasks, len(items))))
+            ]
+        else:
+            # The frozen IDs include the historical sample position and the
+            # upstream BFCL question ID, so both are checked before a call.
+            records = {
+                f"bfcl-{i:04d}-{item['question']['id']}": item
+                for i, item in enumerate(random.Random(self.seed).sample(items, min(self.n_tasks, len(items))))
+            }
+            selected = select_frozen_records(records, self._frozen_task_ids, benchmark=self.name)
         tasks = []
-        for i, item in enumerate(sample):
+        for task_id, item in selected:
             fn = item["question"]["function"][0]
             n_required = len(fn.get("parameters", {}).get("required", []))
             difficulty = min(1.0, 0.2 + 0.2 * n_required)
             user_msg = item["question"]["question"][0][0]["content"]
             tasks.append(
                 Task(
-                    task_id=f"bfcl-{i:04d}-{item['question']['id']}",
+                    task_id=task_id,
                     benchmark_name=self.name,
                     domain=TaskDomain.TOOL_USE,
                     difficulty=difficulty,
@@ -210,6 +240,8 @@ class BFCLLive(Benchmark):
         model = CANDIDATE_TIERS[decision.selected_candidate]
         tool_schema = task.metadata["tool_schema"]
         try:
+            if self._client is None:
+                self._client = LiveLLMClient()
             result = self._client.call(
                 model=model,
                 system="You must answer by calling the provided function with the correct arguments. Do not respond in plain text.",

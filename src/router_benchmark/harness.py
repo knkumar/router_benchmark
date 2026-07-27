@@ -27,7 +27,7 @@ from typing import Callable
 import numpy as np
 import pandas as pd
 
-from router_benchmark.interfaces import Benchmark, Router, TaskResult
+from router_benchmark.interfaces import Benchmark, RouteDecision, Router, TaskResult
 
 
 def _seed_from(*parts: str) -> int:
@@ -77,6 +77,33 @@ class EvaluationHarness:
             task_gen_rng = np.random.default_rng(_seed_from("tasks", str(self.seed), benchmark.name))
             tasks = benchmark.generate_tasks(task_gen_rng)
 
+            outcome_matrix = {}
+            if benchmark.reusable_score:
+                # Deterministic benchmarks can score each candidate once per
+                # task and fallback state. Router comparisons then share the
+                # same benchmark outcome.
+                for task in tasks:
+                    for candidate in task.candidates:
+                        for fallback_used in (False, True):
+                            outcome_rng = np.random.default_rng(
+                                _seed_from(
+                                    benchmark.name,
+                                    str(task.task_id),
+                                    candidate.name,
+                                    str(fallback_used),
+                                )
+                            )
+                            outcome_matrix[(task.task_id, candidate.name, fallback_used)] = benchmark.score(
+                                task,
+                                RouteDecision(
+                                    selected_candidate=candidate.name,
+                                    confidence=1.0,
+                                    fallback_used=fallback_used,
+                                    metadata={},
+                                ),
+                                outcome_rng,
+                            )
+
             for router in routers:
                 for trial in range(self.n_trials):
                     trial_seed = _seed_from(router.name, benchmark.name, str(trial), str(self.seed))
@@ -94,7 +121,28 @@ class EvaluationHarness:
                         # real API calls it makes for reproducibility.
                         decision.metadata["router_name"] = router.name
                         decision.metadata["trial"] = trial
-                        outcome = benchmark.score(task, decision, rng)
+                        if benchmark.reusable_score:
+                            outcome_key = (task.task_id, decision.selected_candidate, decision.fallback_used)
+                            try:
+                                outcome = outcome_matrix[outcome_key]
+                            except KeyError as error:
+                                raise ValueError(
+                                    f"{router.name} selected undeclared candidate "
+                                    f"{decision.selected_candidate!r} for task {task.task_id!r}"
+                                ) from error
+                        else:
+                            score_rng = np.random.default_rng(
+                                _seed_from(
+                                    "score",
+                                    router.name,
+                                    benchmark.name,
+                                    str(task.task_id),
+                                    str(trial),
+                                    decision.selected_candidate,
+                                    str(decision.fallback_used),
+                                )
+                            )
+                            outcome = benchmark.score(task, decision, score_rng)
 
                         result = TaskResult(
                             router_name=router.name,

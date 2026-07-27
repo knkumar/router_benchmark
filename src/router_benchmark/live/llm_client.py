@@ -58,8 +58,20 @@ class LiveLLMClient:
     """Thin wrapper making real calls, used by every live router adapter."""
 
     def __init__(self):
-        self._openai = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-        self._anthropic = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        self._openai_client = None
+        self._anthropic_client = None
+
+    @property
+    def _openai(self):
+        if self._openai_client is None:
+            self._openai_client = openai.OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+        return self._openai_client
+
+    @property
+    def _anthropic(self):
+        if self._anthropic_client is None:
+            self._anthropic_client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+        return self._anthropic_client
 
     def call(
         self,
