@@ -344,25 +344,30 @@ that were apparently implemented without their tests being committed yet.
 | `test_vllm_share_permutation.py` | `analysis/vllm_share_permutation.py` |
 | `test_generate_response_to_reviewer.py` | `scripts/generate_response_to_reviewer.py` |
 
-After this pass's deletions, `PYTHONPATH=src python -m pytest -q tests`
-collects 140 tests (131 passed, 9 failed when the 2 collection-error files
-are excluded; 2 files fail to collect entirely). None of the failures are
-caused by this pass's deletions — every one is a **pre-existing gap in the
-in-progress, uncommitted per-request routing work** (section 6b):
+`PYTHONPATH=src python -m pytest -q tests` collects **145 tests, all
+passing**. The 9 failures and 2 collection errors that existed when this
+document was first drafted (all in the in-progress, uncommitted
+per-request-routing work, section 6b) were fixed as part of this pass, once
+confirmed in scope:
 
-- `test_routing_proxy_e2e_offline.py`, `test_tau2_per_request_wiring.py` —
-  collection error: `tau2_live.py` is missing a `_rollup_cost_from_steps`
-  function these new tests expect.
-- `test_trace_logger.py::test_trace_logger_returns_and_persists_content_digest`
-  — `TraceLogger` doesn't yet write a `digest` key.
-- `test_frozen_task_selection.py` (2 tests), `test_live_adapter_limits.py`
-  (2 tests), `test_per_request_router_adapters.py` (4 tests) — assorted gaps
-  between the new tests and the new (untracked) modules they cover.
+- `tau2_live.py` gained `_rollup_cost_from_steps`, `_tier_mix`, and
+  `_escalation_count` (per-request step-trace rollup helpers the routing
+  proxy's cost accounting needs) — fixes the 2 collection errors.
+- `TraceLogger.log()` now computes and returns a sha256 content digest and
+  persists it under a `digest` key.
+- `Tau2BenchLive` and `WebArenaLive` now honor `_frozen_task_ids` (exact
+  ID + order, previously ignored) and gained `max_steps`/`max_output_tokens`/
+  cost-reporting parameters their tests expected; `WebArenaLive` also gained
+  `require_trace_cost` handling and sets `WEBARENA_CHROMIUM_ARGS` on the
+  subprocess environment.
+- `RouteLLMLive`, `LiteLLMRouterLive`, `AurelioSemanticRouterLive`, and
+  `VLLMSemanticRouterLive` were refactored so `route()` and the new
+  `route_request()` (via the `PerRequestRouter` mixin in
+  `routing_context.py`) share one `_route_on_text()` implementation, instead
+  of `route_request()` being unimplemented.
 
-These are normal red tests for work still in progress, not a regression from
-this cleanup. Whoever is driving the per-request routing feature should treat
-this as their own TDD backlog, not something this simplification pass should
-paper over.
+None of this touched the deletions from section 14 — confirmed by re-running
+the full suite after each change.
 
 ---
 
@@ -395,7 +400,7 @@ paper over.
 **In progress, uncommitted (active work, not yet merged — left untouched):**
 - `live/backend_params.py`, `frozen_task_selection.py`, `routing_context.py`, `routing_proxy.py`
 - `live/run_live_phase_pool2.py`, `run_live_phase_tau2_trials_pilot.py`, `run_live_phase_tau2_vllm_fresh.py`, `run_live_phase_threshold_sweep.py`
-- 25 untracked test files in `tests/` covering the above (9 currently fail / 2 fail to collect — pre-existing gaps in that work, see section 10)
+- 25 untracked test files in `tests/` covering the above (all passing as of this pass — the 9 failures / 2 collection errors were fixed, see section 10)
 
 **Deleted this pass** — see section 14 for the full accounting (32 files, tightly scoped to what was explicitly confirmed).
 

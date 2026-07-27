@@ -27,11 +27,12 @@ from __future__ import annotations
 import requests
 
 from router_benchmark.interfaces import RouteDecision, Router, Task
+from router_benchmark.live.routing_context import PerRequestRouter
 
 ENVOY_URL = "http://localhost:8909/v1/chat/completions"
 
 
-class VLLMSemanticRouterLive(Router):
+class VLLMSemanticRouterLive(PerRequestRouter, Router):
     name = "vLLM Semantic Router (live)"
 
     def __init__(self, envoy_url: str = ENVOY_URL, timeout_s: float = 30.0):
@@ -40,14 +41,17 @@ class VLLMSemanticRouterLive(Router):
 
     def route(self, task: Task, context: dict, rng) -> RouteDecision:
         prompt = task.metadata.get("prompt", "") or task.metadata.get("user_msg", "")
-        if not prompt.strip():
+        return self._route_on_text(prompt, rng)
+
+    def _route_on_text(self, text: str, rng) -> RouteDecision:
+        if not text.strip():
             return RouteDecision(selected_candidate="mid-general", confidence=0.0, fallback_used=True)
 
         resp = requests.post(
             self.envoy_url,
             json={
                 "model": "MoM",
-                "messages": [{"role": "user", "content": prompt}],
+                "messages": [{"role": "user", "content": text}],
                 "max_completion_tokens": 16,
             },
             timeout=self.timeout_s,
