@@ -1,5 +1,0 @@
-router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
-LiteLLM Router (live),tau2-bench (live),2,1,1.0,0.0046156750000000005,0.0046156750000000005,44121.296480007004,52234.593851308455,1.0,0.0,1.0,1.0,,,1.0,
-RouteLLM (live),tau2-bench (live),2,1,1.0,0.004377745000000001,0.004377745000000001,40111.73380400578,40865.75047669903,1.0,0.0,1.0,0.7818902838798529,,,1.0,
-vLLM Semantic Router (live),tau2-bench (live),2,1,1.0,0.0035156249999999997,0.0035156249999999997,30247.036594999372,33991.47614239773,1.0,0.0,1.0,0.7,,,1.0,
-Aurelio Semantic Router (live),tau2-bench (live),2,1,0.5,0.223074,0.446148,51316.255239500606,52931.74833965386,0.5,1.0,1.0,0.0,,,0.5,

@@ -1,3 +1,0 @@
-router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
-LLMRouter (live),BFCL v4 (live),30,2,0.8333333333333334,0.00019839916666666667,0.000238079,779.6891949838027,1189.025968423811,0.8333333333333334,0.0,1.0,0.6000000000000001,,0.8695652173913043,0.7142857142857143,0.10979918962524027
-LLMRouter (live),RouterBench (live),60,2,0.3,4.597000000000001e-05,0.00015323333333333336,,,,0.0,1.0,0.5999999999999999,1.0,0.20588235294117646,0.11764705882352941,0.4859621071134796

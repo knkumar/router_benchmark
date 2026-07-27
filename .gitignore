@@ -38,7 +38,8 @@ src/router_benchmark/live/webarena_env/
 *.diff
 *_backup/
 
-# Generated runtime output (repo-root; regenerate with `python -m router_benchmark.run`
-# or the live phase runners). Committed reproducibility CSVs live under data/, not here.
+# Generated runtime output (regenerate with `python -m router_benchmark.run`
+# or the live phase runners; no longer committed).
 /output/
+/data/
 repo_context.md

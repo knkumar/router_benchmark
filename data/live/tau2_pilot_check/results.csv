@@ -1,9 +1,0 @@
-router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
-LiteLLM Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.005136470000000001,53136.071337008616
-LiteLLM Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,1.0,False,True,True,True,0.00409488,35106.52162300539
-Aurelio Semantic Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,mid-general,0.0,True,False,True,False,0.23838,53111.24757300422
-Aurelio Semantic Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,mid-general,0.0,True,True,True,True,0.207768,49521.26290599699
-RouteLLM (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,0.7818631963481352,False,True,True,True,0.0046495,39273.93750101328
-RouteLLM (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,0.7819173714115706,False,True,True,True,0.00410599,40949.53010699828
-vLLM Semantic Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,0.7,False,True,True,True,0.0032025400000000002,26086.548209001194
-vLLM Semantic Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,0.7,False,True,True,True,0.0038287099999999995,34407.52498099755

@@ -35,7 +35,6 @@ from router_benchmark.plots import generate_all_plots
 # Live phases write generated artifacts to the repo-root output/live/
 # (gitignored), never into the installed package. __file__ =
 # <root>/src/router_benchmark/live/run_common.py, so parents[3] is the root.
-# Committed reproducibility CSVs live separately under <root>/data/live/.
 LIVE_OUTPUT_ROOT = Path(__file__).resolve().parents[3] / "output" / "live"
 
 
