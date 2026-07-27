@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Bootstrap 95% CIs over tasks for each router x benchmark-group x metric.
-Reads paper1_live_v3/results.csv (the full merge); writes bootstrap_ci.csv.
+Reads paper1_live_v2/results.csv (the full merge); writes bootstrap_ci.csv.
 No new experiment data is generated -- this only resamples existing rows.
 """
 import csv
@@ -9,7 +9,7 @@ from pathlib import Path
 
 random.seed(20260705)  # fixed seed for reproducibility
 
-SOURCE = "../output/results.csv"
+SOURCE = "../data/live/paper1_live_v2/results.csv"
 N_BOOT = 10000
 
 
@@ -27,7 +27,7 @@ def group_key(benchmark_name):
         return "tau2-bench"
     if "WebArena" in benchmark_name:
         return "WebArena"
-    return benchmark_name
+    raise ValueError(benchmark_name)
 
 
 def success_rate(rows):
