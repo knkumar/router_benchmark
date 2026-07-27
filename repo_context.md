@@ -7,7 +7,7 @@ onboarding and benchmark-running workflow actually is, which files that
 workflow touches, and which files are historical, in-progress, or dead
 weight.
 
-**This pass deleted 37 files**, scoped tightly to what was explicitly
+**This first pass deleted 37 files**, scoped tightly to what was explicitly
 confirmed before touching anything: the superseded `run_live_phaseN.py`
 scripts (all but `run_live_phase7c.py`, 28 files — already committed on this
 branch, see `git log`), two confirmed dead-code items
@@ -19,6 +19,12 @@ historical — the `build_paper1_live*` script family, the other ~33
 explicitly **kept in place**, not deleted: it's provenance for a published
 paper, and only the narrowly-scoped set above was confirmed for removal.
 Section 14 records the exact accounting.
+
+**A second pass, in a later session, deleted 17 more files** with the same
+"confirmed, zero-references, recoverable via git log" standard: the
+`build_paper1_live*`/`webarena_repair*` families and 4 more dead analysis
+modules. See section 15 — it also explains why this document itself was
+recovered from a discarded git commit before that second pass could happen.
 
 **Process note:** an earlier pass by a research subagent (spawned only to
 *survey* `analysis/`) exceeded its mandate and staged deletion of ~194 files,
@@ -93,7 +99,7 @@ All required by the onboarding path above; every one is imported by
 | `analysis.yaml` | Analysis-stage parameters (bootstrap draws, paired-comparison config). | Yes — `ANALYSIS_PROTOCOL`, used by `rebuild-analysis`. |
 | `paper1_dry_run.yaml` | Small diagnostic-scope contract used to sanity check the pipeline before spending on the full run. | Yes — `DRY_RUN_PROTOCOL`. |
 | `cost_spec.yaml` | Pricing/cost schema validated by `protocol_tools.py`. | Indirectly — read by `tests/test_paper1_protocol.py` and by protocol validation, not a Makefile variable itself. |
-| `paper1_rebuild_webarena_repair_v2.yaml` | A **replacement** contract used once to re-execute a broken WebArena stage and merge repaired routes back in (see `scripts/prepare_webarena_repair_*`, `merge_webarena_repair_routes.py`). | Not referenced by any Makefile variable or default — it's a point-in-time repair artifact, not part of the standing pipeline. Historical. |
+| ~~`paper1_rebuild_webarena_repair_v2.yaml`~~ | Was a **replacement** contract used once to re-execute a broken WebArena stage and merge repaired routes back in (paired with the `scripts/prepare_webarena_repair_*` / `merge_webarena_repair_routes.py` family). | **Deleted in the second cleanup pass** (section 15) — zero references anywhere, paired scripts deleted alongside it. |
 
 ---
 
@@ -139,21 +145,20 @@ All of these are load-bearing for the **current** documented live workflow
 | `regret_to_oracle.py` | Per-router regret vs. the oracle upper bound. | `analysis/output/regret_to_oracle.csv` |
 | `rank_consistency_3suite.py` / `rank_consistency_4bench.py` | Cross-benchmark rank consistency, RouterBench+BFCL combined vs. kept separate. | `rank_consistency_3suite.csv` / `_4bench.csv` |
 | `failure_taxonomy.py` | Failure taxonomy mined from existing per-task exception patterns (no `error_type` column exists, so this infers one). | `analysis/output/failure_taxonomy.csv` |
-| `action_space_grouped.py` | Binary cheap/strong action-space view for RouteLLM and LiteLLM (fairness reanalysis). | no committed CSV found |
-| `cascade_operating_metrics.py` | Operating metrics for the idealized cascade from a locked bundle's exhaustive matrix. | no committed CSV found |
-| `expected_utility.py` | Cost/latency-aware expected utility per policy. | no committed CSV found |
-| `phase1_narrative_metrics.py` | Narrative metrics from a locked bundle, reproducing older per-lineage script formulas. | no committed CSV found |
-| `phase2_metric_suite.py` | Deployment metric suite + candidate-pool ablation from locked bundles. | no committed CSV found |
-| `pre_webarena_provisional.py` | Provisional summary of the non-WebArena candidate matrix, deliberately kept apart from canonical analysis. | no committed CSV found |
-| `threshold_sweep_route_analysis.py` | Route-level reanalysis of the threshold sweep (paper Table 14). | no committed CSV found |
+| `cascade_operating_metrics.py` | Operating metrics for the idealized cascade from a locked bundle's exhaustive matrix. | No committed CSV, but **not dead**: `cascade_operating_metrics.csv` is in `generate_paper1_canonical_tables.py`'s `REQUIRED_ANALYSIS_FILES` (section 15) — required by `make reproduce-tables` but no Makefile target currently produces it. Pre-existing pipeline gap, left unfixed (out of scope — needs a maintainer decision on wiring, not a reorg guess). |
+| `expected_utility.py` | Cost/latency-aware expected utility per policy. | Same situation as `cascade_operating_metrics.py` — required by `generate_paper1_canonical_tables.py`, unwired in the Makefile. |
+| `phase2_metric_suite.py` | Deployment metric suite + candidate-pool ablation from locked bundles. | Same situation — produces `canonical_metric_suite.csv` and `pool_ablation_comparison.csv`, both required by the table generator, both unwired. Also needs `--widegap-bundle`/`--narrowgap-bundle` ablation bundles the Makefile has no variable for. |
+| ~~`action_space_grouped.py`~~ | Was: binary cheap/strong action-space view for RouteLLM and LiteLLM (fairness reanalysis). | **Deleted in the second cleanup pass** (section 15) — no committed CSV, not in `REQUIRED_ANALYSIS_FILES`, no test, no Makefile wiring. |
+| ~~`phase1_narrative_metrics.py`~~ | Was: narrative metrics from a locked bundle, reproducing older per-lineage script formulas. | **Deleted this pass** — same reasoning. |
+| ~~`pre_webarena_provisional.py`~~ | Was: provisional summary of the non-WebArena candidate matrix, deliberately kept apart from canonical analysis. | **Deleted this pass** — same reasoning. |
+| ~~`threshold_sweep_route_analysis.py`~~ | Was: route-level reanalysis of the threshold sweep (paper Table 14). | **Deleted this pass** — same reasoning. |
 | `__init__.py` | Package marker. | — |
-| ~~`test_adapter_validation.py`~~ | Was byte-identical to `tests/test_adapter_validation.py` but sitting inside the installable `analysis/` package, never collected by pytest (`testpaths = ["tests"]`), shipping dead weight inside the installed package. | **Deleted this pass** — the real copy lives in `tests/` |
+| ~~`test_adapter_validation.py`~~ | Was byte-identical to `tests/test_adapter_validation.py` but sitting inside the installable `analysis/` package, never collected by pytest (`testpaths = ["tests"]`), shipping dead weight inside the installed package. | **Deleted** — the real copy lives in `tests/` |
 
-The five modules with "no committed CSV found" are reachable analysis
-utilities that are not wired to any Makefile target and have no matching file
-under `analysis/output/`. They look like one-off reviewer-response scripts
-run manually and never promoted to a tracked output — worth confirming with
-whoever ran them before treating as dead code.
+`cascade_operating_metrics.py`, `expected_utility.py`, and `phase2_metric_suite.py`
+looked like the same kind of orphan as the four now-deleted modules above, but
+turned out to be load-bearing for `make reproduce-tables` once checked against
+`generate_paper1_canonical_tables.py`'s required-file list — see section 15.
 
 ---
 
@@ -231,29 +236,30 @@ The four **in-progress, uncommitted** Phase B phase scripts were kept as-is
 | `generate_paper1_canonical_tables.py` | Builds the paper's tables from the canonical bundle + analysis outputs. | Yes — `reproduce-tables` |
 | `_paths.py` | Shared repo-root path resolution helper. | Imported by other scripts, not a target itself |
 | `__init__.py` | Package marker. | — |
-| `generate_paper1_rebuild_protocol.py` | Freezes historical Paper 1 task IDs into the rebuild protocol, without reading any historical outcome value. | No — one-time protocol-authoring tool, already run to produce `protocol/paper1_rebuild.yaml`. Its `SOURCE` path (`output/live/paper1_live_v3/results.csv`) no longer exists anywhere (see section 8), so it is not rerunnable, but it was already a "ran once" tool, not a repeatable pipeline step. Kept — out of scope for this pass. |
-| `build_paper1_live.py` | Original assembly of Paper 1's live-evaluation scope from early phase outputs. | No — historical, kept as provenance (out of scope for this pass) |
-| `build_paper1_live_v2.py` | Rebuild after fixing two adapter bugs (LiteLLM Router never called the real `litellm.Router` it constructed). | No — historical, kept |
-| `build_paper1_live_v2_figures.py` | Builds the two benchmark-group Pareto figures for `paper1.tex`. | No — historical, kept |
-| `build_paper1_live_v2_tau2fix.py` | Second correction pass on v2 after scaling tau2-bench from n=8 to n=100. | No — historical, kept |
-| `build_paper1_live_v3.py` | The canonical post-cache-audit Paper 1 package build, superseding v1/v2/v2_figures/v2_tau2fix. Its output was never committed (section 8), so it is not currently rerunnable end-to-end. | No — historical, kept |
-| `build_paper1_subset.py` | Filters the *simulated* study down to Paper 1's scope. | No — historical, kept |
-| `build_webarena100_figure.py` | Rebuilds the WebArena-only Pareto figure from `phase9` (n=100), replacing a stale `phase7c_v2` figure. | No — historical, kept |
+| ~~`generate_paper1_rebuild_protocol.py`~~ | Was: freezes historical Paper 1 task IDs into the rebuild protocol. Already run once to produce `protocol/paper1_rebuild.yaml`; its `SOURCE` path no longer existed anywhere, so it was not rerunnable. | **Deleted in the second cleanup pass** (section 15) — zero references, non-rerunnable one-time tool. |
+| ~~`build_paper1_live.py`~~ | Was: original assembly of Paper 1's live-evaluation scope from early phase outputs. | **Deleted this pass** — see section 15. |
+| ~~`build_paper1_live_v2.py`~~ | Was: rebuild after fixing two adapter bugs (LiteLLM Router never called the real `litellm.Router` it constructed). | **Deleted this pass** |
+| ~~`build_paper1_live_v2_figures.py`~~ | Was: builds the two benchmark-group Pareto figures for `paper1.tex`. | **Deleted this pass** |
+| ~~`build_paper1_live_v2_tau2fix.py`~~ | Was: second correction pass on v2 after scaling tau2-bench from n=8 to n=100. | **Deleted this pass** |
+| ~~`build_paper1_live_v3.py`~~ | Was: the canonical post-cache-audit Paper 1 package build, superseding v1/v2/v2_figures/v2_tau2fix. Output was never committed (section 8), so it was not rerunnable end-to-end. | **Deleted this pass** |
+| ~~`build_paper1_subset.py`~~ | Was: filters the *simulated* study down to Paper 1's scope. | **Deleted this pass** |
+| ~~`build_webarena100_figure.py`~~ | Was: rebuilds the WebArena-only Pareto figure from `phase9` (n=100), replacing a stale `phase7c_v2` figure. | **Deleted this pass** |
 | `apply_webarena_browser_repair.py` | Applies/verifies a local WebArena browser-host repair. | No — operational, one-time environment fix. Kept: this is part of the *current* protocol pipeline's WebArena repair path, not the deleted phase-script era. |
-| `prepare_webarena_repair_protocol.py` | Creates the replacement protocol for a repaired WebArena execution. | No — historical, paired with `paper1_rebuild_webarena_repair_v2.yaml` |
-| `prepare_webarena_repair_stage.py` | Seeds a replacement full stage with the validated non-WebArena rows. | No — historical |
-| `prepare_webarena_route_stage.py` | Extracts a WebArena-only candidate view for route replay. | No — historical |
-| `merge_webarena_repair_routes.py` | Merges retained routes with the replacement WebArena route rows. | No — historical |
-| `generate_response_to_reviewer.py` | Generates the reviewer evidence matrix from canonical rebuild artifacts. | No, but actively used — has an untracked test (`test_generate_response_to_reviewer.py`) |
-| `audit_submission_package.py` | Audits the regenerated PDF, arXiv archive, and reviewer matrix before submission. | No, but has a tracked test (`test_audit_submission_package.py`) |
+| ~~`prepare_webarena_repair_protocol.py`~~ | Was: creates the replacement protocol for a repaired WebArena execution, paired with `paper1_rebuild_webarena_repair_v2.yaml`. | **Deleted this pass**, along with its paired yaml (section 3). |
+| ~~`prepare_webarena_repair_stage.py`~~ | Was: seeds a replacement full stage with the validated non-WebArena rows. | **Deleted this pass** |
+| ~~`prepare_webarena_route_stage.py`~~ | Was: extracts a WebArena-only candidate view for route replay. | **Deleted this pass** |
+| ~~`merge_webarena_repair_routes.py`~~ | Was: merges retained routes with the replacement WebArena route rows. | **Deleted this pass** |
+| `generate_response_to_reviewer.py` | Generates the reviewer evidence matrix from canonical rebuild artifacts. | No Makefile target, but actively used — has a test (`test_generate_response_to_reviewer.py`) |
+| `audit_submission_package.py` | Audits the regenerated PDF, arXiv archive, and reviewer matrix before submission. | No Makefile target, but has a test (`test_audit_submission_package.py`) |
 
 The `build_paper1_live*` / `build_webarena100_figure` / `webarena_repair*`
-families are **not part of the current documented workflow** (the protocol
-pipeline in sections 1/3/4 replaced this build style). They remain valuable
-as the literal provenance chain for how the original paper's numbers were
-assembled from the phase-script era, and two of them
-(`generate_response_to_reviewer.py`, `audit_submission_package.py`) are still
-actively used for the ongoing review-response cycle.
+families and `generate_paper1_rebuild_protocol.py` were **not part of the
+current documented workflow** (the protocol pipeline in sections 1/3/4
+replaced this build style) and had zero references anywhere in
+README/Makefile/tests. Deleted in the second cleanup pass (section 15);
+recoverable via `git log` if ever needed. `generate_response_to_reviewer.py`
+and `audit_submission_package.py` were kept — still actively used for the
+ongoing review-response cycle.
 
 ---
 
@@ -305,10 +311,14 @@ section 8), a pre-existing gap this pass flagged but did not fix.
 
 ## 10. `tests/`
 
-37 files total: 12 tracked, 25 currently untracked (uncommitted). The
-untracked batch is almost entirely tests for the in-progress per-request
-routing / Phase B work (section 6b) plus tests for protocol-pipeline modules
-that were apparently implemented without their tests being committed yet.
+37 files total. **Stale as of section 15:** the tracked/untracked split
+below describes the state when this pass first ran; the "untracked" batch
+was on a branch that got orphaned and then recovered by a later merge (see
+section 15) — all 37 files are tracked now. The purpose mapping is still
+accurate. The untracked batch was almost entirely tests for the in-progress
+per-request routing / Phase B work (section 6b) plus tests for
+protocol-pipeline modules that were apparently implemented without their
+tests being committed yet.
 
 | Tracked | Targets |
 |---|---|
@@ -393,9 +403,13 @@ the full suite after each change.
 - Section 6a (core live infra) + `run_live_phase7c.py`, the one remaining live phase script
 - All of section 10's tracked tests
 
-**Historical / provenance-only, kept in place (not part of onboarding, but not deleted — out of scope for this pass):**
-- The `build_paper1_live*`, `build_webarena100_figure`, and `webarena_repair*` script families (section 7)
-- All of `data/live/*/` except the two orphans deleted this pass (section 8)
+**Historical / provenance-only, kept in place:**
+- All of `data/live/*/` except the two orphans deleted in the first pass (section 8) — note `data/` was later gitignored entirely on this branch (no longer git-tracked at all, section 15 predates that change)
+- `apply_webarena_browser_repair.py`, `generate_response_to_reviewer.py`, `audit_submission_package.py` (section 7) — still actively used
+
+**Deleted as historical/dead in the second pass (section 15), not kept:**
+- The `build_paper1_live*`, `build_webarena100_figure`, and `webarena_repair*` script families, plus `generate_paper1_rebuild_protocol.py` (section 7)
+- 4 dead analysis modules (section 5)
 
 **In progress, uncommitted (active work, not yet merged — left untouched):**
 - `live/backend_params.py`, `frozen_task_selection.py`, `routing_context.py`, `routing_proxy.py`
@@ -478,3 +492,53 @@ and fully reverted. See the process note at the top of this document.
 **README updated** to point its live-workflow examples at `run_live_phase7c.py`
 instead of the deleted `phase10`/`phase11`, and to note that the other 27
 phase scripts' history now lives in `git log` rather than as live code.
+
+---
+
+## 15. Second cleanup pass (later session, on `docs/document-routing-proxy`)
+
+The commit that made this document's "37 files" pass (section 14) never
+actually reached a branch: it was discarded by a `git reset` on the branch it
+lived on (`chore/remove-stale-pre-src-layout-duplicates`) and became
+reachable only via reflog, not from any branch tip. Meanwhile
+`docs/document-routing-proxy` (the branch this session inherited) had been
+built from `main` *after* that reset, so it independently reimplemented the
+per-request-routing feature (section 6b/7) from scratch and never got this
+document, the 37-file cleanup, or ~16 of the per-request-routing/protocol
+test files that only ever existed on the discarded commit.
+
+This session found the discarded commit, pinned it permanently to
+`rescue/orphaned-cleanup-2026-07-27` so it can't be garbage-collected, and
+(with the user's go-ahead) merged it into `docs/document-routing-proxy`
+(merge commit `48cea0b`). That merge is what actually landed this document,
+the section-14 deletions, and the missing tests into the branch this repo now
+lives on — one README conflict, resolved in favor of the post-merge tree
+layout.
+
+With the confirmed scope from section 14 finally in place, the user then
+confirmed a second round, extending the same "delete outright, recoverable
+via git log" treatment already applied to `run_live_phaseN.py` to two more
+groups this document had flagged but left untouched:
+
+- The `build_paper1_live*` family (7 files), the `webarena_repair*` family
+  (4 scripts + `protocol/paper1_rebuild_webarena_repair_v2.yaml`), and
+  `generate_paper1_rebuild_protocol.py` — 13 files total, all confirmed to
+  have zero references anywhere in README/Makefile/tests before deletion
+  (sections 3, 7).
+- 4 of the 7 analysis modules section 5 had flagged as "no committed CSV
+  found": `action_space_grouped.py`, `phase1_narrative_metrics.py`,
+  `pre_webarena_provisional.py`, `threshold_sweep_route_analysis.py`.
+  The other 3 (`cascade_operating_metrics.py`, `expected_utility.py`,
+  `phase2_metric_suite.py`) were **not** deleted — checking them against
+  `generate_paper1_canonical_tables.py`'s `REQUIRED_ANALYSIS_FILES` found
+  they're required by `make reproduce-tables`, just not currently wired to
+  any Makefile target. That's a pre-existing pipeline gap (`make
+  reproduce-tables` cannot succeed today without them), left unfixed here
+  since guessing at the correct wiring — especially the ablation-bundle
+  arguments `phase2_metric_suite.py` requires — is a maintainer call, not a
+  reorganization.
+
+`PYTHONPATH=src python -m pytest -q tests` after both the merge and this
+second deletion round: **145 passed, 0 failed** (same count as before —
+none of the deleted files had test coverage, confirming they were correctly
+identified as dead).
