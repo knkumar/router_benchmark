@@ -1,0 +1,148 @@
+protocol_id: paper1-dry-run-v1
+study_status: diagnostic_only_approved_10usd_cap
+diagnostic_only: true
+dry_run_budget_cap_usd: 10
+routers:
+- LiteLLM Router (live)
+- Aurelio Semantic Router (live)
+- RouteLLM (live)
+- vLLM Semantic Router (live)
+candidates:
+- cheap-small
+- mid-general
+- strong-frontier
+calibration_policy: out_of_the_box_only
+cross_benchmark_decision: weighted_success_reported_separately_from_cost
+baselines:
+- name: Always-Cheapest Baseline (live)
+  candidate_policy: always cheap-small
+  randomization: deterministic
+  routing_seeds: []
+  cascade_order: []
+  stopping_rule: one selected candidate per task
+  fallback_behavior: none
+- name: Always-Strongest Baseline (live)
+  candidate_policy: always strong-frontier
+  randomization: deterministic
+  routing_seeds: []
+  cascade_order: []
+  stopping_rule: one selected candidate per task
+  fallback_behavior: none
+difficulty_band_policy:
+  method: task-count terciles within each benchmark
+  tied_boundary_policy: sort equal difficulty values by task_id and assign by rank
+analysis_paired_comparisons:
+- - Aurelio Semantic Router (live)
+  - LiteLLM Router (live)
+- - Aurelio Semantic Router (live)
+  - RouteLLM (live)
+- - Aurelio Semantic Router (live)
+  - vLLM Semantic Router (live)
+- - LiteLLM Router (live)
+  - RouteLLM (live)
+- - LiteLLM Router (live)
+  - vLLM Semantic Router (live)
+- - RouteLLM (live)
+  - vLLM Semantic Router (live)
+exclusions:
+- Diagnostic dry-run outputs are not eligible canonical outcomes.
+- Historical router-specific outcomes, including paper1_live_v3, are audit-only.
+- Cache-derived outcomes and router-order-dependent reruns are ineligible.
+pricing:
+  as_of: '2026-07-02'
+  snapshot_required_for_execution: true
+model_snapshots:
+  cheap-small: gpt-5.4-nano via router_benchmark.live.llm_client.CANDIDATE_TIERS
+  mid-general: claude-sonnet-4-6 via router_benchmark.live.llm_client.CANDIDATE_TIERS
+  strong-frontier: claude-opus-4-8 via router_benchmark.live.llm_client.CANDIDATE_TIERS
+grader_versions:
+  RouterBench (live): RouterBenchLive lookup scorer over withmartian/routerbench routerbench_0shot.pkl; success threshold 0.5
+  BFCL v4 (live): bfcl-eval==2026.3.23 data with repository simplified required-argument checker
+  tau2-bench (live): tau2-bench git 1901a301961cbbe3fd11f3e84a2a376530c759e3
+  WebArena (live): WebArena git dce04686a56253aefba7b18a4fa0937cf1dc987b; gitlab image sha256:cb52e8185fbc421edd9a5bef523d6504edef3c21418be2ceaf825904b3013be0; shopping image sha256:ccff8c1772be884313edad94136d2a4048020300a0fc169781c50a02aa8bd206
+benchmarks:
+  RouterBench (live):
+    subset_id: paper1-dry-run-routerbench-live-v1
+    task_ids:
+    - routerbench-0000
+    task_id_sha256: 02fe390d239e03c0d4a2b23a29ba6ceb2d511ae1b46253c4b8b1ea560498b611
+    router_trials_per_task: 1
+    routing_seed_count: 1
+    outcome_replicates_per_task_candidate: 1
+    total_route_rows: 4
+    total_outcome_rows: 3
+  BFCL v4 (live):
+    subset_id: paper1-dry-run-bfcl-v4-live-v1
+    task_ids:
+    - bfcl-0000-simple_java_51
+    task_id_sha256: 2fe3f6fa93c37e7695ecec0efdec5b77d13cad9e5d5732c9be635fc6edb88a2c
+    router_trials_per_task: 1
+    routing_seed_count: 1
+    outcome_replicates_per_task_candidate: 1
+    total_route_rows: 4
+    total_outcome_rows: 3
+  tau2-bench (live):
+    subset_id: paper1-dry-run-tau2-bench-live-v1
+    task_ids:
+    - tau2-0
+    task_id_sha256: 2ca5e2b5d598ee624b42292e37bd014e8707807370c904caee7bb13f088fd832
+    router_trials_per_task: 1
+    routing_seed_count: 1
+    outcome_replicates_per_task_candidate: 1
+    total_route_rows: 4
+    total_outcome_rows: 3
+  WebArena (live):
+    subset_id: paper1-dry-run-webarena-live-v1
+    task_ids:
+    - webarena-102
+    task_id_sha256: 68da7cafdaaedbfad501159b8b00f703a820891b9feb9a9716cbc9f34db95469
+    router_trials_per_task: 1
+    routing_seed_count: 1
+    outcome_replicates_per_task_candidate: 1
+    total_route_rows: 4
+    total_outcome_rows: 3
+execution_budget:
+  estimated_api_usd: '9.36 reserved under the $10 diagnostic cap'
+  estimated_infrastructure_usd: '0'
+  estimated_wall_time: under 90 minutes for four one-task candidate passes
+  stopping_rule: Stop before any unreserved candidate cell or when any measured cell cost exceeds its reservation.
+  approval_status: approved
+dry_run_cost_reservations:
+  total_cap_usd: 10
+  pricing_basis: router_benchmark.live.llm_client.PRICING as of 2026-07-02 plus harness step/token limits below
+  candidate_model_api_usd:
+    'RouterBench (live)|routerbench-0000|cheap-small|0': 0.01
+    'RouterBench (live)|routerbench-0000|mid-general|0': 0.05
+    'RouterBench (live)|routerbench-0000|strong-frontier|0': 0.25
+    'BFCL v4 (live)|bfcl-0000-simple_java_51|cheap-small|0': 0.05
+    'BFCL v4 (live)|bfcl-0000-simple_java_51|mid-general|0': 0.20
+    'BFCL v4 (live)|bfcl-0000-simple_java_51|strong-frontier|0': 0.40
+    'tau2-bench (live)|tau2-0|cheap-small|0': 0.30
+    'tau2-bench (live)|tau2-0|mid-general|0': 1.00
+    'tau2-bench (live)|tau2-0|strong-frontier|0': 1.80
+    'WebArena (live)|webarena-102|cheap-small|0': 0.30
+    'WebArena (live)|webarena-102|mid-general|0': 1.00
+    'WebArena (live)|webarena-102|strong-frontier|0': 1.50
+  router_service_usd:
+    total_reserved_usd: 1.00
+    basis: four routers times four one-task route decisions; provider-backed router calls must be recorded separately
+  noncandidate_model_api_usd:
+    total_reserved_usd: 1.50
+    basis: tau2 user-simulator and other harness model calls excluded from reported candidate model API cost
+  request_limits:
+    RouterBench (live):
+      max_provider_calls_per_candidate_cell: 0
+      max_output_tokens_per_call: 0
+      max_steps: 0
+    BFCL v4 (live):
+      max_provider_calls_per_candidate_cell: 1
+      max_output_tokens_per_call: 256
+      max_steps: 1
+    tau2-bench (live):
+      max_provider_calls_per_candidate_cell: 60
+      max_output_tokens_per_call: 1024
+      max_steps: 30
+    WebArena (live):
+      max_provider_calls_per_candidate_cell: 30
+      max_output_tokens_per_call: 384
+      max_steps: 30

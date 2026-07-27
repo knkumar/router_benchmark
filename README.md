@@ -30,7 +30,7 @@ It ships two interchangeable backends behind the same interface:
 6. [Running the evaluation](#running-the-evaluation)
 7. [Programmatic API](#programmatic-api)
 8. [Metrics reference](#metrics-reference)
-9. [Analysis & reproducing paper tables](#analysis--reproducing-paper-tables)
+9. [Analysis and protocol workflow](#analysis-and-protocol-workflow)
 10. [Extending the harness](#extending-the-harness)
 11. [Reproducibility & determinism](#reproducibility--determinism)
 12. [Repository layout](#repository-layout)
@@ -95,6 +95,16 @@ pip install -e .          # core deps (pandas, numpy, matplotlib) via pyproject.
 Requires **Python 3.10+** (the codebase uses `X | None` type syntax). The
 package uses a `src/` layout, so an editable install (`-e`) is the simplest way
 to make `import router_benchmark` resolve.
+
+### Offline tests
+
+Run the project test suite in the supplied container. It installs the live
+adapter imports but does not make provider calls:
+
+```bash
+docker build --tag router-benchmark-test:local .
+docker run --rm router-benchmark-test:local
+```
 
 ### Live backend (real API calls)
 
@@ -374,25 +384,37 @@ across benchmarks, so choose by **operating point** (cost/quality) and
 
 ---
 
-## Analysis & reproducing paper tables
+## Analysis and protocol workflow
 
-The small live-result CSVs under `data/live/*/` are committed, so the analysis
-scripts run without any API calls:
+The analysis, canonical-bundle, and protocol commands are installed as package
+modules. Versioned contracts live in `protocol/`; they identify the frozen
+task scope, candidate tiers, route configurations, and budget reservations.
 
 ```bash
-cd analysis
-python3 bootstrap_ci.py          # 95% bootstrap CIs over tasks
-python3 oracle_and_cascade.py    # oracle upper bound & cascade analysis
-python3 rank_consistency_4bench.py
-# … see the analysis/ directory for the full suite
+# Local validation only. These commands make no provider calls.
+make dry-run-preflight
+make full-run-preflight
+
+# After a provider-backed stage has produced a locked canonical bundle:
+make validate-canonical
+make rebuild-analysis
+make reviewer-gates
+make reproduce-tables
 ```
 
-The paper table/figure builders live in `experiments/` (e.g.
-`python experiments/build_paper1_live_v2_tau2fix.py`). Or run the whole chain
-end to end (also rebuilds the paper PDF if the LaTeX sources are present):
+`dry-run-candidates`, `dry-run-routes`, `full-run-candidates`, and
+`full-run-routes` execute benchmark adapters. They require their respective
+preflight, an explicitly approved protocol, provider credentials, and any
+benchmark environments. The build does not run those targets automatically.
+
+The same analysis modules can be invoked directly, for example:
 
 ```bash
-make reproduce-tables
+python -m router_benchmark.analysis.paired_tests \
+  --bundle output/live/paper1_canonical_v1 \
+  --protocol protocol/paper1_rebuild.yaml \
+  --output analysis/output/paper1_canonical/paired_effects.csv \
+  --draws-output analysis/output/paper1_canonical/paired_draws.json
 ```
 
 ---
@@ -459,6 +481,7 @@ router_benchmark/                     # repo root
 │   ├── metrics.py                    #   the deployment metric suite
 │   ├── routers.py                    #   simulated router adapters + baselines (RouterProfile)
 │   ├── benchmarks.py                 #   simulated benchmark adapters
+│   ├── protocol/                      #   reproducibility and validation primitives
 │   ├── plots.py                      #   figure generation
 │   ├── run.py                        #   `python -m router_benchmark.run`
 │   └── live/                         #   LIVE backend: real API calls & benchmark execution
@@ -469,7 +492,7 @@ router_benchmark/                     # repo root
 │       └── run_live_phaseN.py        #     phase entry points
 ├── experiments/                      # one-off paper table/figure build scripts
 ├── analysis/                         # bootstrap CIs, oracle/cascade, rank consistency, …
-├── tests/                            # adapter-validation tests
+├── tests/                            # offline unit and adapter-validation tests
 ├── data/live/*/                      # COMMITTED reproducibility CSVs (analysis inputs)
 └── output/                           # GENERATED runtime artifacts (gitignored)
 ```

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Expected utility per router under named benchmark-group mixtures.
+"""Expected success rate per router under named benchmark-group mixtures.
 Existing-data only: weighted combination of already-computed per-group
-success_rate / cost_per_task point estimates from bootstrap_ci.csv."""
+success_rate / cost_per_task point estimates from bootstrap_ci.csv. This
+reweights success only; a cost- and latency-aware utility is in
+expected_utility.py."""
 import csv
 from collections import defaultdict
 from pathlib import Path
@@ -41,9 +43,9 @@ def main():
         w.writerow(["router", "mixture", "expected_success_rate", "expected_cost_per_task"])
         for router in routers:
             for mix_name, weights in MIXTURES.items():
-                exp_success = sum(w_ * point[(router, g)]["success_rate"] for g, w_ in weights.items())
+                dist_utility = sum(w_ * point[(router, g)]["success_rate"] for g, w_ in weights.items())
                 exp_cost = sum(w_ * point[(router, g)]["cost_per_task"] for g, w_ in weights.items())
-                w.writerow([router, mix_name, f"{exp_success:.4f}", f"{exp_cost:.6f}"])
+                w.writerow([router, mix_name, f"{dist_utility:.4f}", f"{exp_cost:.6f}"])
     print(f"wrote {out_path}")
     print("cost_constrained weights:", MIXTURES["cost_constrained"])
 

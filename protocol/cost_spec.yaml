@@ -1,0 +1,27 @@
+reported_metric: model API cost
+components:
+  - name: provider_generation
+    measurement: provider usage record for the locked candidate-outcome execution
+    unit: USD
+    rate: pricing snapshot stored with each outcome row
+    included: true
+  - name: fallback_generation
+    measurement: provider usage record for any declared fallback execution
+    unit: USD
+    rate: pricing snapshot stored with each outcome row
+    included: true
+  - name: router_service
+    measurement: UNCONFIRMED for the rebuild environment
+    unit: USD
+    rate: UNCONFIRMED
+    included: false
+  - name: embedding
+    measurement: UNCONFIRMED for the rebuild environment
+    unit: USD
+    rate: UNCONFIRMED
+    included: false
+  - name: CPU_container_browser_infrastructure
+    measurement: UNCONFIRMED for the rebuild environment
+    unit: USD
+    rate: UNCONFIRMED
+    included: false

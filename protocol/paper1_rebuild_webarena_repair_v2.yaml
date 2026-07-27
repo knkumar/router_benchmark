@@ -1,0 +1,452 @@
+protocol_id: paper1-rebuild-webarena-repair-v2
+study_status: frozen_scope_repaired_webarena_pending_execution
+routers:
+- LiteLLM Router (live)
+- Aurelio Semantic Router (live)
+- RouteLLM (live)
+- vLLM Semantic Router (live)
+candidates:
+- cheap-small
+- mid-general
+- strong-frontier
+calibration_policy: out_of_the_box_only
+cross_benchmark_decision: weighted_success_reported_separately_from_cost
+baselines:
+- name: Always-Cheapest Baseline (live)
+  candidate_policy: always cheap-small
+  randomization: deterministic
+  routing_seeds: []
+  cascade_order: []
+  stopping_rule: one selected candidate per task
+  fallback_behavior: none
+- name: Always-Strongest Baseline (live)
+  candidate_policy: always strong-frontier
+  randomization: deterministic
+  routing_seeds: []
+  cascade_order: []
+  stopping_rule: one selected candidate per task
+  fallback_behavior: none
+difficulty_band_policy:
+  method: task-count terciles within each benchmark
+  tied_boundary_policy: sort equal difficulty values by task_id and assign by rank
+analysis_paired_comparisons:
+- - Aurelio Semantic Router (live)
+  - LiteLLM Router (live)
+- - Aurelio Semantic Router (live)
+  - RouteLLM (live)
+- - Aurelio Semantic Router (live)
+  - vLLM Semantic Router (live)
+- - LiteLLM Router (live)
+  - RouteLLM (live)
+- - LiteLLM Router (live)
+  - vLLM Semantic Router (live)
+- - RouteLLM (live)
+  - vLLM Semantic Router (live)
+exclusions:
+- All historical router-specific outcomes, including paper1_live_v3, are audit-only
+  and are not eligible canonical outcomes.
+- Cache-derived outcomes and router-order-dependent reruns are ineligible.
+- Routers and benchmarks outside the declared four-by-four scope are ineligible.
+pricing:
+  as_of: '2026-07-02'
+  snapshot_required_for_execution: true
+model_snapshots:
+  cheap-small: gpt-5.4-nano via router_benchmark.live.llm_client.CANDIDATE_TIERS
+  mid-general: claude-sonnet-4-6 via router_benchmark.live.llm_client.CANDIDATE_TIERS
+  strong-frontier: claude-opus-4-8 via router_benchmark.live.llm_client.CANDIDATE_TIERS
+grader_versions:
+  RouterBench (live): RouterBenchLive lookup scorer over withmartian/routerbench routerbench_0shot.pkl;
+    success threshold 0.5
+  BFCL v4 (live): bfcl-eval==2026.3.23
+  tau2-bench (live): tau2-bench git 1901a301961cbbe3fd11f3e84a2a376530c759e3
+  WebArena (live): WebArena git dce04686a56253aefba7b18a4fa0937cf1dc987b; Playwright
+    1.32.1 Chromium 112.0.5615.29 (revision 1055); GitLab image sha256:cb52e8185fbc421edd9a5bef523d6504edef3c21418be2ceaf825904b3013be0;
+    shopping image sha256:ccff8c1772be884313edad94136d2a4048020300a0fc169781c50a02aa8bd206
+benchmarks:
+  RouterBench (live):
+    subset_id: paper1-rebuild-routerbench-live-v1
+    task_ids:
+    - routerbench-0000
+    - routerbench-0001
+    - routerbench-0002
+    - routerbench-0003
+    - routerbench-0004
+    - routerbench-0005
+    - routerbench-0006
+    - routerbench-0007
+    - routerbench-0008
+    - routerbench-0009
+    - routerbench-0010
+    - routerbench-0011
+    - routerbench-0012
+    - routerbench-0013
+    - routerbench-0014
+    - routerbench-0015
+    - routerbench-0016
+    - routerbench-0017
+    - routerbench-0018
+    - routerbench-0019
+    - routerbench-0020
+    - routerbench-0021
+    - routerbench-0022
+    - routerbench-0023
+    - routerbench-0024
+    - routerbench-0025
+    - routerbench-0026
+    - routerbench-0027
+    - routerbench-0028
+    - routerbench-0029
+    - routerbench-0030
+    - routerbench-0031
+    - routerbench-0032
+    - routerbench-0033
+    - routerbench-0034
+    - routerbench-0035
+    - routerbench-0036
+    - routerbench-0037
+    - routerbench-0038
+    - routerbench-0039
+    - routerbench-0040
+    - routerbench-0041
+    - routerbench-0042
+    - routerbench-0043
+    - routerbench-0044
+    - routerbench-0045
+    - routerbench-0046
+    - routerbench-0047
+    - routerbench-0048
+    - routerbench-0049
+    - routerbench-0050
+    - routerbench-0051
+    - routerbench-0052
+    - routerbench-0053
+    - routerbench-0054
+    - routerbench-0055
+    - routerbench-0056
+    - routerbench-0057
+    - routerbench-0058
+    - routerbench-0059
+    task_id_sha256: a3fb90f577c5525b7e6c4ea3edd61cecb9ee2bdef10bdc4f49a01b18871a64c7
+    router_trials_per_task: 2
+    routing_seed_count: 2
+    outcome_replicates_per_task_candidate: 3
+    total_route_rows: 480
+    total_outcome_rows: 540
+  BFCL v4 (live):
+    subset_id: paper1-rebuild-bfcl-v4-live-v1
+    task_ids:
+    - bfcl-0000-simple_java_51
+    - bfcl-0001-simple_python_119
+    - bfcl-0002-simple_python_7
+    - bfcl-0003-simple_python_92
+    - bfcl-0004-simple_python_35
+    - bfcl-0005-simple_python_85
+    - bfcl-0006-simple_python_100
+    - bfcl-0007-simple_python_363
+    - bfcl-0008-simple_python_242
+    - bfcl-0009-simple_python_17
+    - bfcl-0010-simple_python_31
+    - bfcl-0011-simple_python_16
+    - bfcl-0012-simple_python_354
+    - bfcl-0013-simple_java_95
+    - bfcl-0014-simple_java_74
+    - bfcl-0015-simple_python_152
+    - bfcl-0016-simple_python_93
+    - bfcl-0017-simple_python_187
+    - bfcl-0018-simple_python_117
+    - bfcl-0019-simple_python_14
+    - bfcl-0020-simple_javascript_15
+    - bfcl-0021-simple_java_98
+    - bfcl-0022-simple_python_255
+    - bfcl-0023-simple_python_66
+    - bfcl-0024-simple_java_77
+    - bfcl-0025-simple_python_70
+    - bfcl-0026-simple_python_91
+    - bfcl-0027-simple_javascript_27
+    - bfcl-0028-simple_python_47
+    - bfcl-0029-simple_python_276
+    task_id_sha256: 6c9b6c091a318ff16e82cd0734790737385d7e57b611bbcd7dadbb1eba6d3d51
+    router_trials_per_task: 2
+    routing_seed_count: 2
+    outcome_replicates_per_task_candidate: 3
+    total_route_rows: 240
+    total_outcome_rows: 270
+  tau2-bench (live):
+    subset_id: paper1-rebuild-tau2-bench-live-v1
+    task_ids:
+    - tau2-0
+    - tau2-1
+    - tau2-10
+    - tau2-11
+    - tau2-12
+    - tau2-13
+    - tau2-14
+    - tau2-15
+    - tau2-16
+    - tau2-17
+    - tau2-18
+    - tau2-19
+    - tau2-2
+    - tau2-20
+    - tau2-21
+    - tau2-22
+    - tau2-23
+    - tau2-24
+    - tau2-25
+    - tau2-26
+    - tau2-27
+    - tau2-28
+    - tau2-29
+    - tau2-3
+    - tau2-30
+    - tau2-31
+    - tau2-32
+    - tau2-33
+    - tau2-34
+    - tau2-35
+    - tau2-36
+    - tau2-37
+    - tau2-38
+    - tau2-39
+    - tau2-4
+    - tau2-40
+    - tau2-41
+    - tau2-42
+    - tau2-43
+    - tau2-44
+    - tau2-45
+    - tau2-46
+    - tau2-47
+    - tau2-48
+    - tau2-49
+    - tau2-5
+    - tau2-50
+    - tau2-51
+    - tau2-52
+    - tau2-53
+    - tau2-54
+    - tau2-55
+    - tau2-56
+    - tau2-57
+    - tau2-58
+    - tau2-59
+    - tau2-6
+    - tau2-60
+    - tau2-61
+    - tau2-62
+    - tau2-63
+    - tau2-64
+    - tau2-65
+    - tau2-66
+    - tau2-67
+    - tau2-68
+    - tau2-69
+    - tau2-7
+    - tau2-70
+    - tau2-71
+    - tau2-72
+    - tau2-73
+    - tau2-74
+    - tau2-75
+    - tau2-76
+    - tau2-77
+    - tau2-78
+    - tau2-79
+    - tau2-8
+    - tau2-80
+    - tau2-81
+    - tau2-82
+    - tau2-83
+    - tau2-84
+    - tau2-85
+    - tau2-86
+    - tau2-87
+    - tau2-88
+    - tau2-89
+    - tau2-9
+    - tau2-90
+    - tau2-91
+    - tau2-92
+    - tau2-93
+    - tau2-94
+    - tau2-95
+    - tau2-96
+    - tau2-97
+    - tau2-98
+    - tau2-99
+    task_id_sha256: 886d04ee4dc9a4ab6f0a99cd83aff425e63225a8630ff00d6f27c1e17fa701df
+    router_trials_per_task: 2
+    routing_seed_count: 2
+    outcome_replicates_per_task_candidate: 3
+    total_route_rows: 800
+    total_outcome_rows: 900
+  WebArena (live):
+    subset_id: paper1-rebuild-webarena-live-v1
+    task_ids:
+    - webarena-102
+    - webarena-103
+    - webarena-104
+    - webarena-105
+    - webarena-106
+    - webarena-117
+    - webarena-118
+    - webarena-124
+    - webarena-125
+    - webarena-126
+    - webarena-132
+    - webarena-133
+    - webarena-134
+    - webarena-135
+    - webarena-136
+    - webarena-141
+    - webarena-142
+    - webarena-143
+    - webarena-144
+    - webarena-145
+    - webarena-146
+    - webarena-147
+    - webarena-148
+    - webarena-149
+    - webarena-150
+    - webarena-156
+    - webarena-158
+    - webarena-159
+    - webarena-160
+    - webarena-161
+    - webarena-162
+    - webarena-163
+    - webarena-164
+    - webarena-165
+    - webarena-166
+    - webarena-167
+    - webarena-168
+    - webarena-169
+    - webarena-170
+    - webarena-171
+    - webarena-172
+    - webarena-173
+    - webarena-174
+    - webarena-175
+    - webarena-176
+    - webarena-177
+    - webarena-178
+    - webarena-179
+    - webarena-180
+    - webarena-181
+    - webarena-182
+    - webarena-188
+    - webarena-189
+    - webarena-190
+    - webarena-191
+    - webarena-192
+    - webarena-205
+    - webarena-206
+    - webarena-207
+    - webarena-21
+    - webarena-22
+    - webarena-225
+    - webarena-226
+    - webarena-227
+    - webarena-228
+    - webarena-229
+    - webarena-23
+    - webarena-230
+    - webarena-231
+    - webarena-232
+    - webarena-233
+    - webarena-234
+    - webarena-235
+    - webarena-238
+    - webarena-239
+    - webarena-24
+    - webarena-240
+    - webarena-241
+    - webarena-242
+    - webarena-25
+    - webarena-258
+    - webarena-259
+    - webarena-26
+    - webarena-260
+    - webarena-261
+    - webarena-262
+    - webarena-263
+    - webarena-264
+    - webarena-269
+    - webarena-270
+    - webarena-271
+    - webarena-44
+    - webarena-45
+    - webarena-46
+    - webarena-47
+    - webarena-48
+    - webarena-49
+    - webarena-50
+    - webarena-51
+    - webarena-96
+    task_id_sha256: d1fc9c4a45f1c75f64bd853131792abd4ee6d01978578d9753b3072e755dde18
+    router_trials_per_task: 2
+    routing_seed_count: 2
+    outcome_replicates_per_task_candidate: 3
+    total_route_rows: 800
+    total_outcome_rows: 900
+execution_budget:
+  estimated_api_usd: '1949.50 no-cache operational estimate before safety margin:
+    1884.30 candidate model API, 40.60 router service, 24.60 noncandidate tau2/external
+    metered reserve'
+  estimated_infrastructure_usd: 0.00 direct infrastructure USD recorded; local Docker/browser
+    infrastructure cost reported separately if metered
+  estimated_wall_time: about 24 hours serialized execution; exact wall time depends
+    on WebArena browser trajectories and provider latency
+  stopping_rule: Stop on any integrity failure; do not replace a missing cell with
+    a router-specific rerun.
+  approval_status: approved
+full_run_cost_reservations:
+  total_cap_usd: 2500
+  pricing_basis: router_benchmark.live.llm_client.PRICING as of 2026-07-02 plus diagnostic-run
+    scaled router-service and tau2 external metered reserves; prompt-output cache
+    disallowed
+  candidate_model_api_usd_by_benchmark_candidate:
+    RouterBench (live)|cheap-small: 0.01
+    RouterBench (live)|mid-general: 0.05
+    RouterBench (live)|strong-frontier: 0.25
+    BFCL v4 (live)|cheap-small: 0.05
+    BFCL v4 (live)|mid-general: 0.2
+    BFCL v4 (live)|strong-frontier: 0.4
+    tau2-bench (live)|cheap-small: 0.3
+    tau2-bench (live)|mid-general: 1.0
+    tau2-bench (live)|strong-frontier: 1.8
+    WebArena (live)|cheap-small: 0.3
+    WebArena (live)|mid-general: 1.0
+    WebArena (live)|strong-frontier: 1.5
+  router_service_usd:
+    total_reserved_usd: 40.6
+    basis: measured diagnostic router-service debit scaled to 2320 full route rows
+  noncandidate_model_api_usd:
+    total_reserved_usd: 24.6
+    basis: tau2 user-simulator and other harness model calls excluded from reported
+      candidate model API cost
+  request_limits:
+    RouterBench (live):
+      max_provider_calls_per_candidate_cell: 0
+      max_output_tokens_per_call: 0
+      max_steps: 0
+    BFCL v4 (live):
+      max_provider_calls_per_candidate_cell: 1
+      max_output_tokens_per_call: 256
+      max_steps: 1
+    tau2-bench (live):
+      max_provider_calls_per_candidate_cell: 60
+      max_output_tokens_per_call: 1024
+      max_steps: 30
+    WebArena (live):
+      max_provider_calls_per_candidate_cell: 30
+      max_output_tokens_per_call: 384
+      max_steps: 30
+webarena_environment_repair:
+  reason: The prior run could not launch its pinned Chromium revision.
+  browser_install: Playwright 1.32.1 Chromium revision 1055 installed in the pinned
+    WebArena environment.
+  shopping_host_routing: Chromium resolves metis.lti.cs.cmu.edu to the local Shopping
+    service only for WebArena browser processes.
+  replacement_scope: Replace only WebArena candidate and route rows; retain the validated,
+    unchanged three-benchmark rows from the approved full stage.
