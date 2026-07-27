@@ -43,6 +43,8 @@ class RouterProfile:
 
     quality_bias: float  # 0-1: probability mass toward the best-fit candidate
     cost_preference: float  # 0 = always pick cheapest, 1 = always pick strongest
+    package_version: str = "1.0.0"
+    objective: str = "cost_quality_tradeoff"
     domain_affinity: dict[TaskDomain, float] = field(default_factory=dict)
     latency_overhead_ms: float = 5.0  # routing decision overhead itself
     base_fallback_rate: float = 0.03
@@ -276,6 +278,14 @@ class AlwaysCheapestRouter(Router):
         return RouteDecision(selected.name, confidence=0.5, fallback_used=False)
 
 
+class AlwaysMidRouter(Router):
+    name = "Baseline: Always Mid"
+
+    def route(self, task: Task, context: dict, rng: np.random.Generator) -> RouteDecision:
+        candidates = sorted(task.candidates, key=lambda candidate: candidate.cost_per_1k_tokens)
+        return RouteDecision(candidates[len(candidates) // 2].name, confidence=0.5, fallback_used=False)
+
+
 class AlwaysStrongestRouter(Router):
     name = "Baseline: Always Strongest"
 
@@ -321,18 +331,115 @@ class OracleRouter(Router):
         return RouteDecision(selected.name, confidence=0.95, fallback_used=False)
 
 
+ROUTER_CONFIGS = [
+    {
+        "name": "RouteLLM",
+        "profile_kwargs": {
+            "package_version": "0.1.2",
+            "objective": "maximize_quality_at_cost",
+            "domain_affinity": {
+                TaskDomain.QA_REASONING: 1.10, TaskDomain.CODE_REPAIR: 0.95,
+                TaskDomain.TOOL_USE: 0.75, TaskDomain.MULTI_TURN_POLICY: 0.70,
+                TaskDomain.WEB_NAVIGATION: 0.65, TaskDomain.TERMINAL_AGENT: 0.70,
+            },
+            "latency_overhead_ms": 8.0, "base_fallback_rate": 0.02,
+            "tool_reliability": 0.75, "stability": 0.92, "confidence_noise": 0.05,
+        },
+        "calibrated_quality_bias": 0.85, "uncalibrated_quality_bias": 0.80,
+        "calibrated_cost_preference": 0.40, "uncalibrated_cost_preference": 0.35,
+    },
+    {
+        "name": "LiteLLM Router",
+        "profile_kwargs": {
+            "package_version": "1.38.0", "objective": "maximize_reliability_and_cost",
+            "domain_affinity": {domain: 0.95 for domain in TaskDomain},
+            "latency_overhead_ms": 4.0, "base_fallback_rate": 0.10,
+            "tool_reliability": 0.80, "stability": 0.97, "confidence_noise": 0.12,
+        },
+        "calibrated_quality_bias": 0.60, "uncalibrated_quality_bias": 0.55,
+        "calibrated_cost_preference": 0.50, "uncalibrated_cost_preference": 0.45,
+    },
+    {
+        "name": "vLLM Semantic Router",
+        "profile_kwargs": {
+            "package_version": "0.5.0", "objective": "minimize_latency_and_cost",
+            "domain_affinity": {
+                TaskDomain.QA_REASONING: 1.05, TaskDomain.CODE_REPAIR: 0.85,
+                TaskDomain.TOOL_USE: 0.95, TaskDomain.MULTI_TURN_POLICY: 0.75,
+                TaskDomain.WEB_NAVIGATION: 0.70, TaskDomain.TERMINAL_AGENT: 0.75,
+            },
+            "latency_overhead_ms": 2.0, "base_fallback_rate": 0.05,
+            "tool_reliability": 0.82, "stability": 0.88, "confidence_noise": 0.10,
+        },
+        "calibrated_quality_bias": 0.70, "uncalibrated_quality_bias": 0.65,
+        "calibrated_cost_preference": 0.30, "uncalibrated_cost_preference": 0.25,
+    },
+    {
+        "name": "Aurelio Semantic Router",
+        "profile_kwargs": {
+            "package_version": "0.0.20", "objective": "maximize_semantic_match",
+            "domain_affinity": {
+                TaskDomain.QA_REASONING: 0.85, TaskDomain.CODE_REPAIR: 0.75,
+                TaskDomain.TOOL_USE: 1.20, TaskDomain.MULTI_TURN_POLICY: 0.90,
+                TaskDomain.WEB_NAVIGATION: 0.80, TaskDomain.TERMINAL_AGENT: 0.70,
+            },
+            "latency_overhead_ms": 1.5, "base_fallback_rate": 0.04,
+            "tool_reliability": 0.90, "stability": 0.85, "confidence_noise": 0.09,
+        },
+        "calibrated_quality_bias": 0.55, "uncalibrated_quality_bias": 0.50,
+        "calibrated_cost_preference": 0.35, "uncalibrated_cost_preference": 0.30,
+    },
+    {
+        "name": "LLMRouter",
+        "profile_kwargs": {
+            "package_version": "1.0.0", "objective": "general_model_selection",
+            "domain_affinity": {
+                TaskDomain.QA_REASONING: 1.00, TaskDomain.CODE_REPAIR: 0.90,
+                TaskDomain.TOOL_USE: 0.70, TaskDomain.MULTI_TURN_POLICY: 0.65,
+                TaskDomain.WEB_NAVIGATION: 0.60, TaskDomain.TERMINAL_AGENT: 0.65,
+            },
+            "latency_overhead_ms": 6.0, "base_fallback_rate": 0.06,
+            "tool_reliability": 0.72, "stability": 0.80, "confidence_noise": 0.14,
+        },
+        "calibrated_quality_bias": 0.72, "uncalibrated_quality_bias": 0.68,
+        "calibrated_cost_preference": 0.45, "uncalibrated_cost_preference": 0.40,
+    },
+    {
+        "name": "NVIDIA AI Blueprint LLM Router",
+        "profile_kwargs": {
+            "package_version": "1.0.0", "objective": "production_auto_routing",
+            "domain_affinity": {
+                TaskDomain.QA_REASONING: 1.05, TaskDomain.CODE_REPAIR: 1.05,
+                TaskDomain.TOOL_USE: 1.00, TaskDomain.MULTI_TURN_POLICY: 0.95,
+                TaskDomain.WEB_NAVIGATION: 0.90, TaskDomain.TERMINAL_AGENT: 0.95,
+            },
+            "latency_overhead_ms": 7.0, "base_fallback_rate": 0.07,
+            "tool_reliability": 0.86, "stability": 0.90, "confidence_noise": 0.07,
+        },
+        "calibrated_quality_bias": 0.75, "uncalibrated_quality_bias": 0.72,
+        "calibrated_cost_preference": 0.60, "uncalibrated_cost_preference": 0.55,
+    },
+]
+
+
 def build_all_routers() -> list[Router]:
-    """Convenience factory used by run.py."""
-    return [
-        make_routellm(),
-        make_litellm_router(),
-        make_vllm_semantic_router(),
-        make_aurelio_semantic_router(),
-        make_llmrouter(),
-        make_nvidia_blueprint_router(),
-        AlwaysCheapestRouter(),
-        AlwaysStrongestRouter(),
-        RandomRouter(),
-        HeuristicDifficultyRouter(),
-        OracleRouter(),
-    ]
+    """Build calibrated and out-of-the-box profiles plus fixed baselines."""
+    routers: list[Router] = []
+    for calibrated in (False, True):
+        suffix = " (Calibrated)" if calibrated else " (Out-of-the-box)"
+        for config in ROUTER_CONFIGS:
+            profile_kwargs = dict(config["profile_kwargs"])
+            profile_kwargs["quality_bias"] = config[
+                "calibrated_quality_bias" if calibrated else "uncalibrated_quality_bias"
+            ]
+            profile_kwargs["cost_preference"] = config[
+                "calibrated_cost_preference" if calibrated else "uncalibrated_cost_preference"
+            ]
+            routers.append(SyntheticProfileRouter(config["name"] + suffix, RouterProfile(**profile_kwargs)))
+    routers.extend(
+        [
+            AlwaysCheapestRouter(), AlwaysMidRouter(), AlwaysStrongestRouter(),
+            RandomRouter(), HeuristicDifficultyRouter(), OracleRouter(),
+        ]
+    )
+    return routers

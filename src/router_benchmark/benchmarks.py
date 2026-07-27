@@ -114,106 +114,64 @@ class _SyntheticBenchmark(Benchmark):
         return _score_common(task, decision, rng, self.tokens_per_task, self.latency_jitter)
 
 
-def make_routerbench() -> _SyntheticBenchmark:
-    """RouterBench [7]: >405k logged multi-LLM outcomes; the canonical
-    router-only, single-turn benchmark. Short, cheap, low-latency-jitter
-    single-shot QA/reasoning tasks with a wide difficulty spread."""
-    return _SyntheticBenchmark(
-        name="RouterBench",
-        domain=TaskDomain.QA_REASONING,
-        n_tasks=400,
-        difficulty_range=(0.05, 0.95),
-        tool_fraction=0.0,
-        tokens_per_task=600,
-        latency_jitter=0.15,
-    )
-
-
-def make_swebench_verified() -> _SyntheticBenchmark:
-    """SWE-bench Verified [8]: real GitHub issue resolution. Higher token
-    volume (repo context + patch), skewed toward harder difficulty, no
-    explicit tool-call scoring axis (tests pass/fail is the oracle) but
-    long-horizon so latency/cost scale up sharply."""
-    return _SyntheticBenchmark(
-        name="SWE-bench Verified",
-        domain=TaskDomain.CODE_REPAIR,
-        n_tasks=200,
-        difficulty_range=(0.3, 1.0),
-        tool_fraction=0.0,
-        tokens_per_task=6000,
-        latency_jitter=0.35,
-    )
-
-
-def make_bfcl_v4() -> _SyntheticBenchmark:
-    """BFCL v4 [9]: function/tool-calling correctness, including executable
-    and agentic scenarios. Every task requires a tool call; the benchmark's
-    entire purpose is measuring tool-call accuracy under routing."""
-    return _SyntheticBenchmark(
-        name="BFCL v4",
-        domain=TaskDomain.TOOL_USE,
-        n_tasks=300,
-        difficulty_range=(0.1, 0.9),
-        tool_fraction=1.0,
-        tokens_per_task=900,
-        latency_jitter=0.20,
-    )
-
-
-def make_tau_bench() -> _SyntheticBenchmark:
-    """tau-bench/tau2-bench [10]: multi-turn customer-service agents with
-    domain APIs and policies. High tool-call fraction (API calls each
-    turn), moderate-high difficulty, moderate token volume for multi-turn
-    context."""
-    return _SyntheticBenchmark(
-        name="tau2-bench",
-        domain=TaskDomain.MULTI_TURN_POLICY,
-        n_tasks=150,
-        difficulty_range=(0.25, 0.9),
-        tool_fraction=0.8,
-        tokens_per_task=2500,
-        latency_jitter=0.30,
-    )
-
-
-def make_webarena() -> _SyntheticBenchmark:
-    """WebArena [11]: realistic web-navigation agents on self-hosted sites.
-    Long horizon (many browser steps), high latency jitter (network/DOM
-    variance), moderate tool-call fraction (structured actions)."""
-    return _SyntheticBenchmark(
-        name="WebArena",
-        domain=TaskDomain.WEB_NAVIGATION,
-        n_tasks=180,
-        difficulty_range=(0.3, 0.95),
-        tool_fraction=0.6,
-        tokens_per_task=4000,
-        latency_jitter=0.45,
-    )
-
-
-def make_terminal_bench() -> _SyntheticBenchmark:
-    """Terminal-Bench 2.0 [12]: terminal agents on realistic end-to-end
-    tasks in containerized environments. Longest horizon of the six,
-    heavy tool-call fraction (shell commands), highest cost/latency
-    scale, reflecting its role as the hardest long-horizon routing test."""
-    return _SyntheticBenchmark(
-        name="Terminal-Bench 2.0",
-        domain=TaskDomain.TERMINAL_AGENT,
-        n_tasks=150,
-        difficulty_range=(0.35, 1.0),
-        tool_fraction=0.9,
-        tokens_per_task=7000,
-        latency_jitter=0.40,
-    )
+BENCHMARK_CONFIGS = [
+    {
+        "name": "RouterBench",
+        "domain": TaskDomain.QA_REASONING,
+        "n_tasks": 400,
+        "difficulty_range": (0.05, 0.95),
+        "tool_fraction": 0.0,
+        "tokens_per_task": 600,
+        "latency_jitter": 0.15,
+    },
+    {
+        "name": "SWE-bench Verified",
+        "domain": TaskDomain.CODE_REPAIR,
+        "n_tasks": 200,
+        "difficulty_range": (0.3, 1.0),
+        "tool_fraction": 0.0,
+        "tokens_per_task": 6000,
+        "latency_jitter": 0.35,
+    },
+    {
+        "name": "BFCL v4",
+        "domain": TaskDomain.TOOL_USE,
+        "n_tasks": 300,
+        "difficulty_range": (0.1, 0.9),
+        "tool_fraction": 1.0,
+        "tokens_per_task": 900,
+        "latency_jitter": 0.20,
+    },
+    {
+        "name": "tau2-bench",
+        "domain": TaskDomain.MULTI_TURN_POLICY,
+        "n_tasks": 150,
+        "difficulty_range": (0.25, 0.9),
+        "tool_fraction": 0.8,
+        "tokens_per_task": 2500,
+        "latency_jitter": 0.30,
+    },
+    {
+        "name": "WebArena",
+        "domain": TaskDomain.WEB_NAVIGATION,
+        "n_tasks": 180,
+        "difficulty_range": (0.3, 0.95),
+        "tool_fraction": 0.6,
+        "tokens_per_task": 4000,
+        "latency_jitter": 0.45,
+    },
+    {
+        "name": "Terminal-Bench 2.0",
+        "domain": TaskDomain.TERMINAL_AGENT,
+        "n_tasks": 150,
+        "difficulty_range": (0.35, 1.0),
+        "tool_fraction": 0.9,
+        "tokens_per_task": 7000,
+        "latency_jitter": 0.40,
+    },
+]
 
 
 def build_all_benchmarks() -> list[Benchmark]:
     """Convenience factory used by run.py."""
-    return [
-        make_routerbench(),
-        make_swebench_verified(),
-        make_bfcl_v4(),
-        make_tau_bench(),
-        make_webarena(),
-        make_terminal_bench(),
-    ]
+    return [_SyntheticBenchmark(**config) for config in BENCHMARK_CONFIGS]
