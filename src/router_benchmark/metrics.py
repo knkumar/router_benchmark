@@ -21,26 +21,58 @@ from __future__ import annotations
 import numpy as np
 import pandas as pd
 
-DIFFICULTY_BANDS = [(0.0, 1 / 3, "easy"), (1 / 3, 2 / 3, "medium"), (2 / 3, 1.0 + 1e-9, "hard")]
+from router_benchmark.protocol.pareto import pareto_membership_with_witness
+
+DIFFICULTY_BAND_NAMES = ("easy", "medium", "hard")
 
 
-def _band_label(difficulty: float) -> str:
-    for lo, hi, label in DIFFICULTY_BANDS:
-        if lo <= difficulty < hi:
-            return label
-    return "hard"
+def assign_difficulty_bands(df: pd.DataFrame) -> pd.DataFrame:
+    """Assign each benchmark's tasks to count-balanced difficulty terciles.
+
+    Task IDs break tied difficulty values lexicographically, which keeps the
+    assignment reproducible from the declared task inventory.
+    """
+    required = {"benchmark_name", "task_id", "difficulty"}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"Cannot assign difficulty bands without {sorted(missing)}")
+    tasks = df[["benchmark_name", "task_id", "difficulty"]].drop_duplicates()
+    if tasks.duplicated(["benchmark_name", "task_id"]).any():
+        raise ValueError("A task has inconsistent difficulty values")
+
+    assignments: list[dict[str, str]] = []
+    for benchmark, group in tasks.groupby("benchmark_name", sort=False):
+        ordered = group.sort_values(["difficulty", "task_id"], kind="stable").reset_index(drop=True)
+        n_tasks = len(ordered)
+        for index, row in ordered.iterrows():
+            assignments.append(
+                {
+                    "benchmark_name": benchmark,
+                    "task_id": row["task_id"],
+                    "difficulty_band": DIFFICULTY_BAND_NAMES[min(2, (index * 3) // n_tasks)],
+                }
+            )
+    return pd.DataFrame(assignments)
 
 
 def _route_stability(group: pd.DataFrame) -> float:
     """Fraction of tasks whose selected_candidate is identical across every
-    trial for that task. 1.0 = perfectly deterministic router."""
-    per_task_nunique = group.groupby("task_id")["selected_candidate"].nunique()
+    trial for that task. Stability is undefined without two decisions per
+    task."""
+    task_groups = group.groupby("task_id")["selected_candidate"]
+    if (task_groups.size() < 2).any():
+        return np.nan
+    per_task_nunique = task_groups.nunique()
     return float((per_task_nunique == 1).mean())
 
 
 def compute_router_benchmark_metrics(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.copy()
-    df["difficulty_band"] = df["difficulty"].apply(_band_label)
+    df = df.drop(columns=["difficulty_band"], errors="ignore").merge(
+        assign_difficulty_bands(df),
+        on=["benchmark_name", "task_id"],
+        how="left",
+        validate="many_to_one",
+    )
 
     rows = []
     for (router, benchmark), g in df.groupby(["router_name", "benchmark_name"]):
@@ -51,7 +83,8 @@ def compute_router_benchmark_metrics(df: pd.DataFrame) -> pd.DataFrame:
         band_success = band_success.reindex(["easy", "medium", "hard"])
 
         n_success = g["success"].sum()
-        cost_per_success = g["cost_usd"].sum() / n_success if n_success > 0 else np.nan
+        model_api_cost = g["cost_usd"]
+        cost_per_success = model_api_cost.sum() / n_success if n_success > 0 else np.nan
 
         rows.append(
             {
@@ -60,7 +93,7 @@ def compute_router_benchmark_metrics(df: pd.DataFrame) -> pd.DataFrame:
                 "n_tasks": g["task_id"].nunique(),
                 "n_trials": g["trial"].nunique(),
                 "success_rate": g["success"].mean(),
-                "cost_per_task_usd": g["cost_usd"].mean(),
+                "cost_per_task_usd": model_api_cost.mean(),
                 "cost_per_success_usd": cost_per_success,
                 "latency_p50_ms": g["latency_ms"].median(),
                 "latency_p95_ms": g["latency_ms"].quantile(0.95),
@@ -101,21 +134,19 @@ def compute_router_overall_metrics(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _pareto_flags(df: pd.DataFrame, cost_col: str, quality_col: str) -> list[bool]:
-    costs = df[cost_col].to_numpy()
-    quals = df[quality_col].to_numpy()
-    flags = []
-    for i in range(len(df)):
-        dominated = False
-        for j in range(len(df)):
-            if i == j:
-                continue
-            better_or_equal = costs[j] <= costs[i] and quals[j] >= quals[i]
-            strictly_better = costs[j] < costs[i] or quals[j] > quals[i]
-            if better_or_equal and strictly_better:
-                dominated = True
-                break
-        flags.append(not dominated)
-    return flags
+    points = [
+        {"index": str(index), "cost": row[cost_col], "success": row[quality_col]}
+        for index, (_, row) in enumerate(df.iterrows())
+    ]
+    return [
+        result["is_pareto_nondominated"]
+        for result in pareto_membership_with_witness(
+            points,
+            id_key="index",
+            cost_key="cost",
+            success_key="success",
+        )
+    ]
 
 
 def compute_pareto_frontier(overall_df: pd.DataFrame) -> pd.DataFrame:
