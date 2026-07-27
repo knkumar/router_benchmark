@@ -147,6 +147,7 @@ class AurelioSemanticRouterLive(PerRequestRouter, Router):
         # OpenAIEncoder uses the real OpenAI embeddings API instead --
         # still semantic-router's real routing mechanism end to end.
         encoder = OpenAIEncoder(name="text-embedding-3-small")
+        self._encoder = encoder
         routes = [
             Route(name=tier, utterances=utts) for tier, utts in self._TIER_UTTERANCES.items()
         ]
@@ -189,6 +190,16 @@ class AurelioSemanticRouterLive(PerRequestRouter, Router):
         # log from a genuine match; this is now logged honestly as a
         # fallback so mean_fallback_rate reflects it.
         return RouteDecision(selected_candidate="mid-general", confidence=0.0, fallback_used=True)
+
+    @property
+    def embedding_request_timeout_s(self) -> float:
+        """Read timeout actually configured on the encoder's OpenAI client."""
+        return float(self._encoder._client.timeout.read)
+
+    @property
+    def embedding_max_retries(self) -> int:
+        """Retry count the encoder itself applies around each embed call."""
+        return int(self._encoder.max_retries)
 
 
 def build_live_routers() -> list[Router]:

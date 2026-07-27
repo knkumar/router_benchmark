@@ -108,3 +108,17 @@ class RouteLLMLive(PerRequestRouter, Router):
             fallback_used=False,
             metadata={"strong_winrate": float(strong_winrate)},
         )
+
+    @property
+    def embedding_request_timeout_s(self) -> float:
+        """Read timeout actually configured on routellm's shared OpenAI client."""
+        from routellm.routers.routers import OPENAI_CLIENT
+
+        return float(OPENAI_CLIENT.timeout.read)
+
+    @property
+    def embedding_max_retries(self) -> int:
+        """Retry count routellm's shared OpenAI client applies per embed call."""
+        from routellm.routers.routers import OPENAI_CLIENT
+
+        return int(OPENAI_CLIENT.max_retries)
