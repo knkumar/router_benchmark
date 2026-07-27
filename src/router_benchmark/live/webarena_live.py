@@ -47,9 +47,11 @@ import re
 import subprocess
 import tempfile
 import time
+from collections.abc import Sequence
 from pathlib import Path
 
 from router_benchmark.interfaces import Benchmark, RouteDecision, Task, TaskDomain
+from router_benchmark.live.frozen_task_selection import normalize_frozen_task_ids, select_frozen_records
 from router_benchmark.live.live_routers import LIVE_CANDIDATES
 from router_benchmark.live.llm_client import CANDIDATE_TIERS, PRICING, _PROVIDER_OF
 
@@ -70,26 +72,47 @@ _SITE_ENV = {
 
 _SCORE_RE = re.compile(r"Average score:\s*([0-9.]+)")
 
+# Chromium resolves metis.lti.cs.cmu.edu to the local Shopping service only
+# for WebArena browser processes; without this, login fails before any model
+# call happens (see scripts/apply_webarena_browser_repair.py).
+_CHROMIUM_ARGS = ["--host-resolver-rules=MAP metis.lti.cs.cmu.edu 127.0.0.1"]
+
 
 class WebArenaLive(Benchmark):
     name = "WebArena (live)"
 
-    def __init__(self, n_tasks: int = 8, sites: tuple[str, ...] = ("gitlab", "shopping")):
+    def __init__(
+        self,
+        n_tasks: int = 8,
+        sites: tuple[str, ...] = ("gitlab", "shopping"),
+        task_ids: Sequence[str] | None = None,
+        max_steps: int | None = None,
+        max_output_tokens: int = 384,
+        require_trace_cost: bool = False,
+    ):
         self.n_tasks = n_tasks
+        self.max_steps = max_steps
+        self.max_output_tokens = max_output_tokens
+        self.require_trace_cost = require_trace_cost
+        self._frozen_task_ids = normalize_frozen_task_ids(task_ids, benchmark="WebArena")
         with open(RAW_CONFIG_FILE) as f:
             all_tasks = json.load(f)
         self._pool = [t for t in all_tasks if tuple(t["sites"]) in [(s,) for s in sites]]
 
     def generate_tasks(self, rng) -> list[Task]:
-        selected = self._pool[: self.n_tasks]
+        if self._frozen_task_ids is not None:
+            records = {f"webarena-{t['task_id']}": t for t in self._pool}
+            selected = select_frozen_records(records, self._frozen_task_ids, benchmark="WebArena")
+        else:
+            selected = [(f"webarena-{t['task_id']}", t) for t in self._pool[: self.n_tasks]]
         tasks = []
-        for t in selected:
+        for task_id, t in selected:
             n_eval_types = len(t.get("eval", {}).get("eval_types", []))
             intent_len = len(t.get("intent", ""))
             difficulty = min(1.0, 0.3 + 0.1 * n_eval_types + 0.001 * intent_len)
             tasks.append(
                 Task(
-                    task_id=f"webarena-{t['task_id']}",
+                    task_id=task_id,
                     benchmark_name=self.name,
                     domain=TaskDomain.WEB_NAVIGATION,
                     difficulty=difficulty,
@@ -131,11 +154,14 @@ class WebArenaLive(Benchmark):
                 # this model (same bug already hit/fixed for tau2-bench);
                 # temperature=1.0 works for all 3 of our tiers.
                 "--temperature", "1.0",
-                "--max_tokens", "384",
+                "--max_tokens", str(self.max_output_tokens),
             ]
+            if self.max_steps is not None:
+                cmd += ["--max_steps", str(self.max_steps)]
             env = dict(os.environ)
             env.update(_SITE_ENV)
             env["WEBARENA_TRACE_FILE"] = str(trace_file)
+            env["WEBARENA_CHROMIUM_ARGS"] = json.dumps(_CHROMIUM_ARGS)
             env["PYTHONPATH"] = str(WEBARENA_DIR)
             # run.py shells out to "python browser_env/auto_login.py" using
             # a bare "python" from PATH; without this it resolves to the
@@ -157,13 +183,21 @@ class WebArenaLive(Benchmark):
             cost = self._read_trace_cost(trace_file)
             self._log_trace(task, decision, model, provider, cmd, proc, wall_ms, timed_out)
 
-            if timed_out:
-                return {"success": False, "cost_usd": cost, "latency_ms": wall_ms, "tool_call_correct": None}
+            failed_before_trace = timed_out or proc.returncode != 0
+            missing_trace = self.require_trace_cost and failed_before_trace and not trace_file.exists()
 
-            combined = (proc.stdout or "") + (proc.stderr or "")
-            m = _SCORE_RE.search(combined)
-            score = float(m.group(1)) if m else 0.0
-            return {"success": bool(score >= 1.0), "cost_usd": cost, "latency_ms": wall_ms, "tool_call_correct": None}
+            if timed_out:
+                result = {"success": False, "cost_usd": cost, "latency_ms": wall_ms, "tool_call_correct": None}
+            else:
+                combined = (proc.stdout or "") + (proc.stderr or "")
+                m = _SCORE_RE.search(combined)
+                score = float(m.group(1)) if m else 0.0
+                result = {"success": bool(score >= 1.0), "cost_usd": cost, "latency_ms": wall_ms, "tool_call_correct": None}
+
+            result["model_api_cost_usd"] = cost
+            if missing_trace:
+                result["failure_status"] = "missing_provider_cost_trace"
+            return result
 
     @staticmethod
     def _read_trace_cost(trace_file: Path) -> float:

@@ -33,6 +33,7 @@ from datasets import concatenate_datasets, load_dataset
 
 from router_benchmark.interfaces import RouteDecision, Router, Task
 from router_benchmark.live.live_routers import LIVE_CANDIDATES
+from router_benchmark.live.routing_context import PerRequestRouter
 
 ARENA_BATTLE_DATASETS = ["lmsys/lmsys-arena-human-preference-55k", "routellm/gpt4_judge_battles"]
 ARENA_EMBEDDING_DATASETS = ["routellm/arena_battles_embeddings", "routellm/gpt4_judge_battles_embeddings"]
@@ -45,7 +46,7 @@ _REF_STRONG = "gpt-4-1106-preview"
 _REF_WEAK = "mixtral-8x7b-instruct-v0.1"
 
 
-class RouteLLMLive(Router):
+class RouteLLMLive(PerRequestRouter, Router):
     name = "RouteLLM (live)"
 
     def __init__(self, threshold: float = 0.5):
@@ -92,9 +93,12 @@ class RouteLLMLive(Router):
 
     def route(self, task: Task, context: dict, rng) -> RouteDecision:
         prompt = task.metadata.get("prompt", "") or task.metadata.get("user_msg", "")
-        if not prompt.strip():
+        return self._route_on_text(prompt, rng)
+
+    def _route_on_text(self, text: str, rng) -> RouteDecision:
+        if not text.strip():
             return RouteDecision(selected_candidate="mid-general", confidence=0.0, fallback_used=True)
-        strong_winrate = self._router.calculate_strong_win_rate(prompt)
+        strong_winrate = self._router.calculate_strong_win_rate(text)
         # RouteLLM's real binary decision rule (Controller.route): route to
         # strong iff win rate exceeds the threshold, else weak.
         tier = "strong-frontier" if strong_winrate >= self.threshold else "cheap-small"

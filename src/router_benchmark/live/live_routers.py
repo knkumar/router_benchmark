@@ -16,6 +16,7 @@ from __future__ import annotations
 
 from router_benchmark.interfaces import Candidate, RouteDecision, Router, Task
 from router_benchmark.live.llm_client import CANDIDATE_TIERS, PRICING
+from router_benchmark.live.routing_context import PerRequestRouter
 
 LIVE_CANDIDATES: tuple[Candidate, ...] = (
     Candidate("cheap-small", tier="cheap", cost_per_1k_tokens=0.0, base_quality=0.0, base_latency_ms=0.0),
@@ -24,7 +25,7 @@ LIVE_CANDIDATES: tuple[Candidate, ...] = (
 )
 
 
-class LiteLLMRouterLive(Router):
+class LiteLLMRouterLive(PerRequestRouter, Router):
     """Wraps litellm.Router's real cost-based routing strategy.
 
     litellm.Router is configured with all three candidate tiers as
@@ -83,16 +84,19 @@ class LiteLLMRouterLive(Router):
         return f"anthropic/{model}"
 
     def route(self, task: Task, context: dict, rng) -> RouteDecision:
+        prompt = task.metadata.get("prompt", "") or task.metadata.get("user_msg", "")
+        return self._route_on_text(prompt, rng)
+
+    def _route_on_text(self, text: str, rng) -> RouteDecision:
         import asyncio
 
-        prompt = task.metadata.get("prompt", "") or task.metadata.get("user_msg", "")
-        if not prompt.strip():
+        if not text.strip():
             return RouteDecision(selected_candidate="mid-general", confidence=0.0, fallback_used=True)
 
         deployment = asyncio.run(
             self._router.async_get_available_deployment(
                 model=self._MODEL_GROUP,
-                messages=[{"role": "user", "content": prompt}],
+                messages=[{"role": "user", "content": text}],
                 request_kwargs={},
             )
         )
@@ -105,7 +109,7 @@ class LiteLLMRouterLive(Router):
         )
 
 
-class AurelioSemanticRouterLive(Router):
+class AurelioSemanticRouterLive(PerRequestRouter, Router):
     """Wraps aurelio-labs/semantic-router's real embedding-based route
     selection: encodes the task prompt, encodes a small set of reference
     utterances per tier (easy/medium/hard framing), and picks the tier
@@ -160,12 +164,15 @@ class AurelioSemanticRouterLive(Router):
 
     def route(self, task: Task, context: dict, rng) -> RouteDecision:
         prompt = task.metadata.get("prompt", "") or task.metadata.get("user_msg", "")
-        if not prompt.strip():
+        return self._route_on_text(prompt, rng)
+
+    def _route_on_text(self, text: str, rng) -> RouteDecision:
+        if not text.strip():
             # A handful of real RouterBench rows carry an empty prompt
             # string, which the embeddings API rejects outright; fall back
             # to the mid tier rather than crashing the live run.
             return RouteDecision(selected_candidate="mid-general", confidence=0.0, fallback_used=True)
-        result = self._router(prompt)
+        result = self._router(text)
         if result and result.name:
             return RouteDecision(
                 selected_candidate=result.name,
