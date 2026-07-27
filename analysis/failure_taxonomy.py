@@ -35,7 +35,7 @@ def group_key(benchmark_name):
         return "tau2-bench"
     if "WebArena" in benchmark_name:
         return "WebArena"
-    return benchmark_name
+    raise ValueError(benchmark_name)
 
 
 def categorize(row):
@@ -48,7 +48,7 @@ def categorize(row):
 
 
 def main():
-    src = Path(__file__).parent / "../output/results.csv"
+    src = Path(__file__).parent / "../data/live/paper1_live_v2/results.csv"
     with open(src) as f:
         rows = list(csv.DictReader(f))
 
