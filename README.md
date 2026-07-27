@@ -27,6 +27,7 @@ It ships two interchangeable backends behind the same interface:
    - [Configuring live router adapters](#configuring-live-router-adapters)
    - [Configuring live benchmark adapters](#configuring-live-benchmark-adapters)
    - [The vLLM Semantic Router config file](#the-vllm-semantic-router-config-file)
+   - [The per-request routing proxy](#the-per-request-routing-proxy)
 6. [Running the evaluation](#running-the-evaluation)
 7. [Programmatic API](#programmatic-api)
 8. [Metrics reference](#metrics-reference)
@@ -273,6 +274,43 @@ service that `VLLMSemanticRouterLive` calls. It declares:
 Edit this file to change the vLLM-SR routing policy; start the service (Envoy
 listener on port `8899`) before running `VLLMSemanticRouterLive`.
 
+### The per-request routing proxy
+
+The adapters above route **once per task** — fine for single-shot benchmarks,
+but wrong for a multi-turn agent (e.g. tau2-bench) that makes several LLM
+calls while solving one task, each of which could go to a different tier.
+`src/router_benchmark/live/routing_proxy.py` is an OpenAI-compatible proxy
+(FastAPI + `litellm`) that vendored agent harnesses point their
+`base_url` at, so every individual LLM call — not just the task as a whole —
+gets its own routing decision:
+
+```bash
+export ROUTER_BENCHMARK_PROXY_TRACE=output/live/phaseN/proxy_steps.jsonl
+export ROUTER_BENCHMARK_PROXY_PORT=8010          # default
+# optional: pin every request to one tier instead of routing, or restrict
+# the registry to a single router
+export ROUTER_BENCHMARK_PROXY_FORCE_TIER=cheap-small
+export ROUTER_BENCHMARK_PROXY_ROUTER="LiteLLM Router (live)"
+
+python -m router_benchmark.live.routing_proxy
+```
+
+Only the four **content-based** live routers can route per request (they mix
+in `PerRequestRouter` from `routing_context.py`, which reduces the latest
+user/tool message to the text a router scores): `LiteLLMRouterLive`,
+`AurelioSemanticRouterLive`, `RouteLLMLive`, `VLLMSemanticRouterLive`.
+`NVIDIABlueprintRouterLive` and `LLMRouterLive` are not in the proxy's
+registry.
+
+Protocol: the harness posts `{"router", "benchmark", "task_id", "trial"}` to
+`/begin_task` before each task (this resets the per-task step counter), then
+the agent's normal chat-completion calls go to `/v1/chat/completions`
+(streaming and non-streaming both supported). The proxy runs the named
+router, forwards to the chosen tier's real backend, and appends one JSON line
+per call to `ROUTER_BENCHMARK_PROXY_TRACE` with the chosen tier, confidence,
+token usage, cost, and latency. `tau2_live.py`'s `_rollup_cost_from_steps`
+reads that same trace back to roll per-step costs up into a task's total.
+
 ---
 
 ## Running the evaluation
@@ -487,6 +525,8 @@ router_benchmark/                     # repo root
 │   └── live/                         #   LIVE backend: real API calls & benchmark execution
 │       ├── llm_client.py             #     candidate pool + pricing (central model config)
 │       ├── run_common.py             #     per-phase driver (manifest, tracing, resume)
+│       ├── routing_proxy.py          #     OpenAI-compatible per-request routing proxy
+│       ├── routing_context.py        #     shared PerRequestRouter mixin + message-to-text reduction
 │       ├── *_live.py                 #     live router & benchmark adapters
 │       ├── vllm_sr/config.yaml       #     vLLM Semantic Router policy
 │       └── run_live_phaseN.py        #     phase entry points
