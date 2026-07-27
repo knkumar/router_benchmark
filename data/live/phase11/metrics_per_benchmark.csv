@@ -1,3 +1,0 @@
-router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
-vLLM Semantic Router (live),tau2-bench (live),100,1,0.85,0.2307557892,0.27147739905882357,49509.830762501224,81181.51237843122,0.85,0.0,1.0,0.7000000000000002,1.0,0.7931034482758621,0.8695652173913043,0.10461502263519945
-NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),100,1,0.84,0.43893279999999996,0.5225390476190476,55149.79585450783,84777.49524035316,0.84,0.0,1.0,0.6,1.0,0.896551724137931,0.8115942028985508,0.09435400589924356

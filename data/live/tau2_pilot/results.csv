@@ -1,7 +1,0 @@
-router_name,benchmark_name,task_id,domain,difficulty,trial,selected_candidate,confidence,fallback_used,success,tool_call_required,tool_call_correct,cost_usd,latency_ms
-LLMRouter (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.00570524,54722.345429006964
-LLMRouter (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.00355234,35183.93997696694
-LLMRouter (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,cheap-small,0.6,False,False,True,False,0.00437999,40613.00356709398
-NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-0,multi_turn_policy,1.0,0,strong-frontier,0.6,False,True,True,True,0.35707000000000005,50222.44738298468
-NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-1,multi_turn_policy,1.0,0,strong-frontier,0.6,False,True,True,True,0.45412500000000006,56424.85189193394
-NVIDIA AI Blueprint LLM Router (live),tau2-bench (live),tau2-2,multi_turn_policy,1.0,0,strong-frontier,0.6,False,True,True,True,0.5010750000000002,45759.01475700084

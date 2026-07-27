@@ -1,3 +1,0 @@
-router_name,mean_success_rate,mean_cost_per_task_usd,mean_cost_per_success_usd,mean_latency_p50_ms,mean_latency_p95_ms,mean_tool_call_accuracy,mean_fallback_rate,mean_route_stability,mean_robustness_std,benchmarks_covered,is_pareto_optimal
-LiteLLM Router (live),0.1,0.002230113499999997,0.02230113499999997,44782.001130486606,132653.03015884268,,0.0,1.0,,1,True
-vLLM Semantic Router (live),0.14,0.02930177649999999,0.2092984035714285,46206.54408048722,356613.18236999057,,0.0,1.0,,1,True

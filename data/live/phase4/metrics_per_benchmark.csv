@@ -1,3 +1,0 @@
-router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
-LiteLLM Router (live),SWE-bench Verified (live),2,1,0.0,0.0008609500000000001,,29245.659930980764,42557.30461713392,,0.0,1.0,0.6,0.0,,,
-RouteLLM (live),SWE-bench Verified (live),2,1,0.0,0.0007909500000000001,,84844.6956720436,135642.1297590481,,0.0,1.0,0.7750138138501822,0.0,,,

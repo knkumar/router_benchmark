@@ -1,6 +1,0 @@
-router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
-Random Baseline (live),WebArena (live),25,1,0.16,0.04926597800000001,0.30791236250000004,59326.3660800003,219773.88014080602,,0.0,1.0,1.0,,0.16,,
-Always-Strongest Baseline (live),WebArena (live),25,1,0.12,0.08979880000000001,0.7483233333333335,68779.91464799561,182504.1037345973,,0.0,1.0,1.0,,0.12,,
-Prompt-Length Heuristic Baseline (live),WebArena (live),25,1,0.12,0.0028267459999999998,0.023556216666666668,49811.02561400621,183226.23945760104,,0.0,1.0,1.0,,0.12,,
-Always-Cheapest Baseline (live),WebArena (live),25,1,0.08,0.0024106760000000005,0.030133450000000006,41160.75212399301,170960.79447740022,,0.0,1.0,1.0,,0.08,,
-Tool-Required Heuristic Baseline (live),WebArena (live),25,1,0.08,0.00242343,0.030292875,42719.7162139928,173577.09352760573,,0.0,1.0,1.0,,0.08,,

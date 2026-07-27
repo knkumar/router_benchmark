@@ -1,4 +1,0 @@
-router_name,benchmark_name,n_tasks,n_trials,success_rate,cost_per_task_usd,cost_per_success_usd,latency_p50_ms,latency_p95_ms,tool_call_accuracy,fallback_rate,route_stability,mean_confidence,easy_success_rate,medium_success_rate,hard_success_rate,robustness_std
-Tool-Required Heuristic Baseline (live),tau2-bench (live),25,1,0.96,0.25630488,0.26698425,52193.746129007195,61491.73007160134,0.96,0.0,1.0,1.0,1.0,,0.9583333333333334,0.029462782549439452
-Prompt-Length Heuristic Baseline (live),tau2-bench (live),25,1,0.84,0.2111543496,0.25137422571428575,50729.39826898801,88276.09009020375,0.84,0.0,1.0,1.0,1.0,,0.8333333333333334,0.11785113019775789
-Random Baseline (live),tau2-bench (live),25,1,0.84,0.2469768568,0.2940200676190476,47007.198598003015,71342.38881999045,0.84,0.0,1.0,1.0,1.0,,0.8333333333333334,0.11785113019775789

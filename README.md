@@ -318,8 +318,8 @@ python -m router_benchmark.live.run_live_phase11 --fresh   # omit --fresh to res
 ```
 
 Each phase writes the repo-root `output/live/<phase>/` (gitignored runtime
-output; promote a phase into the tracked `data/live/` to make it a committed
-reproducibility artifact):
+output; copy a phase into `data/live/` locally if you want to keep it around
+for your own analysis — `data/` is gitignored and not committed):
 
 - `manifest.json` — models, per-token pricing (+ as-of date), seeds, sample
   sizes, package versions.
@@ -493,7 +493,7 @@ router_benchmark/                     # repo root
 ├── experiments/                      # one-off paper table/figure build scripts
 ├── analysis/                         # bootstrap CIs, oracle/cascade, rank consistency, …
 ├── tests/                            # offline unit and adapter-validation tests
-├── data/live/*/                      # COMMITTED reproducibility CSVs (analysis inputs)
+├── data/live/*/                      # GENERATED analysis inputs (gitignored, not committed)
 └── output/                           # GENERATED runtime artifacts (gitignored)
 ```
 
