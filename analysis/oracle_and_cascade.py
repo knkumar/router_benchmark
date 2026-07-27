@@ -19,9 +19,75 @@ from pathlib import Path
 
 TIER_ORDER = ["cheap-small", "mid-general", "strong-frontier"]
 
+# --- canonical single-lineage oracle --------------------------------------
+# The legacy main() above reads the Task-1 sweep (output/live/sweep_v1). The
+# reviewer flagged that second lineage as a provenance liability, so the
+# canonical oracle is rebuilt directly from the paper1 CANONICAL bundle's
+# candidate_outcomes.csv. candidate_outcomes carries multiple outcome
+# replicates per (benchmark, task, tier); we collapse replicates to a per-tier
+# MEAN success rate and MEAN model_api_cost before choosing the oracle tier
+# (success first, then lowest cost). This tier-mean collapse is what
+# reproduces the paper's stated oracle success (RouterBench 0.917, BFCL 0.878,
+# tau2-bench 0.910, WebArena 0.277); a per-replicate union over-counts it.
+CANON_BUNDLE = (
+    Path(__file__).parent
+    / "../output/live/paper1_canonical_webarena_repair_v2/candidate_outcomes.csv"
+)
+
+
+def _mean(xs):
+    return sum(xs) / len(xs) if xs else 0.0
+
+
+def build_canonical_per_task_tiers(bundle=CANON_BUNDLE):
+    """{(benchmark_id, task_id): {tier: (mean_success_rate, mean_cost)}} from
+    candidate_outcomes.csv, replicates collapsed to per-tier means."""
+    raw = defaultdict(lambda: defaultdict(list))
+    with open(bundle) as f:
+        for r in csv.DictReader(f):
+            raw[(r["benchmark_id"], r["task_id"])][r["candidate_id"]].append(
+                (r["success"].strip().lower() == "true",
+                 float(r["model_api_cost_usd"]))
+            )
+    tiers = {}
+    for key, per_tier in raw.items():
+        tiers[key] = {
+            t: (_mean([1.0 if s else 0.0 for s, _ in reps]),
+                _mean([c for _, c in reps]))
+            for t, reps in per_tier.items()
+        }
+    return tiers
+
+
+def build_canonical_oracle(bundle=CANON_BUNDLE):
+    """{(benchmark_id, task_id): (oracle_success_rate, oracle_cost, oracle_tier)}.
+    Oracle tier = max mean-success, ties broken by lowest mean cost."""
+    tiers = build_canonical_per_task_tiers(bundle)
+    oracle = {}
+    for key, per_tier in tiers.items():
+        best = min(per_tier, key=lambda t: (-per_tier[t][0], per_tier[t][1]))
+        sr, cost = per_tier[best]
+        oracle[key] = (sr, cost, best)
+    return oracle
+
+
+def main_canonical():
+    """Write the canonical per-task oracle for provenance / spot checks."""
+    oracle = build_canonical_oracle()
+    out_path = Path(__file__).parent / "output" / "paper1_canonical" / "oracle_per_task_canonical.csv"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["benchmark_id", "task_id", "oracle_success_rate",
+                    "oracle_cost_usd", "oracle_tier"])
+        for (bench, task), (sr, cost, tier) in sorted(oracle.items()):
+            w.writerow([bench, task, f"{sr:.6f}", f"{cost:.8f}", tier])
+    print(f"wrote {out_path}")
+    return out_path
+
 
 def main():
-    src = Path(__file__).parent / "../data/live/sweep_v1/sweep_results.csv"
+    src = Path(__file__).parent / "../output/live/sweep_v1/sweep_results.csv"
     with open(src) as f:
         rows = list(csv.DictReader(f))
 
@@ -77,4 +143,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main_canonical()

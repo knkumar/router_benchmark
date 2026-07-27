@@ -1,0 +1,24 @@
+estimands:
+  - paired task-level risk difference in success for each prespecified router pair
+  - candidate-tier model API cost per task, reported separately from success
+independent_unit: benchmark_id x task_id
+paired_comparisons:
+  - [LiteLLM Router (live), Aurelio Semantic Router (live)]
+  - [LiteLLM Router (live), RouteLLM (live)]
+  - [LiteLLM Router (live), vLLM Semantic Router (live)]
+  - [Aurelio Semantic Router (live), RouteLLM (live)]
+  - [Aurelio Semantic Router (live), vLLM Semantic Router (live)]
+  - [RouteLLM (live), vLLM Semantic Router (live)]
+confidence_level: 0.95
+alpha: 0.05
+multiplicity:
+  family: six router-pair comparisons within each benchmark
+  correction: Holm
+benchmark_weighting:
+  method: report benchmark-specific effects; do not pool into production utility
+resampling:
+  method: paired task bootstrap, then outcome-replicate draw within each selected task-candidate cell
+  draws: 10000
+  seed: 20260720
+missing_data:
+  rule: retain failed executions as failed cells with failure status; do not impute or rerun by router

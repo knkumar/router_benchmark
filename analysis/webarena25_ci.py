@@ -8,7 +8,7 @@ from pathlib import Path
 random.seed(20260705)
 N_BOOT = 10000
 
-SRC = Path(__file__).parent / "../data/live/phase7_expanded/results.csv"
+SRC = Path(__file__).parent / "../output/live/phase7_expanded/results.csv"
 
 
 def success_rate(rows):

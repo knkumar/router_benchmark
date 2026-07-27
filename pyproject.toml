@@ -13,6 +13,7 @@ dependencies = [
     "pandas",
     "numpy",
     "matplotlib",
+    "pyyaml",
 ]
 
 [project.optional-dependencies]
@@ -22,8 +23,20 @@ live = [
     "anthropic",
     "litellm",
     "semantic-router",
+    "datasets",
+    "fastapi",
+    "huggingface-hub",
+    "requests",
+    "uvicorn",
+    "bfcl-eval",
+]
+test = [
+    "pytest",
 ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["router_benchmark*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
