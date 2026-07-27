@@ -12,6 +12,7 @@ One JSONL file per phase run, at router_benchmark/output/live/traces/.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import threading
 from datetime import datetime, timezone
@@ -25,12 +26,16 @@ class TraceLogger:
         self._lock = threading.Lock()
         self._f = open(self.path, "a" if append else "w")
 
-    def log(self, record: dict) -> None:
-        record = {"ts": datetime.now(timezone.utc).isoformat(), **record}
+    def log(self, record: dict) -> str:
+        digest = hashlib.sha256(
+            json.dumps(record, default=str, sort_keys=True).encode("utf-8")
+        ).hexdigest()
+        record = {"ts": datetime.now(timezone.utc).isoformat(), "digest": digest, **record}
         line = json.dumps(record, default=str)
         with self._lock:
             self._f.write(line + "\n")
             self._f.flush()
+        return digest
 
     def close(self) -> None:
         self._f.close()
