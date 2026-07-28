@@ -64,13 +64,13 @@ only the adapter bodies differ.
 
 | | Simulated backend | Live backend (`live/`) |
 |---|---|---|
-| Where | `routers.py`, `benchmarks.py` | `live/*_live.py`, `live/run_live_phaseN.py` |
+| Where | `routers.py`, `benchmarks.py` | `live/*_live.py`, `live/run_live_phase7c.py` |
 | Router behavior | documented `RouterProfile` | real calls into the upstream router project |
 | Task scoring | seeded synthetic tasks + logistic success model | real benchmark execution (tau2 CLI, WebArena Chromium, …) |
 | Needs network / API keys | **No** | **Yes** (`OPENAI_API_KEY`, `ANTHROPIC_API_KEY`) |
 | Cost | free | real \$ per run (see warnings below) |
 | Reproducible from seed alone | Yes (bit-identical) | Task *selection* is seeded; outcomes carry real-world variance |
-| Command | `python -m router_benchmark.run` | `python -m router_benchmark.live.run_live_phaseN` |
+| Command | `python -m router_benchmark.run` | `python -m router_benchmark.live.run_live_phase7c` |
 | Powers the paper's tables | No | **Yes** |
 
 > **Note on the simulated backend.** With no network and no credentials, no
@@ -335,25 +335,31 @@ Writes to the repo-root `output/` (gitignored) and prints the overall ranking + 
 
 > ⚠️ **Live phases spend real money.** Per-task cost ranges from ~\$0.00005 to
 > ~\$0.5+ depending on the router; a single 100-task phase can cost tens of
-> dollars. Read each `run_live_phaseN.py` docstring for its cost estimate first.
+> dollars. Read `run_live_phase7c.py`'s docstring for its cost estimate first.
 
 A **phase** is one script that fixes a set of routers × benchmarks and calls the
-shared driver `run_live_phase(...)`. For example:
+shared driver `run_live_phase(...)`. `run_live_phase7c.py` is the one phase
+script kept in the repository as a live worked example — it also doubles as
+the WebArena smoke test behind `make run-benchmark`:
 
 ```python
-# src/router_benchmark/live/run_live_phase10.py (excerpt)
+# src/router_benchmark/live/run_live_phase7c.py (excerpt)
 routers    = [LiteLLMRouterLive(), AurelioSemanticRouterLive(), RouteLLMLive(),
               LLMRouterLive(), NVIDIABlueprintRouterLive(), VLLMSemanticRouterLive()]
-benchmarks = [Tau2BenchLive(n_tasks=100)]
-run_live_phase("phase10", routers, benchmarks, seed=1234, n_trials=1)
+benchmarks = [WebArenaLive(n_tasks=16, sites=("gitlab", "shopping"))]
+run_live_phase("phase7c", routers, benchmarks, seed=1234, n_trials=1)
 ```
 
 Run it:
 
 ```bash
-python -m router_benchmark.live.run_live_phase10
-python -m router_benchmark.live.run_live_phase11 --fresh   # omit --fresh to resume
+python -m router_benchmark.live.run_live_phase7c
 ```
+
+The paper's original numbers came from a longer series of phase scripts run
+incrementally over time; that history is preserved in `git log` rather than
+kept as live code in this repository, since it is no longer part of the
+onboarding path. See `repo_context.md` for the full account.
 
 Each phase writes the repo-root `output/live/<phase>/` (gitignored runtime
 output; copy a phase into `data/live/` locally if you want to keep it around
@@ -370,7 +376,7 @@ in-flight row. `run_live_phase(..., resume=True)` continues a phase from its own
 incremental file **without re-spending** on completed tasks (the skip-set is
 read only from that phase's own file — never a hardcoded path).
 
-To define your own phase, copy an existing `run_live_phaseN.py`, pick your
+To define your own phase, copy `run_live_phase7c.py`, pick your
 routers/benchmarks, and call `run_live_phase("myphase", routers, benchmarks)`.
 
 ---
@@ -522,6 +528,8 @@ router_benchmark/                     # repo root
 │   ├── protocol/                      #   reproducibility and validation primitives
 │   ├── plots.py                      #   figure generation
 │   ├── run.py                        #   `python -m router_benchmark.run`
+│   ├── analysis/                     #   bootstrap CIs, oracle/cascade, rank consistency, …
+│   ├── scripts/                      #   preflight/audit tooling, table generation
 │   └── live/                         #   LIVE backend: real API calls & benchmark execution
 │       ├── llm_client.py             #     candidate pool + pricing (central model config)
 │       ├── run_common.py             #     per-phase driver (manifest, tracing, resume)
@@ -529,11 +537,10 @@ router_benchmark/                     # repo root
 │       ├── routing_context.py        #     shared PerRequestRouter mixin + message-to-text reduction
 │       ├── *_live.py                 #     live router & benchmark adapters
 │       ├── vllm_sr/config.yaml       #     vLLM Semantic Router policy
-│       └── run_live_phaseN.py        #     phase entry points
-├── experiments/                      # one-off paper table/figure build scripts
-├── analysis/                         # bootstrap CIs, oracle/cascade, rank consistency, …
+│       └── run_live_phase7c.py       #     the one phase entry point kept in-tree (worked example + WebArena smoke test)
 ├── tests/                            # offline unit and adapter-validation tests
 ├── data/live/*/                      # GENERATED analysis inputs (gitignored, not committed)
+├── analysis/output/                  # COMMITTED analysis tables (regenerated via Makefile targets)
 └── output/                           # GENERATED runtime artifacts (gitignored)
 ```
 
