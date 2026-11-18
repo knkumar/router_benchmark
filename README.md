@@ -242,8 +242,9 @@ package, and exposes its own knobs via the constructor:
 | `VLLMSemanticRouterLive(envoy_url="http://localhost:8909/…", timeout_s=30.0)` | Envoy endpoint | Requires the vLLM-SR service running (see below); routes over HTTP by the config-file rules. |
 | `NVIDIABlueprintRouterLive(classifier_model="gpt-5.4-nano")` | classifier model | LLM-classifier picks the tier per task. |
 | `LLMRouterLive(model_path=…)` | kNN checkpoint path | Routes via the trained kNN router checkpoint. |
+| `TrustedRouterLive(model="trustedrouter/auto", timeout_s=30.0)` | routing model | Requires `TRUSTEDROUTER_API_KEY`; probes the hosted [TrustedRouter](https://trustedrouter.com) gateway and maps the model it selects onto a tier (exact match, else nearest input price from the public `/v1/models` list). |
 
-All six draw from the shared `LIVE_CANDIDATES` (the three tiers above). A run
+All seven draw from the shared `LIVE_CANDIDATES` (the three tiers above). A run
 selects which routers to include in its phase script (see below).
 
 ### Configuring live benchmark adapters

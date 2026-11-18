@@ -270,5 +270,107 @@ class TestVLLMSemanticRouterLiveCallsRealPath(unittest.TestCase):
         self.assertTrue(decision.fallback_used)
 
 
+
+class TestTrustedRouterLiveCallsRealPath(unittest.TestCase):
+    """TrustedRouter adapter: route() must call the real chat-completions
+    endpoint with model="trustedrouter/auto" and map the `model` the gateway
+    reports back onto a tier, not return a hardcoded tier."""
+
+    @staticmethod
+    def _task(prompt):
+        from router_benchmark.interfaces import Task, TaskDomain
+
+        return Task(
+            task_id="t0",
+            benchmark_name="unit-test",
+            domain=TaskDomain.QA_REASONING,
+            difficulty=0.5,
+            requires_tool_call=False,
+            candidates=(),
+            metadata={"prompt": prompt},
+        )
+
+    @staticmethod
+    def _adapter():
+        from router_benchmark.live.trustedrouter_live import TrustedRouterLive
+
+        return TrustedRouterLive()
+
+    @staticmethod
+    def _completion(model):
+        mock_response = MagicMock()
+        mock_response.json.return_value = {"model": model, "choices": []}
+        mock_response.raise_for_status = MagicMock()
+        return mock_response
+
+    @staticmethod
+    def _catalog(prices):
+        mock_response = MagicMock()
+        mock_response.json.return_value = {
+            "data": [{"id": mid, "pricing": {"prompt": str(p)}} for mid, p in prices.items()]
+        }
+        mock_response.raise_for_status = MagicMock()
+        return mock_response
+
+    def test_route_posts_auto_model_and_maps_exact_match(self):
+        adapter = self._adapter()
+        task = self._task("What is the capital of France?")
+
+        with patch.dict("os.environ", {"TRUSTEDROUTER_API_KEY": "test-key"}), patch(
+            "router_benchmark.live.trustedrouter_live.requests.post",
+            return_value=self._completion("anthropic/claude-sonnet-4-6"),
+        ) as mock_post, patch("router_benchmark.live.trustedrouter_live.requests.get") as mock_get:
+            decision = adapter.route(task, context={}, rng=None)
+
+        mock_post.assert_called_once()
+        args, kwargs = mock_post.call_args
+        self.assertEqual(args[0], "https://api.trustedrouter.com/v1/chat/completions")
+        self.assertEqual(kwargs["headers"]["Authorization"], "Bearer test-key")
+        self.assertEqual(kwargs["json"]["model"], "trustedrouter/auto")
+        self.assertEqual(kwargs["json"]["messages"][0]["content"], task.metadata["prompt"])
+        mock_get.assert_not_called()
+        self.assertEqual(decision.selected_candidate, "mid-general")
+        self.assertFalse(decision.fallback_used)
+        self.assertEqual(decision.metadata["tier_mapping"], "exact")
+
+    def test_route_maps_off_pool_model_by_catalog_price(self):
+        adapter = self._adapter()
+        catalog = self._catalog({"vendor/cheap-model": 0.0000001, "vendor/big-model": 0.000006})
+
+        with patch.dict("os.environ", {"TRUSTEDROUTER_API_KEY": "test-key"}), patch(
+            "router_benchmark.live.trustedrouter_live.requests.get", return_value=catalog
+        ) as mock_get:
+            with patch(
+                "router_benchmark.live.trustedrouter_live.requests.post",
+                return_value=self._completion("vendor/cheap-model"),
+            ):
+                cheap = adapter.route(self._task("easy"), context={}, rng=None)
+            with patch(
+                "router_benchmark.live.trustedrouter_live.requests.post",
+                return_value=self._completion("vendor/big-model"),
+            ):
+                strong = adapter.route(self._task("hard"), context={}, rng=None)
+
+        mock_get.assert_called_once_with("https://api.trustedrouter.com/v1/models", timeout=30.0)
+        self.assertEqual(cheap.selected_candidate, "cheap-small")
+        self.assertEqual(strong.selected_candidate, "strong-frontier")
+        self.assertEqual(strong.metadata["trustedrouter_model"], "vendor/big-model")
+        self.assertEqual(strong.metadata["tier_mapping"], "price")
+
+    def test_route_falls_back_when_model_is_not_in_catalog(self):
+        adapter = self._adapter()
+
+        with patch.dict("os.environ", {"TRUSTEDROUTER_API_KEY": "test-key"}), patch(
+            "router_benchmark.live.trustedrouter_live.requests.get", return_value=self._catalog({})
+        ), patch(
+            "router_benchmark.live.trustedrouter_live.requests.post",
+            return_value=self._completion("vendor/unknown"),
+        ):
+            decision = adapter.route(self._task("anything"), context={}, rng=None)
+
+        self.assertEqual(decision.selected_candidate, "mid-general")
+        self.assertTrue(decision.fallback_used)
+
+
 if __name__ == "__main__":
     unittest.main()
